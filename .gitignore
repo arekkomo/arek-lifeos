@@ -1,0 +1,10 @@
+# Obsidian vault ignores
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+__MACOSX
+/Dashboards/Cache/
+/thumbnails/
+/.obsidian/snippets/  # optional: ignore custom snippets if they cause conflicts
+

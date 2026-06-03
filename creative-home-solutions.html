@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Home Solutions — Handyman & Small Home Renovation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:      #1a52a0;
+      --blue-dark: #1244a0;
+      --navy:      #0d2b5e;
+      --navy-dark: #091e43;
+      --gray-bg:   #f5f6fa;
+      --border:    #e5e7eb;
+      --text:      #111827;
+      --muted:     #6b7280;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; color: var(--text); line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+    img { display: block; max-width: 100%; }
+
+    /* ── BUTTONS ── */
+    .btn-blue {
+      background: var(--blue);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 12px 22px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s;
+      font-family: inherit;
+    }
+    .btn-blue:hover { background: var(--blue-dark); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 12px 22px;
+      border-radius: 6px;
+      border: 1.5px solid #d1d5db;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: border-color 0.2s, color 0.2s;
+      font-family: inherit;
+    }
+    .btn-outline:hover { border-color: var(--blue); color: var(--blue); }
+
+    .btn-outline-dark {
+      background: transparent;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 11px 22px;
+      border-radius: 6px;
+      border: 1.5px solid rgba(255,255,255,0.35);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: border-color 0.2s;
+      font-family: inherit;
+    }
+    .btn-outline-dark:hover { border-color: rgba(255,255,255,0.7); }
+
+    /* ── NAV ── */
+    nav {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 0 5%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-box {
+      width: 52px;
+      height: 52px;
+      background: var(--blue);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1px;
+      flex-shrink: 0;
+    }
+    .logo-box .chs { font-size: 13px; font-weight: 800; color: #fff; letter-spacing: 1px; }
+    .logo-box svg { width: 22px; height: 18px; }
+
+    .logo-label { display: flex; flex-direction: column; }
+    .logo-label .brand { font-size: 13px; font-weight: 700; color: var(--navy); }
+    .logo-label .tagline-sm { font-size: 10px; color: var(--muted); letter-spacing: 0.3px; }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+    .nav-links a { font-size: 14px; color: var(--text); font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--blue); }
+    .nav-links a.active { color: var(--blue); border-bottom: 2px solid var(--blue); padding-bottom: 3px; }
+
+    /* ── HERO ── */
+    #hero {
+      display: flex;
+      align-items: stretch;
+      min-height: 540px;
+      background: #f8f9fb;
+      overflow: hidden;
+    }
+
+    .hero-left {
+      flex: 0 0 54%;
+      padding: 72px 5% 72px 6%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero-eyebrow {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--blue);
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .hero-title {
+      font-size: clamp(30px, 4vw, 48px);
+      font-weight: 800;
+      color: #111827;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    .hero-title .blue { color: var(--blue); }
+
+    .hero-sub {
+      font-size: 16px;
+      color: var(--muted);
+      line-height: 1.75;
+      margin-bottom: 32px;
+      max-width: 400px;
+    }
+
+    .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 28px; }
+
+    .hero-rating {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .g-logo { font-size: 16px; font-weight: 700; }
+    .g-logo .g1 { color: #4285f4; }
+    .g-logo .g2 { color: #ea4335; }
+    .g-logo .g3 { color: #fbbc04; }
+    .g-logo .g4 { color: #4285f4; }
+    .g-logo .g5 { color: #34a853; }
+    .g-logo .g6 { color: #ea4335; }
+
+    .stars { color: #fbbc04; font-size: 16px; letter-spacing: 2px; }
+    .rating-score { font-size: 14px; font-weight: 700; }
+    .rating-count { font-size: 13px; color: var(--muted); }
+
+    .hero-right {
+      flex: 1;
+      background: url('https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80') center/cover no-repeat;
+      min-height: 460px;
+    }
+
+    /* ── TRUST BAR ── */
+    #trust {
+      background: var(--navy);
+      padding: 36px 5%;
+    }
+
+    .trust-grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 28px;
+    }
+
+    .trust-item { display: flex; align-items: flex-start; gap: 14px; }
+
+    .trust-icon {
+      width: 46px;
+      height: 46px;
+      border: 1.5px solid rgba(255,255,255,0.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .trust-icon svg { width: 20px; height: 20px; stroke: #fff; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+
+    .trust-title { font-size: 12px; font-weight: 700; color: #fff; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 5px; }
+    .trust-desc { font-size: 12px; color: rgba(255,255,255,0.6); line-height: 1.5; }
+
+    /* ── SERVICES ── */
+    #services { background: #fff; padding: 72px 5%; }
+
+    .section-inner { max-width: 1100px; margin: 0 auto; }
+
+    .section-centered { text-align: center; margin-bottom: 48px; }
+
+    .eyebrow { font-size: 11px; font-weight: 700; color: var(--blue); letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 10px; }
+
+    .section-title { font-size: clamp(22px, 3vw, 34px); font-weight: 800; color: #111; margin-bottom: 12px; }
+
+    .section-sub { font-size: 15px; color: var(--muted); line-height: 1.7; max-width: 480px; margin: 0 auto; }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+
+    .service-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: visible;
+      transition: box-shadow 0.2s, transform 0.2s;
+      cursor: pointer;
+    }
+    .service-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.1); transform: translateY(-3px); }
+
+    .service-thumb {
+      position: relative;
+      height: 110px;
+      border-radius: 10px 10px 0 0;
+      overflow: hidden;
+    }
+    .service-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+    .service-badge {
+      position: absolute;
+      bottom: -18px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 42px;
+      height: 42px;
+      background: #fff;
+      border: 1.5px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+    }
+    .service-badge svg { width: 18px; height: 18px; stroke: var(--blue); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+
+    .service-info { padding: 28px 10px 16px; text-align: center; }
+    .service-name { font-size: 13px; font-weight: 700; color: #111; margin-bottom: 5px; }
+    .service-desc { font-size: 11px; color: var(--muted); line-height: 1.5; }
+
+    .services-footer { text-align: center; }
+
+    /* ── ABOUT ── */
+    #about {
+      display: flex;
+      min-height: 440px;
+      background: #eef0f5;
+    }
+
+    .about-photo {
+      flex: 0 0 48%;
+      background: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80') center/cover no-repeat;
+      min-height: 380px;
+    }
+
+    .about-content {
+      flex: 1;
+      padding: 72px 5% 72px 56px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .about-title { font-size: clamp(22px, 3vw, 34px); font-weight: 800; color: #111; line-height: 1.2; margin-bottom: 16px; }
+    .about-desc { font-size: 14px; color: var(--muted); line-height: 1.8; margin-bottom: 28px; max-width: 400px; }
+
+    .about-actions { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+
+    .local-badge { display: flex; align-items: center; gap: 8px; }
+    .local-badge svg { width: 16px; height: 16px; stroke: var(--blue); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+    .local-badge .lb-title { font-size: 13px; font-weight: 600; color: #333; }
+    .local-badge .lb-sub { font-size: 11px; color: var(--muted); }
+
+    /* ── CONTACT BAR ── */
+    #contact-bar { background: var(--navy); padding: 36px 5%; }
+
+    .contact-grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .contact-item { display: flex; align-items: flex-start; gap: 14px; }
+
+    .contact-icon {
+      width: 42px;
+      height: 42px;
+      border: 1.5px solid rgba(255,255,255,0.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .contact-icon svg { width: 18px; height: 18px; stroke: #fff; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+
+    .contact-title { font-size: 14px; font-weight: 600; color: #fff; margin-bottom: 2px; }
+    .contact-sub { font-size: 12px; color: rgba(255,255,255,0.55); }
+
+    /* ── FOOTER ── */
+    footer { background: var(--navy-dark); padding: 52px 5% 20px; }
+
+    .footer-inner { max-width: 1100px; margin: 0 auto; }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1.2fr;
+      gap: 48px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .footer-logo-wrap { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    .footer-logo-box {
+      width: 48px; height: 48px; background: var(--blue); border-radius: 8px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; flex-shrink: 0;
+    }
+    .footer-logo-box .chs { font-size: 12px; font-weight: 800; color: #fff; letter-spacing: 1px; }
+    .footer-logo-box svg { width: 20px; height: 16px; }
+    .footer-brand { font-size: 13px; font-weight: 700; color: #fff; }
+    .footer-brand-sub { font-size: 10px; color: rgba(255,255,255,0.45); }
+    .footer-desc { font-size: 12px; color: rgba(255,255,255,0.4); line-height: 1.8; margin-bottom: 6px; }
+
+    .footer-col-title { font-size: 11px; font-weight: 700; color: #fff; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 20px; }
+
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a { font-size: 13px; color: rgba(255,255,255,0.45); transition: color 0.2s; }
+    .footer-links a:hover { color: rgba(255,255,255,0.8); }
+
+    .footer-quote-desc { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.7; margin-bottom: 20px; }
+
+    .footer-bottom { padding-top: 24px; text-align: center; }
+    .footer-copy { font-size: 12px; color: rgba(255,255,255,0.25); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1000px) {
+      .services-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 768px) {
+      nav .nav-links { display: none; }
+      #hero { flex-direction: column; }
+      .hero-left { flex: none; padding: 48px 5%; max-width: 100%; }
+      .hero-right { min-height: 280px; }
+      .trust-grid { grid-template-columns: repeat(2, 1fr); }
+      #about { flex-direction: column; }
+      .about-photo { min-height: 260px; flex: none; }
+      .about-content { padding: 48px 5%; }
+      .contact-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-top { grid-template-columns: 1fr; gap: 32px; }
+    }
+    @media (max-width: 500px) {
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .trust-grid, .contact-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">
+    <div class="logo-box">
+      <svg viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 10L12 2l10 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M4 9h16v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9z" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1.2"/>
+        <rect x="9" y="13" width="6" height="6" rx="0.5" fill="white"/>
+        <path d="M10 8.5l2-1.5 2 1.5" stroke="white" stroke-width="1" fill="none"/>
+      </svg>
+      <span class="chs">CHS</span>
+    </div>
+    <div class="logo-label">
+      <span class="brand">Creative Home Solutions</span>
+      <span class="tagline-sm">Reliable. Skilled. Trusted.</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#">Our Work</a></li>
+    <li><a href="#">Reviews</a></li>
+  </ul>
+  <a href="#quote" class="btn-blue">Get a Free Quote &nbsp;→</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">Reliable. Skilled. Trusted.</div>
+    <h1 class="hero-title">Handyman &amp; Small Home<br><span class="blue">Renovation</span></h1>
+    <p class="hero-sub">Quality workmanship. Honest pricing.<br>Solutions that make your house feel like home.</p>
+    <div class="hero-btns">
+      <a href="#quote" class="btn-blue">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        Get a Free Quote
+      </a>
+      <a href="#services" class="btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+        View Our Work
+      </a>
+    </div>
+    <div class="hero-rating">
+      <span class="g-logo"><span class="g1">G</span><span class="g2">o</span><span class="g3">o</span><span class="g4">g</span><span class="g5">l</span><span class="g6">e</span></span>
+      <span class="stars">★★★★★</span>
+      <span class="rating-score">5.0</span>
+      <span class="rating-count">&nbsp;| Based on 120+ Reviews</span>
+    </div>
+  </div>
+  <div class="hero-right"></div>
+</section>
+
+<!-- TRUST BAR -->
+<div id="trust">
+  <div class="trust-grid">
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <div>
+        <div class="trust-title">Trusted Professionals</div>
+        <div class="trust-desc">Skilled, experienced &amp; background-checked.</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      </div>
+      <div>
+        <div class="trust-title">On Time Every Time</div>
+        <div class="trust-desc">We respect your time and stick to the schedule.</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </div>
+      <div>
+        <div class="trust-title">Quality Workmanship</div>
+        <div class="trust-desc">We take pride in every detail and every project.</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <div>
+        <div class="trust-title">Honest Pricing</div>
+        <div class="trust-desc">Transparent quotes with no hidden fees.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-inner">
+    <div class="section-centered">
+      <div class="eyebrow">Services We Offer</div>
+      <h2 class="section-title">Small Projects. Big Impact.</h2>
+      <p class="section-sub">From quick fixes to small renovations, we help you improve your home with quality you can count on.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-thumb">
+          <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=300&q=75" alt="Bathroom">
+          <div class="service-badge">
+            <svg viewBox="0 0 24 24"><path d="M4 12h16M4 12a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2M4 12v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/></svg>
+          </div>
+        </div>
+        <div class="service-info">
+          <div class="service-name">Bathroom Updates</div>
+          <div class="service-desc">Fixtures, tiling, vanities and more.</div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-thumb">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300&q=75" alt="Kitchen">
+          <div class="service-badge">
+            <svg viewBox="0 0 24 24"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
+          </div>
+        </div>
+        <div class="service-info">
+          <div class="service-name">Kitchen Upgrades</div>
+          <div class="service-desc">Cabinets, backsplashes, sinks &amp; more.</div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-thumb">
+          <img src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=300&q=75" alt="Flooring">
+          <div class="service-badge">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg>
+          </div>
+        </div>
+        <div class="service-info">
+          <div class="service-name">Flooring</div>
+          <div class="service-desc">Install, repair or replace with precision.</div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-thumb">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&q=75" alt="Doors and Windows">
+          <div class="service-badge">
+            <svg viewBox="0 0 24 24"><path d="M3 21V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v16"/><path d="M21 21H3M9 21V9h6v12"/></svg>
+          </div>
+        </div>
+        <div class="service-info">
+          <div class="service-name">Doors &amp; Windows</div>
+          <div class="service-desc">Improve security, function and style.</div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-thumb">
+          <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=300&q=75" alt="Painting">
+          <div class="service-badge">
+            <svg viewBox="0 0 24 24"><path d="M2 13.5V19a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5.5"/><path d="M2 13.5A11.5 11.5 0 0 1 13.5 2H14a8 8 0 0 1 8 8v3.5"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+        </div>
+        <div class="service-info">
+          <div class="service-name">Painting &amp; Drywall</div>
+          <div class="service-desc">Interior painting, patching and finishing.</div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-thumb">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300&q=75" alt="Decks">
+          <div class="service-badge">
+            <svg viewBox="0 0 24 24"><path d="M3 17h18M5 17V8h3v9M10 17V5h4v12M18 17V11h-4v6"/></svg>
+          </div>
+        </div>
+        <div class="service-info">
+          <div class="service-name">Decks &amp; Outdoor Projects</div>
+          <div class="service-desc">Repair, build or enhance your outdoor spaces.</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="services-footer">
+      <a href="#" class="btn-outline">See All Services &nbsp;→</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" style="display:flex; min-height:440px; background:#eef0f5;">
+  <div class="about-photo"></div>
+  <div class="about-content">
+    <div class="eyebrow" style="margin-bottom:10px;">About Us</div>
+    <h2 class="about-title">We Treat Your Home<br>Like Our Own</h2>
+    <p class="about-desc">Creative Home Solutions is a local handyman and renovation team dedicated to providing reliable service and quality craftsmanship. No job too small, every detail matters.</p>
+    <div class="about-actions">
+      <a href="#quote" class="btn-blue">Learn More About Us &nbsp;→</a>
+      <div class="local-badge">
+        <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div>
+          <div class="lb-title">Locally Owned</div>
+          <div class="lb-sub">&amp; Operated</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT BAR -->
+<div id="contact-bar">
+  <div class="contact-grid">
+    <div class="contact-item">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.53 6.53l.88-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      </div>
+      <div>
+        <div class="contact-title">(604) 767-6437</div>
+        <div class="contact-sub">Call or Text</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+      </div>
+      <div>
+        <div class="contact-title">creativehrsolutions@gmail.com</div>
+        <div class="contact-sub">Email Us</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      </div>
+      <div>
+        <div class="contact-title">806-1160 Burrard Street</div>
+        <div class="contact-sub">Vancouver, B.C. V6Z 2E8</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      </div>
+      <div>
+        <div class="contact-title">Mon – Sat: 8AM – 6PM</div>
+        <div class="contact-sub">We're Here to Help</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- QUOTE FORM -->
+<section id="quote" style="background:var(--gray-bg); padding:72px 5%;">
+  <div class="section-inner">
+    <div class="section-centered" style="margin-bottom:40px;">
+      <div class="eyebrow">Get In Touch</div>
+      <h2 class="section-title">Request a Free Quote</h2>
+      <p class="section-sub">Tell us about your project — we'll respond within 24 hours with a no-obligation estimate.</p>
+    </div>
+    <div style="max-width:640px; margin:0 auto; background:#fff; border-radius:12px; border:1px solid var(--border); padding:40px;">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+        <div>
+          <label style="font-size:13px;font-weight:600;color:#374151;display:block;margin-bottom:6px;">First name</label>
+          <input type="text" placeholder="Jane" style="width:100%;padding:11px 14px;border:1.5px solid #d1d5db;border-radius:6px;font-size:14px;font-family:inherit;outline:none;transition:border-color 0.2s;" onfocus="this.style.borderColor='#1a52a0'" onblur="this.style.borderColor='#d1d5db'">
+        </div>
+        <div>
+          <label style="font-size:13px;font-weight:600;color:#374151;display:block;margin-bottom:6px;">Last name</label>
+          <input type="text" placeholder="Smith" style="width:100%;padding:11px 14px;border:1.5px solid #d1d5db;border-radius:6px;font-size:14px;font-family:inherit;outline:none;transition:border-color 0.2s;" onfocus="this.style.borderColor='#1a52a0'" onblur="this.style.borderColor='#d1d5db'">
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+        <div>
+          <label style="font-size:13px;font-weight:600;color:#374151;display:block;margin-bottom:6px;">Email</label>
+          <input type="email" placeholder="jane@example.com" style="width:100%;padding:11px 14px;border:1.5px solid #d1d5db;border-radius:6px;font-size:14px;font-family:inherit;outline:none;transition:border-color 0.2s;" onfocus="this.style.borderColor='#1a52a0'" onblur="this.style.borderColor='#d1d5db'">
+        </div>
+        <div>
+          <label style="font-size:13px;font-weight:600;color:#374151;display:block;margin-bottom:6px;">Phone</label>
+          <input type="tel" placeholder="(604) 000-0000" style="width:100%;padding:11px 14px;border:1.5px solid #d1d5db;border-radius:6px;font-size:14px;font-family:inherit;outline:none;transition:border-color 0.2s;" onfocus="this.style.borderColor='#1a52a0'" onblur="this.style.borderColor='#d1d5db'">
+        </div>
+      </div>
+      <div style="margin-bottom:16px;">
+        <label style="font-size:13px;font-weight:600;color:#374151;display:block;margin-bottom:6px;">Service needed</label>
+        <select style="width:100%;padding:11px 14px;border:1.5px solid #d1d5db;border-radius:6px;font-size:14px;font-family:inherit;outline:none;color:#374151;background:#fff;transition:border-color 0.2s;" onfocus="this.style.borderColor='#1a52a0'" onblur="this.style.borderColor='#d1d5db'">
+          <option value="" disabled selected>Select a service</option>
+          <option>Bathroom Updates</option>
+          <option>Kitchen Upgrades</option>
+          <option>Flooring</option>
+          <option>Doors &amp; Windows</option>
+          <option>Painting &amp; Drywall</option>
+          <option>Decks &amp; Outdoor Projects</option>
+          <option>Multiple services</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div style="margin-bottom:24px;">
+        <label style="font-size:13px;font-weight:600;color:#374151;display:block;margin-bottom:6px;">Tell us about your project</label>
+        <textarea placeholder="Describe the work needed — scope, timeline, any details that help us prepare an accurate quote…" style="width:100%;padding:11px 14px;border:1.5px solid #d1d5db;border-radius:6px;font-size:14px;font-family:inherit;outline:none;resize:vertical;min-height:100px;transition:border-color 0.2s;" onfocus="this.style.borderColor='#1a52a0'" onblur="this.style.borderColor='#d1d5db'"></textarea>
+      </div>
+      <button class="btn-blue" style="width:100%;justify-content:center;font-size:15px;padding:14px;" onclick="this.textContent='Request sent — we will be in touch soon!'; this.style.background='#166534'; return false;">
+        Get a Free Quote &nbsp;→
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+
+      <div>
+        <div class="footer-logo-wrap">
+          <div class="footer-logo-box">
+            <svg viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 10L12 2l10 8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <path d="M4 9h16v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9z" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1.2"/>
+              <rect x="9" y="13" width="6" height="6" rx="0.5" fill="white"/>
+            </svg>
+            <span class="chs">CHS</span>
+          </div>
+          <div>
+            <div class="footer-brand">Creative Home Solutions</div>
+            <div class="footer-brand-sub">Reliable. Skilled. Trusted.</div>
+          </div>
+        </div>
+        <p class="footer-desc">Reliable handyman and renovation services for Vancouver homeowners.</p>
+        <p class="footer-desc">No job too small, every detail matters.</p>
+        <p class="footer-desc">Solutions that make your house feel like home.</p>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Get a Free Quote</div>
+        <p class="footer-quote-desc">Have a project in mind?<br>Let's bring your vision to life.</p>
+        <a href="#quote" class="btn-blue" style="font-size:13px; padding:11px 20px;">Get a Free Quote &nbsp;→</a>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2024 Creative Home Solutions. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

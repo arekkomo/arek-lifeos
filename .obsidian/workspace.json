@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "35bd1620e5db9933",
+    "type": "split",
+    "children": [
+      {
+        "id": "62d09cd90fc19bc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2015b2acaa387635",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e83d0d67f9ebd33",
+    "type": "split",
+    "children": [
+      {
+        "id": "9083b0d4d08eacab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a10b96364ed3b39",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2f58cfcaf7b3dde3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5e6858e615f80f9e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c4fed73f8d0135c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d4fdfd4dac7afd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6eeb2aca98bf341",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "c3f4b369c97e5435",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2bdde36a74271cc2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e57d158c12e30a14",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b15308afea62d5ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2015b2acaa387635",
+  "lastOpenFiles": [
+    "LEARNING/Knowledge/AI-Agents-n8n/claude-code-skills-daily-7-source.md",
+    "raw/I Rebuilt Hermes in Claude Code (It’s Ridiculously Good).md",
+    "raw/I Rebuilt Hermes in Claude Code (It’s Ridiculously Good) 1.md",
+    "raw/This is the Ultimate Claude Code Setup - Beats OpenClaw and Hermes!.md",
+    "raw/I Tried 100+ Claude Code Skills. These 6 Are The Best.md",
+    "raw/what is best way to do accounting for small bussiness?.md",
+    "raw/7 Claude Code skills I use every single day (Advanced Tutorial).md",
+    "HEALTH/Health-Knowledge/micro-habits-protocol.md",
+    "LEARNING/Knowledge/Filmmaking/creative-flow-constraints.md",
+    "LEARNING/Knowledge/Filmmaking/creative-flow-system-source.md",
+    "LEARNING/Knowledge/AI-Agents-n8n/skill-self-improvement-loop.md",
+    "LEARNING/Knowledge/AI-Agents-n8n/self-improving-skills-source.md",
+    "LEARNING/Knowledge/AI-Agents-n8n/autonomous-ai-assistant.md",
+    "LEARNING/Knowledge/AI-Agents-n8n/clawdbot-assistant-source.md",
+    "raw/Build Self-Improving Claude Code Skills. The Results Are Crazy..md",
+    "SKILLS/github-tool-logger.skill",
+    "github-tool-logger.skill",
+    "review.html",
+    "LEARNING/Knowledge/AI-Video/kiwi-edit.md",
+    "SKILLS/SK-ST-05-Professional-Memberships.md",
+    "raw/This system makes creative work feel effortless.md",
+    "raw/20 Micro Habits Proven By Science to Change Your Life.md",
+    "raw/I Turned Clawdbot Into the Ultimate Personal Assistant.md",
+    "raw/Give Me 20 Minutes. I'll Teach You 80% of Claude Cowork.md",
+    "LEARNING/Notes/cowork-setup-improvements.md",
+    "LEARNING/Knowledge/AI-Agents-n8n/paperclip.md",
+    "LEARNING/Knowledge/AI-Agents-n8n/paperclip-source.md",
+    "LEARNING/Knowledge/AI-Agents-n8n/cowork-setup-simon-source.md",
+    "LEARNING/Knowledge/AI-Agents-n8n/cowork-setup-nick-milo-source.md",
+    "LEARNING/Knowledge/Web-Design",
+    "PROJECTS/CHS",
+    "PROJECTS/Arek-Co-OS",
+    "AGENTS/System/Reports",
+    "PROJECTS/CLI-Layer",
+    "PROJECTS/RealityRowHub/Market-Research",
+    "PROJECTS/RealityRowHub"
+  ]
+}

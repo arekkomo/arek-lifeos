@@ -1,0 +1,261 @@
+{
+  "name": "Gym Buddy — Arek's Coach",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "gym/log-set",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-log-set",
+      "name": "Webhook: Log Set",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [200, 200],
+      "webhookId": "gym-log-set"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "gym/session-complete",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-session-complete",
+      "name": "Webhook: Session Complete",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [200, 400],
+      "webhookId": "gym-session-complete"
+    },
+    {
+      "parameters": {
+        "httpMethod": "GET",
+        "path": "gym/last-session",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-last-session",
+      "name": "Webhook: Get Last Session",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [200, 600],
+      "webhookId": "gym-last-session"
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "create",
+        "databaseId": "cfbdbb064e5444a1800475b6b5b7aed8",
+        "title": "={{ $json.body.exercise }}",
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Date",
+              "type": "date",
+              "dateValue": "={{ $json.body.date }}"
+            },
+            {
+              "key": "Day Type",
+              "type": "select",
+              "selectValue": "={{ $json.body.dayType }}"
+            },
+            {
+              "key": "Set 1 Weight (kg)",
+              "type": "number",
+              "numberValue": "={{ $json.body.sets[0]?.weight || 0 }}"
+            },
+            {
+              "key": "Set 1 Reps",
+              "type": "number",
+              "numberValue": "={{ $json.body.sets[0]?.reps || 0 }}"
+            },
+            {
+              "key": "Set 2 Weight (kg)",
+              "type": "number",
+              "numberValue": "={{ $json.body.sets[1]?.weight || 0 }}"
+            },
+            {
+              "key": "Set 2 Reps",
+              "type": "number",
+              "numberValue": "={{ $json.body.sets[1]?.reps || 0 }}"
+            },
+            {
+              "key": "Set 3 Weight (kg)",
+              "type": "number",
+              "numberValue": "={{ $json.body.sets[2]?.weight || 0 }}"
+            },
+            {
+              "key": "Set 3 Reps",
+              "type": "number",
+              "numberValue": "={{ $json.body.sets[2]?.reps || 0 }}"
+            },
+            {
+              "key": "Set 4 Weight (kg)",
+              "type": "number",
+              "numberValue": "={{ $json.body.sets[3]?.weight || 0 }}"
+            },
+            {
+              "key": "Set 4 Reps",
+              "type": "number",
+              "numberValue": "={{ $json.body.sets[3]?.reps || 0 }}"
+            },
+            {
+              "key": "Total Sets",
+              "type": "number",
+              "numberValue": "={{ $json.body.totalSets }}"
+            },
+            {
+              "key": "Session ID",
+              "type": "text",
+              "textValue": "={{ $json.body.date + '-' + $json.body.dayType }}"
+            }
+          ]
+        }
+      },
+      "id": "notion-log-set",
+      "name": "Notion: Log Set",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2,
+      "position": [480, 200],
+      "credentials": {
+        "notionApi": {
+          "id": "YOUR_NOTION_CREDENTIAL_ID",
+          "name": "Notion account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={ \"ok\": true, \"logged\": \"{{ $node['Notion: Log Set'].json.id }}\" }"
+      },
+      "id": "respond-log-set",
+      "name": "Respond: Log OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [700, 200]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "getAll",
+        "databaseId": "cfbdbb064e5444a1800475b6b5b7aed8",
+        "returnAll": false,
+        "limit": 4,
+        "filterType": "manual",
+        "filters": {
+          "conditions": [
+            {
+              "key": "Exercise",
+              "type": "title",
+              "operation": "contains",
+              "value": "={{ $json.query.exercise }}"
+            }
+          ]
+        },
+        "sort": {
+          "sortValue": [
+            {
+              "key": "Date",
+              "direction": "descending"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "notion-get-last",
+      "name": "Notion: Get Last Session",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2,
+      "position": [480, 600],
+      "credentials": {
+        "notionApi": {
+          "id": "YOUR_NOTION_CREDENTIAL_ID",
+          "name": "Notion account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const pages = $input.all();\nif (!pages || pages.length === 0) {\n  return [{ json: { sets: [], date: null } }];\n}\n\n// Get the most recent page\nconst page = pages[0].json;\nconst props = page.properties || {};\n\nconst sets = [];\nfor (let i = 1; i <= 4; i++) {\n  const w = props[`Set ${i} Weight (kg)`]?.number;\n  const r = props[`Set ${i} Reps`]?.number;\n  if (w > 0 || r > 0) {\n    sets.push({ weight: w || 0, reps: r || 0 });\n  }\n}\n\nconst dateVal = props['Date']?.date?.start || null;\n\nreturn [{ json: { sets, date: dateVal } }];"
+      },
+      "id": "format-last-session",
+      "name": "Format Last Session",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 600]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}"
+      },
+      "id": "respond-last-session",
+      "name": "Respond: Last Session",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [880, 600]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Build a readable session summary for Claude analysis\nconst body = $json.body;\nconst lines = [\n  `SESSION COMPLETE`,\n  `Date: ${body.date}`,\n  `Day: ${body.dayType}`,\n  `User: ${body.user}`,\n  `Exercises logged: ${body.exercisesLogged}/${body.totalExercises}`,\n  ``,\n];\n\nbody.exercises.forEach(ex => {\n  const setStr = ex.sets.map((s, i) => `  Set ${i+1}: ${s.weight}kg × ${s.reps} reps`).join('\\n');\n  lines.push(`${ex.name}:\\n${setStr}`);\n  lines.push('');\n});\n\nreturn [{ json: { summary: lines.join('\\n'), ...body } }];"
+      },
+      "id": "format-session-summary",
+      "name": "Format Session Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [480, 400]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={ \"ok\": true, \"message\": \"Session received by Coach\" }"
+      },
+      "id": "respond-session-complete",
+      "name": "Respond: Session OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [900, 400]
+    }
+  ],
+  "connections": {
+    "Webhook: Log Set": {
+      "main": [[{ "node": "Notion: Log Set", "type": "main", "index": 0 }]]
+    },
+    "Notion: Log Set": {
+      "main": [[{ "node": "Respond: Log OK", "type": "main", "index": 0 }]]
+    },
+    "Webhook: Get Last Session": {
+      "main": [[{ "node": "Notion: Get Last Session", "type": "main", "index": 0 }]]
+    },
+    "Notion: Get Last Session": {
+      "main": [[{ "node": "Format Last Session", "type": "main", "index": 0 }]]
+    },
+    "Format Last Session": {
+      "main": [[{ "node": "Respond: Last Session", "type": "main", "index": 0 }]]
+    },
+    "Webhook: Session Complete": {
+      "main": [[{ "node": "Format Session Summary", "type": "main", "index": 0 }]]
+    },
+    "Format Session Summary": {
+      "main": [[{ "node": "Respond: Session OK", "type": "main", "index": 0 }]]
+    }
+  },
+  "_SETUP_NOTES": {
+    "notion_database_ids": {
+      "workout_log": "cfbdbb064e5444a1800475b6b5b7aed8",
+      "calorie_tracker": "2054229d30c4432183a136773d78abbc",
+      "body_measurements": "e5f1344980784a6f9bf33bb3d001f07b",
+      "exercise_library": "9e896e054fc640ea977a606b48d1cfb8",
+      "health_page": "371b4695a24d81e3a50cf064f0a90104"
+    },
+    "webhook_paths": {
+      "log_set": "POST /webhook/gym/log-set",
+      "last_session": "GET /webhook/gym/last-session?exercise=NAME",
+      "session_complete": "POST /webhook/gym/session-complete"
+    },
+    "app_config": "In the gym-buddy-app.html, tap ⚙️ and set your n8n base URL to: https://your-n8n.com/webhook"
+  }
+}
