@@ -29,5 +29,9 @@
 - YouTube (Aiah Syn channel)
 - Instagram (Aiah Syn)
 
+## Inspirations and Influences
+- **Sasha Baron Cohen** — character construction and commitment. The way he builds a fully-formed person from the ground up and then plays that person with absolute conviction, never blinking or reaching for laughs. The courage to hold uncomfortable positions without winking at the audience. Uses comedy as a scalpel rather than a hammer. Bridges character performance with sharp social observation — relevant for Imma Nyala's approach to character work, the voice of Pepe, and the general directing philosophy of commitment over correction.
+- **Others:**
+
 ## Last Updated
-2026-04-27
+2026-06-05

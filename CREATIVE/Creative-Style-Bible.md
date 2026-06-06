@@ -33,7 +33,7 @@
 - **Film:** [Specific films and directors]
 - **Music:** [Specific albums and artists]
 - **Visual art:** [Photographers, painters, designers]
-- **Unexpected:** [Cross-domain influences]
+- **Unexpected:** Sasha Baron Cohen — character commitment, holding uncomfortable positions without an exit ramp, comedy as social diagnosis rather than punchline hunting.
 
 ## Evolution Notes
 - [How your style has shifted over time]
