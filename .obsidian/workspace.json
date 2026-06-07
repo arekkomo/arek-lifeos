@@ -11,10 +11,14 @@
             "id": "2015b2acaa387635",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "INDEX.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INDEX"
             }
           }
         ]
@@ -179,6 +183,7 @@
   },
   "active": "2015b2acaa387635",
   "lastOpenFiles": [
+    "Dashboard.md",
     "LEARNING/Knowledge/AI-Agents-n8n/claude-code-skills-daily-7-source.md",
     "raw/I Rebuilt Hermes in Claude Code (It’s Ridiculously Good).md",
     "raw/I Rebuilt Hermes in Claude Code (It’s Ridiculously Good) 1.md",
@@ -207,7 +212,6 @@
     "LEARNING/Knowledge/AI-Agents-n8n/paperclip.md",
     "LEARNING/Knowledge/AI-Agents-n8n/paperclip-source.md",
     "LEARNING/Knowledge/AI-Agents-n8n/cowork-setup-simon-source.md",
-    "LEARNING/Knowledge/AI-Agents-n8n/cowork-setup-nick-milo-source.md",
     "LEARNING/Knowledge/Web-Design",
     "PROJECTS/CHS",
     "PROJECTS/Arek-Co-OS",
