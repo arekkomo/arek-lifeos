@@ -1,0 +1,177 @@
+{
+  "jobs": [
+    {
+      "id": "6313a554179c",
+      "name": "Evening Diary Prompt",
+      "prompt": "You are Emily, Arek's Chief of Staff. This is Arek's private diary channel. Send him an evening autoprompt for his diary/journal entry. Keep it warm and casual \u2014 like wind-down time. Format it as 4-5 quick questions covering: how today went (diary-style), one highlight, one lowlight, what he's grateful for or proud of, and a short reflection prompt. Use Telegram-markdown formatting (bold, *italics* for emphasis). Do NOT be verbose \u2014 this should be a single short message he can quickly answer. Include a friendly sign-off.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21 * * *",
+        "display": "0 21 * * *"
+      },
+      "schedule_display": "0 21 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-02T22:28:05.885555-07:00",
+      "next_run_at": "2026-06-06T21:00:00-07:00",
+      "last_run_at": "2026-06-05T21:00:44.589702-07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003827588279:2",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003827588279",
+        "chat_name": "Arek & Emily & Co",
+        "thread_id": "2"
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "cea770611c31",
+      "name": "Vault Auto-Backup",
+      "prompt": "Automate backup of the Arek&Co Obsidian vault to GitHub.\n\nRun: cd /home/realityrove/Obsidian/Arek\\&Co && git add -A && git commit -m \"Auto-backup: $(date +'%Y-%m-%d %H:%M')\" 2>/dev/null && git push origin main\n\nIf there are no changes, report \"No changes to backup.\"\nIf the commit fails (e.g., no changes), report \"No new changes detected.\"\nIf the push fails, report the error clearly so it can be fixed.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 240,
+        "display": "every 240m"
+      },
+      "schedule_display": "every 240m",
+      "repeat": {
+        "times": null,
+        "completed": 16
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-04T00:17:27.952786-07:00",
+      "next_run_at": "2026-06-06T20:37:31.310525-07:00",
+      "last_run_at": "2026-06-06T16:37:31.310525-07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8178908137",
+        "chat_name": "Arek Komorowski",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "26080b5e0ed4",
+      "name": "Emily's 7:30 AM Morning Briefing",
+      "prompt": "You are Emily, Arek's Chief of Staff and Operator. Generate the daily 7:30 AM Morning Brief for Arek. \n\n**IMPORTANT: VISUAL FORMAT**\n- Use **bold** headers for every section\n- Use line dividers between sections: `\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501`\n- Use emoji icons before section titles\n- Use bullet points for all lists\n- Keep items concise and scannable\n- No wall-of-text paragraphs\n\n**FINAL OUTPUT FORMAT (exactly like this):**\n\n**\u2600\ufe0f 7:30 AM MORNING BRIEF**\n\ud83d\udcc5 *Tuesday, June 4, 2026 \u2014 Pacific Time*\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n**\ud83d\udce1 INTELLIGENCE BRIEFING**\n\n**\ud83c\udf0d Global Headlines**\n- *[Headline text](direct article link)*\n- *[Headline text](direct article link)*\n...\n\n**\ud83c\udfac Film & VFX Industry**\n- *[Headline text](direct article link)*\n...\n\n**\ud83e\udd16 AI-Driven VFX Pipelines**\n- *[Headline text](direct article link)*\n...\n\n**\ud83c\udfaa Vancouver Events**\n- *Event name \u2014 date & venue*\n...\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n**\ud83d\udce6 LOGISTICS BRIEFING**\n\n**\ud83d\udccb Tasks & Priorities**\n- [Top priority 1 \u2014 from vault/projects]\n- [Top priority 2]\n- [Top priority 3]\n\n**\ud83d\udcc5 Calendar**\n- [Today's key events/blocks]\n\n**\ud83c\udfaf Daily Intention**\n- *One focused intention for today*\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n**\ud83c\udf82 BIRTHDAYS \u2014 Today**\n- *Name* \u2014 *Age/relationship*\n- *Name* \u2014 *relationship*\n*(If no birthdays today, write: \"No birthdays today.\")*\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n**\ud83e\uddd8 PHILOSOPHICAL & SPIRITUAL (Taoism)**\n\n**\ud83d\udcd6 Daily Teaching**\n- *Taoist concept with brief explanation*\n- *How it applies to his current work/life*\n\n**\ud83d\udcad Reflection**\n- *Grounded thought for the morning*\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n**\ud83d\udcc5 TODAY IN HISTORY & TRIVIA**\n\n**\ud83c\udfdb\ufe0f History**\n- *One significant event that occurred on this exact date*\n\n**\ud83c\udfb2 Trivia**\n- *One quirky or interesting fact about the day*\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n**\ud83d\udcdd Notes:**\n- All headlines MUST be clickable Markdown links to actual articles\n- BIRTHDAYS section must query contacts data\n- DO NOT hallucinate headlines\u2014search the web for current news and find the actual source pages\n- Be concise and structured\n- Deliver the final report directly to the user.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "display": "0 7 * * *"
+      },
+      "schedule_display": "0 7 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-04T01:56:13.999473-07:00",
+      "next_run_at": "2026-06-07T07:00:00-07:00",
+      "last_run_at": "2026-06-06T07:14:21.490141-07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8178908137",
+        "chat_name": "Arek Komorowski",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "11d9922e6906",
+      "name": "Birthday Greeting Bot",
+      "prompt": "You are Emily, Arek's Chief of Staff. Check if anyone in Arek's Google Contacts has a birthday today.\n\n1. Query Google Contacts for all birthdays (use: python3 /home/realityrove/.hermes/skills/productivity/google-workspace/scripts/google_api.py contacts list --max 100)\n2. Parse the JSON output for birthdays matching today's date (June 4, 2026 or whatever today is).\n3. For EVERY person with a birthday today:\n   - Send a warm birthday greeting to THAT person (via Telegram if in contacts as telegram_handle, or via SMS if in contacts as phone number).\n   - Greeting format: \"\ud83c\udf82 Happy Birthday from Arek! Wishing you a wonderful day.\"\n4. If no birthdays today, send a brief message: \"No birthdays today.\"\n5. If Google Contacts aren't set up, report the issue so it can be fixed.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "display": "0 8 * * *"
+      },
+      "schedule_display": "0 8 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 2
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-04T08:33:26.116701-07:00",
+      "next_run_at": "2026-06-07T08:00:00-07:00",
+      "last_run_at": "2026-06-06T08:00:55.644353-07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8178908137",
+        "chat_name": "Arek Komorowski",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-06-06T16:37:31.310589-07:00"
+}

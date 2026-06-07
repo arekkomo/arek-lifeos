@@ -1,0 +1,23 @@
+# Obsidian MCP Configuration for Arek&Co Life OS
+# Copy this block into ~/.hermes/config.yaml under the mcp_servers: key
+#
+# Server: graphthulhu (skridlevsky/graphthulhu)
+# Why selected: Graph traversal (traverse, find_connections), backlink queries,
+#   knowledge-gap detection, topic clustering. No Obsidian app needed.
+# See references/obsidian-mcp-evaluation.md for the full comparison.
+#
+# Install first:
+#   go install github.com/skridlevsky/graphthulhu@latest
+#   OR download binary from https://github.com/skridlevsky/graphthulhu/releases
+
+mcp_servers:
+  graphthulhu:
+    # Single Go binary — no npm/Node.js dependency
+    command: "graphthulhu"
+    args: ["serve", "--backend", "obsidian"]
+    env:
+      OBSIDIAN_VAULT_PATH: "/home/realityrove/Obsidian/Arek&Co"
+    # In-memory index rebuild on every mutation — ~2-5s startup on large vaults (~720 notes)
+    # Watch mode uses fsnotify (not reliable on network drives or WSL)
+    timeout: 120
+    connect_timeout: 30

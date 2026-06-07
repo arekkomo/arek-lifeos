@@ -1,0 +1,35 @@
+# Coach Profile Config
+
+Full config.yaml for the coach Hermes profile with all domain skills loaded.
+
+```yaml
+name: coach
+description: "Isolated fitness, health, nutrition, and recovery specialist for Arek Komorowski."
+skills:
+  - hybrid-arch:coach-specialist
+  - coach-fitness-tracking
+  - coach-nutrition-tracking
+  - coach-body-composition
+  - coach-sleep-recovery
+  - coach-health-intelligence
+model: {}
+deliver: origin
+toolsets:
+  - file
+  - search
+  - vision
+working_directory: /home/realityrove/Obsidian/Arek&Co
+```
+
+## Field Notes
+
+### toolsets
+- `file` — read/write vault files
+- `search` — search files
+- `vision` — image analysis (food photos, body comp)
+
+### working_directory
+Set to Obsidian vault root so all vault paths resolve correctly. Without this, relative paths won't work.
+
+### Notion Access Gap
+Coach's original CoWork-Instructions assumed Notion CLI was available for workout database queries. This is a known gap — no Notion CLI is installed. When routing data-dependent queries, always verify CLI/MCP availability first.
