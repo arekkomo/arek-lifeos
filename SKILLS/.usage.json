@@ -1,0 +1,80 @@
+{
+  "coach-fitness-tracking": {
+    "archived_at": null,
+    "created_at": "2026-06-07T03:34:04.904549+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-07T03:34:04.925825+00:00",
+    "last_viewed_at": "2026-06-07T03:34:04.904569+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "hermes-gateway": {
+    "archived_at": null,
+    "created_at": "2026-06-07T03:28:15.932119+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-07T03:28:15.939455+00:00",
+    "last_viewed_at": "2026-06-07T03:28:15.932130+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "hermes-profile-setup-and-troubleshooting": {
+    "archived_at": null,
+    "created_at": "2026-06-07T03:28:15.894417+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-06-07T03:29:26.643730+00:00",
+    "last_used_at": "2026-06-07T03:28:15.926313+00:00",
+    "last_viewed_at": "2026-06-07T03:28:15.894429+00:00",
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "hybrid-agent-architecture": {
+    "archived_at": null,
+    "created_at": "2026-06-07T03:28:15.908803+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-07T03:28:15.912792+00:00",
+    "last_viewed_at": "2026-06-07T03:28:15.908812+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "specialist-profile-agent-setup": {
+    "archived_at": null,
+    "created_at": "2026-06-07T03:28:15.918772+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-07T03:28:15.935630+00:00",
+    "last_viewed_at": "2026-06-07T03:28:15.918783+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "youtube-content": {
+    "archived_at": null,
+    "created_at": "2026-06-07T03:34:04.920708+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-07T03:34:04.930697+00:00",
+    "last_viewed_at": "2026-06-07T03:34:04.920721+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  }
+}

@@ -131,8 +131,55 @@ Check `config.yaml` in `mcp_servers` section — verify URL, auth format, transp
 1. `hermes skills list` — verify installed
 2. Check profile `config.yaml` `skills:` section lists them
 3. `/reload-skills` in session or restart gateway
+4. If skills live in the Obsidian vault, the symlink at `~/.hermes/skills` must resolve correctly — verify with readlink.
 
 ### Model/Provider Issues
 1. `hermes doctor` — check config and dependencies
 2. `hermes auth` — re-authenticate OAuth providers
 3. Check `.env` has correct API keys
+
+## Vault-Backed Skills Mirror Pattern
+
+When skills live in the Obsidian vault (`Obsidian/Arek&Co/SKILLS/`), **do not change profile config**. Instead, replace the default `~/.hermes/skills/` directory with a symlink to the vault path. All profiles automatically read from the vault because they use the default skills path — no config changes needed.
+
+**Procedure:**
+
+1. **Copy all skills to `Vault/SKILLS/`** (not individual `.md` files at top level):
+   ```bash
+   rsync -a /home/realityrove/.hermes/skills/ "/home/realityrove/Obsidian/Arek&Co/SKILLS/"
+   ```
+
+2. **Back up the old skills dir:**
+   ```bash
+   mv /home/realityrove/.hermes/skills /home/realityrove/.hermes/skills.backup_20260606
+   ```
+
+3. **Create symlink using Python (NOT bash) to avoid bash interpreting `&` as a background operator:**
+   ```python
+   import os, shutil
+   path = "/home/realityrove/.hermes/skills"
+   shutil.rmtree(path) if os.path.isdir(path) else None
+   os.readlink(path) and os.unlink(path) if os.path.islink(path) else None
+   os.symlink("/home/realityrove/Obsidian/Arek&Co/SKILLS", path)
+   ```
+
+4. **Verify:**
+   ```python
+   import os
+   os.path.islink("/home/realityrove/.hermes/skills")  # True
+   os.readlink("/home/realityrove/.hermes/skills")     # /home/realityrove/Obsidian/Arek&Co/SKILLS
+   os.path.exists("/home/realityrove/.hermes/skills")  # True
+   ```
+
+5. **Commit to vault:**
+   ```bash
+   cd /home/realityrove/Obsidian/Arek&Co
+   git add SKILLS/
+   git commit -m 'Add SKILLS/ - all skills to vault'
+   ```
+
+**Key pitfalls:**
+- **Never use bash `ln -s` on paths containing `&`** — bash interprets `&` as background operator, which silently breaks the symlink. Always use Python `os.symlink()`.
+- **Ensure vault SKILLS/ has proper directory structure** (category dirs with SKILL.md inside), not individual `.md` files at the top level. Clean up any stray `.md` or `._` files that rsync brings in.
+- **All profiles read from `~/.hermes/skills/` by default** — no `skills_directory` override needed. Adding one would break the mirror.
+- After migration, verify each profile config does NOT have `skills_directory` pointing elsewhere.
