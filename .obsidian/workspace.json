@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INDEX.md",
+                "file": "SKILLS/SK-DR-03-Project-Cleanup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INDEX"
+              "title": "SK-DR-03-Project-Cleanup"
             }
           }
         ]
@@ -183,6 +183,9 @@
   },
   "active": "2015b2acaa387635",
   "lastOpenFiles": [
+    "SKILLS/SK-DR-02-Suno-Prompt-Generation.md",
+    "SKILLS/SK-DR-01-Creative-Development.md",
+    "INDEX.md",
     "Dashboard.md",
     "LEARNING/Knowledge/AI-Agents-n8n/claude-code-skills-daily-7-source.md",
     "raw/I Rebuilt Hermes in Claude Code (It’s Ridiculously Good).md",
@@ -209,9 +212,6 @@
     "raw/I Turned Clawdbot Into the Ultimate Personal Assistant.md",
     "raw/Give Me 20 Minutes. I'll Teach You 80% of Claude Cowork.md",
     "LEARNING/Notes/cowork-setup-improvements.md",
-    "LEARNING/Knowledge/AI-Agents-n8n/paperclip.md",
-    "LEARNING/Knowledge/AI-Agents-n8n/paperclip-source.md",
-    "LEARNING/Knowledge/AI-Agents-n8n/cowork-setup-simon-source.md",
     "LEARNING/Knowledge/Web-Design",
     "PROJECTS/CHS",
     "PROJECTS/Arek-Co-OS",
