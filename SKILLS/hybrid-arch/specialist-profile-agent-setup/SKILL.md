@@ -218,7 +218,11 @@ Remove unnecessary auto-approval for dangerous/heavy commands:
 command_allowlist: []
 ```
 
-For Notion MCP, prefer local stdio if OAuth/remote MCP is unreliable:
+### Notion MCP — single master token architecture (updated 2026-06-09)
+
+All profiles inherit NOTION_MCP_TOKEN from the parent/gateway-level `.env` at `/home/realityrove/.hermes/.env`. **Do NOT add `NOTION_MCP_TOKEN` to a profile's `.env` file.** If a profile's `.env` has a duplicate Notion token, delete that line — the inheritance from the parent is automatic and ensures a single source of truth.
+
+Add the Notion MCP block to `config.yaml` (same for every profile):
 
 ```yaml
 mcp_servers:
@@ -237,6 +241,12 @@ mcp_servers:
     timeout: 120
     connect_timeout: 60
 ```
+
+**Verification checklist:**
+- [ ] `/home/realityrove/.hermes/.env` contains `NOTION_MCP_TOKEN=***` (master token)
+- [ ] No profile `.env` file contains `NOTION_MCP_TOKEN` (delete any found)
+- [ ] `config.yaml` has the notion MCP block with `enabled: true` under `mcp_servers`
+- [ ] Profile has Notion MCP listed in toolsets or `plugins` section if needed
 
 ## Step 5 — Dedicated Telegram Bot
 
