@@ -570,3 +570,174 @@ From the Coach setup:
 - The new group was verified by logs using chat ID `-1003951808887`.
 - The Coach profile needed explicit no-tools-for-greetings discipline because `qwen3.6:latest` initially overused tools on a simple `hi`.
 - The fix was not just connectivity; it included behavioral prompt/config tightening and a real `hi` test with `tool_turns=0`.
+
+
+## Director + Scholar Setup Lessons (2026-06-09/10)
+
+From building Director and Scholar profiles end-to-end, including debugging two full sessions of failures:
+
+### 🔴 CRITICAL: Never Write Bot Tokens — Always Ask User via nano
+
+When writing Telegram bot tokens to `.env` files, they ALWAYS get truncated or corrupted through tool calls (execute_code, write_file, terminal echo). The system replaces or strips parts of the token.
+
+**Correct flow:**
+1. Build all profile infrastructure FIRST (directories, config files, SOUL.md, MEMORY.md, etc.)
+2. Tell the user: "Please paste the bot token: `nano /home/realityrove/.hermes/profiles/<name>/.env`"
+3. Ask user to confirm the correct Telegram chat ID
+4. Restart the gateway and verify from logs
+5. Verify token length > 45 characters (Telegram tokens are 48 chars)
+
+**ALWAYS verify after user says "done":**
+```bash
+# Check token length — must be 48 for valid token
+sed -n '1p' /home/realityrove/.hermes/profiles/<name>/.env | awk -F= '{print length($2)}'
+```
+
+**Never do this:**
+- Hard-code a placeholder token
+- Write token programmatically in your response
+- Assume "user pasted token" == "file has full value" — VERIFY the length
+- Keep re-prompting the user for the same info without confirming the file state first
+
+### 🔴 CRITICAL: The `providers:` Block Must Exist — NOT Just `provider: custom`
+
+Having `provider: custom` on the model line is necessary but NOT sufficient. You MUST also have a **top-level `providers:` block** OR a `custom_providers:` entry in the main config.
+
+**Pattern 1 — Profile-level custom_providers (preferred for new profiles):**
+```yaml
+model:
+  default: qwen3.6:latest
+  provider: custom
+  base_url: http://10.0.0.61:11434/v1
+custom_providers:
+- name: <Name>
+  base_url: http://10.0.0.61:11434/v1
+  model: qwen3.6:latest
+```
+
+**Pattern 2 — Empty providers block (relies on global config):**
+```yaml
+model:
+  default: qwen3.6:latest
+  provider: custom
+  base_url: http://10.0.0.61:11434/v1
+providers: {}
+```
+
+When `custom_providers` is properly set, Coach works because it has the entry in main config. When `providers: {}` and no `custom_providers`, the profile has NO inference provider and silently fails.
+
+**Scholar-specific lesson:** The `type: ollama` key inside providers blocks is REJECTED as invalid — `unknown config keys ignored: type`. This causes the entire providers block to be ignored. Do NOT include `type:` in provider configs.
+
+**When it fails, the gateway logs show:**
+`WARNING hermes_cli.config: providers.custom: unknown config keys ignored: type`
+
+**If providers is empty `{}`, the gateway shows:**
+`WARNING gateway.run: No inference provider configured`
+
+**Neither shows an error about "bad model" — look for `no inference provider` or `unknown config keys ignored`.**
+
+### 🔴 CRITICAL: systemctl "active" Does NOT Mean Telegram Is Connected
+
+systemctl can show `active (running)` while the gateway Python process is:
+- Failing to auth with Telegram
+- Having network errors
+- Crashing silently
+- Using the wrong chat ID
+
+**Always check the gateway logs directly after every restart:**
+```bash
+# Look for the Telegram connection confirmation
+journalctl --user -u hermes-gateway-<name>.service --since "HH:MM" -n 50 | grep -iE 'connect|start|ready|telegram|ollama|provider|channel|id'
+
+# Expected SUCCESS lines:
+# ✓ telegram connected
+# set_my_commands OK
+```
+
+**When it FAILS, look for:**
+- `telegram.error.InvalidToken` — token is wrong
+- `Httpx.ReadError` — either invalid token, DNS, or network issue
+- `ChatMigrated` — chat ID was wrong, Telegram auto-redirected
+- `Group migrated to supergroup` — same as ChatMigrated but different Telegram SDK path
+- `No inference provider configured` — config issue, not Telegram issue
+
+### 🟡 systemd Service File Lands in Wrong Directory
+
+`hermes gateway install` creates the service file at:
+```
+~/.hermes/profiles/systems/home/.config/systemd/user/
+```
+
+But systemctl looks at:
+```
+~/.config/systemd/user/
+```
+
+**Always copy AFTER install:**
+```bash
+cp ~/.hermes/profiles/systems/home/.config/systemd/user/hermes-gateway-<name>.service    ~/.config/systemd/user/
+systemctl --user daemon-reload
+systemctl --user start hermes-gateway-<name>.service
+```
+
+### 🟡 Vault Brief.md is Often Incomplete — Check for CoWork-Instructions
+
+Vault agent folders often have a stub Brief.md that points to the REAL operational instructions. ALWAYS check for:
+
+```bash
+ls -la /home/realityrove/Obsidian/Arek&Co/AGENTS/<Agent>/
+ls -la /home/realityrove/Obsidian/Arek&Co/AGENTS/<Agent>/memory/
+```
+
+Typical patterns:
+- **Brief.md** = stub (59-288 bytes) with a pointer
+- **CoWork-Instructions.md** = real operational content (200+ lines)
+- **Heartbeat.md** = session-start checklist → needs to be installed as cron job
+- **memory/** folder = may contain additional context files
+
+Never assume Brief.md is the identity. The real instructions live in CoWork-Instructions.
+
+### 🟡 Chat ID Needs `-100` Prefix for Supergroups
+
+Telegram groups that migrated to supergroups get a new chat ID format:
+- Old format: `-5129275629` or `-3955859735`
+- New format: `-1003955859735` (prepend `-100`)
+
+If you get `ChatMigrated` or `Group migrated to supergroup` in logs, use the new `-100...` ID.
+
+When Arek provides a group invite link like `https://t.me/c/3955859735/1`, extract the numeric part and prepend `-100` → `-1003955859735`.
+
+### 🟡 YAML Quoting Gotcha — Descriptions with Apostrophes
+
+Long descriptions with apostrophes or single quotes will break YAML. When writing config files programmatically, wrap descriptions in double quotes:
+
+```yaml
+description: "Director - creative partner for Arek & Co.'s creative layer..."
+```
+
+The YAML linter will silently reject the write if not quoted.
+
+### 🟡 Telegram Requires Re-adding Bot to Group After New Chat ID
+
+If the group migrated to supergroup or was recreated, the bot token/identity may not carry over. You may need to:
+1. Remove the bot from the old group
+2. Re-add it to the new group via BotFather's `/setjoingroups` or manual invite
+3. Confirm the new group chat ID in the bot's permissions
+
+### New Minimal Setup Flow (Post-Director+Scholar)
+
+1. Check vault: `ls /home/realityrove/Obsidian/Arek&Co/AGENTS/<Agent>/`
+2. Read Brief.md — if stub (< 300 bytes), find CoWork-Instructions.md
+3. Check Hindsight banks: `python3 -c "..."` or check ~/.hindsight/
+4. Create profile: `hermes profile create <name>`
+5. Write MEMORY.md and USER.md from vault (Brief.md + About-Me-*.md)
+6. Write SOUL.md from CoWork-Instructions.md (NOT Brief.md)
+7. Write config.yaml with `custom_providers:` block (not just `provider: custom`)
+8. Add domain skills
+9. **ASK USER to paste bot token via nano** — do NOT write it yourself
+10. **ASK USER to confirm chat ID** — extract from invite link if needed
+11. Install/start gateway + copy service file + daemon-reload
+12. **CHECK LOGS** — `journalctl -u hermes-gateway-<name>.service | grep telegram`
+13. **VERIFY token length > 45** — if shorter, ask user to redo
+14. Test: send `hi` to Telegram group
+15. Check `tool_turns=0` for simple greeting
