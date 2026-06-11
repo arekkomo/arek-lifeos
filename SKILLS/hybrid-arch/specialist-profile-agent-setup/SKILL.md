@@ -243,8 +243,7 @@ mcp_servers:
 ```
 
 **Verification checklist:**
-- [ ] `/home/realityrove/.hermes/.env` contains `NOTION_MCP_TOKEN=***` (master token)
-- [ ] No profile `.env` file contains `NOTION_MCP_TOKEN` (delete any found)
+- [ ] Profile `.env` file (e.g., `~/.hermes/profiles/<name>/.env`) contains `NOTION_MCP_TOKEN=***`
 - [ ] `config.yaml` has the notion MCP block with `enabled: true` under `mcp_servers`
 - [ ] Profile has Notion MCP listed in toolsets or `plugins` section if needed
 
