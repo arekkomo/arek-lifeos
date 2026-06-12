@@ -53,10 +53,11 @@
 
 > Updated by cron job — patterns, suggestions, and connections
 
-| Week | Items Added | Patterns Found | Connection Suggestions |
-|------|-------------|----------------|----------------------|
-| — | — | — | — |
+|| Week | Items Added | Patterns Found | Connection Suggestions |
+||------|-------------|----------------|----------------------|
+|| 2026-W23 (Wk of Jun 9) | 1 (*Misguided-Care*) | — | — |
+|| 2026-W24 (Wk of Jun 16) | 0 | **Emerging theme**: Physical dismissal as power play — the gesture that speaks louder than dialogue. Category-skew: 100% Beats-and-Blocking, 0% across other 4 categories. Library is structurally sound but sparsely populated. | 1. Expand **Dialogue-Drips** — capture the companion dialogue beats in the Misguided-Care entry (the long-winded warning itself). 2. Expand **Visual-Inspiration** — document what the camera "sees" in this beat (tight on the door, slow push-in on the old man). 3. Expand **Tone-and-Reference** — this beat lives in sitcom-adjacent dramatic comedy (think *Fleabag* or *Barry* — violence through politeness). |
 
 ---
 
-*Library created 2026-06-09. Last cron update: pending.*
+*Library created 2026-06-09. Last cron update: 2026-06-16.*
