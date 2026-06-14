@@ -53,10 +53,11 @@
 
 > Updated by cron job — patterns, suggestions, and connections
 
-|| Week | Items Added | Patterns Found | Connection Suggestions |
-||------|-------------|----------------|----------------------|
-|| 2026-W23 (Wk of Jun 9) | 1 (*Misguided-Care*) | — | — |
-|| 2026-W24 (Wk of Jun 16) | 0 | **Emerging theme**: Physical dismissal as power play — the gesture that speaks louder than dialogue. Category-skew: 100% Beats-and-Blocking, 0% across other 4 categories. Library is structurally sound but sparsely populated. | 1. Expand **Dialogue-Drips** — capture the companion dialogue beats in the Misguided-Care entry (the long-winded warning itself). 2. Expand **Visual-Inspiration** — document what the camera "sees" in this beat (tight on the door, slow push-in on the old man). 3. Expand **Tone-and-Reference** — this beat lives in sitcom-adjacent dramatic comedy (think *Fleabag* or *Barry* — violence through politeness). |
+| Week | Items Added | Patterns Found | Connection Suggestions |
+|------|-------------|----------------|----------------------|
+| 2026-W23 (Wk of Jun 9) | 1 (*Misguided-Care*) | — | — |
+| 2026-W24 (Wk of Jun 16) | 0 | **Stable**: No new entries since W23. Category-skew: ~100% Beats-and-Blocking across entire library (1 item total). The "misguided care / polite dismissal" motif is the sole anchor — consider it a north star for future captures. Library needs volume to reveal cross-category patterns. | 1. Seed **Tone-and-Reference** with 3-5 sitcom-dramedy tone refs (Fleabag, Barry, The Bear, Succession). |
+| 2026-W25 (Wk of Jun 23) | 0 | **Still sparse** (1 item). Single-item library cannot produce meaningful pattern analysis. Growth is the only metric that matters right now. | 1. Capture the **warning dialogue** from the same scene as a Dialogue-Drip. 2. Capture the **camera language** (slow push-in, tight door frame) as Visual-Inspiration. 3. Look for the inverse beat: someone who *doesn't* dismiss but *leans in* — would create a powerful contrast pairing. |
 
 ---
 

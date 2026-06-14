@@ -52,4 +52,4 @@ updated: 2026-06-09
 
 ---
 
-*Catalog reorganized 2026-06-09 by Director.*
+*Catalog reorganized 2026-06-09 by Director. Reviewed 2026-06-16 — no new projects or files added.*
