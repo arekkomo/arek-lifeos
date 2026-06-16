@@ -22,7 +22,7 @@ Arek's personal operating system — a second brain and life management system b
 
 - **raw/** — IMMUTABLE sources. READ ONLY. Never write.
 - **LEARNING/** — Knowledge base. All writes go here.
-  - **Knowledge/** — 8 disciplines: AI-3D, AI-Agents-n8n, AI-Image-Midjourney, AI-Video, DaVinci-Resolve, Filmmaking, Motion-Capture, Web-Design
+  - **Knowledge/** — 8 disciplines: AI-3D, AI-Agents, AI-Image-Midjourney, AI-Video, DaVinci-Resolve, Filmmaking, Motion-Capture, Web-Design
   - **Notes/** — Arek's personal notes (currently nearly empty)
   - **Books/** — Book summaries
   - **Synthesis/** — High-level overviews

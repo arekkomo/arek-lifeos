@@ -52,7 +52,7 @@ When there are multiple sources to ingest, prioritise:
 | AI Video | LEARNING/Knowledge/AI-Video/ | 2026-05-10 | Active |
 | AI Image | LEARNING/Knowledge/AI-Image-Midjourney/ | 2026-05-10 | Active |
 | AI 3D | LEARNING/Knowledge/AI-3D/ | 2026-05-10 | Active |
-| AI Agents / n8n | LEARNING/Knowledge/AI-Agents-n8n/ | 2026-05-10 | Active |
+| AI Agents / n8n | LEARNING/Knowledge/AI-Agents/ | 2026-05-10 | Active |
 | Filmmaking | LEARNING/Knowledge/Filmmaking/ | 2026-05-10 | Active |
 | DaVinci Resolve | LEARNING/Knowledge/DaVinci-Resolve/ | 2026-05-10 | Active |
 | Motion Capture | LEARNING/Knowledge/Motion-Capture/ | 2026-05-10 | Active |

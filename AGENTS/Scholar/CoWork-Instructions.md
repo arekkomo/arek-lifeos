@@ -31,7 +31,7 @@ LEARNING/
     AI-Video/
     AI-Image-Midjourney/
     AI-3D/
-    AI-Agents-n8n/
+    AI-Agents/
     Filmmaking/
     DaVinci-Resolve/
     Motion-Capture/

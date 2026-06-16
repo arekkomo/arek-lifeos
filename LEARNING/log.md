@@ -34,10 +34,10 @@ No new files found in raw/ (excluding archived/ and notion-export/). Nothing to 
 No new files found in raw/ (excluding archived/ and notion-export/). Nothing to ingest.
 
 ## [2026-05-14] ingest | 7 Claude Code Skills I Use Every Single Day (RoboNuggets)
-Created `claude-code-skills-daily-7-source.md` in AI-Agents-n8n/. Created concept page `claude-code-skill-patterns.md`. Updated `claude-code.md` entity (sources 3→5). Updated index.md (+3 pages, 77→80). Routed to AI-Agents-n8n/. Arek wants skills reviewed + useful ones implemented — flagged for live session follow-up.
+Created `claude-code-skills-daily-7-source.md` in AI-Agents/. Created concept page `claude-code-skill-patterns.md`. Updated `claude-code.md` entity (sources 3→5). Updated index.md (+3 pages, 77→80). Routed to AI-Agents/. Arek wants skills reviewed + useful ones implemented — flagged for live session follow-up.
 
 ## [2026-05-14] ingest | I Tried 100+ Claude Code Skills. These 6 Are The Best (Nate Herk)
-Created `claude-code-skills-best-6-source.md` in AI-Agents-n8n/. Includes install commands and Arek & Co. relevance notes. Identified: skill-creator and /review already available; superpowers, GSD, context-mode, claude-mem not yet installed. Arek wants useful ones implemented — flagged for live session follow-up.
+Created `claude-code-skills-best-6-source.md` in AI-Agents/. Includes install commands and Arek & Co. relevance notes. Identified: skill-creator and /review already available; superpowers, GSD, context-mode, claude-mem not yet installed. Arek wants useful ones implemented — flagged for live session follow-up.
 
 ## [2026-05-14] create | CHS Accounting Setup (FINANCE/)
 Created `FINANCE/CHS-Accounting-Setup.md` with small business accounting best practices (Wave/QuickBooks/Xero, chart of accounts, cash vs accrual, one-week starter checklist). Routed from raw/ per Arek's comment about CHS Creative Home Solutions setup.
@@ -167,8 +167,8 @@ No new files in raw/ (excluding archived/ and notion-export/) — nothing to ing
 
 ## [2026-05-28] ingest | Hermes vs OpenClaw vs Custom Agentic OS (Simon Scrapes)
 - Source: raw/This is the Ultimate Claude Code Setup - Beats OpenClaw and Hermes!.md + raw/I Rebuilt Hermes in Claude Code (It's Ridiculously Good) 1.md
-- Created: LEARNING/Knowledge/AI-Agents-n8n/hermes-openclaw-agentic-os-source.md
-- Created: LEARNING/Knowledge/AI-Agents-n8n/skill-systems-pattern.md
+- Created: LEARNING/Knowledge/AI-Agents/hermes-openclaw-agentic-os-source.md
+- Created: LEARNING/Knowledge/AI-Agents/skill-systems-pattern.md
 - Updated: LEARNING/index.md (added source + concept entries)
 ## [2026-05-29] ingest | Automated scan — no new files
 No new files in raw/ — nothing to ingest.

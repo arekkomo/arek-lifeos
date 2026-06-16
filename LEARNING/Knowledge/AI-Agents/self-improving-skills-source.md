@@ -14,7 +14,7 @@ updated: 2026-05-10
 # Self-Improving Claude Code Skills (Karpathy Loop)
 
 **Source:** Simon Scrapes · March 2026
-**Routed by:** Operator — AI-Agents-n8n
+**Routed by:** Operator — AI-Agents
 **User Comment:** "do you think there is anything here worth implementing into our system?"
 
 ---

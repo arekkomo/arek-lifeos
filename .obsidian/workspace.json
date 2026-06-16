@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "35bd1620e5db9933",
+    "id": "e8b17d237e0a998d",
     "type": "split",
     "children": [
       {
-        "id": "62d09cd90fc19bc9",
+        "id": "52e9af5e79314775",
         "type": "tabs",
         "children": [
           {
-            "id": "2015b2acaa387635",
+            "id": "5f761525d77b6d5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SKILLS/SK-DR-03-Project-Cleanup.md",
+                "file": "LEARNING/Synthesis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SK-DR-03-Project-Cleanup"
+              "title": "Synthesis"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8e83d0d67f9ebd33",
+    "id": "f520c25763b9e87f",
     "type": "split",
     "children": [
       {
-        "id": "9083b0d4d08eacab",
+        "id": "a1683d39cf45adb9",
         "type": "tabs",
         "children": [
           {
-            "id": "1a10b96364ed3b39",
+            "id": "cf5328d1bf8009e4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "2f58cfcaf7b3dde3",
+            "id": "bc4a409bfa441670",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "5e6858e615f80f9e",
+            "id": "06dc3c29a9eaed11",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,18 +78,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 400.5
   },
   "right": {
-    "id": "c4fed73f8d0135c1",
+    "id": "6d8afc2fc81639f7",
     "type": "split",
     "children": [
       {
-        "id": "1d4fdfd4dac7afd2",
+        "id": "5172cee3a642f13c",
         "type": "tabs",
         "children": [
           {
-            "id": "e6eeb2aca98bf341",
+            "id": "f8237b4cfc9bac0c",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,7 +107,7 @@
             }
           },
           {
-            "id": "c3f4b369c97e5435",
+            "id": "d4668aff03ea0616",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "2bdde36a74271cc2",
+            "id": "46b916728e8461f5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +135,7 @@
             }
           },
           {
-            "id": "e57d158c12e30a14",
+            "id": "9950abd9e4f1c4a1",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,7 +149,7 @@
             }
           },
           {
-            "id": "b15308afea62d5ee",
+            "id": "1bf82e97d71380e3",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -181,43 +181,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "2015b2acaa387635",
+  "active": "5f761525d77b6d5e",
   "lastOpenFiles": [
-    "SKILLS/SK-DR-02-Suno-Prompt-Generation.md",
-    "SKILLS/SK-DR-01-Creative-Development.md",
-    "INDEX.md",
-    "Dashboard.md",
-    "LEARNING/Knowledge/AI-Agents-n8n/claude-code-skills-daily-7-source.md",
-    "raw/I Rebuilt Hermes in Claude Code (It’s Ridiculously Good).md",
-    "raw/I Rebuilt Hermes in Claude Code (It’s Ridiculously Good) 1.md",
-    "raw/This is the Ultimate Claude Code Setup - Beats OpenClaw and Hermes!.md",
-    "raw/I Tried 100+ Claude Code Skills. These 6 Are The Best.md",
-    "raw/what is best way to do accounting for small bussiness?.md",
-    "raw/7 Claude Code skills I use every single day (Advanced Tutorial).md",
-    "HEALTH/Health-Knowledge/micro-habits-protocol.md",
-    "LEARNING/Knowledge/Filmmaking/creative-flow-constraints.md",
-    "LEARNING/Knowledge/Filmmaking/creative-flow-system-source.md",
-    "LEARNING/Knowledge/AI-Agents-n8n/skill-self-improvement-loop.md",
-    "LEARNING/Knowledge/AI-Agents-n8n/self-improving-skills-source.md",
-    "LEARNING/Knowledge/AI-Agents-n8n/autonomous-ai-assistant.md",
-    "LEARNING/Knowledge/AI-Agents-n8n/clawdbot-assistant-source.md",
-    "raw/Build Self-Improving Claude Code Skills. The Results Are Crazy..md",
-    "SKILLS/github-tool-logger.skill",
-    "github-tool-logger.skill",
-    "review.html",
-    "LEARNING/Knowledge/AI-Video/kiwi-edit.md",
-    "SKILLS/SK-ST-05-Professional-Memberships.md",
-    "raw/This system makes creative work feel effortless.md",
-    "raw/20 Micro Habits Proven By Science to Change Your Life.md",
-    "raw/I Turned Clawdbot Into the Ultimate Personal Assistant.md",
-    "raw/Give Me 20 Minutes. I'll Teach You 80% of Claude Cowork.md",
-    "LEARNING/Notes/cowork-setup-improvements.md",
-    "LEARNING/Knowledge/Web-Design",
-    "PROJECTS/CHS",
-    "PROJECTS/Arek-Co-OS",
-    "AGENTS/System/Reports",
-    "PROJECTS/CLI-Layer",
-    "PROJECTS/RealityRowHub/Market-Research",
-    "PROJECTS/RealityRowHub"
+    "LEARNING/index.md"
   ]
 }

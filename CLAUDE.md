@@ -27,7 +27,7 @@ ArekCOVault/
 │   │   ├── AI-Video/             ← AI video tools & concepts (Runway, Kling, MiniMax…)
 │   │   ├── AI-Image-Midjourney/  ← Image gen tools & concepts (Midjourney, Flux, ComfyUI…)
 │   │   ├── AI-3D/                ← 3D generation tools & concepts (Tripo, Volinga, Lyra…)
-│   │   ├── AI-Agents-n8n/        ← Automation tools & concepts (n8n, Claude Code…)
+│   │   ├── AI-Agents/        ← Automation tools & concepts (n8n, Claude Code…)
 │   │   ├── Filmmaking/           ← Filmmaking concepts (visual storytelling, cinematic shooting)
 │   │   ├── DaVinci-Resolve/      ← DaVinci Resolve workflows & tips
 │   │   ├── Motion-Capture/       ← Motion capture tools (Move AI…)

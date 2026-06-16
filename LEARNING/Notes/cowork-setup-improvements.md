@@ -44,7 +44,7 @@ Arek's setup is already ahead of most users:
 **What:** High-level index MOCs for the main LEARNING/ clusters (AI Agents, Filmmaking, etc.).
 **Why:** Gives Claude a fast entry point into each knowledge cluster without reading all pages. Reduces token cost on Scholar queries.
 **How:** Ask Claude to read each Knowledge/ subfolder and create a MOC linking key pages with one-line summaries.
-**Action:** Create MOCs for AI-Agents-n8n/ and Filmmaking/ first — tracked in Milestones.
+**Action:** Create MOCs for AI-Agents/ and Filmmaking/ first — tracked in Milestones.
 
 ### 4. Per-Project Memory Files ⭐ Medium Priority
 **What:** A `memory.md` or `CLAUDE.md` inside each active PROJECTS/ subfolder.

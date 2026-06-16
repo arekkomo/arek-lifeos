@@ -14,7 +14,7 @@ updated: 2026-05-10
 # Clawdbot — Ultimate Personal Assistant Setup (Klaus)
 
 **Source:** Nate Herk / AI Automation · January 2026
-**Routed by:** Operator — AI-Agents-n8n
+**Routed by:** Operator — AI-Agents
 **User Comment:** "analyze and suggest features and improvements that could benefit my Arek&Co system"
 
 ---

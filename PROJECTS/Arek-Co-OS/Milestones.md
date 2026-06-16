@@ -69,7 +69,7 @@ updated: 2026-05-13
 |---|------|----------|--------|-------|
 | C.1 | Create `ABOUT-YOU/Writing-Rules.md` | High | ✅ | Done 2026-05-13 — tone, voice, anti-AI guidelines |
 | C.2 | Create `ABOUT-YOU/Notion-Context-Map.md` | Medium | 🔲 | Map Notion workspace via MCP; saves tokens on every Notion query |
-| C.3 | Create MOCs for AI-Agents-n8n/ and Filmmaking/ | Medium | 🔲 | High-level index pages for Scholar; faster knowledge queries |
+| C.3 | Create MOCs for AI-Agents/ and Filmmaking/ | Medium | 🔲 | High-level index pages for Scholar; faster knowledge queries |
 | C.4 | Add per-project memory files to active PROJECTS/ | Medium | 🔲 | Start with CHS and RealityRowHub |
 
 ---
@@ -92,7 +92,7 @@ updated: 2026-05-13
 
 | # | Task | Priority | Status | Notes |
 |---|------|----------|--------|-------|
-| V.1 | Add typed edge annotations to wikilinks in Knowledge/ | Low | 🔲 | Start with AI-Agents-n8n/ cluster |
+| V.1 | Add typed edge annotations to wikilinks in Knowledge/ | Low | 🔲 | Start with AI-Agents/ cluster |
 | V.2 | Introduce `decision` and `playbook` node types to frontmatter | Low | 🔲 | Update CLAUDE.md schema |
 | V.3 | Enforce ~300-line cap on Knowledge/ pages | Low | 🔲 | Audit + split pages over limit |
 
@@ -124,5 +124,5 @@ updated: 2026-05-13
 
 1. Continue Directing Curriculum — Module 02 (2.3 — High)
 2. Set up Accountant workflows — income, budget, tax (2.6 — Medium)
-3. Create MOCs for AI-Agents-n8n/ and Filmmaking/ (C.3 — Medium)
+3. Create MOCs for AI-Agents/ and Filmmaking/ (C.3 — Medium)
 4. Design weekly review cadence (3.2 — Medium)
