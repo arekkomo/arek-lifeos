@@ -52,4 +52,4 @@ updated: 2026-06-09
 
 ---
 
-*Catalog reorganized 2026-06-09 by Director. Reviewed 2026-06-16 — no new projects or files added.*
+*Catalog updated by Director cron — 2026-07-06 (W28): scanned all of CREATIVE/; zero new projects or files since last scan. All idle folders empty. Active list unchanged—5 projects, last contact Imma Nyala May 15.*
