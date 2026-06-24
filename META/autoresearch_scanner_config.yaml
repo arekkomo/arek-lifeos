@@ -1,0 +1,43 @@
+# Autonomous Research Scanner Configuration
+# This defines what sources to monitor and how to filter them
+
+scanner:
+  name: "scholar_autoresearch"
+  schedule: "every 6h"  # Check for new content every 6 hours
+  max_items_per_run: 10  # Safety limit per scan cycle
+  
+sources:
+  - id: arxiv_ai_vfx
+    type: arxiv
+    config:
+      categories: ["cs.CV", "cs.AI", "cs.ML"]  # Computer Vision, AI, Machine Learning
+      time_range: "24h"
+      keywords: ["neural rendering", "VFX", "compositing", "video generation", "image synthesis"]
+      
+  - id: youtube_comfyui
+    type: youtube_channel  
+    config:
+      channel_ids: ["UCXJ6H7wWQBFY5KjSv3b8eRg", "UCqA0NTJGCR_sM5I_-oV4fFg"]  # ComfyUI, AI VFX channels
+      language_filter: "en"
+      
+  - id: github_ai_tools
+    type: github_releases
+    config:
+      keywords: ["comfyui", "ai video", "vfx", "image generation"]
+      lookback_hours: 48
+      
+  - id: blogwatcher_rss
+    type: rss_feed
+    config:
+      feeds:
+        - https://blog.google/technology/developers/genai/articles/feed/
+        - https://huggingface.co/blog/rss
+        - https://pytorch.org/blog/feed/
+
+filters:
+  # Quality threshold before auto-filing
+  min_relevance_score: 0.7
+  
+  # Content type preferences
+  prefer_types: ["technical"]
+  exclude_keywords: ["product launch", "marketing", "fundraising"]

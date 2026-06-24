@@ -1,0 +1,113 @@
+{
+  "name": "scholar_ingestion_quality_evals",
+  "version": "0.1",
+  "description": "Eval-driven self-improvement loop for Scholar's knowledge ingestion quality",
+  "target_process": "wiki-ingest",
+  "loop_config": {
+    "max_iterations": 5,
+    "improvement_threshold": 2,
+    "evals_per_ckpt": 3
+  },
+  "eval_setups": [
+    {
+      "id": "ev-01",
+      "description": "Test if scholar's summary of an AI video tool meets quality bar",
+      "input_source": "sample_ai_video_article",
+      "expected_output_type": "obsidian_page_markdown"
+    },
+    {
+      "id": "ev-02", 
+      "description": "Test if scholar's summarization of a VFX concept page meets quality bar",
+      "input_source": "sample_vfx_concept_text",  
+      "expected_output_type": "obsidian_page_markdown"
+    },
+    {
+      "id": "ev-03",
+      "description": "Test if scholar's cross-referencing (wikilinks) quality meets bar",
+      "input_source": "sample_multi_topic_article",
+      "expected_output_type": "obsidian_page_markdown"  
+    }
+  ],
+  "assertions": [
+    {
+      "id": "a-01",
+      "check": "summary_length",
+      "type": "binary",
+      "description": "Summary is between 50 and 300 words",
+      "verify_regex": "(?s)^.*?(?:\\n## \\w.*?\\n.*?)?$"
+    },
+    {
+      "id": "a-02", 
+      "check": "has_yaml_frontmatter",
+      "type": "binary",
+      "description": "Page includes required YAML frontmatter (title, category, summary, tags)",
+      "verify_method": "yaml_validate"
+    },
+    {
+      "id": "a-03",
+      "check": "has_at_least_5_wikilinks", 
+      "type": "binary",
+      "description": "Page contains at least 5 [[wikilinks]] to other knowledge pages",
+      "verify_method": "count_pattern([[\\w[-\\s.]+]])"
+    },
+    {
+      "id": "a-04",
+      "check": "no_overly_long_paragraphs",
+      "type": "binary", 
+      "description": "No paragraph exceeds 150 characters (Arek prefers short form)",
+      "verify_method": "max_line_length_gt_150"
+    },
+    {
+      "id": "a-05",
+      "check": "has_practical_example",
+      "type": "binary",
+      "description": "At least one concrete practical example or tool reference", 
+      "verify_regex": "(?:ComfyUI|Runway|Kling|DaVinci|n8n|Midjourney)"
+    },
+    {
+      "id": "a-06",
+      "check": "no_subjective_language",
+      "type": "binary",
+      "description": "Does not contain subjective adjectives like 'amazing', 'revolutionary', 'game-changing'",
+      "verify_regex_neg": "(?:amazing|revolutionary|game-chang)"
+    },
+    {
+      "id": "a-07",
+      "check": "contradictions_checked",
+      "type": "binary", 
+      "description": "If source contradicts existing knowledge, contradiction is flagged inline",
+      "verify_method": "scan_existing_knowledge"
+    },
+    {
+      "id": "a-08",
+      "check": "log_entry_format",
+      "type": "binary",
+      "description": "Log entry appended in correct format: ## [YYYY-MM-DD] <op> | <title>",
+      "verify_regex": "^\\s*## \\[\\d{4}-\\d{2}-\\d{2}\\] (?:ingest|create|update) \\| .+"
+    },
+    {
+      "id": "a-09",
+      "check": "category_match",
+      "type": "binary",
+      "description": "Category in frontmatter matches actual content domain",
+      "verify_method": "category_consistency"
+    },
+    {
+      "id": "a-10",
+      "check": "index_updated", 
+      "type": "binary",
+      "description": "LEARNING/index.md was updated to include the new entry",
+      "verify_method": "diff_index_md"
+    }
+  ],
+  "scoring_weights": {
+    "structure": 0.4,
+    "style": 0.25, 
+    "cross_reference_quality": 0.15,
+    "accuracy": 0.10,
+    "compliance_formatting": 0.10
+  },
+  "pass_target": {
+    "minimum_score": 8
+  }
+}

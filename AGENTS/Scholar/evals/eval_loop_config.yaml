@@ -1,0 +1,33 @@
+# Eval Loop Self-Improvement Config
+# Karpathy-style: make change → test → score → keep/revert → repeat
+
+loop:
+  name: "scholar_self_improver"
+  target_process: "wiki-ingest"
+  max_iterations: 5
+  improvement_threshold: 2  # minimum score jump to keep change
+  eval_source: "/home/realityrove/Obsidian/Arek&Co/AGENTS/Scholar/evals/scholar_ingestion_evals.json"
+
+# Test cases - sample inputs with known-good outputs for regression testing
+test_cases:
+  - id: "tc-01"
+    description: "AI Video tool ingestion (sample)"
+    input_path: "raw/artifacts/synthetic_ai_video_sample.md"
+    expected_sections: ["Summary", "Technical Details", "Practical Example"]
+    
+  - id: "tc-02"  
+    description: "VFX Concept page (sample)"
+    input_path: "raw/artifacts/synthetic_vfx_concept_sample.md"
+    expected_sections: ["About", "Use Cases", "How to Run"]
+
+# What the loop iterates on
+improvement_targets:
+  - "summary_length_range"
+  - "wikilink_density_min"  
+  - "paragraph_max_length"
+  - "practical_example_required"
+  - "subjective_language_filter"
+
+# Logging
+log_output: "LEARNING/log.md"
+op_type: "autoresearch-eval-loop"
