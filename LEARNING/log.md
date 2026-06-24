@@ -1,5 +1,13 @@
 # Log — Arek's Second Brain
 
+## [2026-06-24] autoresearch | Autonomous scan — 3 items filed
+Auto-discovered and evaluated recent HuggingFace model releases + ComfyUI changelog. Filed:
+- LEARNING/Knowledge/AI-Image-Midjourney/flux2-klein.md (FLUX.2 Klein architecture, score 9/10)
+- LEARNING/Knowledge/AI-TTS/stable-audio-3.md (Stable Audio 3 model family, score 8/10)
+- LEARNING/Knowledge/AI-Video/comfyui-v026-kling-v3-turbo.md (ComfyUI v0.26 partner nodes + Kling V3-Turbo, score 8/10)
+Updated: index.md, log.md
+Rejected items: Stable Video 4B (too early / no technical detail), Llama 4 architecture overview (not domain-relevant for this wiki)
+
 ## [2026-05-30] ingest | Reddit — DaVinci Resolve Pro Workflow Tips
 Created: davinci-resolve-reddit-workflow-tips-source.md. Updated: davinci-resolve.md (added 8 workflow tips across 4 sections). Updated: LEARNING/index.md. Raw loose capture deleted.
 
