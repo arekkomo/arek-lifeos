@@ -8,6 +8,12 @@ Auto-discovered and evaluated recent HuggingFace model releases + ComfyUI change
 Updated: index.md, log.md
 Rejected items: Stable Video 4B (too early / no technical detail), Llama 4 architecture overview (not domain-relevant for this wiki)
 
+## [2026-06-24] autoresearch | VPA-Guard and VVA-Bench for I2V Safety
+Auto-discovered from arXiv cs.CV. Evaluated: VPA-Guard paper scored 8.8/10, PQSG scored 7.5/10 (3rd attempt), Chorus II scored 7.5/10 (3rd attempt). Filed VPA-Guard only.
+- LEARNING/Knowledge/AI-Video/vpa-guard-image-to-video-safety.md (VPA-Guard defense framework, score 8.8/10)
+Updated: index.md, log.md
+Rejected items: PQSG (failed a-01/a-04 after 3 attempts), Chorus II (failed a-01/a-04 after 3 attempts)
+
 ## [2026-05-30] ingest | Reddit — DaVinci Resolve Pro Workflow Tips
 Created: davinci-resolve-reddit-workflow-tips-source.md. Updated: davinci-resolve.md (added 8 workflow tips across 4 sections). Updated: LEARNING/index.md. Raw loose capture deleted.
 
