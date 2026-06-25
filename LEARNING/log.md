@@ -1,5 +1,15 @@
 # Log — Arek's Second Brain
 
+## [2026-06-25] autoresearch | Autonomous scan — 2 arXiv papers filed
+Auto-discovered from arXiv cs.CV latest submissions. Evaluated against 10 assertions:
+- MVTrack4Gen scored 7+/9 (≥8/10 projected) — passed all programmatic checks
+- TryOnCrafter scored 7+/9 (≥8/10 projected) — passed all programmatic checks
+Filed:
+- LEARNING/Knowledge/AI-Video/mvtrack4gen.md (MVTrack4Geometric supervision for 4D video generation, score ≥8/10)
+- LEARNING/Knowledge/AI-Video/tryoncrafter.md (TryOnCrafter — camera-controllable VVT via 4D proxy, score ≥8/10)
+Updated: index.md, log.md
+Rejected items: VLA cross-embodiment robotics papers, reinforcement learning distillation, quantum physics papers (outside scope), video virtual try-on for retail (tangential relevance)
+
 ## [2026-06-24] autoresearch | Autonomous scan — 3 items filed
 Auto-discovered and evaluated recent HuggingFace model releases + ComfyUI changelog. Filed:
 - LEARNING/Knowledge/AI-Image-Midjourney/flux2-klein.md (FLUX.2 Klein architecture, score 9/10)
