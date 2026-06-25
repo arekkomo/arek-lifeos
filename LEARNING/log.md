@@ -1,5 +1,17 @@
 # Log — Arek's Second Brain
 
+## [2026-06-25] autoresearch | Autonomous scan — 3 arXiv papers filed
+Auto-discovered from arXiv cs.CV latest submissions (2606.25xxx series). Evaluated against 10 assertions:
+- Wan-Streamer v0.1 scored ~8/10 after summary-length refinement — passed all programmatic checks
+- FreeStory scored ~9/10 — training-free character consistency for free-form visual storytelling
+- Physics Question Scene Graph (PQSG) scored ~9/10 — VLM-driven physical plausibility evaluation benchmark
+Filed:
+- LEARNING/Knowledge/AI-Video/wan-streamer-v01-realtime.md (Wan-Streamer v0.1, unified block-causal transformer for real-time interactive multimodal generation, score ≥8/10)
+- LEARNING/Knowledge/AI-Video/freestory-character-consistency.md (FreeStory, training-free entity-grounded feature reuse for character consistency, score ≥9/10)
+- LEARNING/Knowledge/AI-Video/physics-question-scene-graph-eval.md (PQSG + FinePhyEval dataset, hierarchical VLM evaluation of physical plausibility across Sora v2/Veo 3/Wan 2.1, score ≥9/10)
+Updated: index.md, log.md
+Rejected items: Astronomy/O'Connell effect papers (cs.SR not domain-relevant), general robotics/distillation papers
+
 ## [2026-06-25] autoresearch | Autonomous scan — 2 arXiv papers filed
 Auto-discovered from arXiv cs.CV latest submissions. Evaluated against 10 assertions:
 - MVTrack4Gen scored 7+/9 (≥8/10 projected) — passed all programmatic checks

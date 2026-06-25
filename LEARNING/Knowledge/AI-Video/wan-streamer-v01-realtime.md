@@ -1,7 +1,7 @@
 ---
 title: "Wan-Streamer v0.1: End-to-End Real-Time Interactive Foundation Models"
 category: source
-summary: First native-streaming foundation model for sub-second duplex audio-visual interaction (200ms latency at 25fps) using unified block-causal transformer. Eliminates cascaded pipeline overhead by jointly learning perception, reasoning, generation, and cross-modal synchronization.
+summary: First native-streaming foundation model designed specifically for sub-second duplex audio-visual interaction using a unified block-causal transformer architecture. Eliminates the cascaded pipeline overhead typical of interactive video systems by jointly learning perception, reasoning, generation, response timing, and cross-modal synchronization within a single model rather than chaining separate VAD, ASR, TTS, avatar, and video modules.
 tags: [ai-video, real-time-generation, streaming, multimodal, wan-models, interactive-ai, foundation-models]
 sources: 4
 source_path: https://arxiv.org/abs/2606.25041
