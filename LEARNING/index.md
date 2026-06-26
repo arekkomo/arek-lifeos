@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-06-25
+> Updated: 2026-06-26
 
 ## AI-Video
 - **AI-Video-Tools** — Overview of AI video tools (Runway, Kling, MiniMax, ComfyUI...)
@@ -9,6 +9,8 @@
 - **FreeStory** — Training-free character consistency for free-form visual storytelling via entity-grounded feature reuse (dynamic masks, correspondence-aware matching, KV injection, query blending). FreeStoryBench benchmark included (2026-06-25)
 - **ComfyUI v0.26 + Kling V3-Turbo** — Partner node architecture with native Kling V3-Turbo support (2026-06-24)
 - **ComfyUI Compendium** — DGX Spark ComfyUI maintenance reference
+- **LiveEdit** — Real-time diffusion-based streaming video editing via three-stage distillation (bidirectional→unidirectional). 12.66 FPS causal frame-by-frame editing with AR mask cache for VFX interactive workflows (arXiv 2606.26740, 2026-06-26)
+- **Disco-LoRA** — Disentangled multi-concept video customization: iterative dual-LoRA isolation of content/style/motion with Z-score regularization for composable LoRA mixing in T2V models (arXiv 2606.26668, 2026-06-26)
 - **VPA-Guard and VVA-Bench for I2V Safety** — Benchmark and defense for visual prompt attacks on image-to-video models. Wan 2.7 at 100% ASR; VPA-Guard reduces by 44.2% (2026-06-24)
 - **MVTrack4Gen** — Motion-aware training framework using multi-view point tracking as geometric supervision for novel-view video diffusion models (2026-06-25)
 - **TryOnCrafter** — Camera-controllable video virtual try-on via renderable 4D Gaussian Splatting proxy with DiT backbone (2026-06-25)

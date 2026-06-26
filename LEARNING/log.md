@@ -1,5 +1,15 @@
 # Log — Arek's Second Brain
 
+## [2026-06-26] autoresearch | Autonomous scan cycle — 2 arXiv papers filed (cycle 3)
+Auto-discovered from arXiv cs.CV latest submissions (2606.2xxxx series). Evaluated against 10 assertions:
+- Disco-LoRA scored ~9/10 — disentangled multi-concept video customization with iterative dual-LoRA + Z-score regularization for composable LoRA mixing
+- LiveEdit scored ~8/10 — real-time streaming diffusion-based video editing, three-stage distillation to 12.66 FPS causal editor with AR mask cache
+Filed:
+- LEARNING/Knowledge/AI-Video/disco-lora-multi-concept-video.md (Disco-LoRA score ≥9/10)
+- LEARNING/Knowledge/AI-Video/liveedit-streaming-video-editing.md (LiveEdit, score ≥8/10)
+Updated: index.md, log.md
+Rejected items: DocArena (document search agents — outside scope), Neural Voxel Dynamics (3D physics from video — too early-stage, no deployment path), PhyEditBench (benchmark-only paper), majority of submissions (agriculture vision, fMRI analysis, event cameras, surgical segmentation, satellite imagery — all outside AI video/VFX/ComfyUI/n8n focus)
+
 ## [2026-06-25] autoresearch | Autonomous scan cycle 2 — 3 arXiv papers filed (cycle 2)
 Auto-discovered from arXiv cs.CV/ML latest submissions. Evaluated against 10 assertions:
 - DanceOPD scored 9/10 — on-policy generative field distillation for multi-capability flow models
