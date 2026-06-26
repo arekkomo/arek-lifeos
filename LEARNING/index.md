@@ -14,13 +14,15 @@
 - **TryOnCrafter** — Camera-controllable video virtual try-on via renderable 4D Gaussian Splatting proxy with DiT backbone (2026-06-25)
 
 ## AI-Image-Midjourney
+- **DanceOPD — On-Policy Generative Field Distillation** — Training framework that unifies T2I, local editing, and global editing in flow-matching models via on-policy generative field distillation. Resolves capability interference during multi-skill training (arXiv 2606.27377, 2026-06-25)
+- **Feature Self-Guidance — Diversity Collapse Mitigation** — Training-free plug-and-play method that disperses internal features during batch inference to mitigate diversity collapse in flow models while preserving fidelity via manifold regularization (arXiv 2606.27371, 2026-06-25)
 - **FLUX.2 Klein Architecture** — BFL's compact diffusion family: KV-cache optimization, FP8, small decoder variants (2026-03–04)
+
+## AI-Agents
+- **Ask-Solve-Generate — Self-Evolving Unified LMM Training** — Framework that improves both visual understanding and image generation in unified multimodal models using only unlabeled images and internal consistency signals. Tested across BLIP3o, BAGEL, VARGPT architectures (arXiv 2606.27376, 2026-06-25)
 
 ## AI-3D
 - [3D generation]
-
-## AI-Agents
-- [Automation tools & concepts]
 
 ## Filmmaking
 - [Visual storytelling, cinematic shooting]

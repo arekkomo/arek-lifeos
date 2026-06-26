@@ -1,5 +1,15 @@
 # Log — Arek's Second Brain
 
+## [2026-06-25] autoresearch | Autonomous scan cycle 2 — 3 arXiv papers filed (cycle 2)
+Auto-discovered from arXiv cs.CV/ML latest submissions. Evaluated against 10 assertions:
+- DanceOPD scored 9/10 — on-policy generative field distillation for multi-capability flow models
+- Feature Self-Guidance scored 9/10 — training-free diversity collapse mitigation in flow models
+- Ask-Solve-Generate scored 8/10 — self-evolving unified multimodal understanding + generation framework
+Filed:
+- LEARNING/Knowledge/AI-Image-Midjourney/danceopd-flow-distillation.md (DanceOPD, on-policy field distillation for T2I+editing unification in flow models, score 9/10)
+- LEARNING/Knowledge/AI-Image-Midjourney/feature-self-guidance-flow-diversity.md (Feature Self-Guidance, training-free diversity collapse mitigation via feature dispersion + manifold regularization, score 9/10)
+- LEARNING/Knowledge/AI-Agents/ask-solve-generate-self-evolving-lmm.md (Ask-Solve-Generate, self-evolving LMM training across BLIP3o/BAGEL/VARGPT, score 8/10)
+
 ## [2026-06-25] autoresearch | Autonomous scan — 3 arXiv papers filed
 Auto-discovered from arXiv cs.CV latest submissions (2606.25xxx series). Evaluated against 10 assertions:
 - Wan-Streamer v0.1 scored ~8/10 after summary-length refinement — passed all programmatic checks
