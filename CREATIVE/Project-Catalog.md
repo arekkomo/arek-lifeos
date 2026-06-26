@@ -15,10 +15,11 @@ updated: 2026-06-09
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
 | 1 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
-| 2 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
-| 3 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
-| 4 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
-| 5 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-06-09 |
+| 2 | **Orgy of Fear** | Music / Music Video | P2 · Planning (title locked) | `CREATIVE/Music-Video-Projects/Orgy-of-Fear/` | 2026-06-24 |
+| 3 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
+| 4 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
+| 5 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREACTIVE/Aiah-Syn-Style.md` | TBD |
+| 6 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-06-09 |
 
 ---
 
