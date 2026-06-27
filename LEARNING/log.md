@@ -212,6 +212,14 @@ Routed to Coach. Created: HEALTH/Health-Knowledge/micro-habits-protocol.md with 
 ## [2026-05-13] note | raw/ scan — no new files
 No new files in raw/ (excluding archived/ and notion-export/) — nothing to ingest.
 
+## [2026-06-27] autoresearch | Autonomous scan cycle 5 — RayPE filed with contradiction flag (cycle 5)
+Auto-discovered from arXiv cs.CV latest submissions. Evaluated against 10 assertions:
+- RayPE scored 9/10 — Plucker coordinate-based positional encoding for geometric awareness in video DiTs. <0.1% parameter overhead, zero-initialized drop-in module. Improves camera controllability, cross-frame 3D consistency, overall FID. CORRECTED prior cycle 4 rejection ("incremental, low practical impact") — actual paper has significant VFX implications for multi-camera scene generation and virtual camera workflows. Contradiction flagged: June 26 daily scan had incorrect arXiv ID (2606.24217 vs actual 2606.27345) and wrong benchmark details.
+Filed:
+- LEARNING/Knowledge/AI-Video/raype-ray-space-positional-encoding.md (RayPE, score 9/10, with contradiction callout for prior scan error)
+Updated: index.md (+1 entry in AI-Video), log.md
+Rejected items: NaviCache (test-time caching — too narrow/specialized per eval a-04 "practical applicability to ComfyUI or VFX"), ResilPhase (diffusion acceleration — no VFX/ComfyUI deployment path yet per eval a-04), CHIA framework (hardware co-design — outside domain scope per search config), DnA (denoising attention for perception — cs.CV but perception not generation/editing). Scan covered: arXiv cs.CV sort-by-date, camera-controlled video diffusion, diffusion acceleration, ComfyUI/node automation queries. No new HuggingFace or ComfyUI releases found via atom/RSS feeds (ComfyUI atoms dead, HF papers page redirected).
+
 ## [2026-06-27] autoresearch | Autonomous scan cycle 4 — PhysiFormer filed (cycle 4)
 Auto-discovered from arXiv cs.CV latest submissions (2606.2xxxx series). Evaluated against 10 assertions:
 - PhysiFormer scored 9/10 — diffusion transformer for 3D physical motion simulation via world-space vertex trajectory prediction with factorized attention (time/space/object). No explicit physics constraints — dynamics learned from ~100K simulated trajectories. VFX relevance: post-gen dynamics layer for AI video, pre-vis motion futures, 3D compositing integration.

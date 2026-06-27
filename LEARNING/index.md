@@ -3,6 +3,7 @@
 > Updated: 2026-06-27
 
 ## AI-Video
+- **RayPE — Ray-Space Positional Encoding** — Plucker coordinate-based positional encoding that injects 6D ray geometry into self-attention Q/K for native 3D awareness in video diffusion transformers. <0.1% parameter overhead, zero-initialized drop-in module. Improves camera controllability and cross-frame 3D consistency (arXiv 2606.27345, 2026-06-25)
 - **AI-Video-Tools** — Overview of AI video tools (Runway, Kling, MiniMax, ComfyUI...)
 - **Physics Question Scene Graph (PQSG)** — Hierarchical VLM-driven fine-grained evaluation of physical plausibility in generated video. FinePhyEval dataset benchmarks Sora v2, Veo 3, Wan 2.1; closed-source models rank higher on physics realism (2026-06-25)
 - **Wan-Streamer v0.1** — Native-streaming end-to-end interactive foundation model with block-causal attention for sub-second duplex audio-visual interaction (~200ms model latency, ~550ms total at 25fps). Eliminates cascaded VAD→ASR→LLM→TTS→animation pipeline (2026-06-25)
