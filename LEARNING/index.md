@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-06-26
+> Updated: 2026-06-27
 
 ## AI-Video
 - **AI-Video-Tools** — Overview of AI video tools (Runway, Kling, MiniMax, ComfyUI...)
@@ -24,6 +24,7 @@
 - **Ask-Solve-Generate — Self-Evolving Unified LMM Training** — Framework that improves both visual understanding and image generation in unified multimodal models using only unlabeled images and internal consistency signals. Tested across BLIP3o, BAGEL, VARGPT architectures (arXiv 2606.27376, 2026-06-25)
 
 ## AI-3D
+- **PhysiFormer — Diffusion Transformer for 3D Physical Motion** — Simulates physically-plausible 3D object motion by predicting vertex trajectories directly in world coordinates via a single denoising diffusion process, with attention factorized over time, space, and objects. No explicit physics constraints needed — dynamics learned from data (arXiv 2606.27364, 2026-06-25)
 - [3D generation]
 
 ## Filmmaking

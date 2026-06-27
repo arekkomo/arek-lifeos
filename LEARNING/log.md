@@ -212,6 +212,14 @@ Routed to Coach. Created: HEALTH/Health-Knowledge/micro-habits-protocol.md with 
 ## [2026-05-13] note | raw/ scan — no new files
 No new files in raw/ (excluding archived/ and notion-export/) — nothing to ingest.
 
+## [2026-06-27] autoresearch | Autonomous scan cycle 4 — PhysiFormer filed (cycle 4)
+Auto-discovered from arXiv cs.CV latest submissions (2606.2xxxx series). Evaluated against 10 assertions:
+- PhysiFormer scored 9/10 — diffusion transformer for 3D physical motion simulation via world-space vertex trajectory prediction with factorized attention (time/space/object). No explicit physics constraints — dynamics learned from ~100K simulated trajectories. VFX relevance: post-gen dynamics layer for AI video, pre-vis motion futures, 3D compositing integration.
+Filed:
+- LEARNING/Knowledge/AI-3D/physiformer-diffusion-physics-transformer.md (PhysiFormer, score 9/10)
+Updated: index.md (+1 entry in AI-3D), log.md
+Rejected items: NaviCache (test-time caching for video gen — too narrow/specialized), ResilPhase (diffusion acceleration — no VFX/ComfyUI path yet), RayPE (positional encoding research — incremental, low practical impact), NeurVoxel Dynamics (implicit 3D physics — already flagged last cycle, still too early-stage). 4 papers from June 26 daily scan noted for next cycle review.
+
 ## [2026-05-18] note | raw/ scan — no new files
 No new files in raw/ (excluding archived/ and notion-export/) — nothing to ingest.
 
