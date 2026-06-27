@@ -3,6 +3,7 @@
 > Updated: 2026-06-27
 
 ## AI-Video
+- **SAM2Matting — Generalized Video Matting via VOS Tracker** — Decouples video matting into tracker (temporal consistency) + dedicated matting heads (fine-grained alpha). Trained on image-only datasets, yet achieves SOTA on video matting benchmarks with strong out-of-domain generalization. Direct ComfyUI integration path for green screen replacement and multi-layer compositing (arXiv 2606.27339, 2026-06-25)
 - **RayPE — Ray-Space Positional Encoding** — Plucker coordinate-based positional encoding that injects 6D ray geometry into self-attention Q/K for native 3D awareness in video diffusion transformers. <0.1% parameter overhead, zero-initialized drop-in module. Improves camera controllability and cross-frame 3D consistency (arXiv 2606.27345, 2026-06-25)
 - **AI-Video-Tools** — Overview of AI video tools (Runway, Kling, MiniMax, ComfyUI...)
 - **Physics Question Scene Graph (PQSG)** — Hierarchical VLM-driven fine-grained evaluation of physical plausibility in generated video. FinePhyEval dataset benchmarks Sora v2, Veo 3, Wan 2.1; closed-source models rank higher on physics realism (2026-06-25)
@@ -17,6 +18,7 @@
 - **TryOnCrafter** — Camera-controllable video virtual try-on via renderable 4D Gaussian Splatting proxy with DiT backbone (2026-06-25)
 
 ## AI-Image-Midjourney
+- **RoPEMover — Depth-Aware Object Relocation** — Geometry-aware object motion via positional embedding manipulation in diffusion transformers. Moves objects preserving occlusions, shadows, and reflections in single-pass inference. Requires per-model adaptation of RoPE field (arXiv 2606.27332, 2026-06-25)
 - **DanceOPD — On-Policy Generative Field Distillation** — Training framework that unifies T2I, local editing, and global editing in flow-matching models via on-policy generative field distillation. Resolves capability interference during multi-skill training (arXiv 2606.27377, 2026-06-25)
 - **Feature Self-Guidance — Diversity Collapse Mitigation** — Training-free plug-and-play method that disperses internal features during batch inference to mitigate diversity collapse in flow models while preserving fidelity via manifold regularization (arXiv 2606.27371, 2026-06-25)
 - **FLUX.2 Klein Architecture** — BFL's compact diffusion family: KV-cache optimization, FP8, small decoder variants (2026-03–04)

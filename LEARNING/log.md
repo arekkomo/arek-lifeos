@@ -212,6 +212,16 @@ Routed to Coach. Created: HEALTH/Health-Knowledge/micro-habits-protocol.md with 
 ## [2026-05-13] note | raw/ scan — no new files
 No new files in raw/ (excluding archived/ and notion-export/) — nothing to ingest.
 
+## [2026-06-27] autoresearch | Autonomous scan cycle 6 — SAM2Matting and RoPEMover filed (cycle 6)
+Auto-discovered from arXiv cs.CV latest submissions (2606.27xxx series). Evaluated against 10 assertions:
+- SAM2Matting scored ~9/10 — decouples video matting into VOS tracker (temporal consistency) + dedicated matting heads (fine-grained alpha). Trained on image-only data, SOTA on video matting benchmarks. Direct ComfyUI integration path for green screen replacement and multi-layer compositing pipelines
+- RoPEMover scored ~8/10 — geometry-aware object motion via RoPE positional embedding manipulation in diffusion transformers. Single-pass inference preserves occlusions, shadows, reflections. Requires per-model adaptation, tested on FLUX flow-matching backbones
+Filed:
+- LEARNING/Knowledge/AI-Video/sam2matting-video-matting.md (SAM2Matting, score ~9/10)
+- LEARNING/Knowledge/AI-Image-Midjourney/ropemover-depth-aware-object-relocation.md (RoPEMover, score ~8/10)
+Updated: index.md (+2 entries), log.md
+Rejected items: TimeSlice-Nodes (niche creative effect, no reusable VFX component per eval a-04), SCAIL-2 Infinity ComfyUI node (thin adapter over WanSCAILToVideo, no architecture novelty per eval a-09), ComfyUI v0.26.0 release notes (already filed in comfyui-v026-kling-v3-turbo.md, no new partner nodes since last cycle)
+
 ## [2026-06-27] autoresearch | Autonomous scan cycle 5 — RayPE filed with contradiction flag (cycle 5)
 Auto-discovered from arXiv cs.CV latest submissions. Evaluated against 10 assertions:
 - RayPE scored 9/10 — Plucker coordinate-based positional encoding for geometric awareness in video DiTs. <0.1% parameter overhead, zero-initialized drop-in module. Improves camera controllability, cross-frame 3D consistency, overall FID. CORRECTED prior cycle 4 rejection ("incremental, low practical impact") — actual paper has significant VFX implications for multi-camera scene generation and virtual camera workflows. Contradiction flagged: June 26 daily scan had incorrect arXiv ID (2606.24217 vs actual 2606.27345) and wrong benchmark details.
