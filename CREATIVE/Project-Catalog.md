@@ -53,4 +53,4 @@ updated: 2026-06-09
 
 ---
 
-*Catalog updated by Director cron — 2026-07-13 (W29): scanned all of CREATIVE/; zero new projects or files since W28 scan. All idle folders remain empty. Active list unchanged: 5 projects, last known contact Imma Nyala May 15 (~8 weeks ago).*
+*Catalog updated by Director cron — 2026-07-27 (W30): scanned all of CREATIVE/; zero new projects or files since W29 scan. All idle folders remain empty. Active list unchanged: 5 projects, last known contact Imma Nyala May 15 (~8+ weeks ago). Note: Imma Nyala episodes folder contains EP-01-The-Entrance.md (last modified ~Jun 14) with no subsequent changes.*

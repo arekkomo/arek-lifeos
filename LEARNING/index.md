@@ -3,6 +3,9 @@
 > Updated: 2026-06-27
 
 ## AI-Video
+- **NaviCache — Test-Time Self-Calibration Caching** — Plug-and-play video diffusion acceleration modeling feature evolution as an inertial navigation system. Dual-state estimation tracks feature change ratio + latent drift, enabling error-bounded computation skipping without offline calibration. Tested on HunyuanVideo, Wan, Open-Sora (arXiv 2606.26795, 2026-06-25)
+- **DomainShuttle — Subject-Driven T2V with Cross-Domain Flexibility** — Bridges in-domain fidelity and cross-domain editing via Domain-MoT, Video-Reference DualRoPE (separate token spaces), and Cross-Pair Consistent Loss. Enables freeform character-consistent video without per-subject tuning (arXiv 2606.26058, 2026-06-24)
+- **LISA — Likelihood Score Alignment** — Reframes dual-branch conditional generation: side network contributes implicit likelihood score, explicitly aligned via lightweight decoder + regularization loss. Accelerates training convergence, improves disentanglement, zero inference cost (arXiv 2606.27192, 2026-06-25)
 - **SAM2Matting — Generalized Video Matting via VOS Tracker** — Decouples video matting into tracker (temporal consistency) + dedicated matting heads (fine-grained alpha). Trained on image-only datasets, yet achieves SOTA on video matting benchmarks with strong out-of-domain generalization. Direct ComfyUI integration path for green screen replacement and multi-layer compositing (arXiv 2606.27339, 2026-06-25)
 - **RayPE — Ray-Space Positional Encoding** — Plucker coordinate-based positional encoding that injects 6D ray geometry into self-attention Q/K for native 3D awareness in video diffusion transformers. <0.1% parameter overhead, zero-initialized drop-in module. Improves camera controllability and cross-frame 3D consistency (arXiv 2606.27345, 2026-06-25)
 - **AI-Video-Tools** — Overview of AI video tools (Runway, Kling, MiniMax, ComfyUI...)

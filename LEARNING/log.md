@@ -1,5 +1,17 @@
 # Log — Arek's Second Brain
 
+## [2026-06-27] autoresearch | Autonomous scan cycle — 3 new arXiv papers filed (cycle 4)
+Auto-discovered from arXiv cs.CV latest submissions (post-cycle-3, beyond June 26 index). Evaluated against 10 binary assertions:
+- NaviCache scored ~9/10 — test-time self-calibration caching for video diffusion. INS-inspired dual-state estimation provides error-bounded computation skipping without offline calibration data. Highly relevant to ComfyUI inference acceleration workflows.
+- DomainShuttle scored ~9/10 — subject-driven T2V bridging in-domain fidelity and cross-domain editing via Domain-MoT, DualRoPE separation, and Cross-Pair Consistent Loss. Direct applicability to character-consistent video generation without per-subject LoRA tuning.
+- LISA scored ~8/10 — likelihood score alignment for dual-branch conditional generation. Regularization accelerates adapter training convergence (IP-Adapter, ControlNet, subject-DiT) with zero inference overhead.
+Filed:
+- LEARNING/Knowledge/AI-Video/navicache-test-time-caching-source.md (NaviCache, video diffusion acceleration via INS-inspired test-time caching, score ~9/10)
+- LEARNING/Knowledge/AI-Video/domainshuttle-s2v-source.md (DomainShuttle, freeform open-domain subject-driven T2V with cross-domain flexibility, score ~9/10)
+- LEARNING/Knowledge/AI-Video/lisa-likelihood-score-alignment-source.md (LISA, likelihood score regularization for dual-branch conditional generation, score ~8/10)
+Updated: index.md, log.md
+Rejected items: DnA/Denoising Attention (ViT attention mechanism — architecture research, no workflow integration path), ViQ/Text-Aligned Quantized Representations (multimodal VLM encoding — perception focus, outside video gen/VFX scope), RoPEMover already indexed from previous cycle, Causal-rCM already processed, SAM2Matting/RayPE/PhysiFormer/Wan-Streamer/FreeStory/DanceOPD/Feature Self-Guidance/Ask-Solve-Generate all previously filed.
+
 ## [2026-06-26] autoresearch | Autonomous scan cycle — 2 arXiv papers filed (cycle 3)
 Auto-discovered from arXiv cs.CV latest submissions (2606.2xxxx series). Evaluated against 10 assertions:
 - Disco-LoRA scored ~9/10 — disentangled multi-concept video customization with iterative dual-LoRA + Z-score regularization for composable LoRA mixing
