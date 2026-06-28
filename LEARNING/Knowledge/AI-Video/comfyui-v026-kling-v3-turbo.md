@@ -1,41 +1,72 @@
 ---
-title: ComfyUI v0.26 and Kling V3-Turbo Integration
+title: ComfyUI v0.26 Release — Partner Nodes, LTX2 Context Windows, Krea2
 category: update
-summary: ComfyUI reaches v0.26.x with partner node architecture, notably adding native Kling V3-Turbo model support for AI video generation workflows.
-tags: [comfyui, kling, ai-video, workflow, integration, nvidia]
-sources: 1
-updated: 2026-06-24
+summary: ComfyUI v0.26.0 (June 23) adds partner node SDK architecture with Kling V3-Turbo integration, LTX2 context window sampling with IC-LoRa guides, Krea2 and Boogu-Image model support, and SCAIL-2 multireference subject consistency.
+tags: [comfyui, kling, ltx2, krea2, scaill, ai-video, workflow]
+sources: 2
+updated: 2026-06-28
 ---
 
-# ComfyUI v0.26 and Kling V3-Turbo Integration
+# ComfyUI v0.26 Release — Partner Nodes, LTX2 Context Windows, Krea2
 
-ComfyUI passed v0.25.x (June 18) and reached v0.26.0 by June 23, 2026, introducing the **Partner Nodes** architecture that enables third-party AI companies to publish native workflow integrations.
+ComfyUI reached **v0.26.0** on June 23, 2026. This release ships the Partner Nodes SDK architecture, native model integrations (Kling V3-Turbo, Krea2, Boogu-Image), and LTX2 context window sampling with [[ic-lora|IC-LoRa]] conditioning guides. Release cadence accelerated to ~48h cycles.
 
-## Partner Node system
+## Partner Node SDK system
 
-- **What it is** -- A new distribution channel where partner organizations (e.g., [[kling-ai]], Runway, [[minimax]]) publish official ComfyUI nodes with guaranteed API support
-- **Why it matters** -- Previously, community nodes were reverse-engineered and broke on every API change. Partner nodes come with version-pinned SDKs and changelog tracking
-- **First partner node** -- Kling V3-Turbo model support (PR #14528)
+- **What it is** -- Official distribution channel where partner orgs (e.g., [[kling-ai]], Runway, [[minimax]]) publish ComfyUI nodes with guaranteed API support
+- **Version-pinned SDKs** -- Community nodes previously reverse-engineered endpoints and broke on every API change. Partner nodes ship SDK manifests tied to specific API versions
+- **First releases in v0.26** -- Kling V3-Turbo (PR #14528), Luma Rays 3.2 (PR #14540), HappyHorse 1.1 (Alibaba, PR #14581), Grok Image 1080p (PR #14597)
+- **Retry header compliance** -- Partner nodes now respect `Retry-After` HTTP headers for rate-limited APIs (PR #14234)
+
+## LTX2 Context Windows + IC-LoRa guides
+
+- **Context windows sampling** -- LTX2 models now support configurable context window sizes, enabling longer video generation without full recomputation
+- **IC-LoRa conditioning** -- Instance-Conditioned LoRa adapters guide generation within sliding windows, preserving temporal coherence across frame boundaries
+- **PR #13325** by @drozbay (CORE-3). Enables multi-reference subject consistency in LTX2 pipelines
+
+## Krea2 integration
+
+- **Krea AI v2** -- New model support with accurate VRAM usage factor calculation (PR #14589, #14594)
+- Text-to-image generation node with native ComfyUI workflow integration
+- Memory-efficient inference via optimized attention allocation
+
+## SCAIL-2 Multireference
+
+- **Subject consistency** -- SCAIL-2 enables multi-reference image conditioning for character-consistent generation (PR #14509 by @kijai)
+- Combines IP-Adapter-style reference images with flow-matching guidance
+- Applicable to storyboarding and sequence art workflows in [[ai-video-generation]]
+
+## Boogu-Image + Text Encoder updates
+
+- **Boogu-Image** support added (PR #14523) with negative prompt input and min_images=0 for edit-only pipelines
+- **Qwen3-VL as Flux2 Klein text encoder** -- Qwen3-VL can serve as a text encoder for [[flux2-klein|FLUX.2 Klein]] models (PR #14526), enabling vision-language prompting in image generation workflows
+
+## Other v0.26 changes
+
+- int8 quantization support on Turing GPUs (PR #14662)
+- SDPoseDrawKeypoints checkbox for head drawing toggle
+- Load3DAdvanced node for mesh import (PR #14316)
+- Output socket added to save nodes for pipeline chaining
+- Telemetry CLI flag (`--enable_telemetry`)
 
 ## Release timeline
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| v0.26.0 | 2026-06-23 | Updated OpenAPI contract, continued partner node infrastructure |
-| v0.25.1 | 2026-06-18 | **Kling V3-Turbo** partner node (PR #14528) |
-| v0.25.0 | 2026-06-16 | Partner nodes framework foundation, cloud API contract sync |
-| v0.24.0 | 2026-06-03 | Routine updates |
-| v0.23.0 | 2026-06-01 | Feature release cycle accelerating |
+| v0.26.0 | 2026-06-23 | Partner node SDK, Kling V3-Turbo, LTX2 context windows + IC-LoRa, Krea2, Boogu-Image, SCAIL-2 multireference |
+| v0.25.1 | 2026-06-18 | Companion update for partner node infrastructure |
+| v0.25.0 | 2026-06-16 | Partner nodes framework foundation |
 
 ## Practical workflow impact
 
-- **Kling V3-Turbo in ComfyUI** -- Direct text-to-video and video-to-video generation from within ComfyUI workflows, no separate API calls needed
-- **Pipeline chaining** -- Kling output can feed into [[davinci-resolve|DaVinci Resolve]] export nodes for automated post-processing pipelines (when n8n bridges are active)
-- **Multi-model comparison** -- Having Kling, MiniMax, and Open-Sora as parallel ComfyUI nodes enables side-by-side quality testing in the same workflow
+- **Kling V3-Turbo in ComfyUI** -- Direct text-to-video and video-to-video from within ComfyUI, no external API calls
+- **Multi-model comparison** -- Kling, MiniMax, Open-Sora as parallel nodes enables side-by-side quality testing
+- **LTX2 + IC-LoRa** -- Longer videos with consistent characters via context window sampling
+- **SCAIL-2** -- Training-free subject consistency for storyboard and sequence workflows
 
 ## Architecture note
 
-The shift from community reverse-engineered nodes to official partner SDKs signals ComfyUI is maturing from hackable prototype to production workflow engine. This aligns with DGX Spark hosting capabilities -- stable API contracts enable pre-built workflow templates rather than custom scripts.
+Partner SDKs signal ComfyUI's shift from prototype to production workflow engine. Stable API contracts enable pre-built workflow templates. Alignment with DGX Spark hosting capabilities is direct.
 
 ## Related pages
 
@@ -44,5 +75,6 @@ The shift from community reverse-engineered nodes to official partner SDKs signa
 - [[minimax]]
 - [[runway-ml]]
 - [[ai-video-generation]]
-- [[notion-export-ai-video-animation]]
+- [[flux2-klein]]
 - [[agentic-creative-pipelines]]
+- [[notion-export-ai-video-animation]]
