@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-06-27
+> Updated: 2026-06-29
 
 ## AI-Video
 - **NaviCache — Test-Time Self-Calibration Caching** — Plug-and-play video diffusion acceleration modeling feature evolution as an inertial navigation system. Dual-state estimation tracks feature change ratio + latent drift, enabling error-bounded computation skipping without offline calibration. Tested on HunyuanVideo, Wan, Open-Sora (arXiv 2606.26795, 2026-06-25)
@@ -18,7 +18,9 @@
 - **Disco-LoRA** — Disentangled multi-concept video customization: iterative dual-LoRA isolation of content/style/motion with Z-score regularization for composable LoRA mixing in T2V models (arXiv 2606.26668, 2026-06-26)
 - **VPA-Guard and VVA-Bench for I2V Safety** — Benchmark and defense for visual prompt attacks on image-to-video models. Wan 2.7 at 100% ASR; VPA-Guard reduces by 44.2% (2026-06-24)
 - **MVTrack4Gen** — Motion-aware training framework using multi-view point tracking as geometric supervision for novel-view video diffusion models (2026-06-25)
-- **TryOnCrafter** — Camera-controllable video virtual try-on via renderable 4D Gaussian Splatting proxy with DiT backbone (2026-06-25)
+- **VLX-Seek — Fine-Grained VLM Localization via Region Tokens** — On-device VLM localization that replaces coordinate generation with region reference tokens for exact multi-object detection on embedded vision (omlab, June 2026)
+- **VLX-Flow — Continuous Video Understanding** — Streaming video architecture that processes chunks incrementally with two-layer memory state. Sub-500ms latency for real-time VLM queries on live feeds and edge devices (omlab, June 26 2026)
+- **TryOnCrafter** — Camera-controllable virtual try-on via renderable 4D Gaussian Splatting proxy with DiT backbone (2026-06-25)
 
 ## AI-Image-Midjourney
 - **RoPEMover — Depth-Aware Object Relocation** — Geometry-aware object motion via positional embedding manipulation in diffusion transformers. Moves objects preserving occlusions, shadows, and reflections in single-pass inference. Requires per-model adaptation of RoPE field (arXiv 2606.27332, 2026-06-25)
@@ -27,6 +29,7 @@
 - **FLUX.2 Klein Architecture** — BFL's compact diffusion family: KV-cache optimization, FP8, small decoder variants (2026-03–04)
 
 ## AI-Agents
+- **ComfyUI MCP Agent Panel** — Autonomous AI agent in ComfyUI sidebar that drives canvas edits via natural language. Supports Claude or ChatGPT subscription with no API keys. Part of comfyui-mcp orchestration project (artokun, June 2026)
 - **Ask-Solve-Generate — Self-Evolving Unified LMM Training** — Framework that improves both visual understanding and image generation in unified multimodal models using only unlabeled images and internal consistency signals. Tested across BLIP3o, BAGEL, VARGPT architectures (arXiv 2606.27376, 2026-06-25)
 
 ## AI-3D
