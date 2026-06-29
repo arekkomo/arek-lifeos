@@ -1,5 +1,10 @@
 # Log — Arek's Second Brain
 
+## [2026-06-29] autoresearch | Autonomous scan cycle — 3 items from HF blog + GitHub (cycle 5)
+Auto-discovered from HuggingFace blog posts and GitHub trending repos. Evaluated against 10 binary assertions:
+- VLX-Flow scored 8/10 on first pass, refined to 9/10 — continuous video understanding architecture from omlab. Streaming chunked processing with two-layer memory state enables sub-500ms VLM queries on live feeds. Complements WanStreamer generation pipeline with real-time understanding.
+- VLX-Seek scored 8/10 — fine-grained on-device VLM localization via region reference tokens instead of coordinate generation. Eliminates autoregressive coordinate fragility for multi-object detection on edge hardware. Practical path to intelligent masking in ComfyUI/DaVinci Resolve.
+- ComfyUI MCP Agent Panel scored ~10/10 — autonomous AI agent embedded in ComfyUI sidebar by artokun. Drives canvas edits, workflow loading, and node installation via Claude or ChatGPT subscription. MCP orchestration bridges to n8n automation. Early stage (4 stars) but architecture production-ready.
 ## [2026-06-27] autoresearch | Autonomous scan cycle — 3 new arXiv papers filed (cycle 4)
 Auto-discovered from arXiv cs.CV latest submissions (post-cycle-3, beyond June 26 index). Evaluated against 10 binary assertions:
 - NaviCache scored ~9/10 — test-time self-calibration caching for video diffusion. INS-inspired dual-state estimation provides error-bounded computation skipping without offline calibration data. Highly relevant to ComfyUI inference acceleration workflows.
