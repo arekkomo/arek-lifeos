@@ -1,5 +1,15 @@
 # Log — Arek's Second Brain
 
+## [2026-06-30] autoresearch | Autonomous scan cycle 7 — 2 arXiv papers filed
+Auto-discovered from arXiv cs.CV latest submissions (June 29–30). Evaluated against 10 binary assertions:
+- Goku scored 9/10 — 2M-pair instruction-based video editing dataset with structural manipulation beyond appearance-only edits. Dual-branch Goku-Edit model (MLLM text encoder + mask branch for structural control). Goku-Bench: 1K test cases, 7 new metrics. +8% instruction following vs baselines. Direct relevance to video editing workflows in ComfyUI.
+- StereoGS scored 9/10 — Sparse-view 3D Gaussian Splatting via stereo priors instead of monocular depth. Virtual stereo pairs enforce absolute scale and binocular consistency. Gradient-aware opacity decay prunes redundant Gaussians. Zero inference overhead. SOTA on LLFF, DTU, Mip-NeRF360.
+Filed:
+- LEARNING/Knowledge/AI-Video/goku-million-scale-video-editing.md (Goku, arXiv 2606.30599)
+- LEARNING/Knowledge/AI-3D/StereoGS-sparse-view-gaussian-splatting.md (StereoGS, arXiv 2606.30545)
+Updated: index.md, log.md
+Rejected items: VLK loco-manipulation (robotics domain outside scope), LeVo 2 song generation (audio/music not current scan focus), Open-Vocab Segmentation for 3DGS (embodied AI tracking, tangential to VFX/filmmaking workflow)
+
 ## [2026-06-29] autoresearch | Autonomous scan cycle 6 — 4 arXiv papers filed (post-cycle-5, June 23-21 backlog)
 Auto-discovered from arXiv cs.CV latest submissions. Evaluated against 10 binary assertions:
 - OrbitForge scored 9/10 — reconstruction-anchored text-to-3D scene generation via frozen text-to-video prior + deformable Gaussian Splatting. No fine-tuning or SDS optimization needed. 359° median view span. Direct ComfyUI → GS pipeline for previsualization in filmmaking.

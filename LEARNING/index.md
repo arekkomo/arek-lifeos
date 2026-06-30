@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-06-29 (cycle 6)
+> Updated: 2026-06-30 (cycle 7)
 
 ## AI-Video
 - **NaviCache — Test-Time Self-Calibration Caching** — Plug-and-play video diffusion acceleration modeling feature evolution as an inertial navigation system. Dual-state estimation tracks feature change ratio + latent drift, enabling error-bounded computation skipping without offline calibration. Tested on HunyuanVideo, Wan, Open-Sora (arXiv 2606.26795, 2026-06-25)
@@ -24,6 +24,7 @@
 - **OrbitForge** — Reconstruction-anchored text-to-3D: converts single text-generated video into closed-orbit Gaussian Splatting scene using frozen video prior + deformable GS, no fine-tuning or SDS optimization. 359° median view span on T3Bench (arXiv 2606.24799, 2026-06-23)
 - **DramaDirector** — Geometry-guided short-drama generation using depth-pose reference gallery, schema-constrained SFT + GRPO under text-visual reward. DramaBoard benchmark: 81K shots from 35 live-action dramas (arXiv 2606.24107, 2026-06-23)
 - **Gazer** — Training-free mid-generation semantic correction for autoregressive visual models via VLM feedback loop with reflective diagnosis + trajectory rewinding. Improves compositional accuracy without additional training (arXiv 2606.22550, 2026-06-21)
+- **Goku — Million-Scale Video Editing Dataset** — 2M-pair dataset extending instruction-based video editing from appearance-only to multi-task structural manipulation. Dual-branch Goku-Edit model uses MLLM text encoder + dedicated mask branch for structural control. Goku-Bench: 1K test cases, 7 editing-specific metrics. +8% instruction following vs open-source baselines (arXiv 2606.30599, 2026-06-29)
 - **Infinite-Length Video** — Minute-level video synthesis using hybrid causal-bidirectional attention across clips, KV caching for constant memory budget, and truncation-rectified flow (T-RFlow) to suppress error accumulation in long sequences (arXiv 2606.22370, 2026-06-21)
 
 ## AI-Image-Midjourney
@@ -38,6 +39,7 @@
 
 ## AI-3D
 - **PhysiFormer — Diffusion Transformer for 3D Physical Motion** — Simulates physically-plausible 3D object motion by predicting vertex trajectories directly in world coordinates via a single denoising diffusion process, with attention factorized over time, space, and objects. No explicit physics constraints needed — dynamics learned from data (arXiv 2606.27364, 2026-06-25)
+- **StereoGS — Sparse-View 3D Gaussian Splatting via Stereo Priors** — Replaces monocular depth priors with binocular stereo regularization for reliable geometry under sparse views. Virtual stereo pairs + foundation stereo model enforce absolute scale and cross-view consistency. Gradient-aware opacity decay prunes redundant primitives. Consistency-aware dense initialization anchors primitives before optimization. SOTA on LLFF, DTU, Mip-NeRF360 at 3–8 views with zero inference overhead (arXiv 2606.30545, 2026-06-29)
 - [3D generation]
 
 ## Filmmaking
