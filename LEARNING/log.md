@@ -1,5 +1,30 @@
 # Log — Arek's Second Brain
 
+## [2026-07-01] autoresearch | Autonomous scan cycle 8 — 5 papers filed (arXiv cs.CV June 28-30 backlog)
+Auto-discovered from arXiv cs.CV RSS feed (June 28–30, 2026 batch). Scanned 72+ keyword-matching candidates; scored against 10-assertion eval framework. Also verified: daily-scan-2026-06-27-source.md contained fabricated arXiv paper descriptions (IDs 2606.24175, 2606.24176, 2606.24187 all misattributed — see skill pitfall on secondary scan integrity). Those phantom items were NOT indexed and remain excluded.
+
+Items filed:
+- **LatSearch** (9/10) — Latent reward-guided inference-time scaling for video diffusion. Scores partially-denoised latents (not decoded frames) for quality/motion/text alignment, enabling efficient RGRP search without full decode pipeline. Directly tested on Wan2.1 + VBench-2.0.
+  → LEARNING/Knowledge/AI-Video/latsearch-latent-reward-guided-search-video-diffusion.md
+
+- **Vivid-VR** (9/10) — Concept distillation for photorealistic video restoration via T2V DiT foundation model teacher, preventing fine-tuning distribution drift. Dual-branch ControlNet connector (MLP mapping + cross-attention). Strong on both real degraded and AIGC-generated footage.
+  → LEARNING/Knowledge/AI-Video/vivid-vr-concept-distillation-video-restoration.md
+
+- **Delta Forcing** (8/10) — Trust region steering for interactive autoregressive video generation. Detects teacher-induced trajectory drift via latent delta estimation; adaptive trust region shrinks when teacher diverges from continuity objective. Drop-in training regularization.
+  → LEARNING/Knowledge/AI-Video/delta-forcing-trust-region-steering-ar-video.md
+
+- **RefAlign** (8/10) — Explicit representation alignment for reference-to-video generation. Contrastive pull/push loss aligns DiT reference features to frozen VFM space, eliminating copy-paste artifacts and multi-subject confusion. Zero inference overhead.
+  → LEARNING/Knowledge/AI-Video/refalign-reference-to-video-representation-alignment.md
+
+- **SSM-Meets-Video-Diffusion** (8/10) — Bidirectional SSM (Mamba) blocks replace attention temporal layers, achieving linear O(n) scaling vs quadratic O(n²). Less VRAM for equal FVD, enabling longer clip generation without memory explosion.
+  → LEARNING/Knowledge/AI-Video/ssm-meets-video-diffusion-sources.md
+
+Updated: index.md (5 new entries + cycle date), log.md (this entry)
+
+Rejected items: Satsplat (satellite imagery — remote sensing, out of scope); SemDynReg (4D Gaussian splatting — robotics SLAM domain); COGS/Interaction4D-GS (hand-object interaction reconstruction — human robotics tangential); RenderFormer++ (general neural rendering benchmark — lacks video/VFX specificity); numerous 3D GS papers focused on urban mapping, satellite imagery, underwater scenes, or medical imaging. Total rejected: ~67 items (mostly out-of-domain Gaussian splatting variants).
+
+Note: Web search subagent and Semantic Scholar subagent also dispatched but returned no additional high-scoring candidates beyond the arXiv pipeline above. ComfyUI releases API (api.comfy.org) returned 400 — endpoint may be deprecated or require auth.
+
 ## [2026-06-30] autoresearch | Autonomous scan cycle 7 — 2 arXiv papers filed
 Auto-discovered from arXiv cs.CV latest submissions (June 29–30). Evaluated against 10 binary assertions:
 - Goku scored 9/10 — 2M-pair instruction-based video editing dataset with structural manipulation beyond appearance-only edits. Dual-branch Goku-Edit model (MLLM text encoder + mask branch for structural control). Goku-Bench: 1K test cases, 7 new metrics. +8% instruction following vs baselines. Direct relevance to video editing workflows in ComfyUI.

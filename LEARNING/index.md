@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-06-30 (cycle 7)
+> Updated: 2026-07-01 (cycle 8)
 
 ## AI-Video
 - **NaviCache — Test-Time Self-Calibration Caching** — Plug-and-play video diffusion acceleration modeling feature evolution as an inertial navigation system. Dual-state estimation tracks feature change ratio + latent drift, enabling error-bounded computation skipping without offline calibration. Tested on HunyuanVideo, Wan, Open-Sora (arXiv 2606.26795, 2026-06-25)
@@ -26,6 +26,11 @@
 - **Gazer** — Training-free mid-generation semantic correction for autoregressive visual models via VLM feedback loop with reflective diagnosis + trajectory rewinding. Improves compositional accuracy without additional training (arXiv 2606.22550, 2026-06-21)
 - **Goku — Million-Scale Video Editing Dataset** — 2M-pair dataset extending instruction-based video editing from appearance-only to multi-task structural manipulation. Dual-branch Goku-Edit model uses MLLM text encoder + dedicated mask branch for structural control. Goku-Bench: 1K test cases, 7 editing-specific metrics. +8% instruction following vs open-source baselines (arXiv 2606.30599, 2026-06-29)
 - **Infinite-Length Video** — Minute-level video synthesis using hybrid causal-bidirectional attention across clips, KV caching for constant memory budget, and truncation-rectified flow (T-RFlow) to suppress error accumulation in long sequences (arXiv 2606.22370, 2026-06-21)
+- **LatSearch — Latent Reward-Guided Inference-Time Scaling** — Separate reward model scores partially denoised latents (not decoded frames) for visual quality, motion quality, and text alignment along the denoising trajectory. Reward-Guided Resampling & Pruning (RGRP) in latent space enables efficient search without full video decoding. Consistently improves Wan2.1 quality across VBench-2.0 dimensions with manageable inference overhead (arXiv 2603.14526, 2026-03)
+- **Vivid-VR — Concept Distillation for Video Restoration** — DiT-based restoration via concept distillation from pretrained T2V foundation model instead of conventional fine-tuning, preventing distribution drift. Dual-branch ControlNet connector: MLP feature mapping (static control transfer) + cross-attention (dynamic modulation). Strong on both real degraded footage and AIGC-generated video artifact correction (arXiv 2508.14483, 2025-08)
+- **Delta Forcing — Trust Region Steering for AR Video** — Detects teacher-induced trajectory drift in streaming autoregressive generation via latent delta estimation between teacher and student. Adapters trust region shrinks when teacher diverges from monotonic continuity objective, suppressing unreliable shifts while preserving event reactivity. Drop-in training regularization (arXiv 2605.14382, 2026-05)
+- **RefAlign — Explicit Representation Alignment for R2V** — Pull/push contrastive loss aligns DiT reference-branch features to frozen VFM semantic space: same-subject attraction, different-subject repulsion. Eliminates copy-paste artifacts and multi-subject confusion in reference-to-video generation. Training-only with zero inference overhead, improves TotalScore on OpenS2V-Eval (arXiv 2603.25743, 2026-03)
+- **SSM-Meets-Video-Diffusion — Structured State Spaces Replace Attention** — Bidirectional SSM blocks (Mamba) replace attention temporal layers in video diffusion, achieving linear O(n) vs quadratic O(n²) scaling for sequence length. Less GPU memory for equal FVD, often better performance at comparable VRAM. Enables longer clip generation without memory explosion (arXiv 2403.07711, 2026-03)
 
 ## AI-Image-Midjourney
 - **RoPEMover — Depth-Aware Object Relocation** — Geometry-aware object motion via positional embedding manipulation in diffusion transformers. Moves objects preserving occlusions, shadows, and reflections in single-pass inference. Requires per-model adaptation of RoPE field (arXiv 2606.27332, 2026-06-25)
