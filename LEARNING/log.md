@@ -1,5 +1,19 @@
 # Log — Arek's Second Brain
 
+## [2026-06-29] autoresearch | Autonomous scan cycle 6 — 4 arXiv papers filed (post-cycle-5, June 23-21 backlog)
+Auto-discovered from arXiv cs.CV latest submissions. Evaluated against 10 binary assertions:
+- OrbitForge scored 9/10 — reconstruction-anchored text-to-3D scene generation via frozen text-to-video prior + deformable Gaussian Splatting. No fine-tuning or SDS optimization needed. 359° median view span. Direct ComfyUI → GS pipeline for previsualization in filmmaking.
+- DramaDirector scored 9/10 — geometry-guided short drama generation with depth-pose reference gallery, GRPO alignment, and DramaBoard benchmark (81K shots, 35 dramas). First systematic multi-shot narrative video pipeline. Source code released.
+- Gazer scored 9/10 — training-free VLM feedback loop for autoregressive visual models: reflective diagnosis of semantic errors mid-generation + trajectory rewinding. Improves compositional accuracy across multiple AVM architectures without additional training.
+- Infinite-Length Video scored 9/10 — hybrid causal-bidirectional attention (bidirectional within clips, causal between clips) + KV caching for theoretically infinite-length generation + T-RFlow to suppress error accumulation at clip boundaries.
+Filed:
+- LEARNING/Knowledge/AI-Video/orbitforge-text-to-3d-reconstruction-anchored.md (OrbitForge, arXiv 2606.24799)
+- LEARNING/Knowledge/AI-Video/drama-director-short-drama-gen.md (DramaDirector, arXiv 2606.24107)
+- LEARNING/Knowledge/AI-Video/gazer-semantic-correction-autoregressive.md (Gazer, arXiv 2606.22550)
+- LEARNING/Knowledge/AI-Video/infinite-length-video-causal-attention.md (Infinite-Length Video, arXiv 2606.22370)
+Updated: index.md, log.md
+Rejected items: StructSplat (generalizable Gaussian Splatting from uncalibrated views — good but tangential to video/VFX focus), MeGAS thermomechanical GS (physics simulation domain), LIT-GS LiDAR-thermal mapping (robotics autonomy, outside scope), MM-TRELLIS autonomous vehicle generation (self-driving domain), PerceptionRubrics multimodal evaluation (general VLM eval, no video gen specificity)
+
 ## [2026-06-29] autoresearch | Autonomous scan cycle — 3 items from HF blog + GitHub (cycle 5)
 Auto-discovered from HuggingFace blog posts and GitHub trending repos. Evaluated against 10 binary assertions:
 - VLX-Flow scored 8/10 on first pass, refined to 9/10 — continuous video understanding architecture from omlab. Streaming chunked processing with two-layer memory state enables sub-500ms VLM queries on live feeds. Complements WanStreamer generation pipeline with real-time understanding.

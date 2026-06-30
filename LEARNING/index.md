@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-06-29
+> Updated: 2026-06-29 (cycle 6)
 
 ## AI-Video
 - **NaviCache — Test-Time Self-Calibration Caching** — Plug-and-play video diffusion acceleration modeling feature evolution as an inertial navigation system. Dual-state estimation tracks feature change ratio + latent drift, enabling error-bounded computation skipping without offline calibration. Tested on HunyuanVideo, Wan, Open-Sora (arXiv 2606.26795, 2026-06-25)
@@ -21,6 +21,10 @@
 - **VLX-Seek — Fine-Grained VLM Localization via Region Tokens** — On-device VLM localization that replaces coordinate generation with region reference tokens for exact multi-object detection on embedded vision (omlab, June 2026)
 - **VLX-Flow — Continuous Video Understanding** — Streaming video architecture that processes chunks incrementally with two-layer memory state. Sub-500ms latency for real-time VLM queries on live feeds and edge devices (omlab, June 26 2026)
 - **TryOnCrafter** — Camera-controllable virtual try-on via renderable 4D Gaussian Splatting proxy with DiT backbone (2026-06-25)
+- **OrbitForge** — Reconstruction-anchored text-to-3D: converts single text-generated video into closed-orbit Gaussian Splatting scene using frozen video prior + deformable GS, no fine-tuning or SDS optimization. 359° median view span on T3Bench (arXiv 2606.24799, 2026-06-23)
+- **DramaDirector** — Geometry-guided short-drama generation using depth-pose reference gallery, schema-constrained SFT + GRPO under text-visual reward. DramaBoard benchmark: 81K shots from 35 live-action dramas (arXiv 2606.24107, 2026-06-23)
+- **Gazer** — Training-free mid-generation semantic correction for autoregressive visual models via VLM feedback loop with reflective diagnosis + trajectory rewinding. Improves compositional accuracy without additional training (arXiv 2606.22550, 2026-06-21)
+- **Infinite-Length Video** — Minute-level video synthesis using hybrid causal-bidirectional attention across clips, KV caching for constant memory budget, and truncation-rectified flow (T-RFlow) to suppress error accumulation in long sequences (arXiv 2606.22370, 2026-06-21)
 
 ## AI-Image-Midjourney
 - **RoPEMover — Depth-Aware Object Relocation** — Geometry-aware object motion via positional embedding manipulation in diffusion transformers. Moves objects preserving occlusions, shadows, and reflections in single-pass inference. Requires per-model adaptation of RoPE field (arXiv 2606.27332, 2026-06-25)
