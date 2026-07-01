@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-01 (cycle 8)
+> Updated: 2026-07-01 (cycle 9)
 
 ## AI-Video
 - **NaviCache — Test-Time Self-Calibration Caching** — Plug-and-play video diffusion acceleration modeling feature evolution as an inertial navigation system. Dual-state estimation tracks feature change ratio + latent drift, enabling error-bounded computation skipping without offline calibration. Tested on HunyuanVideo, Wan, Open-Sora (arXiv 2606.26795, 2026-06-25)
@@ -33,7 +33,9 @@
 - **SSM-Meets-Video-Diffusion — Structured State Spaces Replace Attention** — Bidirectional SSM blocks (Mamba) replace attention temporal layers in video diffusion, achieving linear O(n) vs quadratic O(n²) scaling for sequence length. Less GPU memory for equal FVD, often better performance at comparable VRAM. Enables longer clip generation without memory explosion (arXiv 2403.07711, 2026-03)
 
 ## AI-Image-Midjourney
-- **RoPEMover — Depth-Aware Object Relocation** — Geometry-aware object motion via positional embedding manipulation in diffusion transformers. Moves objects preserving occlusions, shadows, and reflections in single-pass inference. Requires per-model adaptation of RoPE field (arXiv 2606.27332, 2026-06-25)
+|- **Cross-Space Distillation via Bridge** — Lightweight latent-space Interface enables knowledge transfer from high-capacity diffusion teachers like [[Flux]] or SD 3.5 into compact SD 1.5 students despite VAE and latent resolution mismatch. SD 1.5 improved from 5.4 to 9.4 HPSv3 while preserving one-step inference. Drop-in compatible with existing [[ComfyUI]] workflows (arXiv 2606.32020, 2026-07-01)
+|- **SpheRoPE - Zero-Shot 360 Panorama via Spherical RoPE** — Training-free framework that replaces rotary position embeddings with spherical priors for native 360 panorama and video generation using [[Flux]] or [[LTX-Video]] backbones. Harmonic quantization enforces exact ERP periodicity with zero fine-tuning overhead (arXiv 2606.32033, 2026-07-01)
+|- **RoPEMover — Depth-Aware Object Relocation** — Geometry-aware object motion via positional embedding manipulation in diffusion transformers. Moves objects preserving occlusions, shadows, and reflections in single-pass inference. Requires per-model adaptation of RoPE field (arXiv 2606.27332, 2026-06-25)
 - **DanceOPD — On-Policy Generative Field Distillation** — Training framework that unifies T2I, local editing, and global editing in flow-matching models via on-policy generative field distillation. Resolves capability interference during multi-skill training (arXiv 2606.27377, 2026-06-25)
 - **Feature Self-Guidance — Diversity Collapse Mitigation** — Training-free plug-and-play method that disperses internal features during batch inference to mitigate diversity collapse in flow models while preserving fidelity via manifold regularization (arXiv 2606.27371, 2026-06-25)
 - **FLUX.2 Klein Architecture** — BFL's compact diffusion family: KV-cache optimization, FP8, small decoder variants (2026-03–04)

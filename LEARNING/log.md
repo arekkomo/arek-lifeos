@@ -1,5 +1,17 @@
 # Log — Arek's Second Brain
 
+## [2026-07-01] autoresearch | Autonomous scan cycle 9 — 2 papers filed (arXiv cs.CV June 30)
+Auto-discovered from arXiv cs.CV/cs.AI RSS feed. Scanned ~20 candidates via video generation / neural rendering + diffusion / image synthesis queries. Scored against 10-assertion eval framework with iterative refinement (max 3 passes).
+
+Items filed:
+- **Cross-Space Distillation** (8/10 after refinement) — Lightweight Bridge interface enables distillation from modern diffusion teachers like Flux or SD 3.5 into compact SD 1.5 despite VAE latent resolution mismatch. +4 HPSv3 points while preserving one-step inference and ComfyUI compatibility.
+  → LEARNING/Knowledge/AI-Image-Midjourney/cross-space-distillation-bridge.md
+
+- **SpheRoPE** (8/10 after refinement) — Training-free 360 panorama generation via Spherical Rotary Position Embedding replaces standard RoPE in diffusion transformers for native equirectangular projection. Zero-shot, works with Flux.1/2 and LTX-Video backbones.
+  → LEARNING/Knowledge/AI-Image-Midjourney/spherope-spherical-rope-panorama.md
+
+Items rejected as low-quality/noise: ~7 (physics-only papers, CFT math, federated learning, face recognition not relevant to video/VFX domain)
+
 ## [2026-07-01] autoresearch | Autonomous scan cycle 8 — 5 papers filed (arXiv cs.CV June 28-30 backlog)
 Auto-discovered from arXiv cs.CV RSS feed (June 28–30, 2026 batch). Scanned 72+ keyword-matching candidates; scored against 10-assertion eval framework. Also verified: daily-scan-2026-06-27-source.md contained fabricated arXiv paper descriptions (IDs 2606.24175, 2606.24176, 2606.24187 all misattributed — see skill pitfall on secondary scan integrity). Those phantom items were NOT indexed and remain excluded.
 
