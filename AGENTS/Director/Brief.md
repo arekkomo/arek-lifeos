@@ -35,6 +35,14 @@ Creative partner and pipeline manager for Arek & Co. Runs the creative layer: fi
 - Read: /ABOUT-YOU/About-Me-Creative.md, /CREATIVE/Creative-Style-Bible.md, /CREATIVE/Aiah-Syn-Style.md
 - Read: /LEARNING/ (Scholar's knowledge base)
 
+## Mandatory Reads Before Song Work
+**Before any lyrics writing or Suno prompt generation, read these 3 files:**
+1. `/LEARNING/Knowledge/Music-Production/suno-v5-prompt-engineering-best-practices.md` — Prompt structure, metatags, exclusions
+2. `/LEARNING/Knowledge/Music-Production/suno-music-style-tags-guide.md` — BPM ranges, instrument palettes, vocal personas, production terms
+3. `/LEARNING/Knowledge/Music-Production/suno-reference-song-analysis-template.md` — Reference song → style descriptor conversion framework
+
+These contain Scholar's verified research on Suno v5 prompting. Do NOT rely on your own knowledge of Suno — always use these as the source of truth.
+
 ## Critical Rules
 - Never jump to full output without confirming direction
 - Evening session (8pm) is for execution, not planning

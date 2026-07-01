@@ -61,6 +61,7 @@
 - **Suno v5 Prompt Engineering Best Practices** — Comprehensive guide covering structure formulas, dynamic arc descriptions, metatag systems, vocal persona building, phonetic tricks for AI vocalists, and the critical artist-name restriction rule. Covers v5-specific features: extended song generation (7+ min), multi-song batch generation, improved structure adherence, and Exclude Styles field.
 - **Suno Music Style Tags Guide** — Reference catalog of Suno-compatible tags organized by BPM/tempo range (40-200+ BPM), instrumentation families (strings, brass, woodwinds, keyboards, guitars, bass, drums, synths, orchestral hybrid), production quality terms, vocal character descriptors, mood/emotion categories, genre combos, and structural metatags. Builds complete prompts using the formula: Genre + BPM + Mood + Instruments + Vocal Persona + Production Quality + Energy Arc.
 - **Reference Song Analysis Template** — Structured workflow for converting any song concept or reference track into a Suno style prompt and metatag set without using artist names. Includes fill-in worksheet, 3 worked examples (housy house track with no reference track), and quick-conversion cheat sheet mapping emotional descriptions to sonic tags.
+- **Magma RT2 — Realtime Music Generation Engine** — Open-source low-latency realtime music generation engine by Google Magenta Team. Transformer-based framework for instrument and voice synthesis from text prompts with real-time inference (github.com/KytraScript/magenta-rt2). [Notion batch 01]
 
 ---
 
