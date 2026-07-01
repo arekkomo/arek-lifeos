@@ -1,5 +1,22 @@
 # Log — Arek's Second Brain
 
+## [2026-07-01] autoresearch | Autonomous scan cycle 10 — 3 items filed (arXiv cs.CV + PyTorch blog)
+Auto-discovered from arXiv cs.CV RSS feed and PyTorch blog. Scanned ~15 candidates via video generation / diffusion guidance queries. Scored against 10-assertion eval framework with iterative refinement (max 3 passes).
+
+Items filed:
+- **Shell-LCC** (10/10 after refinement pass 2) — Shell Local Coordinate Coding derives cost-free reward signals from SFT training data manifold structure for text-to-video quality improvement. No extra compute, no separate reward model weights. Direct ComfyUI integration path as custom guidance node. Model-agnostic across Wan/HunyuanVideo/CogVideoX.
+  → LEARNING/Knowledge/AI-Video/shell-lcc-manifold-reward-t2v.md
+
+- **DiffRGD** (10/10 after refinement pass 2) — Riemannian optimization on spherical manifolds for inference-time diffusion guidance. Preserves latent Gaussian radial structure, eliminating distributional drift from high-CFG sampling artifacts in ComfyUI workflows.
+  → LEARNING/Knowledge/AI-Video/diffrgd-riemannian-gradient-diffusion.md
+
+- **Helion Kernels** (9/10 after refinement pass 2) — PyTorch's auto-tuning compiler generates hardware-optimized inference kernels from standard Python for vLLM serving. Applicable to diffusion model attention loops in ComfyUI backends via kernel fusion patterns.
+  → LEARNING/Knowledge/AI-Agents/helion-vllm-kernels-diffusion-serving.md
+
+Items rejected as low-quality/noise: ~5 (DiTracker point tracking from VFM features — Dec 2025 too old; AHOY Gaussian avatar reconstruction — Mar 2026 stale; Lumos-Nexus frequency bridging framework — May 2026 marginal recency)
+
+Updated: index.md (+3 entries), log.md, cycle counter (9→10)
+
 ## [2026-07-01] autoresearch | Autonomous scan cycle 9 — 2 papers filed (arXiv cs.CV June 30)
 Auto-discovered from arXiv cs.CV/cs.AI RSS feed. Scanned ~20 candidates via video generation / neural rendering + diffusion / image synthesis queries. Scored against 10-assertion eval framework with iterative refinement (max 3 passes).
 

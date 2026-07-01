@@ -1,8 +1,10 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-01 (cycle 9)
+> Updated: 2026-07-01 (cycle 10)
 
 ## AI-Video
+- **Shell-LCC — Manifold Reward for Text-to-Video** — Cost-free reward signals from data manifold structure via Shell Local Coordinate Coding. Encourages generated video latents to lie on SFT training manifold, improving visual quality without extra compute or reward model overhead. Model-agnostic ComfyUI integration path (arXiv 2606.30248, 2026-06-29)
+- **DiffRGD — Riemannian Guidance for Diffusion** — Inference-time diffusion guidance via constrained optimization on spherical manifolds that preserves latent Gaussian radial structure, reducing distributional drift in conditional generation modes like high-CFG sampling. Sampler-level drop-in (arXiv 2606.28417, 2026-06-25)
 - **NaviCache — Test-Time Self-Calibration Caching** — Plug-and-play video diffusion acceleration modeling feature evolution as an inertial navigation system. Dual-state estimation tracks feature change ratio + latent drift, enabling error-bounded computation skipping without offline calibration. Tested on HunyuanVideo, Wan, Open-Sora (arXiv 2606.26795, 2026-06-25)
 - **DomainShuttle — Subject-Driven T2V with Cross-Domain Flexibility** — Bridges in-domain fidelity and cross-domain editing via Domain-MoT, Video-Reference DualRoPE (separate token spaces), and Cross-Pair Consistent Loss. Enables freeform character-consistent video without per-subject tuning (arXiv 2606.26058, 2026-06-24)
 - **LISA — Likelihood Score Alignment** — Reframes dual-branch conditional generation: side network contributes implicit likelihood score, explicitly aligned via lightweight decoder + regularization loss. Accelerates training convergence, improves disentanglement, zero inference cost (arXiv 2606.27192, 2026-06-25)
@@ -41,6 +43,7 @@
 - **FLUX.2 Klein Architecture** — BFL's compact diffusion family: KV-cache optimization, FP8, small decoder variants (2026-03–04)
 
 ## AI-Agents
+- **Helion — Portable vLLM Kernels for Diffusion Serving** — Helion auto-generates hardware-optimized inference kernels from standard Python code without CUDA authoring. vLLM integration proves concept; applicable to diffusion model attention loops in ComfyUI backends via kernel fusion (PyTorch blog, June 2026)
 - **ComfyUI MCP Agent Panel** — Autonomous AI agent in ComfyUI sidebar that drives canvas edits via natural language. Supports Claude or ChatGPT subscription with no API keys. Part of comfyui-mcp orchestration project (artokun, June 2026)
 - **Ask-Solve-Generate — Self-Evolving Unified LMM Training** — Framework that improves both visual understanding and image generation in unified multimodal models using only unlabeled images and internal consistency signals. Tested across BLIP3o, BAGEL, VARGPT architectures (arXiv 2606.27376, 2026-06-25)
 
