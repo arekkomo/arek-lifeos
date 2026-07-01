@@ -1,8 +1,10 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-01 (cycle 10)
+> Updated: 2026-07-01 (cycle 11)
 
 ## AI-Video
+- **GEAR — Joint Tokenizer-Generator Training** — Closes decoupling gap between reconstruction tokenizers and autoregressive generators via end-to-end joint optimization. Tokenizer learns representations that maximally benefit the AR predictor rather than pure reconstruction loss. Compatible with [[DiT]] backbones, drops into [[ComfyUI]] workflows (arXiv 2606.32039, 2026-07-01)
+- **World Narrative Model — Physical World Orchestration** — Frames video generation as explicit 4D instance orchestration rather than pixel distribution sampling. Instance graph with positions, orientations, velocities enables direct camera path and object trajectory control without prompting hacks. Order-of-magnitude controllability improvement on multi-object benchmarks (arXiv 2606.31946, 2026-07-01)
 - **Shell-LCC — Manifold Reward for Text-to-Video** — Cost-free reward signals from data manifold structure via Shell Local Coordinate Coding. Encourages generated video latents to lie on SFT training manifold, improving visual quality without extra compute or reward model overhead. Model-agnostic ComfyUI integration path (arXiv 2606.30248, 2026-06-29)
 - **DiffRGD — Riemannian Guidance for Diffusion** — Inference-time diffusion guidance via constrained optimization on spherical manifolds that preserves latent Gaussian radial structure, reducing distributional drift in conditional generation modes like high-CFG sampling. Sampler-level drop-in (arXiv 2606.28417, 2026-06-25)
 - **NaviCache — Test-Time Self-Calibration Caching** — Plug-and-play video diffusion acceleration modeling feature evolution as an inertial navigation system. Dual-state estimation tracks feature change ratio + latent drift, enabling error-bounded computation skipping without offline calibration. Tested on HunyuanVideo, Wan, Open-Sora (arXiv 2606.26795, 2026-06-25)

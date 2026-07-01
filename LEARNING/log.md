@@ -1,10 +1,20 @@
 # Log — Arek's Second Brain
 
+## [2026-07-01] autoresearch | Autonomous scan cycle 11 — 2 items filed (arXiv cs.CV)
+Auto-discovered from arXiv cs.CV queries. Scanned ~24 candidates across video generation, diffusion guidance, and controllable video searches. Scored against 10 assertion eval framework with iterative refinement.
+
+Items filed:
+- **GEAR** (9/10 after pass 1 — joint tokenizer-generator training closes reconstruction-vs-generation gap)
+  → LEARNING/Knowledge/AI-Image-Midjourney/gear-joint-tokenizer-generator-training.md
+
+- **World Narrative Model** (9/10 after pass 1 — 4D physical world orchestration for controllable video generation)
+  → LEARNING/Knowledge/AI-Video/world-narrative-model-physical-orchestration.md
+
 ## [2026-07-01] autoresearch | Autonomous scan cycle 10 — 3 items filed (arXiv cs.CV + PyTorch blog)
 Auto-discovered from arXiv cs.CV RSS feed and PyTorch blog. Scanned ~15 candidates via video generation / diffusion guidance queries. Scored against 10-assertion eval framework with iterative refinement (max 3 passes).
 
-Items filed:
-- **Shell-LCC** (10/10 after refinement pass 2) — Shell Local Coordinate Coding derives cost-free reward signals from SFT training data manifold structure for text-to-video quality improvement. No extra compute, no separate reward model weights. Direct ComfyUI integration path as custom guidance node. Model-agnostic across Wan/HunyuanVideo/CogVideoX.
+
+
   → LEARNING/Knowledge/AI-Video/shell-lcc-manifold-reward-t2v.md
 
 - **DiffRGD** (10/10 after refinement pass 2) — Riemannian optimization on spherical manifolds for inference-time diffusion guidance. Preserves latent Gaussian radial structure, eliminating distributional drift from high-CFG sampling artifacts in ComfyUI workflows.
