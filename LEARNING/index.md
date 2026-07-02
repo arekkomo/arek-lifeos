@@ -1,8 +1,10 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-01 (cycle 11)
+> Updated: 2026-07-02 (cycle 12)
 
 ## AI-Video
+- **TrajLoc — Per-Object Attention Localization** — Replaces cross-attention weights with Gaussian heatmaps per object token for strict spatial trajectory control in I2V. Up to 20 simultaneous objects, +4.3 dB PSNR, 51% endpoint error reduction on CogVideoX 5B and Wan 2.1 14B. Maps directly to VFX node-level compositing workflows (arXiv 2607.00861, 2026-07-01)
+- **Prompt2Effect — Training-Free LoRA Synthesis** — Hypernetwork synthesizes effect-specific LoRA weights in a single forward pass from base model weights + text prompt. SVD-canonicalized parameterization stabilizes large-scale synthesis. 56 GPU training hours → 3.3 seconds (arXiv 2606.13971, 2026-06-11)
 - **GEAR — Joint Tokenizer-Generator Training** — Closes decoupling gap between reconstruction tokenizers and autoregressive generators via end-to-end joint optimization. Tokenizer learns representations that maximally benefit the AR predictor rather than pure reconstruction loss. Compatible with [[DiT]] backbones, drops into [[ComfyUI]] workflows (arXiv 2606.32039, 2026-07-01)
 - **World Narrative Model — Physical World Orchestration** — Frames video generation as explicit 4D instance orchestration rather than pixel distribution sampling. Instance graph with positions, orientations, velocities enables direct camera path and object trajectory control without prompting hacks. Order-of-magnitude controllability improvement on multi-object benchmarks (arXiv 2606.31946, 2026-07-01)
 - **Shell-LCC — Manifold Reward for Text-to-Video** — Cost-free reward signals from data manifold structure via Shell Local Coordinate Coding. Encourages generated video latents to lie on SFT training manifold, improving visual quality without extra compute or reward model overhead. Model-agnostic ComfyUI integration path (arXiv 2606.30248, 2026-06-29)
@@ -46,13 +48,14 @@
 
 ## AI-Agents
 - **Helion — Portable vLLM Kernels for Diffusion Serving** — Helion auto-generates hardware-optimized inference kernels from standard Python code without CUDA authoring. vLLM integration proves concept; applicable to diffusion model attention loops in ComfyUI backends via kernel fusion (PyTorch blog, June 2026)
+- **ComfyUI-OCIO — Nuke-Style Color Management Nodes** — OpenColorIO + ACES integration for ComfyUI. EXR/ProRes I/O, LogConvert, CDL, Display mapping, LookTransform. Brings professional VFX color pipeline into AI generation workflows (github.com/SlavaSexton, 2026-07-02)
 - **ComfyUI MCP Agent Panel** — Autonomous AI agent in ComfyUI sidebar that drives canvas edits via natural language. Supports Claude or ChatGPT subscription with no API keys. Part of comfyui-mcp orchestration project (artokun, June 2026)
 - **Ask-Solve-Generate — Self-Evolving Unified LMM Training** — Framework that improves both visual understanding and image generation in unified multimodal models using only unlabeled images and internal consistency signals. Tested across BLIP3o, BAGEL, VARGPT architectures (arXiv 2606.27376, 2026-06-25)
 
 ## AI-3D
 - **PhysiFormer — Diffusion Transformer for 3D Physical Motion** — Simulates physically-plausible 3D object motion by predicting vertex trajectories directly in world coordinates via a single denoising diffusion process, with attention factorized over time, space, and objects. No explicit physics constraints needed — dynamics learned from data (arXiv 2606.27364, 2026-06-25)
 - **StereoGS — Sparse-View 3D Gaussian Splatting via Stereo Priors** — Replaces monocular depth priors with binocular stereo regularization for reliable geometry under sparse views. Virtual stereo pairs + foundation stereo model enforce absolute scale and cross-view consistency. Gradient-aware opacity decay prunes redundant primitives. Consistency-aware dense initialization anchors primitives before optimization. SOTA on LLFF, DTU, Mip-NeRF360 at 3–8 views with zero inference overhead (arXiv 2606.30545, 2026-06-29)
-- [3D generation]
+- **Ink3D — Video-Prior Texture Synthesis for 3D Assets** — Decouples geometry from texture, using conditional video model to generate dense orbit-scan videos of objects, then neural optimizer bakes coherent UV textures. Bridges gap between sparse 3D data corpora and massive video priors. Rich surface detail beyond what dedicated 3D generators reproduce (arXiv 2607.01222, 2026-07-01)
 
 ## Filmmaking
 - [Visual storytelling, cinematic shooting]

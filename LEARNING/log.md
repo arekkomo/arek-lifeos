@@ -1,5 +1,25 @@
 # Log — Arek's Second Brain
 
+## [2026-07-02] autoresearch | Autonomous scan cycle 12 — 4 items filed (arXiv + GitHub)
+Auto-discovered from arXiv cs.CV RSS feed and GitHub trending searches. Scanned ~34 candidates across video generation, ComfyUI nodes, AI agents/MCP servers, and 3D texture synthesis. Scored against 10-assertion eval framework with iterative refinement (max 3 passes per item).
+
+Items filed:
+- **TrajLoc** (10/10 after pass 1) — Per-object attention localization for multi-object motion control in I2V. +4.3 dB PSNR, 51% endpoint error reduction on CogVideoX 5B and Wan 2.1 14B
+  → LEARNING/Knowledge/AI-Video/trajloc-multi-object-motion-control.md
+
+- **Prompt2Effect** (9/10 after pass 1) — Hypernetwork for training-free LoRA synthesis from text prompts. SVD-canonicalized parameterization, 56 GPU hours → 3.3 seconds
+  → LEARNING/Knowledge/AI-Video/prompt2effect-training-free-lora-synthesis.md
+
+- **Ink3D** (9/10 after pass 1) — Video-prior texture synthesis for 3D assets via decoupled geometry + neural baking from orbit-scan videos
+  → LEARNING/Knowledge/AI-3D/ink3d-video-prior-texture-synthesis.md
+
+- **ComfyUI-OCIO** (8/10 after pass 1) — Nuke-style OpenColorIO color management nodes for ComfyUI. EXR/ProRes I/O, ACES transforms, CDL
+  → LEARNING/Knowledge/AI-Agents/comfyui-ocio-color-management.md
+
+Items rejected as low-quality/noise: ~30 (GimbalDiffusion — Dec 2025 stale; Krea conditioning node — fork of existing work; TrixNodes/TJNODE/Theme/MK-Theme/UI plugins — cosmetic/workflow utilities without algorithmic substance; Open-Generative-AI/Duix-Avatar/Toonflow/KrillinAI/imaginAIry/mmagic/AutoClip/Jellyfish/short-video-factory/Generative-Media-Skills — high GitHub stars but application-level wrappers, not research or tooling with technical depth; super-agent-party/comfyui-LLM-party — interesting but tangential to core domains)
+
+Updated: index.md (+4 entries), log.md, cycle counter (11→12)
+
 ## [2026-07-01] autoresearch | Autonomous scan cycle 11 — 2 items filed (arXiv cs.CV)
 Auto-discovered from arXiv cs.CV queries. Scanned ~24 candidates across video generation, diffusion guidance, and controllable video searches. Scored against 10 assertion eval framework with iterative refinement.
 
