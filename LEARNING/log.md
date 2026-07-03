@@ -379,3 +379,19 @@ No new files in raw/ (excluding archived/ and notion-export/) — nothing to ing
 - Updated: LEARNING/index.md (added source + concept entries)
 ## [2026-05-29] ingest | Automated scan — no new files
 No new files in raw/ — nothing to ingest.
+
+## [2026-07-03] autoresearch | Autonomous scan cycle 14 — 5 arXiv papers filed (July 2 wave)
+Auto-discovered from arXiv cs.CV latest submissions (2607.02xxx series). Evaluated against 10 binary assertions:
+- WorldDirector scored ~9/10 — LLM-coordinated world simulation decouples motion orchestration from visual rendering. Trajectory graph feeds video diffusion as spatial-control signal, enabling persistent entity identity across long occlusion events and unrestricted camera exploration. Direct ComfyUI integration path via trajectory JSON → ControlNet-style conditioning. Significant step for controllable multi-object video generation in filmmaking previs.
+- OrbitQuant scored ~9/10 — Data-agnostic PTQ for DiT backbones via Randomized Permuted Block-Hadamard rotation, eliminating per-checkpoint calibration data. First usable W2A4 on image/video DiTs. Halves GPU memory for Wan 2.1 14B (~28→~14 GB VRAM). Tested across FLUX.1, Wan 2.1, CogVideoX with zero recalibration. Complements [[Helion Kernels]] for end-to-end local inference optimization.
+- PointDiT scored ~9/10 — ICML 2026 acceptance. Plain ViT diffusion on raw point-map patches conditioned on DINOv3 features. Simpler than latent/hybrid approaches while producing sharper geometry and better transparency robustness. Single-image depth for ComfyUI conditioning pipelines, green-screen replacement in DaVinci Resolve compositing.
+- Align4D scored ~8/10 — Unified X-to-4D generation framework (text/image/video → 4D) via dual object-distance alignment (VAOD + MAOD) combining video priors with multiview 3D structure. Asynchronous attribute-deformation optimization improves motion smoothness. Extends beyond static Pano2World and texture-only Ink3D into full dynamic 4D.
+- SimWorlds scored ~8/10 — Multi-agent Blender pipeline (planner-coder-reviewer) generates physically-correct animated scenes from text with runtime-state inspection tools validating physics before rendering. New 4DBuildBench benchmark for physical consistency evaluation in procedurally generated VFX content. Complements WorldDirector at the preproduction stage.
+Filed:
+- LEARNING/Knowledge/AI-Video/worlddirector-llm-coordinated-world-simulation.md (WorldDirector, ~9/10)
+- LEARNING/Knowledge/AI-Agents/orbitquant-data-agnostic-dit-quantization.md (OrbitQuant, ~9/10)
+- LEARNING/Knowledge/AI-3D/simworlds-multi-agent-blender-dynamic-scenes.md (SimWorlds, ~8/10)
+- LEARNING/Knowledge/AI-3D/align4d-cross-modal-dynamic-generation.md (Align4D, ~8/10)
+- LEARNING/Knowledge/AI-3D/pointdit-pixel-space-dit-monocular-geometry.md (PointDiT, ~9/10)
+Updated: index.md (+5 entries across AI-Video, AI-Agents, AI-3D), log.md
+Rejected items: Distributed Attacks on Federated Learning (AI safety domain outside video/VFX scope per eval a-07 domain alignment), LACUNA model unlearning (LLM privacy research, no VFX/filmmaking relevance), Program-as-Weights parameter space study (interesting methodology but architecture study without practical ComfyUI/ComfyUI deployment path per eval a-04), HCMS hardware-aware compute scheduling (hardware optimization narrow to edge deployments, low VFX applicability), Anti-Prompt forensic detection (video forensics niche outside generation/editing focus)
