@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-03 (cycle 14)
+> Updated: 2026-07-03 (cycle 15)
 
 ## AI-Video
 - **WorldDirector — LLM-Coordinated World Simulation** — Two-phase pipeline: LLM generates structured 3D trajectory graph for dynamic entities + synchronized camera paths, then video diffusion model uses trajectory as spatial-control conditioning signal. Persistent entity identity across prolonged occlusion events, unrestricted viewpoint exploration without generation collapse (arXiv 2607.02517, 2026-07-02)
@@ -20,7 +20,8 @@
 - **Physics Question Scene Graph (PQSG)** — Hierarchical VLM-driven fine-grained evaluation of physical plausibility in generated video. FinePhyEval dataset benchmarks Sora v2, Veo 3, Wan 2.1; closed-source models rank higher on physics realism (2026-06-25)
 - **Wan-Streamer v0.1** — Native-streaming end-to-end interactive foundation model with block-causal attention for sub-second duplex audio-visual interaction (~200ms model latency, ~550ms total at 25fps). Eliminates cascaded VAD→ASR→LLM→TTS→animation pipeline (2026-06-25)
 - **FreeStory** — Training-free character consistency for free-form visual storytelling via entity-grounded feature reuse (dynamic masks, correspondence-aware matching, KV injection, query blending). FreeStoryBench benchmark included (2026-06-25)
-- **ComfyUI v0.26 + Kling V3-Turbo** — Partner node architecture with native Kling V3-Turbo support (2026-06-24)
+- **MrFlow** — Training-free 10x diffusion acceleration via multi-resolution flow matching sampling pipeline with GAN-based pixel-space super-resolution and low-strength noise injection for high-frequency refinement. Tested on FLUX.1-dev, Qwen-Image (<1% OneIG gap, arXiv 2607.01642, 2026-07-02)
+- **TempAct** — LLM planner-executor RL framework for chunk-wise autoregressive video generation: span-aware step prompts + hierarchical group exploration credit assignment eliminate delayed reactions, blended semantics, and error propagation across temporal transitions (arXiv 2606.28016v2, 2026-07)
 - **ISPA — Instance-Specific Parametric Absorption** — Distills KV cache context into model weights via closed-form least-squares instead of dropping tokens. Removes up to 50% of KV cache with near-lossless quality in autoregressive video, preventing temporal flickering and identity loss. Works across 1.3B–14B architectures at inference time (arXiv, 2026-07-01)
 - **Vega — Unified Video Understanding + Generation** — Hybrid AR + diffusion architecture: AR predicts semantic keyframe tokens, diffusion renders dense high-res frames from the same shared vocabulary. Single model replaces cascaded VLM+T2V pipeline (arXiv 2606.31946, 2026-07-01)
 - **AVTok — Unified 1D Audio-Video Tokenization** — Dual-stream transformer encodes audio-video pairs into compact 1D latent via unified codebook, eliminating modal representation gap. Enables audio-to-video, video-to-audio, and joint generation with native synchronization (arXiv, 2026-07-01)
