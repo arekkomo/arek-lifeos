@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-02 (cycle 12)
+> Updated: 2026-07-02 (cycle 13)
 
 ## AI-Video
 - **GimbalDiffusion — Gravity-Aware Camera Control for Video Generation** — Defines camera trajectories in absolute world coordinates using gravity as a global reference (like a real gimbal), enabling precise 180° turnarounds and extreme pitch/roll. Trained on 360° panoramic videos to cover out-of-distribution camera angles. Null-pitch conditioning prevents prompt-camera conflict. New benchmarks for extreme-angle fidelity (arXiv 2512.09112v3, updated 2026-07-01)
@@ -20,6 +20,10 @@
 - **Wan-Streamer v0.1** — Native-streaming end-to-end interactive foundation model with block-causal attention for sub-second duplex audio-visual interaction (~200ms model latency, ~550ms total at 25fps). Eliminates cascaded VAD→ASR→LLM→TTS→animation pipeline (2026-06-25)
 - **FreeStory** — Training-free character consistency for free-form visual storytelling via entity-grounded feature reuse (dynamic masks, correspondence-aware matching, KV injection, query blending). FreeStoryBench benchmark included (2026-06-25)
 - **ComfyUI v0.26 + Kling V3-Turbo** — Partner node architecture with native Kling V3-Turbo support (2026-06-24)
+- **ISPA — Instance-Specific Parametric Absorption** — Distills KV cache context into model weights via closed-form least-squares instead of dropping tokens. Removes up to 50% of KV cache with near-lossless quality in autoregressive video, preventing temporal flickering and identity loss. Works across 1.3B–14B architectures at inference time (arXiv, 2026-07-01)
+- **Vega — Unified Video Understanding + Generation** — Hybrid AR + diffusion architecture: AR predicts semantic keyframe tokens, diffusion renders dense high-res frames from the same shared vocabulary. Single model replaces cascaded VLM+T2V pipeline (arXiv 2606.31946, 2026-07-01)
+- **AVTok — Unified 1D Audio-Video Tokenization** — Dual-stream transformer encodes audio-video pairs into compact 1D latent via unified codebook, eliminating modal representation gap. Enables audio-to-video, video-to-audio, and joint generation with native synchronization (arXiv, 2026-07-01)
+- **EcoVideo — Entropy-Orchestrated Cloud-Edge Video Generation** — Self-attention entropy estimates frame-wise information density; high-entropy frames denoised on cloud GPU, low-entropy frames reconstructed via edge interpolation. Adapts to real-time bandwidth/compute constraints, up to 2.9x speedup (arXiv, 2026-06-29)
 - **ComfyUI Compendium** — DGX Spark ComfyUI maintenance reference
 - **LiveEdit** — Real-time diffusion-based streaming video editing via three-stage distillation (bidirectional→unidirectional). 12.66 FPS causal frame-by-frame editing with AR mask cache for VFX interactive workflows (arXiv 2606.26740, 2026-06-26)
 - **Disco-LoRA** — Disentangled multi-concept video customization: iterative dual-LoRA isolation of content/style/motion with Z-score regularization for composable LoRA mixing in T2V models (arXiv 2606.26668, 2026-06-26)
@@ -52,6 +56,7 @@
 - **Helion — Portable vLLM Kernels for Diffusion Serving** — Helion auto-generates hardware-optimized inference kernels from standard Python code without CUDA authoring. vLLM integration proves concept; applicable to diffusion model attention loops in ComfyUI backends via kernel fusion (PyTorch blog, June 2026)
 - **ComfyUI-OCIO — Nuke-Style Color Management Nodes** — OpenColorIO + ACES integration for ComfyUI. EXR/ProRes I/O, LogConvert, CDL, Display mapping, LookTransform. Brings professional VFX color pipeline into AI generation workflows (github.com/SlavaSexton, 2026-07-02)
 - **ComfyUI MCP Agent Panel** — Autonomous AI agent in ComfyUI sidebar that drives canvas edits via natural language. Supports Claude or ChatGPT subscription with no API keys. Part of comfyui-mcp orchestration project (artokun, June 2026)
+- **ComfyUI v0.27** — Native int8 convolution support with progressive optimizations (faster kernel, Turing GPU compat, lora fix, memory leak fix). Partner nodes: HappyHorse 1.1, SeeDance 2.0-Mini w/ 4K, Nano Banana 2 Lite. New core: Seed node, bounding box canvas + Ideogram JSON prompt, advanced Krea 2 merging, ConditioningMultiply (github release 2026-06-30)
 - **Ask-Solve-Generate — Self-Evolving Unified LMM Training** — Framework that improves both visual understanding and image generation in unified multimodal models using only unlabeled images and internal consistency signals. Tested across BLIP3o, BAGEL, VARGPT architectures (arXiv 2606.27376, 2026-06-25)
 
 ## AI-3D
@@ -81,9 +86,8 @@
 ## Status
 
 ### Working well
-- All agents active (8 total)
-- ComfyUI on DGX Spark fully operational v0.26.0 (partner node architecture, Kling V3-Turbo)
-- Hermes profiles: systems, coach running
+All agents active (8 total)
+- ComfyUI on DGX Spark fully operational v0.27.0 (native int8 convolution, partner node updates incl. SeeDance 2.0-Mini)- Hermes profiles: systems, coach running
 
 ### Needs attention
 - Custom node compatibility after NumPy fix (was-ns, ComfyUI-Allor now working)
