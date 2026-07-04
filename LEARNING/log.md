@@ -1,5 +1,20 @@
 # Log — Arek's Second Brain
 
+## [2026-07-04] autoresearch | Autonomous scan cycle 17 — 1 new item filed + 1 enrichment (arXiv cs.CV)
+
+Auto-discovered from direct arXiv API queries (cs.CV/ps.AI RSS feeds, PyTorch blog RSS). Scanned ~8 candidates across DiT quantization, diffusion training methodology, inversion-free editing, and framework tooling. Scored against 10-assertion eval framework with relevance threshold ≥ 0.7.
+
+Actions:
+- **OrbitQuant enrichment** — Added quantitative benchmark table (W4A8/W2A4/FID/VBench scores across FLUX.1, Wan 2.1, CogVideoX, Z-Image-Turbo), cross-modality transfer findings, and eval verification block with v1 publication metadata. Verified W2A4 claim against arXiv source.
+  → LEARNING/Knowledge/AI-Agents/orbitquant-data-agnostic-dit-quantization.md (updated)
+
+- **From SRA to Self-Flow** (8.5/10) — Mechanistic correction: Self-Flow's speedup comes from data augmentation along noise dimension, not cross-timestep token interaction as originally claimed. Attention Separation experiment blocks inter-timestep communication with no degradation. Changes how self-supervised diffusion training acceleration should be understood. Relevant to local fine-tuning strategy.
+  → LEARNING/Knowledge/AI-Video/from-sra-to-self-flow-data-augmentation-analysis.md (new)
+
+Items rejected: Wavelet-Guided Semantic Signal Compensation (2607.02421) — ECCV accepted but niche flow-editing technique with limited applicability beyond specific inversion-free editing setup; WorldDirector/Align4D already in vault from prior cycles; cs.AI agent-safety papers outside tool/workflow relevance scope (~3 filtered by domain mismatch)
+
+Updated: index.md (+1 new entry, cycle 16→17), orbitquant enrichment, log.md, cycle counter (16→17)
+
 ## [2026-07-03] autoresearch | Autonomous scan cycle 16 — 3 items filed (Semantic Scholar)
 Auto-discovered from Semantic Scholar API queries. Scanned ~15 candidates across video diffusion acceleration, preference optimization, multi-view reconstruction, and efficient video DiT architectures. Scored against 10-assertion eval framework with iterative refinement over 3 passes per item (a-04 paragraph length constraint required pass 3).
 

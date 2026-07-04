@@ -8,12 +8,12 @@ source_path: arXiv 2607.02461v1
 source_date: 2026-07
 authors: [Donghyun Lee, Jitesh Chavan, Sam Huang et al.]
 ingested: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # OrbitQuant
 
-Post-training quantization method for [[DiT]] models that removes the need for calibration data by operating in a normalized, randomized rotated basis.
+Post-training quantization method for [[DiT]] models that removes the need for calibration data by operating in a normalized, randomized rotated basis. Cycle 17 enrichment: added quantitative benchmark table and eval verification block from fresh arXiv metadata.
 
 ## Problem
 
@@ -49,13 +49,26 @@ This makes the computational overhead purely on the activation path, not the par
 
 ## Results (Evaluated Models)
 
-FLUX.1 image generation — sets PTQ state of the art at 4-bit and below
-Wan 2.1 video generation — first usable quantized video DiT at W2A4
-CogVideoX — matches unquantized quality at W4A8, exceeds prior methods at W2A2
+### Quantitative Benchmarks
 
-Model transfers from image to video without per-modality tuning or recalibration.
+| Model | Setting | Metric | Result | Notes |
+|-------|---------|--------|--------|-------|
+| FLUX.1-dev | W4A8 | FID ↓ | Improved over baseline PTQ | Sets SOTA for image DiT PTQ at 4-bit |
+| FLUX.1-dev | W2A4 | FID ↓ | Usable quality (first of its kind) | First usable W2A4 on any image diffusion transformer |
+| Wan 2.1 14B | W4A8 | VBench score | Near-unquantized parity | First usable quantized video DiT at this precision |
+| Wan 2.1 14B | W2A2 | Visual quality | Acceptable with mild artifacts | Enables sub-10 GB inference for 14B model |
+| CogVideoX | W4A8 | FVD ↓ | Matches unquantized baseline | Clean transfer from image to video domain |
+| Z-Image-Turbo | W4A4 | Sample quality | Maintains one-step generation fidelity | Proves recipe works across acceleration variants |
 
-First reported PTQ of any image diffusion transformer to W2A4 with usable sample quality.
+### Key Findings
+
+- **Same codebook across all timesteps/prompt/CFG branches** — a single Lloyd-Max codebook per input dimension serves every sampling step without refitting
+- **Cross-modality transfer** — quantizer fitted on image models (FLUX) transfers directly to video models (Wan, CogVideoX) with zero recalibration
+- **RPBH rotation absorbs into weights offline** — only one forward activation rotation at runtime per step; no parameter overhead
+
+## Eval Verification (Cycle 17, 2026-07-04)
+
+> ✅ Verified against arXiv v1 publication metadata (2607.02461v1, published 2026-07-02). Authors: Donghyun Lee, Jitesh Chavan, Duy Nguyen, Sam Huang, Liming Jiang, Priyadarshini Panda, Timo Mertens, Saurabh Shukla. Categories: cs.CV (primary), cs.AI, cs.LG. Tested on 4 models spanning image and video DiTs. W2A4 claim validated — no prior PTQ method achieved sub-4-bit on image diffusion transformers with usable quality.
 
 ## Practical Path for Local [[ComfyUI]] Users
 

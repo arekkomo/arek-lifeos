@@ -1,10 +1,11 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-03 (cycle 16)
+> Updated: 2026-07-04 (cycle 17)
 
 ## AI-Video
 |- **AdaCluster — Adaptive Query-Key Clustering for Sparse Attention** — Training-free adaptive clustering of attention Q/K in video DiTs. Angle-similarity-preserving query clustering + euclidean key clustering with per-layer adaptive thresholds. 1.67–4.31× speedup on CogVideoX, HunyuanVideo, Wan 2.1 on single A40 GPU (Semantic Scholar, 2026-07-03)
 |- **LocalDPO — Direct Localized Detail Preference Optimization** — Post-training alignment for T2V diffusion via region-level preference pairs. Real videos as positives, locally corrupted versions as negatives. Region-aware DPO loss restricts learning to masked areas, faster convergence global DPO on Wan 2.1 and CogVideoX (Semantic Scholar, 2026-07-03)
+||- **From SRA to Self-Flow — Data Augmentation Over Self-Supervision** — Mechanistic analysis showing Self-Flow's dual-timestep speedup comes from data augmentation along the noise dimension, not cross-timestep token interaction. Attention Separation blocks inter-timestep communication without degrading performance. Changes how self-supervised diffusion training acceleration is understood (arXiv 2607.02508, 2026-07-04)
 |- **WorldDirector — LLM-Coordinated World Simulation** — Two-phase pipeline: LLM generates structured 3D trajectory graph for dynamic entities + synchronized camera paths, then video diffusion model uses trajectory as spatial-control conditioning signal. Persistent entity identity across prolonged occlusion events, unrestricted viewpoint exploration without generation collapse (arXiv 2607.02517, 2026-07-02)
 - **GimbalDiffusion — Gravity-Aware Camera Control for Video Generation** — Defines camera trajectories in absolute world coordinates using gravity as a global reference (like a real gimbal), enabling precise 180° turnarounds and extreme pitch/roll. Trained on 360° panoramic videos to cover out-of-distribution camera angles. Null-pitch conditioning prevents prompt-camera conflict. New benchmarks for extreme-angle fidelity (arXiv 2512.09112v3, updated 2026-07-01)
 - **TrajLoc — Per-Object Attention Localization** — Replaces cross-attention weights with Gaussian heatmaps per object token for strict spatial trajectory control in I2V. Up to 20 simultaneous objects, +4.3 dB PSNR, 51% endpoint error reduction on CogVideoX 5B and Wan 2.1 14B. Maps directly to VFX node-level compositing workflows (arXiv 2607.00861, 2026-07-01)
