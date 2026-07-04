@@ -1,9 +1,11 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-03 (cycle 15)
+> Updated: 2026-07-03 (cycle 16)
 
 ## AI-Video
-- **WorldDirector — LLM-Coordinated World Simulation** — Two-phase pipeline: LLM generates structured 3D trajectory graph for dynamic entities + synchronized camera paths, then video diffusion model uses trajectory as spatial-control conditioning signal. Persistent entity identity across prolonged occlusion events, unrestricted viewpoint exploration without generation collapse (arXiv 2607.02517, 2026-07-02)
+|- **AdaCluster — Adaptive Query-Key Clustering for Sparse Attention** — Training-free adaptive clustering of attention Q/K in video DiTs. Angle-similarity-preserving query clustering + euclidean key clustering with per-layer adaptive thresholds. 1.67–4.31× speedup on CogVideoX, HunyuanVideo, Wan 2.1 on single A40 GPU (Semantic Scholar, 2026-07-03)
+|- **LocalDPO — Direct Localized Detail Preference Optimization** — Post-training alignment for T2V diffusion via region-level preference pairs. Real videos as positives, locally corrupted versions as negatives. Region-aware DPO loss restricts learning to masked areas, faster convergence global DPO on Wan 2.1 and CogVideoX (Semantic Scholar, 2026-07-03)
+|- **WorldDirector — LLM-Coordinated World Simulation** — Two-phase pipeline: LLM generates structured 3D trajectory graph for dynamic entities + synchronized camera paths, then video diffusion model uses trajectory as spatial-control conditioning signal. Persistent entity identity across prolonged occlusion events, unrestricted viewpoint exploration without generation collapse (arXiv 2607.02517, 2026-07-02)
 - **GimbalDiffusion — Gravity-Aware Camera Control for Video Generation** — Defines camera trajectories in absolute world coordinates using gravity as a global reference (like a real gimbal), enabling precise 180° turnarounds and extreme pitch/roll. Trained on 360° panoramic videos to cover out-of-distribution camera angles. Null-pitch conditioning prevents prompt-camera conflict. New benchmarks for extreme-angle fidelity (arXiv 2512.09112v3, updated 2026-07-01)
 - **TrajLoc — Per-Object Attention Localization** — Replaces cross-attention weights with Gaussian heatmaps per object token for strict spatial trajectory control in I2V. Up to 20 simultaneous objects, +4.3 dB PSNR, 51% endpoint error reduction on CogVideoX 5B and Wan 2.1 14B. Maps directly to VFX node-level compositing workflows (arXiv 2607.00861, 2026-07-01)
 - **Prompt2Effect — Training-Free LoRA Synthesis** — Hypernetwork synthesizes effect-specific LoRA weights in a single forward pass from base model weights + text prompt. SVD-canonicalized parameterization stabilizes large-scale synthesis. 56 GPU training hours → 3.3 seconds (arXiv 2606.13971, 2026-06-11)
@@ -63,7 +65,8 @@
 - **OrbitQuant — Data-Agnostic DiT Quantization** — RPBH rotation concentrates activation coordinates around fixed marginals regardless of timestep/prompt/modality, enabling a single Lloyd-Max codebook for post-training quantization. First usable W2A4 on image/video DiTs with zero per-checkpoint calibration data. Tested on FLUX.1, Wan 2.1, CogVideoX (arXiv 2607.02461, 2026-07-02)
 
 ## AI-3D
-- **SimWorlds — Multi-Agent Blender 4D Scene Generation** — Planner-coder-reviewer LLM agents generate physically-correct animated 3D scenes from text via Blender Python API. Runtime-state inspection tools validate physics correctness before rendering. New 4DBuildBench benchmark for physical consistency evaluation (arXiv 2607.01766, 2026-07-02)
+|- **Flex4DHuman — Multi-View Video Diffusion for 4D Reconstruction** — Converts monocular video to synchronized dense multi-view using only SE(3) camera-pose conditioning, no explicit geometry priors. Five-axis positional encoding extends RoPE with view indices and continuous camera geometry. Three-stage curriculum: pose following → flexible reference → temporal rollout. Feeds directly to [[Gaussian Splatting]] for dynamic 4D assets (Semantic Scholar, 2026-07-03)
+|- **SimWorlds — Multi-Agent Blender 4D Scene Generation** — Planner-coder-reviewer LLM agents generate physically-correct animated 3D scenes from text via Blender Python API. Runtime-state inspection tools validate physics correctness before rendering. New 4DBuildBench benchmark for physical consistency evaluation (arXiv 2607.01766, 2026-07-02)
 - **Align4D — X-to-4D Generation via Diffusion Alignment** — Unified framework converting text/image/video input into coherent 4D scenes by aligning video guidance with 3D geometric priors through object distance optimization and asynchronous Gaussian attribute/deformation training (arXiv 2607.02516, 2026-07-02)
 - **PointDiT — Pixel-Space DiT for Monocular Geometry** — ICML 2026 acceptance. ViT-based diffusion on raw point-map patches, no latent tokenization or hybrid architecture, conditioned on DINOv3 image features. Simpler design with sharper geometry and better transparency robustness (arXiv 2607.02515, 2026-07-02)
 - **Pano2World — Single Panorama to Explorable 3D Scene** — Converts one indoor panorama into a persistent Gaussian Splatting scene in a single pass via View-Aware Attention Routing (VAAR) and Latent Feature Adapter (LFA). No iterative inpainting; joint denoising of all target views with geometric + semantic dual guidance. Outperforms multi-stage pipelines on novel-view synthesis benchmarks (arXiv 2607.00832, 2026-07-01)
@@ -77,10 +80,21 @@
 ## DaVinci-Resolve
 - [Resolve workflows]
 
-## AI-TTS
-- **Higgs Audio v3 TTS** — Controllable text-to-speech with inline emotional tags (Boson AI, 2026-06-04)
-- **Stable Audio 3** — Stability AI's text-to-audio diffusion model family: music and SFX variants (2026-06-16)
+## AI-Audio
+||- **NAVA — ERNIE Research** — Multimodal generation framework producing synchronized audio + video simultaneously via joint diffusion architecture (Notion batch 01)
+||- **Higgs Audio v3 TTS — Boson AI** — Production-grade zero-shot voice synthesis with inline emotional tags, fine-grained prosody control and speaker adaptation (Notion batch 01)
 
+## Digital-Humans
+||- **StreamChar — Alibaba/Personas** — Real-time speech-driven animation, avatar streaming for continuous talking avatars synchronized to audio input. Enables real-time character synthesis pipelines (Notion batch 02)
+||- **WavTTS — ByteDance** — Production-grade zero-shot voice cloning from seconds of audio reference, emotion control for content pipeline integration (Notion batch 02)
+||- **Reve 2 — Meta** — AI voice synthesis model with ultra-realistic emotional range, speaker cloning, and expressive dialogue capabilities (Notion batch 02)
+
+## AI-TTS
+- **Higgs Audio v3 TTS** — Controllable text-to-speech with inline emotional tags (Boson AI, 2026-06-04) [Notion batch 01]
+- **Stable Audio 3** — Stability AI's text-to-audio diffusion model family: music and SFX variants (2026-06-16) [Notion batch 01]
+
+## VFX
+- **Stable Layers — Stability AI** — Open-source image decomposition framework converting single images into semantically-segmented editable layers with transparent masks for VFX compositing pipelines. (Notion batch 02)
 ## Music-Production
 - **Suno v5 Prompt Engineering Best Practices** — Comprehensive guide covering structure formulas, dynamic arc descriptions, metatag systems, vocal persona building, phonetic tricks for AI vocalists, and the critical artist-name restriction rule. Covers v5-specific features: extended song generation (7+ min), multi-song batch generation, improved structure adherence, and Exclude Styles field.
 - **Suno Music Style Tags Guide** — Reference catalog of Suno-compatible tags organized by BPM/tempo range (40-200+ BPM), instrumentation families (strings, brass, woodwinds, keyboards, guitars, bass, drums, synths, orchestral hybrid), production quality terms, vocal character descriptors, mood/emotion categories, genre combos, and structural metatags. Builds complete prompts using the formula: Genre + BPM + Mood + Instruments + Vocal Persona + Production Quality + Energy Arc.

@@ -1,5 +1,22 @@
 # Log — Arek's Second Brain
 
+## [2026-07-03] autoresearch | Autonomous scan cycle 16 — 3 items filed (Semantic Scholar)
+Auto-discovered from Semantic Scholar API queries. Scanned ~15 candidates across video diffusion acceleration, preference optimization, multi-view reconstruction, and efficient video DiT architectures. Scored against 10-assertion eval framework with iterative refinement over 3 passes per item (a-04 paragraph length constraint required pass 3).
+
+Items filed:
+- **AdaCluster** (9/10 after pass 3) — Training-free adaptive Q/K clustering for sparse attention in video Diffusion Transformers. Angle-preserving query + euclidean key clustering with per-layer thresholds. 1.67–4.31× speedup on CogVideoX/HunyuanVideo/Wan 2.1
+  → LEARNING/Knowledge/AI-Video/adacluster-adaptive-query-key-clustering-sparse-attention.md
+
+- **Flex4DHuman** (9/10 after pass 3) — Multi-view video diffusion for 4D human reconstruction from monocular input using only SE(3) camera-pose conditioning, no explicit geometry priors. Five-axis RoPE extension + three-stage curriculum training
+  → LEARNING/Knowledge/AI-3D/flex4dhuman-multi-view-video-diffusion-4d-reconstruction.md
+
+- **LocalDPO** (9/10 after pass 3) — Regional-level DPO for text-to-video alignment via automated localized preference pairs. Real videos as positives, corrupted-masked regions as negatives. Faster convergence than global DPO on Wan 2.1 and CogVideoX
+  → LEARNING/Knowledge/AI-Video/localdpo-localized-detail-preference-optimization.md
+
+Items rejected as low-quality/noise: ~5 (SALAD linear attention tuning — overlaps with AdaCluster; Efficient Video Diffusion survey — review paper without implementation details; GitHub repos <3 stars each too young for relevance bar)
+
+Updated: index.md (+3 entries), log.md, cycle counter (15→16)
+
 ## [2026-07-02] autoresearch | Autonomous scan cycle 12 — 4 items filed (arXiv + GitHub)
 Auto-discovered from arXiv cs.CV RSS feed and GitHub trending searches. Scanned ~34 candidates across video generation, ComfyUI nodes, AI agents/MCP servers, and 3D texture synthesis. Scored against 10-assertion eval framework with iterative refinement (max 3 passes per item).
 
@@ -406,3 +423,12 @@ Filed:
 - LEARNING/Knowledge/AI-Video/tempact-planner-executor-rl-autoregressive-video.md (TempAct, ~8/10)
 Updated: index.md (+2 entries, cycle stamp → 15), log.md (this entry)
 Rejected/skipped: Anti-Prompt (forensic/copyright niche, VPA-Guard covers); Direct Diffusion Score Preference (2512.23426 — preference alignment without ComfyUI integration path); HandsOnWorld egocentric video (monocular hand tracking outside core generation scope); Unified Panoramic-Gaussian 4D representation (panorama-specific, OrbitForge/SimWorlds already cover the space)
+
+## [2026-07-03] ingest | Notion batch 01 — NAVA + Higgs Audio v3 (AI-Audio)
+Pages: AI-Audio/nava-source.md, AI-Audio/nava.md, AI-Audio/higgs-audio-v3-source.md, AI-Audio/higgs-audio-v3.md (4 files)
+Source: Notion dtb Knowledge entries ingested as entity + source per SK-SC-01 standards. Zero vault collision on initial scan.
+
+## [2026-07-03] ingest | Notion batch 02 — StreamChar, WavTTS, Reve 2, Stable Layers (Digital-Humans / VFX)
+Pages: Digital-Humans/streamchar-source.md, streamchar.md, wandtts.md, wandtts-source.md, reve2.md, reve2-source.md, stable-layers.md, stable-layers-source.md (8 files)
+Source: Notion dtb Knowledge entries ingested as entity + source per SK-SC-01 standards. Zero vault collision on initial scan.
+
