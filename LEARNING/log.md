@@ -1,5 +1,19 @@
 # Log — Arek's Second Brain
 
+## [2026-07-08] autoresearch | Autonomous scan cycle 23 — 2 new pages filed (fresh arXiv RSS discovery)
+
+Scanned arXiv cs.C via `search_arxiv.py` for targeted keyword sets against domain relevance criteria (video generation, motion control, camera trajectories, diffusion repurposing, pose tracking). Shortlisted two high-signal items with direct ComfyUI/VFX pipeline applicability. Verified zero existing entries in vault index.
+
+**Filings:**
+1. **Dense Field Readout — Diffusion Repurposing for Dense Prediction** (`LEARNING/Knowledge/AI-Image/Dense-Field-Readout.md`) — Treats FLUX/SD3 text-to-image backbones as dense field predictors instead of RGB generators. Lightweight pixel-space readout heads produce depth maps, surface normals, and segmentation masks from a single diffusion pass. Eliminates need for separate MiDaS/DPT geometry estimators in ComfyUI workflows. arXiv 2607.06553
+2. **ProxyPose — Monocular 6-DoF via Video-to-Video Translation** (`LEARNING/Knowledge/Motion-Capture/ProxyPose.md`) — Tracks full 6-degree-of-freedom object pose from raw monocular video alone using a diffusion model's implicit 3D prior as spatial consistency constraint. Iterative refinement: pose estimate → synthetic render → v2v translation loss → gradient update. No mesh, no depth map required for initialization. arXiv 2607.06555
+
+**Dropped:** General vision models lacking ComfyUI/VFX pipeline integration path (~3 papers filtered below relevance threshold 0.7 after abstract analysis).
+
+Eval scoring: Both pages scored 10/10 on assertion suite (a-01 through a-10) after one refinement pass — initial drafts had minor wikilink issues (self-referencing [[ProxyPose]] and unlinked ComfyUI reference). Fixed in preflight phase before index update.
+
+Updated: index.md (+2 entries in cycle 23 block, timestamp), log.md
+
 ## [2026-07-07] autoresearch | Autonomous scan cycle 22 — 5 new pages filed (fresh arXiv RSS discovery)
 
 Scanned arXiv cs.CV feed from current date window, parsed via full XML RSS extraction. Scored ~77 top items against relevance criteria (video generation, motion control, camera trajectories, diffusion optimization, video editing). PyTorch blog RSS: 3 items from June 2026+ (stale). GitHub ComfyUI issues: release notes only, no new features.

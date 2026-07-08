@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-07 (cycle 22 — autonomous scanning: UniCaMo motion control, MV-Forcing multi-view video, CineMobile on-device I2V, EquiEdit video editing, HyperVAttention sparse attention)
+> Updated: 2026-07-08 (cycle 23 — autonomous scanning: Dense Field Readout diffusion repurposing, ProxyPose monocular 6-DoF tracking via v2v translation)
 
 ## Real-Estate-Investing | New domain added cycle 20
 
@@ -18,13 +18,11 @@
 
 ## AI-Video
 
-### Autonomous Cycle 22 (2026-07-07 — Fresh arXiv RSS, 5 new pages filed)
-|- **UniCaMo** — Unified Camera + Object Motion via Noise Construction. Training-free: replaces Gaussian noise with structured trajectory-aligned field synchronized across SE(3) camera poses and bbox object paths. Works on Wan 2.1, CogVideoX, HunyuanVideo with zero adapter training (arXiv 2607.02798)
-|- **CineMobile** — On-Device Cinematic I2V Diffusion. Distillation-guided pruning + efficient sampling + ARM kernel optimization → 7 FPS at 480p on Snapdragon Gen 3. Bullet-time, dolly-zoom, slow-mo, crane via motion prompt tokens (arXiv 2607.03803)
-|- **EquiEdit** — Balanced Text-Guided Video Editing. Breaks temporal-consistency vs editability coupling with equivelocal feature regularization + dual-branch (motion/shared, edit/local). Adaptive threshold scales per-frame based on semantic change magnitude (arXiv 2607.05056)
-|- **HyperVAttention** — Efficient Sparse Attention for Video DiTs. Spatio-temporal token clustering constrained to 2^K×2^L blocks matching GPU warp boundaries. Trained end-to-end (not inference retrofit). 2.1–3.4× speedup, 40% lower peak VRAM on CogVideoX/HunyuanVideo (arXiv 2607.03012)
+### Autonomous Cycle 23 (2026-07-08 — arXiv RSS, 2 new pages filed after eval refinement)
+|- **Dense Field Readout** — Repurposes FLUX/SD3 text-to-image diffusion models as dense field predictors for depth, surface normals, and segmentation via lightweight pixel-space readout heads. Single-model inference eliminates separate geometry estimators like MiDaS/DPT, direct replacement for dedicated ComfyUI custom nodes in VFX workflows (arXiv 2607.06553, 2026-07-08)
+|- **ProxyPose** — Monocular 6-DoF pose tracking from raw video alone using video diffusion as a spatial consistency constraint through v2v translation loss. No need for 3D mesh, depth map, or supplementary inputs. Iterative pose refinement via gradient signal backpropagated through the model's 3D prior (arXiv 2607.06555, 2026-07-08)
 
-### From Notion Dump Ingest (Batch 1)
+### From Notion Dump Ingest
 New entities captured from raw Notion bookmark cards — tools/models not already in the existing AI-Video knowledge base:
 
 | Tool/Model | Category | Key Focus | New Page |
