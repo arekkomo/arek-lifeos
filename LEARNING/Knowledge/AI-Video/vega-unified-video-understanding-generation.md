@@ -1,44 +1,55 @@
 ---
-title: "Vega — Unified Video Understanding and Generation Framework"
+title: "Vega: Unified Video Understanding and Generation Framework"
 category: concept
-summary: "Hybrid autoregressive + diffusion architecture that jointly models video understanding (compact semantic tokens) and generation (dense visual frames). Shares vocabulary across text and visual representations, achieving strong performance on both VBench generation and VideoMME understanding benchmarks."
-tags: [video-generation, video-understanding, unified-modeling, hybrid-architecture, autoregressive, diffusion]
-source_path: arXiv (submitted 2026-07-01)
+summary: Hybrid AR prediction + diffusion rendering architecture using shared text-vision vocabulary. Single model handles both video generation (keyframe tokens → dense frames) and video understanding (VideoMME, VBench).
+tags: [video-generation, video-understanding, unified-model, autoregressive, diffusion-transformer]
 sources: 1
-updated: 2026-07-02
+updated: 2026-07-04
 ---
 
-# Vega — Unified Video Understanding and Generation
+# Vega: Unified Video Understanding & Generation
 
-## Problem
+## Overview
 
-Video understanding favors compact, discriminative semantic representations; video generation requires dense signals preserving visual detail. Unifying both in one model is architecturally challenging — similar to the [[Cross-Space Distillation via Bridge]] challenge but bidirectional.
+Vega bridges a longstanding gap — most models specialize in either understanding (classification, VQA) OR generation (synthesis). Vega does both on the same shared vocabulary and hybrid architecture.
 
-## Architecture
+**Architecture:** Autoregressive keyframe prediction + diffusion-based dense frame rendering within a single pipeline.
 
-Vega bridges both regimes with a hybrid approach:
+## Technical Design
 
-1. **Shared vocabulary**: Text and visual representations use a unified token space
-2. **AR component**: Predicts semantically meaningful visual tokens for keyframes (structure, semantics)
-3. **Diffusion component**: Renders dense, high-resolution frames from the AR- predicted skeleton
+### Shared Vocabulary
 
-This separates *what* to render from *how* to render it — echoing [[World Narrative Model]]'s philosophical framing but implemented within a single model rather than an agent-driven pipeline.
+Text tokens and visual representations share a unified token space — no separate modality-specific encoders/decoders. This means the model can naturally attend across text↔vision boundaries.
 
-## Results
+### Hybrid AR + Diffusion Architecture
 
-- Strong on VBench generation benchmarks
-- Competitive on VideoMME understanding benchmarks
-- Single model replaces cascaded architectures (understanding VLM + generation T2V)
+1. **Autoregressive stage:** LLM-style transformer predicts semantically meaningful visual tokens for keyframes. Fast, compact, discriminative.
+2. **Diffusion rendering stage:** Conditional diffusion module densifies keyframe tokens into full high-resolution frames with temporal coherence. Rich, detailed, generative.
 
-## Practical Implications
+This division of labor — AR for structure, diffusion for texture — mirrors how [[WorldDirector]] decouples orchestration from rendering. Different scale (Vega works within individual clips; WorldDirector handles scene-level simulation).
 
-For AI video workflows in [[ComfyUI]]:
-- Eliminates need for separate vision encoder + generation model pipeline
-- Reduces VRAM footprint by sharing backbone between understanding and generation passes
-- Potential for iterative refine-generate cycles within a single model context
+### Benchmark Results
 
-## Related Work
+- **Generation:** Strong scores on VBench (comprehensive video quality benchmark) across motion quality, temporal coherence, and aesthetic metrics
+- **Understanding:** Competitive on VideoMME (video multimodal understanding tasks — QA, reasoning, event detection)
 
-- [[Infinite-Length Video]] — also combines AR structure with diffusion detail, but focused on sequence length rather than multimodal unification
-- [[Shell-LCC]] — models manifold structure of SFT data for reward signals; Vega's shared vocabulary implicitly addresses the same representation alignment problem
-- [[FreeStory]] — character consistency via entity feature grounding; unifying understanding+generation makes this kind of cross-modal coherence more natural
+## Practical Applications
+
+- **Post-production analysis:** Same model that generates previs footage can also analyze existing material for consistency/quality scoring
+- **ComfyUI integration path:** If Vega's AR stage is exposed as a token predictor, it could serve as a prompt expansion or storyboarding module before diffusion rendering
+- **Pipeline simplification:** Fewer models to maintain — one backbone handles analysis and synthesis
+
+## Relationship to Vault Content
+
+Similar architectural philosophy to [[PointDiT]] (simplify by working in a unified space rather than chaining specialized modules) but applied to the video modality.
+
+Complements [[MrFlow]] for acceleration — MrFlow's multi-resolution flow matching could accelerate Vega's diffusion rendering stage specifically.
+
+Extends the "unified" design trend alongside work like [[Ink3D]]'s joint texture-generation approach.
+
+---
+
+## References
+
+- arXiv: 2607.xxxx (published 2026-06-30)
+- Benchmarks: VBench, VideoMME

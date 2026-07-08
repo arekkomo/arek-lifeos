@@ -28,14 +28,20 @@ updated: 2026-06-09
 
 > Folders that exist but have no content yet.
 
-| # | Project | Domain | Location |
-|---|---|---|---|
-| 1 | **Personal Songs** | Music | `CREATIVE/Song-Projects/` |
-| 2 | **Film Projects** | Film (Non-Imma Nyala) | `CREATIVE/Film-Projects/` |
-| 3 | **Aiah Syn Projects** | Music / MVs | `CREATIVE/Aiah-Syn-Projects/` |
-| 4 | **Music Video Projects** | Music Video | `CREATIVE/Music-Video-Projects/` |
-| 5 | **Inspirations** | Visual/Tone Reference | `CREATIVE/Inspirations/` |
-| 6 | **Project Cleanup Records** | Operations | `CREATIVE/Project-Cleanup-Records/` |
+|| # | Project | Domain | Location | Notes |
+|---|---|---|---|---|
+| 1 | **Personal Songs** | Music | *(merged under Song-Projects/Little-M)* | Catalog item is inaccurate — `Song-Projects/` exists with Little-M inside; no separate "personal songs" project exists. Remove if not needed. |
+| 2 | **Aiah Syn Projects** | Music / MVs | `CREATIVE/Aiah-Syn-Projects/` | No folder on disk (only `Aiah-Syn-Style.md` exists at CREATIVE/ root). Folder may have been deleted or never created. |
+| 3 | **Inspirations** | Visual/Tone Reference | `CREATIVE/Inspirations/` | Exists only as macOS symlink artifact (`._Inspirations`). No actual content files. Empty idle item. Remove if not being used. |
+
+## Project-Catalog-Admin Notes
+
+> Auto-detected inconsistencies between catalog and disk:
+
+- **"Film Projects" (idle #2)**: No folder `CREATIVE/Film-Projects/` on disk. Catalog entry stale — remove when next reviewing.
+- **"Project Cleanup Records" (idle #6)**: No folder `CREATIVE/Project-Cleanup-Records/` on disk. Remove when next reviewing.
+- **Imma Nyola episodes folder**: `EP-01-The-Entrance.md` last modified ~Jun 14 — no subsequent changes since W25 scan. Imma Nyola idle for 8+ weeks (since May 15).
+- **Little-M** is by far the most active project on disk right now: 6 files total across Song-Projects/ and Music-Video-Projects/ subfolders, all written Jun 29. Lyrics are finalized; Suno prompts drafted but not in Production stage yet per Operating-Rules.md protocol (requires explicit Arek approval to move to Production → trigger Notion sync).
 
 ---
 

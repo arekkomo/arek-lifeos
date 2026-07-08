@@ -1,6 +1,68 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-04 (cycle 17)
+> Updated: 2026-07-07 (cycle 22 — autonomous scanning: UniCaMo motion control, MV-Forcing multi-view video, CineMobile on-device I2V, EquiEdit video editing, HyperVAttention sparse attention)
+
+## Real-Estate-Investing | New domain added cycle 20
+
+### Vancouver Condos & Apartments (Jul 2026 Deep Dive)
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| **[[Vancouver Condo Market 2026\*]]** | synthesis | Five-year outlook, timing, mortgage sizing for cash flow. ~40 sources Jan-Jul 2026 | vancouver, condo, investment, cash-flow |
+| **[[Vancouver Condo Oversupply Crisis]]** | entity | Record unabsorbed inventory, 32% sales shortfall, forced developer fire-sales | oversupply, cmhc, rebgv |
+| **[[BC Government Condo Buyout Program]]** | entity | Jun 2026 $3.2B program buys unsold inventory for rent-to-own housing. ~2,200 Metro units at risk of losses up to 20% below cost | government-policy, bc-eby |
+| **[[Cash Flow Matrix Model]]** | entity | Tiered analysis showing positive cash flow doesn't exist at any price point currently. Optimal $390K mortgage max on sub-$600K units for break-even potential | cash-flow, mortgage-sizing, rental-yield |
+| **[[Metro Vancouver Rental Market]]** | entity | Resilient yields with ~two percentage point gain at budget tier bottom since early 2025. Vacancy ~3-4% downtown. Gov buyout adds subsidized competitors by 2027 | vacancy, rental-supply, affordable-housing |
+
+### Key Data Points (Accountant-ready reference)
+| Metric | Value | Confidence | — PyTorch blog + arXiv ingestion: Miles, TokenSpeed-Kernel, iRDM)
+
+## AI-Video
+
+### Autonomous Cycle 22 (2026-07-07 — Fresh arXiv RSS, 5 new pages filed)
+|- **UniCaMo** — Unified Camera + Object Motion via Noise Construction. Training-free: replaces Gaussian noise with structured trajectory-aligned field synchronized across SE(3) camera poses and bbox object paths. Works on Wan 2.1, CogVideoX, HunyuanVideo with zero adapter training (arXiv 2607.02798)
+|- **CineMobile** — On-Device Cinematic I2V Diffusion. Distillation-guided pruning + efficient sampling + ARM kernel optimization → 7 FPS at 480p on Snapdragon Gen 3. Bullet-time, dolly-zoom, slow-mo, crane via motion prompt tokens (arXiv 2607.03803)
+|- **EquiEdit** — Balanced Text-Guided Video Editing. Breaks temporal-consistency vs editability coupling with equivelocal feature regularization + dual-branch (motion/shared, edit/local). Adaptive threshold scales per-frame based on semantic change magnitude (arXiv 2607.05056)
+|- **HyperVAttention** — Efficient Sparse Attention for Video DiTs. Spatio-temporal token clustering constrained to 2^K×2^L blocks matching GPU warp boundaries. Trained end-to-end (not inference retrofit). 2.1–3.4× speedup, 40% lower peak VRAM on CogVideoX/HunyuanVideo (arXiv 2607.03012)
+
+### From Notion Dump Ingest (Batch 1)
+New entities captured from raw Notion bookmark cards — tools/models not already in the existing AI-Video knowledge base:
+
+| Tool/Model | Category | Key Focus | New Page |
+|---|---|---|---|
+| **VACE** (Alibaba) | Reference-to-video | Character swap, motion transfer between videos | `[[VACE]]` ✅ exists from prior work |
+| **CineMaster** | 3D camera control | Object bbox + camera trajectory in 3D space | `[[CineMaster]]` ✅ exists — updated with deep research content |
+| **FilmPort** | Production OS | Multi-generator workflow orchestration | `[[FilmPort]]` (new entity card) |
+| **FastVideo** | Acceleration | Inference optimization for diffusion-based T2V models | `[[FastVideo]]` ✅ (new entry card) |
+| **SkyReels-V2** | T2V model | Cinematic text/image-to-video generation | `[[SkyReels-V2]]` ✅ (new entity card) |
+| **SkyReels-A2** | Audio-to-video | Audio-driven talking head with body animation | `[[SkyReels-A2]]` ✅ (new entity card) |
+| **DreamO** (ByteDance) | Reference animation | Image-conditioned character animation | `[[DreamO-ByteDance]]` ✅ (new entity card) |
+| **Magic-1-For-1** | Cinematic model | 2.39:1 native aspect-ratio video generation | `[[Magic-1-For-1]]` ✅ (new entity card) |
+| **MotionLCM** | Motion control | Real-time controllable motion, ECCV 2024 paper | `[[MotionLCM]]` ✅ exists from prior work |
+| **SeedVR2** | Post-processing | Video upscaling/restoration enhancement | `[[SeedVR2]]` ✅ (new entity card) |
+| **UniAnimate-DiT** | Animation | Single reference image → video animation via DiT | `[[UniAnimate-DiT]]` ✅ (new entity card) |
+| **DreamActor-M1** | Avatar | Expressive face/head animation from audio | `[[DreamActor-M1]]` ✅ (new entity card) |
+| **FlowMo** | Motion control | Flow-mapped trajectory and gesture control | `[[FlowMo]]` ✅ (new entity card) |
+| **ReVideo** | Video transformation | Structured video-to-video content control | `[[ReVideo]]` ✅ (new entity card) |
+| **SpaceTimePilot** | Scene transitions | Interpolation between generated scenes | `[[SpaceTimePilot]]` ✅ (new entity card) |
+| **Story2Board** | Pre-production | Concept → multi-shot storyboard pipeline | `[[Story2Board]]` ✅ (new entity card) |
+
+### Substantive Content from Notion Dump
+Full-length guides and operational docs preserved at full depth:
+- [[n8n-YouTube-to-Notion]] — Automated video metadata capture workflow note
+- [[Midjourney-MoodBoard-Guide]] — Step-by-step mood board prompting guide (3.1KB comprehensive content)
+
+### Notable Existing Entries (already covered before this batch, AI-Video already had ~97 pages):
+> Wan2 / Wan2.1, Wan2.2-Lightning, Wan-Alpha, CineMaster, VACE, MotionLCM, LTX-2.3, LTX-2.3 Prompting Guide, Open-Sora, Kling AI, Runway ML, MiniMax, DramaDirector, Gazer, WorldDirector, Physics-RAG, RefAlign, and many more...
+
+### Notes from This Batch
+⚠️ **95% of dump entries were sparse bookmark cards** (1 line + URL + tags). Knowledge pages written as structured entity cards with contextual summaries based on available metadata — not deep research pages. These represent saved links you've collected; each entry now has consistent formatting and cross-links.
+
+> [[LTX-Video]] | [[LTX-2.3-Prompting-Guide]] | [[LTX-2.3-Production-Workflow]] 
+
+## LTX-2.3
+|- **Model Architecture** — Dual-stream DiT (14B video + 5B audio), 48 shared transformer blocks, Gemma 3 text encoder, VAE codecs, 3D RoPE for video / 1D RoPE for audio, FP8 quantization options, block streaming for low-memory deployment
+|- **Prompting Guide** — Complete methodology: 7-part structure (main action → movement → appearance → environment → camera → lighting → temporal), cinematographic terminology reference, prompt length sweet spots (130-160 words), DO/DON'T language patterns, camera LoRA trigger integration, enhancement techniques
+|- **Video Production Techniques** — Pipeline selection strategy (HQ two-stage / one-stage / distilled / keyframe interpolation / retake), I2V workflow with IC-LoRA control, spatial upsampling chains, DGX Spark optimization table, VRAM management, motion tracking via Motion-Track Control LoRA
 
 ## AI-Video
 |- **AdaCluster — Adaptive Query-Key Clustering for Sparse Attention** — Training-free adaptive clustering of attention Q/K in video DiTs. Angle-similarity-preserving query clustering + euclidean key clustering with per-layer adaptive thresholds. 1.67–4.31× speedup on CogVideoX, HunyuanVideo, Wan 2.1 on single A40 GPU (Semantic Scholar, 2026-07-03)
@@ -26,7 +88,8 @@
 - **MrFlow** — Training-free 10x diffusion acceleration via multi-resolution flow matching sampling pipeline with GAN-based pixel-space super-resolution and low-strength noise injection for high-frequency refinement. Tested on FLUX.1-dev, Qwen-Image (<1% OneIG gap, arXiv 2607.01642, 2026-07-02)
 - **TempAct** — LLM planner-executor RL framework for chunk-wise autoregressive video generation: span-aware step prompts + hierarchical group exploration credit assignment eliminate delayed reactions, blended semantics, and error propagation across temporal transitions (arXiv 2606.28016v2, 2026-07)
 - **ISPA — Instance-Specific Parametric Absorption** — Distills KV cache context into model weights via closed-form least-squares instead of dropping tokens. Removes up to 50% of KV cache with near-lossless quality in autoregressive video, preventing temporal flickering and identity loss. Works across 1.3B–14B architectures at inference time (arXiv, 2026-07-01)
-- **Vega — Unified Video Understanding + Generation** — Hybrid AR + diffusion architecture: AR predicts semantic keyframe tokens, diffusion renders dense high-res frames from the same shared vocabulary. Single model replaces cascaded VLM+T2V pipeline (arXiv 2606.31946, 2026-07-01)
+|- **QWERTY — Query-Warped Motion Control for Video DiTs** — Training-free spatial control of object trajectories/optical flow via warping frame-invariant query embeddings in 3D full attention layers. Noise from warmed queries self-guides diffusion trajectory toward desired motion. Competitive with fine-tuned methods, zero training required (arXiv 2607.xxxx, 2026-07-02)
+|- **Vega — Unified Video Understanding + Generation** — Hybrid AR + diffusion architecture: AR predicts semantic keyframe tokens, diffusion renders dense high-res frames from the same shared vocabulary. Single model replaces cascaded VLM+T2V pipeline (arXiv 2606.31946, 2026-07-01)
 - **AVTok — Unified 1D Audio-Video Tokenization** — Dual-stream transformer encodes audio-video pairs into compact 1D latent via unified codebook, eliminating modal representation gap. Enables audio-to-video, video-to-audio, and joint generation with native synchronization (arXiv, 2026-07-01)
 - **EcoVideo — Entropy-Orchestrated Cloud-Edge Video Generation** — Self-attention entropy estimates frame-wise information density; high-entropy frames denoised on cloud GPU, low-entropy frames reconstructed via edge interpolation. Adapts to real-time bandwidth/compute constraints, up to 2.9x speedup (arXiv, 2026-06-29)
 - **ComfyUI Compendium** — DGX Spark ComfyUI maintenance reference
@@ -47,18 +110,30 @@
 - **Delta Forcing — Trust Region Steering for AR Video** — Detects teacher-induced trajectory drift in streaming autoregressive generation via latent delta estimation between teacher and student. Adapters trust region shrinks when teacher diverges from monotonic continuity objective, suppressing unreliable shifts while preserving event reactivity. Drop-in training regularization (arXiv 2605.14382, 2026-05)
 - **RefAlign — Explicit Representation Alignment for R2V** — Pull/push contrastive loss aligns DiT reference-branch features to frozen VFM semantic space: same-subject attraction, different-subject repulsion. Eliminates copy-paste artifacts and multi-subject confusion in reference-to-video generation. Training-only with zero inference overhead, improves TotalScore on OpenS2V-Eval (arXiv 2603.25743, 2026-03)
 - **SSM-Meets-Video-Diffusion — Structured State Spaces Replace Attention** — Bidirectional SSM blocks (Mamba) replace attention temporal layers in video diffusion, achieving linear O(n) vs quadratic O(n²) scaling for sequence length. Less GPU memory for equal FVD, often better performance at comparable VRAM. Enables longer clip generation without memory explosion (arXiv 2403.07711, 2026-03)
+## AI-Image
 
-## AI-Image-Midjourney
-|- **UltraImageGen — Ultra-High-Res T2I with Hierarchical Local Attention** — Replaces quadratic global attention with fixed-size local windows + low-res semantic anchor, enabling 8K+ resolution with 10× speedup and 45% VRAM of baseline. LoRA bridge adapts pretrained Flux/SD3 models without full retraining. Window-first token repermutation makes GPU kernels resolution-agnostic (arXiv 2510.16325v4, updated 2026-07-01)
-|- **Cross-Space Distillation via Bridge** — Lightweight latent-space Interface enables knowledge transfer from high-capacity diffusion teachers like [[Flux]] or SD 3.5 into compact SD 1.5 students despite VAE and latent resolution mismatch. SD 1.5 improved from 5.4 to 9.4 HPSv3 while preserving one-step inference. Drop-in compatible with existing [[ComfyUI]] workflows (arXiv 2606.32020, 2026-07-01)
-|- **SpheRoPE - Zero-Shot 360 Panorama via Spherical RoPE** — Training-free framework that replaces rotary position embeddings with spherical priors for native 360 panorama and video generation using [[Flux]] or [[LTX-Video]] backbones. Harmonic quantization enforces exact ERP periodicity with zero fine-tuning overhead (arXiv 2606.32033, 2026-07-01)
-|- **RoPEMover — Depth-Aware Object Relocation** — Geometry-aware object motion via positional embedding manipulation in diffusion transformers. Moves objects preserving occlusions, shadows, and reflections in single-pass inference. Requires per-model adaptation of RoPE field (arXiv 2606.27332, 2026-06-25)
-- **DanceOPD — On-Policy Generative Field Distillation** — Training framework that unifies T2I, local editing, and global editing in flow-matching models via on-policy generative field distillation. Resolves capability interference during multi-skill training (arXiv 2606.27377, 2026-06-25)
-- **Feature Self-Guidance — Diversity Collapse Mitigation** — Training-free plug-and-play method that disperses internal features during batch inference to mitigate diversity collapse in flow models while preserving fidelity via manifold regularization (arXiv 2606.27371, 2026-06-25)
-- **FLUX.2 Klein Architecture** — BFL's compact diffusion family: KV-cache optimization, FP8, small decoder variants (2026-03–04)
+||- **UltraImageGen — Ultra-High-Res T2I with Hierarchical Local Attention** — Replaces quadratic global attention with fixed-size local windows + low-res semantic anchor, enabling 8K+ resolution with 10× speedup and 45% VRAM of baseline. LoRA bridge adapts pretrained Flux/SD3 models without full retraining. Window-first token repermutation makes GPU kernels resolution-agnostic (arXiv 2510.16325v4, updated 2026-07-01)
+||- **Cross-Space Distillation via Bridge** — Lightweight latent-space Interface enables knowledge transfer from high-capacity diffusion teachers like [[Flux]] or SD 3.5 into compact SD 1.5 students despite VAE and latent resolution mismatch. SD 1.5 improved from 5.4 to 9.4 HPSv3 while preserving one-step inference. Drop-in compatible with existing [[ComfyUI]] workflows (arXiv 2606.32020, 2026-07-01)
+||- **SpheRoPE - Zero-Shot 360 Panorama via Spherical RoPE** — Training-free framework that replaces rotary position embeddings with spherical priors for native 360 panorama and video generation using [[Flux]] or [[LTX-Video]] backbones. Harmonic quantization enforces exact ERP periodicity with zero fine-tuning overhead (arXiv 2606.32033, 2026-07-01)
+||- **RoPEMover — Depth-Aware Object Relocation** — Geometry-aware object motion via positional embedding manipulation in diffusion transformers. Moves objects preserving occlusions, shadows, and reflections in single-pass inference. Requires per-model adaptation of RoPE field (arXiv 2606.27332, 2026-06-25)
+|- **DanceOPD — On-Policy Generative Field Distillation** — Training framework that unifies T2I, local editing, and global editing in flow-matching models via on-policy generative field distillation. Resolves capability interference during multi-skill training (arXiv 2606.27377, 2026-06-25)
+|- **Feature Self-Guidance — Diversity Collapse Mitigation** — Training-free plug-and-play method that disperses internal features during batch inference to mitigate diversity collapse in flow models while preserving fidelity via manifold regularization (arXiv 2606.27371, 2026-06-25)
+|- **FLUX.2 Klein Architecture** — BFL's compact diffusion family: KV-cache optimization, FP8, small decoder variants (2026-03–04)
+|**- Midjourney ** - [[stability-ai]] | [[flux]] | [[flux2-klein]] | [[UltraImageGen]] | [[Cross-Space Distillation]] | [[SpheRoPE]] | [[DanceOPD]] | [[Feature Self-Guidance]]
+
+## AI-3D (continued — Batch 2 from Notion dump)
+|- **Material Anything (Diffusion PBR)** — Xin Huang et al. unified diffusion framework for PBR material generation on any mesh type: texture-less, albedo-only, generated, scanned. Triple-head + rendering loss + confidence masks + UV-space refiner for production-ready output. Relightable materials across lighting conditions (arXiv 2411.15138)
+|- **Meta 3D AssetGen (PBR Text-to-Mesh)** — Meta/NeurIPS 2024 text/image-to-mesh producer of full PBR materials from dual-stage pipeline: t2i → mesh reconstructor (SDF + deferred shading loss) → UV-space texture refiner. +17% Chamfer, +40% LPIPS, 72% human preference vs competitors. Relightable assets with albedo/metalness/roughness channels
+|- **Hierarchical 3D Gaussians / HUGS** — Meuleman et al / SIGGRAPH 2024. Divide-and-conquer training splits km-scale scenes into independent chunks consolidated into LOD hierarchy. Enables real-time rendering of very large captures (tens of thousands of images, multiple km trajectories) with sparse-coverage regularization
+
 
 ## AI-Agents
+- **ComfyUI-Agent-Kit — Local Multi-Agent MCP Controller** — Local-first ComfyUI integration for Claude Code/Codex/Gemini/Qwen Code. 4-layer stack: knowledge client + ~90-tool MCP driver + in-graph LLM nodes + node-building skills. 69 per-model prompt recipes, hardware-aware model selection, OCIO/ACES color management nodes, 545 workflow templates. MIT (github.com/SlavaSexton, 2026-07-06)
+- **ComfyUI v0.38 — Multi-Agent ComfyUI Controller** — Portable, machine-independent multi-agent version with shared MCP driver + per-agent adaptors. Local-first architecture. One installer wires same stack into Claude Code/Codex/Gemini/Qwen agents. 210+ tools across generate, workflow editor, node library search, model selection, VRAM management (github.com/SlavaSexton/ComfyUI-Agent-Kit, June 2026)
 - **Helion — Portable vLLM Kernels for Diffusion Serving** — Helion auto-generates hardware-optimized inference kernels from standard Python code without CUDA authoring. vLLM integration proves concept; applicable to diffusion model attention loops in ComfyUI backends via kernel fusion (PyTorch blog, June 2026)
+- **TokenSpeed-Kernel Multi-Silicon Inference** — Kernel registration/selection API decouples inference from hardware-specific implementations. Gluon achieves 1.6-3.6x throughput on AMD MI355X for GPT-OSS 120B via XCD scheduling logic. Portability layer for video diffusion backends (PyTorch blog, June 2026)
+- **From SRA to Self-Flow — Mechanistic Analysis** — Inversion-free editing via iterative self-guidance along noise dimension, not cross-timestep token interaction as originally claimed. Attention Separation experiment blocks inter-timestep communication with no degradation in quality (arXiv 2607.12554, July 2026)
+- **iRDM One-Step Image Generation** — Distribution matching under 14 frozen encoders using MMD at batch sizes above 2048 for stable estimation eliminates multi-step denoising overhead entirely. Converts FLUX.2 from four-step to one-step while improving GenEval score (arXiv 2607.02375, July 2026)
 - **ComfyUI-OCIO — Nuke-Style Color Management Nodes** — OpenColorIO + ACES integration for ComfyUI. EXR/ProRes I/O, LogConvert, CDL, Display mapping, LookTransform. Brings professional VFX color pipeline into AI generation workflows (github.com/SlavaSexton, 2026-07-02)
 - **ComfyUI MCP Agent Panel** — Autonomous AI agent in ComfyUI sidebar that drives canvas edits via natural language. Supports Claude or ChatGPT subscription with no API keys. Part of comfyui-mcp orchestration project (artokun, June 2026)
 - **ComfyUI v0.27** — Native int8 convolution support with progressive optimizations (faster kernel, Turing GPU compat, lora fix, memory leak fix). Partner nodes: HappyHorse 1.1, SeeDance 2.0-Mini w/ 4K, Nano Banana 2 Lite. New core: Seed node, bounding box canvas + Ideogram JSON prompt, advanced Krea 2 merging, ConditioningMultiply (github release 2026-06-30)
@@ -66,6 +141,7 @@
 - **OrbitQuant — Data-Agnostic DiT Quantization** — RPBH rotation concentrates activation coordinates around fixed marginals regardless of timestep/prompt/modality, enabling a single Lloyd-Max codebook for post-training quantization. First usable W2A4 on image/video DiTs with zero per-checkpoint calibration data. Tested on FLUX.1, Wan 2.1, CogVideoX (arXiv 2607.02461, 2026-07-02)
 
 ## AI-3D
+|- **MV-Forcing — Long Multi-View Video via 4D Self-Forcing** — Temporal autoregression chained through lightweight Gaussian Splatting proxy; renders new viewpoints as spatial priors for bidirectional attention. Generates minutes of consistent multi-view dynamic sequences, not just short clips (arXiv 2607.05376, 2026-07)
 |- **Flex4DHuman — Multi-View Video Diffusion for 4D Reconstruction** — Converts monocular video to synchronized dense multi-view using only SE(3) camera-pose conditioning, no explicit geometry priors. Five-axis positional encoding extends RoPE with view indices and continuous camera geometry. Three-stage curriculum: pose following → flexible reference → temporal rollout. Feeds directly to [[Gaussian Splatting]] for dynamic 4D assets (Semantic Scholar, 2026-07-03)
 |- **SimWorlds — Multi-Agent Blender 4D Scene Generation** — Planner-coder-reviewer LLM agents generate physically-correct animated 3D scenes from text via Blender Python API. Runtime-state inspection tools validate physics correctness before rendering. New 4DBuildBench benchmark for physical consistency evaluation (arXiv 2607.01766, 2026-07-02)
 - **Align4D — X-to-4D Generation via Diffusion Alignment** — Unified framework converting text/image/video input into coherent 4D scenes by aligning video guidance with 3D geometric priors through object distance optimization and asynchronous Gaussian attribute/deformation training (arXiv 2607.02516, 2026-07-02)
@@ -95,6 +171,7 @@
 - **Stable Audio 3** — Stability AI's text-to-audio diffusion model family: music and SFX variants (2026-06-16) [Notion batch 01]
 
 ## VFX
+- **CarWash — Houdini/Solaris USD Render Delegate** — Hydra render delegate that conditions [[LTX-2.3 Model Architecture]] on actual USD scene shading via [[ComfyUI]], enabling scene-grounded AI video in a production VFX pipeline. Generates 25-frame sequences with live viewpreview, deterministic convergence hashing, FP8 transformer quantization (github.com/JOIbrahim, 2026-07-06)
 - **Stable Layers — Stability AI** — Open-source image decomposition framework converting single images into semantically-segmented editable layers with transparent masks for VFX compositing pipelines. (Notion batch 02)
 ## Music-Production
 - **Suno v5 Prompt Engineering Best Practices** — Comprehensive guide covering structure formulas, dynamic arc descriptions, metatag systems, vocal persona building, phonetic tricks for AI vocalists, and the critical artist-name restriction rule. Covers v5-specific features: extended song generation (7+ min), multi-song batch generation, improved structure adherence, and Exclude Styles field.
