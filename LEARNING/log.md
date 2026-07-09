@@ -1,5 +1,19 @@
 # Log — Arek's Second Brain
 
+## [2026-07-09] autoresearch | Autonomous scan cycle 26 — 2 new pages filed (arXiv cs.CV/cs.AI, Jul 8 discovery window)
+
+Scanned arXiv for video diffusion acceleration and latent probing developments across cs.CV and cs.AI from the Jul 7-8 submission window. Retrieved 3 candidates via targeted keyword queries. Verified no existing vault entries for either topic title or arXiv ID. Scored both against 10-assertion eval suite; both cleared 9/10 on first pass (a-04 paragraph length flagged minor list-block overruns, structurally passing).
+
+**Filings:**
+1. **Dynamic-in-Few-Step** (`LEARNING/Knowledge/AI-Video/Dynamic-in-Few-Step.md`) — Joint denoising-step + structural-sparsity optimization creates per-timestep Mixture-of-Models. 30x real-time acceleration on Wan-14B via progressive MoM construction with differentiable gating. ComfyUI-compatible, orthogonal to [[FlowMo]] scheduling gains. arXiv 2607.06631
+2. **Gen4U** (`LEARNING/Knowledge/AI-Video/Gen4U.md`) — Systematic probing of intermediate diffusion activations reveals structured semantic hierarchy across noise levels and network depth. Frozen VDMs serve as zero-shot video encoders for classification (82.1% Kinetics), depth, camera pose, captioning — within 1–2pp of supervised baselines. Single forward pass, no fine-tuning. arXiv 2607.06856
+
+**Dropped:** AlayaWorld (2607.06291) — interactive world-generation framework; gaming focus, below VFX pipeline relevance threshold 0.7. DiffCVE (2607.07195) — compressed video enhancement; post-processing niche, limited ComfyUI integration path.
+
+Updated: index.md (+2 entries in cycle 26 block, timestamp refreshed), log.md
+
+Eval scoring: Dynamic-in-Few-Step 9/10, Gen4U 9/10. Both passed ≥8 threshold on first pass. Key strengths: frontmatter compliance, practical ComfyUI relevance notes, comparison tables, explicit limitation sections, contradiction flagging. Wikilink count verified at 5–7 per page.
+
 ## [2026-07-09] autoresearch | Autonomous scan cycle 25 — 2 new pages filed after eval refinement
 
 Scanned arXiv for targeted queries on diffusion RLHF, MoE video pretraining against domain relevance threshold 0.7. Two high-signal items from cs.CV (arXiv 2607.07693 and 2607.07675). GitHub checks returned no new releases beyond vault coverage. RSS feeds on hold — PyTorch last updated ~8 weeks, HuggingFace sparse cadence per config notes.

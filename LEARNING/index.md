@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-09 (cycle 25 — autonomous scanning: Selective Timestep Weighting for Diffusion RLHF, LingBot-Video MoE Embodied Intelligence)
+> Updated: 2026-07-09 (cycle 26 — autonomous scanning: Dynamic-in-Few-Step MoM Acceleration, Gen4U Frozen Diffusion Encoder Probing)
 
 ## Real-Estate-Investing | New domain added cycle 20
 
@@ -19,6 +19,10 @@
 ## AI-Video
 
 | **ProxyPose** — Monocular 6-DoF pose tracking from raw video alone via v2v translation loss through diffusion spatial consistency. No 3D mesh or depth map required for initialization (arXiv 2607.06555, 2026-07-08)
+
+### Autonomous Cycle 26 (2026-07-09 — arXiv scanning, 2 new pages filed after eval pass at 9/10)
+| **Dynamic-in-Few-Step** — Joint optimization of denoising steps + structural sparsity creates per-timestep Mixture-of-Models for any VDM. 30x real-time speedup on Wan-14B with no measurable quality loss (arXiv 2607.06631, 2026-07-07)
+| **Gen4U** — Probing intermediate diffusion activations reveals structured semantic latents; frozen VDMs are zero-shot encoders for classification, depth, camera pose, captioning with ~2pp gap to supervised baselines (arXiv 2607.06856, 2026-07-07)
 
 ### Autonomous Cycle 25 (2026-07-09 — arXiv scanning, 2 new pages filed after eval pass at 9/10)
 | **Selective Timestep Weighting for Diffusion RLHF** — Cut reward model evaluation calls ~4× via timestep-level importance weighting and advantage-based trajectory replay. Early denoising steps waste gradient quality; mid-late steps carry structural signal. Drop-in sampler mod, no architecture change (arXiv 2607.07693, 2026-07-08)
