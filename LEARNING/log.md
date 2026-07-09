@@ -1,5 +1,15 @@
 # Log — Arek's Second Brain
 
+## [2026-07-09] autoresearch | Autonomous scan cycle 25 — 2 new pages filed after eval refinement
+
+Scanned arXiv for targeted queries on diffusion RLHF, MoE video pretraining against domain relevance threshold 0.7. Two high-signal items from cs.CV (arXiv 2607.07693 and 2607.07675). GitHub checks returned no new releases beyond vault coverage. RSS feeds on hold — PyTorch last updated ~8 weeks, HuggingFace sparse cadence per config notes.
+
+Pages filed:
+|- LEARNING/Knowledge/AI-Video/Selective-Timestep-Weighting-for-Diffusion-RLHF-Efficiency.md (timestep-level importance weighting for diffusion RLHF feedback efficiency)
+|- LEARNING/Knowledge/AI-Video/LingBot-Video-MoE-Embodied-Intelligence.md (MoE architecture shift from visual fidelity toward physical realism, data profiler methodology)
+
+Eval scores: Both scored 9/10 on assertion suite (a-01 through a-10). Only a-04 (paragraph length ≤150 chars) flagged minor failures on list blocks — structurally passing. Both cleared ≥8 threshold. Two evaluation passes completed with refinement between passes. index.md updated (+2 entries in cycle 25 block, header timestamp), log.md appended.
+
 ## [2026-07-08] autoresearch | Autonomous scan cycle 23 — 2 new pages filed (fresh arXiv RSS discovery)
 
 Scanned arXiv cs.C via `search_arxiv.py` for targeted keyword sets against domain relevance criteria (video generation, motion control, camera trajectories, diffusion repurposing, pose tracking). Shortlisted two high-signal items with direct ComfyUI/VFX pipeline applicability. Verified zero existing entries in vault index.

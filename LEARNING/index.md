@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-08 (cycle 24 — autonomous scanning: PACR-Video multi-shot extrapolation, MobileWan 5B mobile deployment, Geometric Reciprocity self-supervised stereo)
+> Updated: 2026-07-09 (cycle 25 — autonomous scanning: Selective Timestep Weighting for Diffusion RLHF, LingBot-Video MoE Embodied Intelligence)
 
 ## Real-Estate-Investing | New domain added cycle 20
 
@@ -18,9 +18,11 @@
 
 ## AI-Video
 
-### Autonomous Cycle 23 (2026-07-08 — arXiv RSS, 2 new pages filed after eval refinement)
-| **Dense Field Readout** — Repurposes FLUX/SD3 text-to-image diffusion models as dense field predictors for depth, surface normals, and segmentation via lightweight pixel-space readout heads. Single-model inference eliminates separate geometry estimators like MiDaS/DPT, direct replacement for dedicated ComfyUI custom nodes in VFX workflows (arXiv 2607.06553, 2026-07-08)
-| **ProxyPose** — Monocular 6-DoF pose tracking from raw video alone using video diffusion as a spatial consistency constraint through v2v translation loss. No need for 3D mesh, depth map, or supplementary inputs. Iterative pose refinement via gradient signal backpropagated through the model's 3D prior (arXiv 2607.06555, 2026-07-08)
+| **ProxyPose** — Monocular 6-DoF pose tracking from raw video alone via v2v translation loss through diffusion spatial consistency. No 3D mesh or depth map required for initialization (arXiv 2607.06555, 2026-07-08)
+
+### Autonomous Cycle 25 (2026-07-09 — arXiv scanning, 2 new pages filed after eval pass at 9/10)
+| **Selective Timestep Weighting for Diffusion RLHF** — Cut reward model evaluation calls ~4× via timestep-level importance weighting and advantage-based trajectory replay. Early denoising steps waste gradient quality; mid-late steps carry structural signal. Drop-in sampler mod, no architecture change (arXiv 2607.07693, 2026-07-08)
+| **LingBot-Video MoE for Embodied Intelligence** — Mixture-of-Experts DiT video pretraining optimized for physical realism over visual fidelity. Sparse activation keeps inference cost bounded while scaling total capacity. Data profiler augments internet video with robot manipulation footage (arXiv 2607.07675, 2026-07-08)
 
 ### Autonomous Cycle 24 (2026-07-08 — arXiv RSS + GitHub trending, 3 new pages filed after eval refinement)
 | **PACR-Video** — Parameter-efficient multi-shot long video extrapolation via LoRA-style temporal adapters with recursive prompt routing. Preserves entity consistency, visual style, and narrative coherence across shot boundaries without full model fine-tuning. Composable with Wan/CogVideoX backends (arXiv 2607.06481, 2026-07-07)
@@ -67,8 +69,9 @@ Full-length guides and operational docs preserved at full depth:
 |- **Prompting Guide** — Complete methodology: 7-part structure (main action → movement → appearance → environment → camera → lighting → temporal), cinematographic terminology reference, prompt length sweet spots (130-160 words), DO/DON'T language patterns, camera LoRA trigger integration, enhancement techniques
 |- **Video Production Techniques** — Pipeline selection strategy (HQ two-stage / one-stage / distilled / keyframe interpolation / retake), I2V workflow with IC-LoRA control, spatial upsampling chains, DGX Spark optimization table, VRAM management, motion tracking via Motion-Track Control LoRA
 
-## AI-Video
-|- **AdaCluster — Adaptive Query-Key Clustering for Sparse Attention** — Training-free adaptive clustering of attention Q/K in video DiTs. Angle-similarity-preserving query clustering + euclidean key clustering with per-layer adaptive thresholds. 1.67–4.31× speedup on CogVideoX, HunyuanVideo, Wan 2.1 on single A40 GPU (Semantic Scholar, 2026-07-03)
+## AI-Video (continued — entries from earlier cycles)
+
+| **AdaCluster — Adaptive Query-Key Clustering for Sparse Attention** — Training-free adaptive clustering of attention Q/K in video DiTs. Angle-similarity-preserving query clustering + euclidean key clustering with per-layer adaptive thresholds. 1.67–4.31× speedup on CogVideoX, HunyuanVideo, Wan 2.1 on single A40 GPU (Semantic Scholar, 2026-07-03)
 |- **LocalDPO — Direct Localized Detail Preference Optimization** — Post-training alignment for T2V diffusion via region-level preference pairs. Real videos as positives, locally corrupted versions as negatives. Region-aware DPO loss restricts learning to masked areas, faster convergence global DPO on Wan 2.1 and CogVideoX (Semantic Scholar, 2026-07-03)
 ||- **From SRA to Self-Flow — Data Augmentation Over Self-Supervision** — Mechanistic analysis showing Self-Flow's dual-timestep speedup comes from data augmentation along the noise dimension, not cross-timestep token interaction. Attention Separation blocks inter-timestep communication without degrading performance. Changes how self-supervised diffusion training acceleration is understood (arXiv 2607.02508, 2026-07-04)
 |- **WorldDirector — LLM-Coordinated World Simulation** — Two-phase pipeline: LLM generates structured 3D trajectory graph for dynamic entities + synchronized camera paths, then video diffusion model uses trajectory as spatial-control conditioning signal. Persistent entity identity across prolonged occlusion events, unrestricted viewpoint exploration without generation collapse (arXiv 2607.02517, 2026-07-02)
