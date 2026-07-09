@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-08 (cycle 23 — autonomous scanning: Dense Field Readout diffusion repurposing, ProxyPose monocular 6-DoF tracking via v2v translation)
+> Updated: 2026-07-08 (cycle 24 — autonomous scanning: PACR-Video multi-shot extrapolation, MobileWan 5B mobile deployment, Geometric Reciprocity self-supervised stereo)
 
 ## Real-Estate-Investing | New domain added cycle 20
 
@@ -19,8 +19,13 @@
 ## AI-Video
 
 ### Autonomous Cycle 23 (2026-07-08 — arXiv RSS, 2 new pages filed after eval refinement)
-|- **Dense Field Readout** — Repurposes FLUX/SD3 text-to-image diffusion models as dense field predictors for depth, surface normals, and segmentation via lightweight pixel-space readout heads. Single-model inference eliminates separate geometry estimators like MiDaS/DPT, direct replacement for dedicated ComfyUI custom nodes in VFX workflows (arXiv 2607.06553, 2026-07-08)
-|- **ProxyPose** — Monocular 6-DoF pose tracking from raw video alone using video diffusion as a spatial consistency constraint through v2v translation loss. No need for 3D mesh, depth map, or supplementary inputs. Iterative pose refinement via gradient signal backpropagated through the model's 3D prior (arXiv 2607.06555, 2026-07-08)
+| **Dense Field Readout** — Repurposes FLUX/SD3 text-to-image diffusion models as dense field predictors for depth, surface normals, and segmentation via lightweight pixel-space readout heads. Single-model inference eliminates separate geometry estimators like MiDaS/DPT, direct replacement for dedicated ComfyUI custom nodes in VFX workflows (arXiv 2607.06553, 2026-07-08)
+| **ProxyPose** — Monocular 6-DoF pose tracking from raw video alone using video diffusion as a spatial consistency constraint through v2v translation loss. No need for 3D mesh, depth map, or supplementary inputs. Iterative pose refinement via gradient signal backpropagated through the model's 3D prior (arXiv 2607.06555, 2026-07-08)
+
+### Autonomous Cycle 24 (2026-07-08 — arXiv RSS + GitHub trending, 3 new pages filed after eval refinement)
+| **PACR-Video** — Parameter-efficient multi-shot long video extrapolation via LoRA-style temporal adapters with recursive prompt routing. Preserves entity consistency, visual style, and narrative coherence across shot boundaries without full model fine-tuning. Composable with Wan/CogVideoX backends (arXiv 2607.06481, 2026-07-07)
+| **MobileWan** — Demonstrates server-scale 5B video diffusion transformer (Wan2.2) can run on commercial mobile GPUs at 16 FPS via recurrence distillation and learnable attention head pruning. SOTA VBench for mobile video generation (arXiv 2607.06173, 2026-07-07)
+| **Geometric Reciprocity** — Self-supervised stereoscopic video generation from unlimited monocular footage via cycle-consistency training. Novel geometric theorem enables analytical disocclusion mask computation without stereo ground truth (arXiv 2607.05354, 2026-07-06)
 
 ### From Notion Dump Ingest
 New entities captured from raw Notion bookmark cards — tools/models not already in the existing AI-Video knowledge base:

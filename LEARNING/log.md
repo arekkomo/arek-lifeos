@@ -14,6 +14,21 @@ Eval scoring: Both pages scored 10/10 on assertion suite (a-01 through a-10) aft
 
 Updated: index.md (+2 entries in cycle 23 block, timestamp), log.md
 
+## [2026-07-08] autoresearch | Autonomous scan cycle 24 — 3 new pages filed (arXiv + GitHub discovery)
+
+Scanned arXiv cs.CV/cs.AI via dual-query pattern (broad category sweep + keyword targeting for video generation, diffusion transformer, image-to-video). Retrieved 34 unique candidates from last 72 hours. Also fetched GitHub trending repos for ComfyUI custom nodes and PyTorch blog RSS.
+
+**Filings:**
+1. **PACR-Video — Prompt-Adapter Context Routing for Multi-Shot Long Video Extrapolation** (`LEARNING/Knowledge/AI-Video/PACR-Video.md`) — LoRA-style temporal adapters + learned shot-role prompt tokens with recursive prompt bank preserve entity consistency, visual style, and narrative coherence across multi-shot video sequences without full model fine-tuning. Tested on Wan 2.1 and CogVideoX backends. arXiv 2607.06481
+2. **MobileWan — 5B Video Diffusion Transformer on Mobile Hardware** (`LEARNING/Knowledge/AI-Video/MobileWan.md`) — Recurrence distillation converts parallel Wan2.2-5B into chunk-wise autoregressive process with constant-memory causal linear attention. Achieves 16 FPS on commercial mobile GPU, VBench 83.79 (SOTA for mobile video). Learnable attention head pruning via binary gates + noise-biased sparsity objective. arXiv 2607.06173
+3. **Geometric Reciprocity Theorem — Self-Supervised Stereoscopic Video Generation** (`LEARNING/Knowledge/AI-Video/Geometric-Reciprocity.md`) — Novel geometric theorem proves forward/backward warp mask equality in nearest-neighbor DIBR, enabling analytical disocclusion mask computation from single monocular images. Enables self-supervised stereo synthesis trained on unlimited 2D video with cycle-consistency loss, no stereo pairs needed. arXiv 2607.05354
+
+**Dropped:** ProxyPose (already filed in cycle 23), MV-Forcing (already filed in cycle 23), PACR-Video world models roadmap paper (survey piece, not technical implementation), FORGE tool-generalization system (robotics-focused), SparseCtrl-HOI (e-commerce video generation — below relevance threshold). GitHub items: ComfyUI-DaVinci-MagiHuman (1 star, too early to evaluate), ComfyUI-Bernini (121 stars but wraps existing Wan 2.2 models rather than novel technique), World Director paper (already in vault from cycle 23). PyTorch blog: 4 technically relevant items all pre-dating this scan window (>72 hours old, already covered).
+
+Eval scoring: PACR-Video 10/10 after line-length fix, MobileWan 10/10 clean pass, Geometric Reciprocity 10/10 after line-length + stray text fix. All three exceeded minimum bar of 8 on first or second refinement attempt.
+
+Updated: index.md (+3 entries in cycle 24 block), log.md 
+
 ## [2026-07-07] autoresearch | Autonomous scan cycle 22 — 5 new pages filed (fresh arXiv RSS discovery)
 
 Scanned arXiv cs.CV feed from current date window, parsed via full XML RSS extraction. Scored ~77 top items against relevance criteria (video generation, motion control, camera trajectories, diffusion optimization, video editing). PyTorch blog RSS: 3 items from June 2026+ (stale). GitHub ComfyUI issues: release notes only, no new features.
