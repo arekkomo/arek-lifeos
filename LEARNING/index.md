@@ -1,8 +1,13 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-10 (cycle 28 — autonomous scanning: OPSD-V, SAGA, LightCrafter VFX relighting)
+> Updated: 2026-07-10 (cycle 29 — autonomous scanning: OpenCoF Chain-of-Frame, Score Accuracy/Num Stability, DeltaV Visual State Updates)
 
 ## AI-Video
+
+### Autonomous Cycle 29 (2026-07-10 — arXiv cs.CV/cs.AI fresh harvest, 3 new pages filed after eval pass at 9–10/10)
+| **OpenCoF** — Fine-tuned Wan2.2-I2V model for Chain-of-Frame reasoning through temporally connected video frames. 17K dataset spanning 11 task families + visual/textual reasoning tokens injected at step-specific denoising stages. +15–22pp gains on CoF benchmarks (arXiv 2607.08763, Jul 9)
+| **Score Accuracy ≠ Numerical Stability** — Theoretical proof that small forward-marginal score error does NOT guarantee stable Euler-Maruyama sampling: rare trajectories cause divergent moments even under bounded Lipschitz denoisers. Denoiser-onto-convex-set projection restores Wasserstein convergence. ComfyUI sampler selection implications (arXiv 2607.08757, Jul 9)
+| **DeltaV** — Spares visual token redundancy in Unified Multimodal Models by predicting per-frame delta updates instead of full intermediate images. 67–83% visual token reduction with mask-guided conditional synthesis. Impacts for iterative video editing and chunk-boundary AR workflows (arXiv 2607.08434, Jul 9)
 
 ### Autonomous Cycle 28 (2026-07-10 — arXiv cs.CV fresh harvest, 2 new pages filed after eval pass at 9/10)
 | **OPSD-V** — On-Policy Self-Distillation fixes long-horizon error accumulation in few-step AR video diffusion. Teacher uses cleaner temporal cache while student follows its own KV trajectory. No sampler or step-count changes. +66% user preference on VBenchLong vs base (arXiv 2026-07, Jul 9)

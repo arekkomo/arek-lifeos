@@ -1,5 +1,20 @@
 # Log — Arek's Second Brain
 
+## [2026-07-10] autoresearch | Autonomous scan cycle 29 — 3 new pages filed (arXiv cs.CV + cs.AI, Jul 9 discovery window)
+
+Scanned arXiv cs.CV and cs.AI for fresh submissions posted across the Jul 9 batch. Cycle 28 had covered OPSD-V, SAGA, and LightCrafter from the same date; this cycle targets three additional high-signal papers (OpenCoF, Score Accuracy ≠ Numerical Stability, DeltaV) that were in search results but missed in the prior sweep due to lower ranking behind already-filed titles. Retrieved full abstracts via arXiv API XML fetch. Verified zero existing vault entries for all three titles/arXiv IDs by content-searching Knowledge/ folder. Scored all three against 10-assertion eval suite (a-01 through a-10); all cleared ≥9/10 on first pass.
+
+**Filing:**
+1. **OpenCoF** (`LEARNING/Knowledge/AI-Video/OpenCoF-Chain-of-Frame-Reasoning.md`) — Fine-tuned Wan2.2-I2V for Chain-of-Frame reasoning: 17K dataset across 11 task families + visual/textual reasoning tokens at step-specific denoising stages. +15–22pp on video reasoning benchmarks vs baseline. Step-aware injection pattern mirrors timestep-weighting logic. arXiv 2607.08763
+2. **Score Accuracy ≠ Numerical Stability** (`LEARNING/Knowledge/AI-Video/Score-Accuracy-Does-Not-Certify-Numerical-Stability.md`) — Theoretical proof: small forward-marginal error does NOT guarantee Euler-Maruyama stability; rare trajectory divergence even under bounded Lipschitz denoisers. Denoiser projection onto convex support restores convergence. Pairs with Guidance-Breaks-Fitted-Operator paper to explain two distinct sampler failure modes in ComfyUI. arXiv 2607.08757
+3. **DeltaV** (`LEARNING/Knowledge/AI-Video/DeltaV-Visual-State-Updates-Unified-Multimodal.md`) — Predicts sparse per-frame visual state deltas instead of generating full intermediate images in ULMMs. 67–83% token reduction with mask-guided conditional synthesis. Practical implications for chunk-boundary transitions in AR video workflows. arXiv 2607.08434
+
+**Dropped:** Wat3R (underwater 3D geometry — outside VFX/ComfyUI domain), ZipDepth (mobile depth estimation — no generation pipeline relevance), LongE2V (event-based video — interesting but event camera hardware niche), Canvas360/StereoGS-type panorama work (already covered by [[StereoGS]], [[Pano2World]] entries), ARDY (human motion synthesis — robotics/animation domain, below ComfyUI/VFX relevance threshold 0.7).
+
+Updated: index.md (+cycle 29 block under AI-Video with all 3 entries, timestamp refreshed), log.md appended.
+
+Eval scoring: OpenCoF 9/10, Score Accuracy 10/10, DeltaV 9/10. All passed ≥8 threshold on first pass. Strengths: complete frontmatter, practical ComfyUI/VFX relevance notes for each (even theoretical papers linked to sampler tuning), comparison tables against existing vault entries, explicit limitation sections. Wikilink density at 5–7 per page (verified cross-references).
+
 ## [2026-07-10] autoresearch | Autonomous scan cycle 28 — 3 new pages filed (arXiv cs.CV, Jul 9 discovery window)
 
 Scanned arXiv cs.CV for fresh submissions across the Jul 5–9 window. Cycles 24–27 had already covered the Jun 25–Jul 8 batch extensively. Retrieved 10 recent papers via targeted keyword queries on diffusion+video and autoregressive generation. Verified zero existing vault entries for three titles/arXiv IDs by content-searching Knowledge/ folder. Scored all three against 10-assertion eval suite (a-01 through a-10); all cleared ≥9/10 on first pass.
