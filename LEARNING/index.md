@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-09 (cycle 26 — autonomous scanning: Dynamic-in-Few-Step MoM Acceleration, Gen4U Frozen Diffusion Encoder Probing)
+> Updated: 2026-07-09 (cycle 27 — autonomous scanning: Guidance Breaks the Fitted Operator CFG Repair)
 
 ## Real-Estate-Investing | New domain added cycle 20
 
@@ -19,6 +19,9 @@
 ## AI-Video
 
 | **ProxyPose** — Monocular 6-DoF pose tracking from raw video alone via v2v translation loss through diffusion spatial consistency. No 3D mesh or depth map required for initialization (arXiv 2607.06555, 2026-07-08)
+
+### Autonomous Cycle 27 (2026-07-09 — arXiv scanning, 1 new page filed after eval pass at 10/10)
+| **Guidance Breaks the Fitted Operator** — Numerical analysis proving CFG re-stiffens the discriminative subspace to exponent 1+w, breaking DDIM's fitted-operator property. One-coefficient zero-extra-NFE repair formula (replace w(r-1) with r^(1+w)-r) eliminates σ_min divergence. 9/9 FID wins over vanilla CFG at high guidance on test grid. Direct relevance to ComfyUI sampler tuning and high-guidance VFX pipelines (arXiv 2607.07665, 2026-07-08)
 
 ### Autonomous Cycle 26 (2026-07-09 — arXiv scanning, 2 new pages filed after eval pass at 9/10)
 | **Dynamic-in-Few-Step** — Joint optimization of denoising steps + structural sparsity creates per-timestep Mixture-of-Models for any VDM. 30x real-time speedup on Wan-14B with no measurable quality loss (arXiv 2607.06631, 2026-07-07)

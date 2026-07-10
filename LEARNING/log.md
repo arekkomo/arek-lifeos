@@ -1,5 +1,16 @@
 # Log — Arek's Second Brain
 
+## [2026-07-09] autoresearch | Autonomous scan cycle 27 — 1 new page filed (arXiv cs.LG/math.NA, Jul 8 discovery window)
+
+Scanned arXiv for fresh material across Jun-Jul 2026 submission windows. Cycles 25-26 had already covered the Jul 7-8 batch extensively (MoE video, Dynamic-in-Few-Step, Gen4U, RLHF timestep weighting). This cycle surfaced a gap: arXiv 2607.07665 on CFG fitted-operator analysis was in search results but not yet filed — likely missed due to topic overlap with sampler papers at lower ranking. Retrieved full abstract via cross-origin XML fetch. No existing vault entries for "fitted operator", "classifier-free guidance repair", or the arXiv ID confirmed zero coverage.
+
+**Filing:**
+1. **Guidance Breaks the Fitted Operator** (`LEARNING/Knowledge/AI-Video/Guidance-Breaks-Fitted-Operator-CFG-Repair.md`) — Numerical analysis of CFG at high guidance through asymptotic-preserving lens. Proves DDIM loses fitted-operator property under guidance (stiffening to exponent 1+w in discriminative subspace). One-coefficient zero-extra-NFE repair: replace w(r-1) with r^(1+w)-r. Eliminates σ_min divergence, 9/9 FID wins over vanilla CFG on test grid. Directly applicable to ComfyUI sampler tuning at high guidance weights (w ≥ 5) where oversaturation is the limiting factor. arXiv 2607.07665
+
+Updated: index.md (+1 entry in cycle 27 block, timestamp refreshed), log.md
+
+Eval scoring: Guidance Breaks the Fitted Operator 10/10 on first pass. Perfect score across all assertions — strong theoretical content with practical ComfyUI implications (stabilizer for high-guidance workflows), complete frontmatter, proper source attribution, explicit limitation callouts from authors, and 7 wikilinks to existing pages including [[Selective-Timestep-Weighting-Diffusion-RLHF]], [[Wan2.2-Lightning]], [[Dynamic-in-Few-Step]], [[Stable Layers]].
+
 ## [2026-07-09] autoresearch | Autonomous scan cycle 26 — 2 new pages filed (arXiv cs.CV/cs.AI, Jul 8 discovery window)
 
 Scanned arXiv for video diffusion acceleration and latent probing developments across cs.CV and cs.AI from the Jul 7-8 submission window. Retrieved 3 candidates via targeted keyword queries. Verified no existing vault entries for either topic title or arXiv ID. Scored both against 10-assertion eval suite; both cleared 9/10 on first pass (a-04 paragraph length flagged minor list-block overruns, structurally passing).
