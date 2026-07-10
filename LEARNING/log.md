@@ -1,5 +1,20 @@
 # Log — Arek's Second Brain
 
+## [2026-07-10] autoresearch | Autonomous scan cycle 28 — 3 new pages filed (arXiv cs.CV, Jul 9 discovery window)
+
+Scanned arXiv cs.CV for fresh submissions across the Jul 5–9 window. Cycles 24–27 had already covered the Jun 25–Jul 8 batch extensively. Retrieved 10 recent papers via targeted keyword queries on diffusion+video and autoregressive generation. Verified zero existing vault entries for three titles/arXiv IDs by content-searching Knowledge/ folder. Scored all three against 10-assertion eval suite (a-01 through a-10); all cleared ≥9/10 on first pass.
+
+**Filing:**
+1. **OPSD-V** (`LEARNING/Knowledge/AI-Video/OPSD-V-On-Policy-Self-Distillation-Few-Step-AR-Video.md`) — Teacher-student self-distillation under on-policy AR cache dynamics reduces long-horizon error accumulation in few-step autoregressive video diffusion. Student generates chunks from its own KV cache; teacher evaluated at identical denoising states but with clean real-video history replacing stale entries. +66% user preference on VBenchLong vs base models (Self-Forcing, LongLive). No sampler or step-count changes. arXiv 2026-07-09
+2. **SAGA** (`LEARNING/Knowledge/AI-Video/SAGA-Stable-Acceleration-Guidance-Autoregressive-Video.md`) — Training-free spectral acceleration guidance for chunk-wise AR diffusion. Detects high-frequency temporal perturbations via finite-window Slepian projections in latent acceleration domain. Structured noise initialization suppresses error seeding at each chunk boundary while preserving long-range motion coherence. Temporal Quality 97.30→97.91 on VBenchLong. Zero retraining required. arXiv 2026-07-09
+3. **LightCrafter** (`LEARNING/Knowledge/VFX/LightCrafter-PBR-Video-Relighting-Diffusion.md`) — Hybrid pipeline reformulates video relighting as PBR-proxy translation: inverse rendering estimates scene intrinsics → forward-render under target illumination → post-trained CogVideoX translates PBR proxy to final photorealistic output. Bridges gap between physically-grounded control (inverse rendering) and effects that are hard to simulate analytically (global illumination). Outperforms SOTA on real-world relighting benchmarks. arXiv 2026-07-09
+
+**Dropped:** AutoPilot VQA (driving benchmark, below VFX/relevance threshold), WaspMOT (biological tracking benchmark, outside domain), Canvas360/StereoGS-type panorama work (already covered by [[StereoGS]], [[Pano2World]] entries).
+
+Updated: index.md (+cycle 28 block under AI-Video, +LightCrafter entry under VFX section, timestamp refreshed), log.md appended.
+
+Eval scoring: OPSD-V 9/10, SAGA 9/10, LightCrafter 9/10. All passed ≥8 threshold on first pass. Strengths: complete frontmatter, practical ComfyUI/VFX pipeline relevance notes, comparison to existing vault entries, explicit limitation callouts. Wikilink density at 5+ per page (verified cross-references to [[Self-Forcing]], [[Wan2]], [[ISPA]], [[SAM2Matting]]).
+
 ## [2026-07-09] autoresearch | Autonomous scan cycle 27 — 1 new page filed (arXiv cs.LG/math.NA, Jul 8 discovery window)
 
 Scanned arXiv for fresh material across Jun-Jul 2026 submission windows. Cycles 25-26 had already covered the Jul 7-8 batch extensively (MoE video, Dynamic-in-Few-Step, Gen4U, RLHF timestep weighting). This cycle surfaced a gap: arXiv 2607.07665 on CFG fitted-operator analysis was in search results but not yet filed — likely missed due to topic overlap with sampler papers at lower ranking. Retrieved full abstract via cross-origin XML fetch. No existing vault entries for "fitted operator", "classifier-free guidance repair", or the arXiv ID confirmed zero coverage.

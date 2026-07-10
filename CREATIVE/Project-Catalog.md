@@ -15,12 +15,13 @@ updated: 2026-06-09
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
 | 1 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
-| 2 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Music-Video-Projects/Little-M/` | 2026-07-13 |
-| 3 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
-| 4 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
-| 5 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
-| 6 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
-| 7 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-06-09 |
+| 2 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-07-13 |
+| 3 | **Chaotic Baking** | Music / Song | Lyrics complete (full V1+PC+C+V2+B+FCh+Outro) — needs genre assignment, Suno prompt, production stage decision | `CREATIVE/Shorts-Projects/Chaotic-Baking/chaotic-baking.md` | DISCOVERED NOW: full lyric draft found in shorts folder; unknown last-active date (no git history on this file) |
+| 4 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
+| 5 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
+| 6 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
+| 7 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
+| 8 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-06-09 |
 
 ---
 

@@ -1,6 +1,12 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-09 (cycle 27 — autonomous scanning: Guidance Breaks the Fitted Operator CFG Repair)
+> Updated: 2026-07-10 (cycle 28 — autonomous scanning: OPSD-V, SAGA, LightCrafter VFX relighting)
+
+## AI-Video
+
+### Autonomous Cycle 28 (2026-07-10 — arXiv cs.CV fresh harvest, 2 new pages filed after eval pass at 9/10)
+| **OPSD-V** — On-Policy Self-Distillation fixes long-horizon error accumulation in few-step AR video diffusion. Teacher uses cleaner temporal cache while student follows its own KV trajectory. No sampler or step-count changes. +66% user preference on VBenchLong vs base (arXiv 2026-07, Jul 9)
+| **SAGA** — Training-free spectral acceleration guidance for chunk-wise AR diffusion. Detects high-frequency temporal perturbations via Slepian projections in latent acceleration domain + structured noise initialization suppresses error seeding at each chunk boundary. Zero retraining (arXiv 2026-07, Jul 9)
 
 ## Real-Estate-Investing | New domain added cycle 20
 
@@ -183,14 +189,19 @@ Full-length guides and operational docs preserved at full depth:
 - **Higgs Audio v3 TTS** — Controllable text-to-speech with inline emotional tags (Boson AI, 2026-06-04) [Notion batch 01]
 - **Stable Audio 3** — Stability AI's text-to-audio diffusion model family: music and SFX variants (2026-06-16) [Notion batch 01]
 
-## VFX
-- **CarWash — Houdini/Solaris USD Render Delegate** — Hydra render delegate that conditions [[LTX-2.3 Model Architecture]] on actual USD scene shading via [[ComfyUI]], enabling scene-grounded AI video in a production VFX pipeline. Generates 25-frame sequences with live viewpreview, deterministic convergence hashing, FP8 transformer quantization (github.com/JOIbrahim, 2026-07-06)
-- **Stable Layers — Stability AI** — Open-source image decomposition framework converting single images into semantically-segmented editable layers with transparent masks for VFX compositing pipelines. (Notion batch 02)
+## VFX (continued)
+- **CarWash** — Houdini/Solaris USD Render Delegate that conditions [[LTX-2.3 Model Architecture]] on actual USD scene shading via [[ComfyUI]] (github.com/JOIbrahim, 2026-07-06)
+- **Stable Layers** — Stability AI image decomposition for compositing (Notion batch 02)
+- **LightCrafter** — PBR-conditioned video relighting via hybrid inverse-render + diffusion refinement. Bakes illumination targets into PBR proxy before CogVideoX translates to photorealistic output (arXiv 2026-07, Jul 9)
+
 ## Music-Production
-- **Suno v5 Prompt Engineering Best Practices** — Comprehensive guide covering structure formulas, dynamic arc descriptions, metatag systems, vocal persona building, phonetic tricks for AI vocalists, and the critical artist-name restriction rule. Covers v5-specific features: extended song generation (7+ min), multi-song batch generation, improved structure adherence, and Exclude Styles field.
-- **Suno Music Style Tags Guide** — Reference catalog of Suno-compatible tags organized by BPM/tempo range (40-200+ BPM), instrumentation families (strings, brass, woodwinds, keyboards, guitars, bass, drums, synths, orchestral hybrid), production quality terms, vocal character descriptors, mood/emotion categories, genre combos, and structural metatags. Builds complete prompts using the formula: Genre + BPM + Mood + Instruments + Vocal Persona + Production Quality + Energy Arc.
-- **Reference Song Analysis Template** — Structured workflow for converting any song concept or reference track into a Suno style prompt and metatag set without using artist names. Includes fill-in worksheet, 3 worked examples (housy house track with no reference track), and quick-conversion cheat sheet mapping emotional descriptions to sonic tags.
-- **Magma RT2 — Realtime Music Generation Engine** — Open-source low-latency realtime music generation engine by Google Magenta Team. Transformer-based framework for instrument and voice synthesis from text prompts with real-time inference (github.com/KytraScript/magenta-rt2). [Notion batch 01]
+- **Suno v5 Prompt Engineering Best Practices** — Structure formulas, dynamic arc descriptions, metatag systems, vocal persona building, phonetic tricks, artist-name restriction rule. Covers extended generation (7+ min), multi-song batch, Exclude Styles field.
+- **Suno Music Style Tags Guide** — Reference catalog by BPM, instruments, production quality terms, mood categories. Prompt formula: Genre + BPM + Mood + Instruments + Vocal Persona + Production Quality + Energy Arc.
+- **Reference Song Analysis Template** — Structured workflow for converting song concept into Suno style prompt without artist names. Includes fill-in worksheet and worked examples.
+- **Magma RT2** — Realtime music generation engine by Google Magenta Team (github.com/KytraScript/magenta-rt2) [Notion batch 01]
+
+## Real-Estate-Investing | New domain added cycle 20
+- **Vancouver Condo Market 2026*** — Five-year outlook, timing, mortgage sizing for cash flow. ~40 sources Jan-Jul 2026
 
 ---
 
