@@ -7,10 +7,8 @@ source_path: /tmp/pytorch_rss.xml (RSS feed scrape, Jul 10 2026)
 source_date: 2026-07
 authors: [PyTorch Blog Team, Meta, AMD, Qualcomm]
 ingested: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-11
 ---
-
-# PyTorch RSS Scan — July 2026 (Cycle 30)
 
 > **Scope:** PyTorch blog RSS feed, Jul 2–10 2026 window. 10 articles extracted. HF Blog RSS and Google AI RSS both returned HTTP 404 HTML pages (feed URLs dead/blocked). arXiv API and Semantic Scholar blocked with 429 rate limits.
 
@@ -41,7 +39,16 @@ Why this matters: ComfyUI models compiled with `torch.compile` benefit from CUTL
 
 Fuses LayerNorm/RMSNorm into adjacent GEMM kernels, hiding up to **90% of normalization latency** through compute overlap. Multi-CTA (compute thread agent) patterns for broader fusion coverage.
 
-Why this matters: Diffusion transformers stack dozens of layers — each with RMSNorm/LayerNorm. Hiding normalization in GEMM means more FLOPs on actual model computation per token/latent step.
+**Deep-dive details (Jul 10 blog post):**
+Two kernel DSL implementations: **TLX** (Triton DSL extensions with hardware-aware GPU control)
+and [[Helion]] (high-level portable autotuning). Benchmarks on NVIDIA B200 GPUs, bf16, 750W cap.
+
+The killer optimization is **FlashNormAttention** — fuses both LayerNorm and RMSNorm into
+attention kernels like GDPA, achieving up to **35% kernel speedup**. Normalization alone accounts
+for ~20% of total training latency in Meta's largest models (Kunlun architecture) and ~10% in
+typical LLMs. Eliminating these memory-bound ops frees that percentage back for actual computation.
+
+Why this matters: Diffusion transformers stack dozens of layers — each with RMSNorm/LayerNorm. Hiding normalization in GEMM means more FLOPs on actual model computation per token/latent step. Relevant repo: `facebookresearch/ads_model_kernel_library` (multi_cta_norm_fusion, gdpa_megakernel).
 
 #### Deterministic Backward for FlexAttention Flash Backend
 

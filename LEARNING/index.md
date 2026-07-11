@@ -1,6 +1,6 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-10 (cycle 30 — PyTorch RSS scan + framework infrastructure briefing; arXiv/Semantic Scholar/HF/Google AI RSS sources blocked or rate-limited)
+> Updated: 2026-07-11 (cycle 31 — arXiv cs.CV sweep + StatLUT filed, PyTorch normalization flashnormattention enrichment; HF trending dead with 400, GitHub nodes incremental)
 
 ## AI-Video
 
@@ -183,6 +183,12 @@ Full-length guides and operational docs preserved at full depth:
 - [Visual storytelling, cinematic shooting]
 
 ## DaVinci-Resolve
+
+### Autonomous Cycle 31 (2026-07-11 — arXiv cs.CV sweep, 1 new page filed)
+
+| **StatLUT** | concept | AI-generated 3D LUTs via Transformer Seq2Seq + lightweight DiT for text-driven color grading. Lab-Extractor decouples color from structure. Direct DaVinci Resolve import as .cube files. (arXiv 2607.08227, Jul 9)
+
+### Existing
 - [Resolve workflows]
 
 ## AI-Audio

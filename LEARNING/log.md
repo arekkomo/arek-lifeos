@@ -1,6 +1,30 @@
 # Log — Arek's Second Brain
 
-## [2026-07-10] autoresearch | Autonomous scan cycle 30 — PyTorch RSS feed scan, framework infrastructure briefing filed
+## [2026-07-11] autoresearch | Autonomous scan cycle 31 — StatLUT filed, PyTorch normalization enriched
+
+**Sources live:** arXiv cs.CV (✅ both queries responded, 23 candidates after dedup), HuggingFace trending (❌ HTTP 400 Bad Request — endpoint requires auth or is rate-gated), GitHub repo search (✅ 6 matched ComfyUI matting/video nodes, all <60 stars and older than existing SAM2Matting coverage → rejected incremental), PyTorch blog RSS (✅ 4 articles, Jul 10 "Towards Free Normalization" deep-dive enriched existing briefing).
+
+**Filing:**
+1. **StatLUT — Multimodal 3D LUT Generation** (`LEARNING/Knowledge/DaVinci-Resolve/statlut-multimodal-3d-lut-generation.md`) — arXiv 2607.08227v1, Jul 9. Transformer Seq2Seq + lightweight H-Diffuser DiT generates standard .cube LUTs from reference images or text prompts ("desaturated teal/orange cinema look"). Lab-Extractor decouples color distribution from structure in CIE-Lab space, bypassing semantic entanglement of CNN/ViT encoders. Direct DaVinci Resolve import without conversion. Eval: 9/10 (DaVinci/VFX relevance + pipeline path via ComfyUI custom node for post-generation color grading). Wikilinks verified: davinci-resolve ✅, comfyui-ocio-color-management ✅, ultraimagegen-hierarchical-local-attention ✅, gimbal-diffusion-gravity-aware-camera-control ✅.
+
+2. **PyTorch Normalization Fusion enrichment** — Added FlashNormAttention deep-dive from Jul 10 blog post to existing `PyTorch-2.13-July-2026-RSS-Briefing.md`: FlashNormAttention fuses LayerNorm+RMSNorm into attention kernels (GDPA), up to 35% kernel speedup on B200 GPUs, normalization accounts for ~20% of training latency in large models. Two DSL implementations (TLX + [[Helion]]). Updated `updated:` to 2026-07-11.
+
+**Rejected out-of-scope (18 items):**
+- OPSD-V (already filed Cycle 28), OpenCoF (already filed Cycle 29) — duplicate skip
+- ARDY (humanoid robotics motion gen, cs.RO/robotics, outside VFX/filmmaking scope)
+- Workflow as Knowledge (abstract workflow theory for LLMs, no actionable tool/example)
+- Wat3R underwater 3D geometry, ZipDepth mobile depth estimation, Geometry-based panorama partitioning — reconstruction/compression papers without video gen/VFX angle
+- Dashcam VQA benchmark, Autonomous driving VLA/Navigation, Robot control pretraining — autonomous driving/robotics scope
+- Scientific lineage reasoning benchmark, LLM quantization analysis, UMAP network science — pure NLP/CV theory outside generation pipelines
+- Image quality assessment, JEPA for network fingerprints, Mirror-symmetry scoring — CV benchmarks/side-projects
+- PyTorch Monarch on ROCm, TokenSpeed-Kernel — already in Cycle 30 briefing
+
+**Rejected as incremental (6 GitHub nodes):** All ComfyUI video matting repos either <60 stars + no update in months, or functionally covered by existing [[sam2matting]] filing.
+
+Updated: index.md (+Cycle 31 DaVinci-Resolve entry), log.md appended, PyTorch-2.13-briefing enriched.
+
+[Autoresearch Scan - 2026-07-11 00:00]
+Scouts found: 23 | Passed eval bar (≥ 8): 1 | Filed: 1 new + 1 enrichment | Rejected: 24
 
 Pivoted to RSS-based research after arXiv API (429 rate limit), Semantic Scholar (429 rate limit), HF Blog RSS (HTTP 404 HTML), and Google AI RSS (HTTP 404 HTML) all returned dead/blocked responses. PyTorch blog RSS at https://pytorch.org/feed was the only responsive source — extracted 10 articles from Jul 2–10, 2026 window covering PyTorch 2.13 release + supporting posts.
 
