@@ -1,8 +1,12 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-10 (cycle 29 — autonomous scanning: OpenCoF Chain-of-Frame, Score Accuracy/Num Stability, DeltaV Visual State Updates)
+> Updated: 2026-07-10 (cycle 30 — PyTorch RSS scan + framework infrastructure briefing; arXiv/Semantic Scholar/HF/Google AI RSS sources blocked or rate-limited)
 
 ## AI-Video
+
+### Autonomous Cycle 30 (2026-07-10 — PyTorch RSS feed scan, framework infrastructure update)
+
+| **PyTorch 2.13 Framework Update** 🟠 | infra source | PyTorch 2.13 released Jul 8: FlexAttention on MPS (~12x sparse, ~4x medium), CuTeDSL Native DSL backend for Inductor (CUTLASS-grade GEMM/RMSNorm kernels), normalization fusion hiding 90% LayerNorm latency via GEMM overlap, native `torch.load()` for safetensors, FSDP2 AG/RS overlap, torchcomms backend. Filed full briefing with ComfyUI/diffusion relevance analysis. Other Jul articles: Monarch on ROCm (fault-tolerant training), Miles RL post-training stack, TokenSpeed-Kernel multi-silicon inference, DeepSeek-V4 on GB300 via SGLang (5x throughput), ExecuTorch hackathon winners |
 
 ### Autonomous Cycle 29 (2026-07-10 — arXiv cs.CV/cs.AI fresh harvest, 3 new pages filed after eval pass at 9–10/10)
 | **OpenCoF** — Fine-tuned Wan2.2-I2V model for Chain-of-Frame reasoning through temporally connected video frames. 17K dataset spanning 11 task families + visual/textual reasoning tokens injected at step-specific denoising stages. +15–22pp gains on CoF benchmarks (arXiv 2607.08763, Jul 9)

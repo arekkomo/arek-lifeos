@@ -1,5 +1,17 @@
 # Log — Arek's Second Brain
 
+## [2026-07-10] autoresearch | Autonomous scan cycle 30 — PyTorch RSS feed scan, framework infrastructure briefing filed
+
+Pivoted to RSS-based research after arXiv API (429 rate limit), Semantic Scholar (429 rate limit), HF Blog RSS (HTTP 404 HTML), and Google AI RSS (HTTP 404 HTML) all returned dead/blocked responses. PyTorch blog RSS at https://pytorch.org/feed was the only responsive source — extracted 10 articles from Jul 2–10, 2026 window covering PyTorch 2.13 release + supporting posts.
+
+**Filing:**
+1. **PyTorch 2.13 Briefing** (`LEARNING/Knowledge/AI-Agents/PyTorch-2.13-July-2026-RSS-Briefing.md`, 9.4KB) — Comprehensive release analysis with ComfyUI/diffusion relevance scoring for every feature. Headlines: FlexAttention on MPS (up to 12.3x sparse attention speedup), CuTeDSL Native DSL backend for Inductor (CUTLASS-grade GEMM/RMSNorm), normalization fusion hiding ~90% LayerNorm latency via GEMM overlap, native safetensors `torch.load()`, FSDP2 AG/RS overlap, torchcomms backend. Also covered: Monarch fault-tolerant training on ROCm, Miles RL post-training stack, TokenSpeed-Kernel multi-silicon inference portability, DeepSeek-V4 on GB300 (5x SGLang throughput), ExecuTorch hackathon winners emphasizing why local execution matters.
+
+**Blocked sources this cycle:** arXiv API (429), Semantic Scholar (429), HF Blog RSS (404 HTML redirect), Google AI RSS (404 HTML). `blogwatcher-cli` remains broken (Exec format error). Security scanner still blocks `curl | python3 -c` pipe patterns.
+
+Updated: index.md (+cycle 30 block under AI-Video with framework update timestamp), log.md appended.
+Eval scoring: N/A — framework release notes, not primary research papers. Relevance threshold applied to each feature for ComfyUI/diffusion/VFX pipeline impact assessment.
+
 ## [2026-07-10] autoresearch | Autonomous scan cycle 29 — 3 new pages filed (arXiv cs.CV + cs.AI, Jul 9 discovery window)
 
 Scanned arXiv cs.CV and cs.AI for fresh submissions posted across the Jul 9 batch. Cycle 28 had covered OPSD-V, SAGA, and LightCrafter from the same date; this cycle targets three additional high-signal papers (OpenCoF, Score Accuracy ≠ Numerical Stability, DeltaV) that were in search results but missed in the prior sweep due to lower ranking behind already-filed titles. Retrieved full abstracts via arXiv API XML fetch. Verified zero existing vault entries for all three titles/arXiv IDs by content-searching Knowledge/ folder. Scored all three against 10-assertion eval suite (a-01 through a-10); all cleared ≥9/10 on first pass.
