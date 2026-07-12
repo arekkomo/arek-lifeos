@@ -61,4 +61,4 @@ updated: 2026-06-09
 
 ---
 
-*Catalog updated by Director cron — 2026-07-27 (W30): scanned all of CREATIVE/; zero new projects or files since W29 scan. All idle folders remain empty. Active list unchanged: 5 projects, last known contact Imma Nyala May 15 (~8+ weeks ago). Note: Imma Nyala episodes folder contains EP-01-The-Entrance.md (last modified ~Jun 14) with no subsequent changes.*
+*Catalog updated by Director cron — 2026-09-12 (W38): scanned all of CREATIVE/; zero new projects or files since W30 scan (Jul 27). All entries unchanged; last modification date still Jul 9 (Chaotic-Baking lyrics). Catalog is current.*
