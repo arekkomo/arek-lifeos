@@ -1,8 +1,12 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-11 (cycle 31 — arXiv cs.CV sweep + StatLUT filed, PyTorch normalization flashnormattention enrichment; HF trending dead with 400, GitHub nodes incremental)
+> Updated: 2026-07-13 (cycle 32 — dual arXiv cs.CV + narrow sweep, GenCeption filed; HF trending dead with 400, GitHub nodes incremental, PyTorch RSS no domain hits)
 
 ## AI-Video
+
+### Autonomous Cycle 32 (2026-07-13 — dual arXiv cs.CV + narrow sweep, 1 candidate filed after eval pass at 9/10)
+
+| **GenCeption** | concept | Pretrained video generative DiT backbone defines feed-forward perception model for depth, normals, camera pose, and 3D keypoints with 7-500× less data than specialized models. Matches DepthAnything3, D4RT, VGGT-Omega. Generalizes from synthetic to real-world footage. Strong VFX/DaVinci Resolve implications — replaces multiple dedicated estimation nodes. (arXiv 2607.09024, Jul 10) |
 
 ### Autonomous Cycle 30 (2026-07-10 — PyTorch RSS feed scan, framework infrastructure update)
 

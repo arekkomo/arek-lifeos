@@ -1,5 +1,17 @@
 # Log — Arek's Second Brain
 
+## [2026-07-13] autoresearch | Autonomous scan cycle 32 — GenCeption filed, zero other candidates passed eval
+
+**Sources live:** arXiv cs.CV + narrow sweep (✅ both queries responded, broad=15/narrow=10 papers fetched via dual-query pattern; HTML fallback used for paper detail fetch), HuggingFace trending (❌ HTTP 400 Bad Request — same auth/rate-limit block as cycle 30/31), HF blog scrape (✅ 13 slugs but SPA rendering produced generic metadata, no useful content extraction), GitHub repo search (✅ 31 unique repos across 5 queries, all incremental updates to existing nodes or <5 stars → rejected), PyTorch blog RSS (✅ 10 items, zero scored >=2 keyword hits for domain relevance).
+
+**Candidate: GenCeption** (arXiv 2607.09024) — Video generation backbones as general-purpose vision learners. Eval score 9/10. Filed to `LEARNING/Knowledge/AI-Video/GenCeption.md`. Covers core claim, architecture, results table, emergent behaviors, workflow implications (DaVinci Resolve + ComfyUI), and related work links.
+
+**Rejected from arXiv broad swap:** PHINN-EEG (dream analysis/neuroscience), Scalable Visual Pretraining (LLM text pretraining methodology), OpenLongTail (drive data gen), VEXAIoT (cybersecurity IoT), ConceptSMILE (XAI auditing), Semantic Pareto-DQN (finance anomaly detection), Lean-QIT (quantum IT), canola branch counting (agriculture), 4DR360 (radar-camera autonomous driving), QANTA 2026 submission (quizbowl agents), Agora (LLM orchestration auction, marginal), PAC-ACT (robot manipulation policy).
+
+**Rejected from narrow swap:** FreyaTTS (Turkish TTS), DRIFT terrain ID (multispectral robot nav), solar PV fault classification, YeTI sRGB noise gen (image denoising, incremental), GenVid2Robot (robotics trajectory conversion, tangential), Generative Communications 6G review (telecom overview), ReGen waveform diffusion (audio DiT acceleration), CAPRA medical imaging. OPSD-V already filed in cycle 28.
+
+**Rejected PanoWorld** (arXiv 2607.09661) — Panoramic world model for drone/UAV navigation via fixed-heading camera simplification and rotation-equivariant memory. Re-evaluated after initial interest: autonomous driving/robotics focus, no VFX or generative video workflow relevance beyond "world model" keyword overlap. Score 4/10.
+
 ## [2026-07-11] autoresearch | Autonomous scan cycle 31 — StatLUT filed, PyTorch normalization enriched
 
 **Sources live:** arXiv cs.CV (✅ both queries responded, 23 candidates after dedup), HuggingFace trending (❌ HTTP 400 Bad Request — endpoint requires auth or is rate-gated), GitHub repo search (✅ 6 matched ComfyUI matting/video nodes, all <60 stars and older than existing SAM2Matting coverage → rejected incremental), PyTorch blog RSS (✅ 4 articles, Jul 10 "Towards Free Normalization" deep-dive enriched existing briefing).
