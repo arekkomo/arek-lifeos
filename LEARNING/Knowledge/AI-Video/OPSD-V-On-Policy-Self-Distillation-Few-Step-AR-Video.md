@@ -46,3 +46,4 @@ Relevant for streaming real-time pipelines where inference latency must not incr
 - [[Self-Forcing]] (methodology target)
 - [[ISPA-Instance-Specific-Parametric-Absorption]] (also targets KV cache quality without dropping tokens)
 - [[Dynamic-in-Few-Step]] (few-step acceleration from a different angle: MoM instead of distillation)
+- [[LongForcing]] — similar teacher-student approach but with adaptive trust region for continuous horizons rather than fixed-chunk stability; complements OPSD-V's on-policy cache constraints

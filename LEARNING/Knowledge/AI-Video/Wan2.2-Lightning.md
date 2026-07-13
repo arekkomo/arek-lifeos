@@ -29,6 +29,8 @@ Access via Hugging Face; use with diffusers or ComfyUI nodes. LoRA/quantized var
 
 > [[source: dtb Knowledge dump, 2025-11-16]] | [HuggingFace](https://huggingface.co/lightx2v/Wan2.2-Lightning)
 
+> ⚠️ **Context update (2026-07-13):** ABot-World uses Wan-AI/Wan2.2-TI2V-5B as its base model but does NOT use the Lightning distilled variant — it uses full teacher-student distillation with LongForcing. However, LightX2V (which developed Wan2.2-Lightning) is listed as part of ABot-World's stack, suggesting their 4-step acceleration pipeline may be incorporated as an optimization layer alongside LongForcing.
+
 ```
 ## [2026-07-04] ingest | Wan2.2-Lightning
 Created entity page from Notion dump — distilled 4-step T2V model. Source: raw/dtb_export_archive_2026-07-04/Wan2.2-Lightning.md

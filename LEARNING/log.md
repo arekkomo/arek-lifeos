@@ -705,3 +705,9 @@ Updated: index.md (+3 new entries, cycle 17→18), rdm page moved from AI-Audio 
 
 ## [2026-07-06] ingest | Vancouver Condo Investment Market Analysis
 Source narrative report from Emily's research pipeline (40+ verified sources Jan-Jul 2026). Created new Real-Estate-Investing knowledge domain with synthesis page and four entity cards covering oversupply crisis, BC gov buyout program impact, cash flow tier matrix, and rental market snapshot. Pages touchable by Accountant for the five-year property development strategy.
+
+## [2026-07-13] ingest | ABot World ecosystem — LongForcing + causal diffusion world models
+
+New: [[ABot-World]] (source), [[LongForcing]] (concept), [[Causal-Diffusion-World-Models]] (concept). 
+Updated: [[OPSD-V-On-Policy-Self-Distillation-Few-Step-AR-Video]] (added LongForcing cross-ref), [[Wan2.2-Lightning]] (added ABot-World base model context note).
+Key synthesis: teacher-student distillation is converging across at least 4 approaches — OPSD-V, DeltaForcing, LongForcing, and SAGA — all solving long-horizon temporal consistency in diffusion video from different angles. This category of problem/solution is maturing rapidly.
