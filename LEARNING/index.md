@@ -235,3 +235,16 @@ All agents active (8 total)
 
 ### Pending improvements
 - [Add as workflows and setups develop]
+
+### Manual Ingest Cycle 33 (2026-07-13 — ABot World ecosystem: LongForcing + causal world models)
+
+| **ABot World** | source | AMAP CV Lab single-RTX-5090 interactive world simulator (5B causal DiT, 720p/16fps, ~1.2s latency). Base: Wan2.2-TI2V-5B. Novel LongForcing training solves scene lock-in via adaptive trust region distillation. Apache 2.0. | abot-world, longforcing, causal-diffusion |
+| **LongForcing** | concept | Training technique eliminating scene lock-in in causal diffusion by constraining teacher guidance within an adaptive trust region enabling infinite temporal reach | longforcing, self-distillation, continuous-horizon |
+| **Causal-Diffusion-World-Models** | concept | Interactive world simulation via causal DiT — emerging paradigm for real-time AI pre-visualization and directorial blocking | world-models, causal-diffusion, ai-filmmaking |
+
+### Manual Ingest Cycle 34 (2026-07-13 — GitHub repo scan: SeFi-Image, PixWorld, AlayaWorkd, ProxyPose follow-up)
+
+| **SeFi-Image** | entity | Semantic-first diffusion T2I family (1B/2B/5B Base + Turbo 4-step variants). Dual-stream semantic+texture latents denoised in sequence for cleaner structural anchors. RL variant available. Training: ~125K A800 hrs for 5B model. | text-to-image, dual-stream, turbo-inference, ai-image |
+| **PixWorld** | source | Nanyang Tech/AISphere unified pixel-space diffusion model — two-stream DiT processes multi-view inputs to produce one pixel-aligned 3D Gaussian field in a forward pass. Flow-matching on rendered views (no VAE), VGGT geometry perception loss. 4-step distilled at ~0.6s for generation+reconstruction+text-to-3D. | 3d-generation, gaussian-splatting, pixel-space, real-time-3d |
+| **AlayaWorkd** | source | Alaya Lab interactive autoregressive world model with explicit dual memory (3D spatial cache + temporal embeddings), error bank for minute-long stability, camera modulation via AdaLN. Few-step DMD. Code/weights in roadmap. Technical report Jul 8. | world-model, long-horizon, camera-control, memory-consistency |
+| **ProxyPose** | follow-up | New GitHub repo URL provided (https://github.com/ruihangzhang97/proxypose) — previously indexed as arXiv paper 2607.06555 in cycle 32. Need to cross-check if there's new code/release or just a repo mirror of the published work. | pose-tracking, arxiv-paper, proxy-pose |

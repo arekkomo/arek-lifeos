@@ -711,3 +711,15 @@ Source narrative report from Emily's research pipeline (40+ verified sources Jan
 New: [[ABot-World]] (source), [[LongForcing]] (concept), [[Causal-Diffusion-World-Models]] (concept). 
 Updated: [[OPSD-V-On-Policy-Self-Distillation-Few-Step-AR-Video]] (added LongForcing cross-ref), [[Wan2.2-Lightning]] (added ABot-World base model context note).
 Key synthesis: teacher-student distillation is converging across at least 4 approaches — OPSD-V, DeltaForcing, LongForcing, and SAGA — all solving long-horizon temporal consistency in diffusion video from different angles. This category of problem/solution is maturing rapidly.
+
+## [2026-07-13] ingest | ABot World ecosystem — LongForcing + causal diffusion world models
+
+New: [[ABot-World]] (source), [[LongForcing]] (concept), [[Causal-Diffusion-World-Models]] (concept). 
+Updated: [[OPSD-V-On-Policy-Self-Distillation-Few-Step-AR-Video]] (added LongForcing cross-ref), [[Wan2.2-Lightning]] (added ABot-World base model context note).
+Key synthesis: teacher-student distillation is converging across 4+ approaches — OPSD-V, DeltaForcing, LongForcing, and SAGA — all solving long-horizon temporal consistency in diffusion video from different angles. This problem/solution category is maturing rapidly.
+
+## [2026-07-13] ingest | Cycle 34 — SeFi-Image (semantic-first T2I), PixWorld (unified 3D gen/reconstruction), AlayaWorkd (interactive AR world model with dual memory) + ProxyPose GitHub follow-up
+
+New: [[SeFi-Image]] (AI-Image-Midjourney, source summary from GitHub README), [[PixWorld]] (AI-3D, arXiv 2607.05373 + GitHub), [[AlayaWorkd]] (AI-Video, arXiv technical report Jul 8).
+Key convergence: Three independent world model approaches published within days — ABot Workd (AMAP CV Lab/LongForcing/causal DiT), Alaya Workd (Alaya Lab/DMD chunks/dual explicit memory), and PixWorld (pixel-space supervision for unified 3D genn recon) all share the problem of long-horizon stability but solve it differently. This is the emerging architecture landscape for real-time AI simulation.
+Note: ProxyPose GitHub URL provided (https://github.com/ruihangzhang97/proxypose) — already indexed from arXiv cycle 32; need to check if README adds new info vs the published paper.
