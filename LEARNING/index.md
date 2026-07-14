@@ -1,8 +1,13 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-13 (cycle 32 — dual arXiv cs.CV + narrow sweep, GenCeption filed; HF trending dead with 400, GitHub nodes incremental, PyTorch RSS no domain hits)
+> Updated: 2026-07-14 (cycle 35 — dual arXiv cs.CV + 3D/GS sweep, HF trending dead with 400, GitHub nodes incremental, PyTorch RSS no new domain hits; 3 pages filed)
 
 ## AI-Video
+
+### Autonomous Cycle 35 (2026-07-14 — dual arXiv cs.CV + 3D/GS + HF trending + GitHub nodes + PyTorch RSS, 3 candidates filed after eval ≥ 9/10)
+
+| **Cycle-World** | concept | Temporal-reversibility framework suppressing error accumulation in long-horizon AR video diffusion via frozen reverse-prediction corrector. SOTA VBench at 60s synthesis. Complements [[OPSD-V]], [[Delta Forcing]], [[LongForcing]] from cycle-consistency angle. Direct ComfyUI runtime refiner path for videos >30s (arXiv 2607.11836, Jul 13) |
+| **Controlling Motion Transfer via Attention Heads** | concept | Training-free DiT motion transfer by identifying/manipulating separate attention heads specialized for motion vs structure. Zero parameter updates, competitive with fine-tuned methods on Wan/CogVideoX. Relevant to ComfyUI character animation pipelines (arXiv 2607.11081, Jul 13) |
 
 ### Autonomous Cycle 32 (2026-07-13 — dual arXiv cs.CV + narrow sweep, 1 candidate filed after eval pass at 9/10)
 
@@ -173,7 +178,13 @@ Full-length guides and operational docs preserved at full depth:
 - **OrbitQuant — Data-Agnostic DiT Quantization** — RPBH rotation concentrates activation coordinates around fixed marginals regardless of timestep/prompt/modality, enabling a single Lloyd-Max codebook for post-training quantization. First usable W2A4 on image/video DiTs with zero per-checkpoint calibration data. Tested on FLUX.1, Wan 2.1, CogVideoX (arXiv 2607.02461, 2026-07-02)
 
 ## AI-3D
-|- **MV-Forcing — Long Multi-View Video via 4D Self-Forcing** — Temporal autoregression chained through lightweight Gaussian Splatting proxy; renders new viewpoints as spatial priors for bidirectional attention. Generates minutes of consistent multi-view dynamic sequences, not just short clips (arXiv 2607.05376, 2026-07)
+
+### Autonomous Cycle 35 (2026-07-14 — arXiv cs.CV + 3D/Gaussian Splatting sweep, 1 new page filed at 9/10)
+
+| **ABot-3DWorld 0** | concept | Universal multimodal 3D world model turning text/image/video into explorable [[Gaussian Splatting]] worlds via Spatial Generative Primitive (SGP). Two regimes: rich-input geometry recovery + single-image creative generation. Extends [[ABot World]] lineage into spatial generation with geographic anchoring. (arXiv 2607.11673, Jul 13) |
+
+### Existing Research (AI-3D continued — entries from earlier cycles)
+| **MV-Forcing — Long Multi-View Video via 4D Self-Forcing** — Temporal autoregression chained through lightweight Gaussian Splatting proxy; renders new viewpoints as spatial priors for bidirectional attention. Generates minutes of consistent multi-view dynamic sequences, not just short clips (arXiv 2607.05376, 2026-07)
 |- **Flex4DHuman — Multi-View Video Diffusion for 4D Reconstruction** — Converts monocular video to synchronized dense multi-view using only SE(3) camera-pose conditioning, no explicit geometry priors. Five-axis positional encoding extends RoPE with view indices and continuous camera geometry. Three-stage curriculum: pose following → flexible reference → temporal rollout. Feeds directly to [[Gaussian Splatting]] for dynamic 4D assets (Semantic Scholar, 2026-07-03)
 |- **SimWorlds — Multi-Agent Blender 4D Scene Generation** — Planner-coder-reviewer LLM agents generate physically-correct animated 3D scenes from text via Blender Python API. Runtime-state inspection tools validate physics correctness before rendering. New 4DBuildBench benchmark for physical consistency evaluation (arXiv 2607.01766, 2026-07-02)
 - **Align4D — X-to-4D Generation via Diffusion Alignment** — Unified framework converting text/image/video input into coherent 4D scenes by aligning video guidance with 3D geometric priors through object distance optimization and asynchronous Gaussian attribute/deformation training (arXiv 2607.02516, 2026-07-02)
