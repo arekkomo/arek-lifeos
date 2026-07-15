@@ -5,7 +5,6 @@ video_script: true
 duration: "~3:30"
 format: "Shot-by-shot music video script"
 ---
-
 # Chaotic Baking — Music Video Script
 
 ## Visual Approach
