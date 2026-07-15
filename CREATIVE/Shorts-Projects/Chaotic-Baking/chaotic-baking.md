@@ -6,7 +6,7 @@ title: Chaotic Baking
 
 **[Verse 1]**
 Pull the line until it breaks.
-Your heat against what stays awake.
+Your heat against what stay awake.
 Crack at the joints from going slow.
 I wasn't built for where you go.
 
@@ -73,3 +73,11 @@ Sweet still lingers where our hands begin.
 Golden and soft inside —
 bitter gone because you stayed the night.
 Just enough.
+
+=== SUNO STYLE ===
+
+[Genre: Industrial techno]
+[Vocals: male, raw and strained, building from whispered tension to shouted release]
+[Instrumentation: distorted bass, punchy kick drum, metallic percussion, analog synth stabs, rising noise sweeps]
+[Mood: aggressive, sensual, volatile — heat and friction that finally break into catharsis]
+[Production: gritty and compressed, heavy low end, vocal pushed forward then lost in the wall of sound during chorus]
