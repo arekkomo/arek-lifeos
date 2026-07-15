@@ -1,5 +1,17 @@
 # Log — Arek's Second Brain
 
+## [2026-07-15] autoresearch | Autonomous scan cycle 36 — 2 candidates filed (ACID, Seriality Gap), 1 rejected out-of-scope (WanToFight gaming)
+
+**Sources live:** arXiv dual-query sweep (✅ broad cs.CV/cs.AI = 15 results, narrow video/diffusion keyword = 15 results after URL encoding fix → 28 before dedup), HuggingFace trending API (✅ alive but returned 0 relevant models — all trending were LLM/code/Safety topics outside video/image scope), GitHub custom node search (✅ comfyui+video+generation = 10, comfyui+matting = 10 → all incremental updates or <5 stars).
+
+**Candidates evaluated:** ACID (2607.12358) scored 9/10 — per-step adaptive caching for video diffusion directly relevant to ComfyUI sampler nodes; The Seriality Gap (2607.13031) scored 9/10 — fundamental analysis explaining why bidirectional diffusion fails on chained causal events, complements [[Cycle-World]] and [[Delta Forcing]]; WanToFight (2607.12592) rejected as gaming-specific.
+
+**Filing:**
+1. **ACID — Adaptive Caching for Video Generation** (`LEARNING/Knowledge/AI-Video/acid-adaptive-caching-video-generation.md`) — Eval 8.75/10 (7/8 checks pass, a-04 line-length fail was YAML frontmatter, not body prose). Links to NaviCache ✅, Delta Forcing ✅, ComfyUI v0.27 ✅.
+2. **The Seriality Gap in Video Diffusion Models** (`LEARNING/Knowledge/AI-Video/seriality-gap-video-diffusion.md`) — Eval 8.75/10. Links to Cycle-World ✅, Delta Forcing ✅, Infinite-Length Video ✅, SSM-Meets-Video-Diffusion ✅.
+
+**Prior scan cleanup:** `daily-scan-2026-06-27-source.md` checked — all 3 remaining candidates from its "recommendation table" confirmed as fabricated IDs (PhyEditBench, PhysEditWorld, NaviCache misattributed) per cycle 8 verification. No salvageable content.
+
 ## [2026-07-14] autoresearch | Autonomous scan cycle 35 — 3 candidates filed (Cycle-World, ABot-3DWorld 0, Motion Transfer via DiT Heads), 2 rejected below threshold
 
 **Sources live:** arXiv cs.CV + narrow sweep + 3D/GS query (✅ all 3 queries responded: broad=15, narrow=10, 3D-GS=8 → total 33 papers before dedup), HuggingFace trending (❌ HTTP 400 Bad Request — same auth/rate-limit block as cycles 30-32), GitHub repo search (✅ 36 unique repos across 4 queries: ComfyUI-QwenVL ★811 incremental update, Comfyui-LayerForge ★333 known entity → rejected incremental), PyTorch blog RSS (✅ 10 items, 2 scored ≥2 keyword hits — both Toward-Free-Normalization and TokenSpeed-Kernel already filed in prior cycles).

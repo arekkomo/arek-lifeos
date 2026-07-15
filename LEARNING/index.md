@@ -1,8 +1,13 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-14 (cycle 35 — dual arXiv cs.CV + 3D/GS sweep, HF trending dead with 400, GitHub nodes incremental, PyTorch RSS no new domain hits; 3 pages filed)
+> Updated: 2026-07-15 (cycle 36 — dual arXiv cs.CV + narrow sweep, HF trending returned 0 relevant models, GitHub nodes incremental; 2 pages filed after eval ≥ 9/10)
 
 ## AI-Video
+
+### Autonomous Cycle 36 (2026-07-15 — dual arXiv cs.CV + narrow video/diffusion sweep + HF trending + GitHub custom node discovery, 2 candidates filed after eval ≥ 9/10)
+
+| **ACID — Adaptive Caching for Video Generation** | concept | Per-step adaptive skip-threshold replaces fixed caching thresholds, eliminating the speed-quality tradeoff in TeaCache/EasyCache/DiCache families. Tested on Wan 2.1 and CogVideoX with 15-22% lower FVD at same skip-rate. Sampler-level drop-in, direct ComfyUI custom node path (arXiv 2607.12358, Jul 14) |
+| **The Seriality Gap in Video Diffusion Models** | concept | Bidirectional video diffusion fails on causally-chained events (A→B→C→D) because no serial computation accumulates across parallel attention. AR/blockwise generation and deeper architectures close this gap. Explains fundamental limits of long-horizon synthesis quality that [[Cycle-World]] and [[Delta Forcing]] try to patch (arXiv 2607.13031, Jul 14) |
 
 ### Autonomous Cycle 35 (2026-07-14 — dual arXiv cs.CV + 3D/GS + HF trending + GitHub nodes + PyTorch RSS, 3 candidates filed after eval ≥ 9/10)
 
