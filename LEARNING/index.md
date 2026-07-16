@@ -264,3 +264,14 @@ All agents active (8 total)
 | **PixWorld** | source | Nanyang Tech/AISphere unified pixel-space diffusion model — two-stream DiT processes multi-view inputs to produce one pixel-aligned 3D Gaussian field in a forward pass. Flow-matching on rendered views (no VAE), VGGT geometry perception loss. 4-step distilled at ~0.6s for generation+reconstruction+text-to-3D. | 3d-generation, gaussian-splatting, pixel-space, real-time-3d |
 | **AlayaWorkd** | source | Alaya Lab interactive autoregressive world model with explicit dual memory (3D spatial cache + temporal embeddings), error bank for minute-long stability, camera modulation via AdaLN. Few-step DMD. Code/weights in roadmap. Technical report Jul 8. | world-model, long-horizon, camera-control, memory-consistency |
 | **ProxyPose** | follow-up | New GitHub repo URL provided (https://github.com/ruihangzhang97/proxypose) — previously indexed as arXiv paper 2607.06555 in cycle 32. Need to cross-check if there's new code/release or just a repo mirror of the published work. | pose-tracking, arxiv-paper, proxy-pose |
+
+- [[Notion-Dump-Ingest-Batch-01]] — 100 export files audited; 58 new entity cards, 11 preserved notes; duplicate/previously-ingested sources archived.
+
+- [[Notion-Dump-Ingest-Batch-02]] — 100 export files audited; 65 new entity cards, 5 preserved notes; duplicate/previously-ingested sources archived.
+
+- [[Notion-Dump-Ingest-Batch-03]] — 100 export files audited; 55 new entity cards, 10 preserved notes; duplicate/previously-ingested sources archived.
+
+- [[Notion-Dump-Ingest-Batch-04]] — 100 export files audited; 67 new entity cards, 9 preserved notes; duplicate/previously-ingested sources archived.
+
+- [[Notion-Dump-Ingest-Batch-05]] — 20 export files audited; 20 new entity cards, 0 preserved notes; duplicate/previously-ingested sources archived.
+- **Notion dump closure (2026-07-16):** [[Notion-Dump-Ingest-Batch-01]], [[Notion-Dump-Ingest-Batch-02]], [[Notion-Dump-Ingest-Batch-03]], [[Notion-Dump-Ingest-Batch-04]], and [[Notion-Dump-Ingest-Batch-05]] account for all 420 logical exports. Full audit manifests live in `Knowledge/Notion-Ingest/`; raw sources and export assets are retained under `raw/notion-dump-ingest-archive/2026-07-16/`.

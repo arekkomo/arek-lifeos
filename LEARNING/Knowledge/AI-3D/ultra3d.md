@@ -1,0 +1,22 @@
+---
+title: Ultra3D
+category: entity
+summary: Ultra3D, 3D Generation
+tags: [ai-3d-model]
+sources: 1
+updated: 2026-07-16
+source_path: raw/notion-dump-ingest-archive/2026-07-16/Batch-04/Ultra3D 89fec4230c1d4744b54735f398b952f5.md
+ingested: 2026-07-16
+---
+
+# Ultra3D
+
+## Imported source metadata
+- **Ingest batch:** [[Notion-Dump-Ingest-Batch-04]]
+- **Source export:** `raw/notion-dump-ingest-archive/2026-07-16/Batch-04/Ultra3D 89fec4230c1d4744b54735f398b952f5.md`
+- **Original URL:** https://buaacyw.github.io/ultra3d/
+
+## Description
+Ultra3D, 3D Generation
+
+> This card preserves the source metadata for retrieval. Where the source is a sparse bookmark, no additional claims have been inferred beyond its supplied description.

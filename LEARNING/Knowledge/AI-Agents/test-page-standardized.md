@@ -1,0 +1,21 @@
+---
+title: Test Page — Standardized
+category: entity
+summary: Standardized test entry created from ChatGPT.
+tags: [notion]
+sources: 1
+updated: 2026-07-16
+source_path: raw/notion-dump-ingest-archive/2026-07-16/Batch-04/Test Page — Standardized 338b4695a24d81af8854dfff3ba6d875.md
+ingested: 2026-07-16
+---
+
+# Test Page — Standardized
+
+## Imported source metadata
+- **Ingest batch:** [[Notion-Dump-Ingest-Batch-04]]
+- **Source export:** `raw/notion-dump-ingest-archive/2026-07-16/Batch-04/Test Page — Standardized 338b4695a24d81af8854dfff3ba6d875.md`
+
+## Description
+Standardized test entry created from ChatGPT.
+
+> This card preserves the source metadata for retrieval. Where the source is a sparse bookmark, no additional claims have been inferred beyond its supplied description.

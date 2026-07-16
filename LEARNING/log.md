@@ -763,3 +763,21 @@ Key synthesis: teacher-student distillation is converging across 4+ approaches �
 New: [[SeFi-Image]] (AI-Image-Midjourney, source summary from GitHub README), [[PixWorld]] (AI-3D, arXiv 2607.05373 + GitHub), [[AlayaWorkd]] (AI-Video, arXiv technical report Jul 8).
 Key convergence: Three independent world model approaches published within days — ABot Workd (AMAP CV Lab/LongForcing/causal DiT), Alaya Workd (Alaya Lab/DMD chunks/dual explicit memory), and PixWorld (pixel-space supervision for unified 3D genn recon) all share the problem of long-horizon stability but solve it differently. This is the emerging architecture landscape for real-time AI simulation.
 Note: ProxyPose GitHub URL provided (https://github.com/ruihangzhang97/proxypose) — already indexed from arXiv cycle 32; need to check if README adds new info vs the published paper.
+
+## [2026-07-16] ingest | Notion Dump Batch 01
+Handled 100 exports: {'ingested-entity-card': 58, 'excluded-nontechnical': 7, 'duplicate-within-batch': 4, 'ingested-substantive-note': 11, 'already-ingested': 20}. Source exports archived to raw/notion-dump-ingest-archive/2026-07-16/Batch-01; audit manifest: Knowledge/Notion-Ingest/notion-ingest-batch-01-manifest.csv.
+
+## [2026-07-16] ingest | Notion Dump Batch 02
+Handled 100 exports: {'ingested-entity-card': 65, 'already-ingested': 22, 'ingested-substantive-note': 5, 'excluded-nontechnical': 3, 'duplicate-within-batch': 5}. Source exports archived to raw/notion-dump-ingest-archive/2026-07-16/Batch-02; audit manifest: Knowledge/Notion-Ingest/notion-ingest-batch-02-manifest.csv.
+
+## [2026-07-16] ingest | Notion Dump Batch 03
+Handled 100 exports: {'already-ingested': 29, 'ingested-entity-card': 55, 'ingested-substantive-note': 10, 'duplicate-within-batch': 4, 'excluded-nontechnical': 2}. Source exports archived to raw/notion-dump-ingest-archive/2026-07-16/Batch-03; audit manifest: Knowledge/Notion-Ingest/notion-ingest-batch-03-manifest.csv.
+
+## [2026-07-16] ingest | Notion Dump Batch 04
+Handled 100 exports: {'already-ingested': 12, 'ingested-entity-card': 67, 'ingested-substantive-note': 9, 'duplicate-within-batch': 7, 'excluded-nontechnical': 5}. Source exports archived to raw/notion-dump-ingest-archive/2026-07-16/Batch-04; audit manifest: Knowledge/Notion-Ingest/notion-ingest-batch-04-manifest.csv.
+
+## [2026-07-16] ingest | Notion Dump Batch 05
+Handled 20 exports: {'ingested-entity-card': 20}. Source exports archived to raw/notion-dump-ingest-archive/2026-07-16/Batch-05; audit manifest: Knowledge/Notion-Ingest/notion-ingest-batch-05-manifest.csv.
+
+## [2026-07-16] update | Notion dump ingestion closure
+Repaired archive provenance on 300 newly created library pages; archived 196 associated asset folders and 196 macOS resource forks. Active dump staging directory is empty. Final audit: 420 logical exports accounted for, 0 schema/provenance failures.

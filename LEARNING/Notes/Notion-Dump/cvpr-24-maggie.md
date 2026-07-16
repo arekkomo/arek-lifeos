@@ -1,0 +1,218 @@
+---
+title: CVPR'24 - MaGGIe
+category: note
+summary: Preserved substantive Notion export for CVPR'24 - MaGGIe.
+tags: [notion-import, source-preservation]
+sources: 1
+updated: 2026-07-16
+source_path: raw/notion-dump-ingest-archive/2026-07-16/Batch-01/CVPR'24 - MaGGIe c467befbb6bd4988aed211d732672564.md
+ingested: 2026-07-16
+---
+
+# CVPR'24 - MaGGIe
+
+**Ingest batch:** [[Notion-Dump-Ingest-Batch-01]]  
+**Original export:** `raw/notion-dump-ingest-archive/2026-07-16/Batch-01/CVPR'24 - MaGGIe c467befbb6bd4988aed211d732672564.md`
+
+---
+
+# CVPR'24 - MaGGIe
+
+Tags: AI Video
+Description: MaGGIe: Mask Guided Gradual Human Instance Matting. Accepted to CVPR 2024
+URL: https://maggie-matt.github.io/
+Date Added: January 11, 2025 10:22 AM
+Type: Article
+Archive: No
+Spark: No
+
+![](CVPR'24%20-%20MaGGIe/stn-7gqaYGMsirah6st32xuSuFVBX8ppvBfA94RiA3iV.jpeg)
+
+# MaGGIe: Mask Guided Gradual Human Instance Matting
+
+CVPR 2024
+
+[Seoung Wug Oh](https://sites.google.com/view/seoungwugoh/)2 [Abhinav Shrivastava](http://www.cs.umd.edu/~abhinav)1 [Joon-Young Lee](https://joonyoung-cv.github.io/)2
+
+1University of Maryland, College Park 2Adobe Research
+
+[arXiv](https://arxiv.org/abs/2404.16035)
+ [HF Demo (soon)](https://maggie-matt.github.io/) 
+[Code](https://github.com/hmchuong/MaGGIe) 
+  [Dataset](https://huggingface.co/datasets/chuonghm/MaGGIe-HIM)
+
+![](https://maggie-matt.github.io/dist/hf-logo.svg)
+
+![](https://maggie-matt.github.io/dist/database.svg)
+
+## MaGGIe efficiently predicts high-quality human instance mattes from coarse binary masks for both image and video input. (source: [pexels.com](https://www.pexels.com/))
+
+## Abstract
+
+Human matting is a foundation task in image and video processing where human foreground pixels are extracted from the input. Prior works either improve the accuracy by additional guidance or improve the temporal consistency of a single instance across frames. We propose a new framework MaGGIe, Masked Guided Gradual Human Instance Matting, which predicts alpha mattes progressively for each human instances while maintaining the computational efficiency, output accuracy, and frame-by-frame consistency. Our method leverages modern architectures, including transformer attention and sparse convolution, to output all instance mattes simultaneously without exploding memory and latency. Although keeping constant inference costs in the multiple-instance scenario, our framework achieves robust and versatile performance on our proposed synthesized benchmarks. With the higher quality image and video matting benchmarks, the novel multi-instance synthesis approach from publicly available sources is introduced to increase the generalization of models in real-world scenarios.
+
+![](https://maggie-matt.github.io/images/mem_speed.png)
+
+## MaGGIe framework
+
+We design an efficient framework that leverages Transformer attention and Sparse convolution to progressively predict human instance mattes from binary masks:
+
+![](https://maggie-matt.github.io/images/overall_a.png)
+
+Instance Matte Decoder
+
+Dense-image to Sparse-instance
+
+Instance Guidance
+
+Detail Aggregation
+
+![](https://maggie-matt.github.io/images/instance_guidance.png)
+
+![](https://maggie-matt.github.io/images/inst_matte_dec.png)
+
+![](https://maggie-matt.github.io/images/detail_aggre.png)
+
+![](https://maggie-matt.github.io/images/inst_spec.png)
+
+## MaGGIe Human Instance Matting Dataset
+
+### I-HIM50K
+
+We synthesized the human image instance matting dataset from [HHM50K](https://github.com/nowsyn/sparsemat) as foreground and [BG20K](https://github.com/JizhiziLi/GFM) as background.
+
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
+ 
+
+![](https://maggie-matt.github.io/dist/arrow-left-circle-fill.svg)
+
+![](https://maggie-matt.github.io/dist/arrow-right-circle-fill.svg)
+
+### M-HIM2K
+
+We generate different masks from [COCO-pretrained Mask-RCNN](https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md#coco-instance-segmentation-baselines-with-mask-r-cnn) to benchmark the robustness of the models.
+
+![](https://maggie-matt.github.io/images/m_him2k_1.png)
+
+![](https://maggie-matt.github.io/images/m_him2k_2.png)
+
+![](https://maggie-matt.github.io/images/m_him2k_3.png)
+
+![](https://maggie-matt.github.io/images/m_him2k_4.png)
+
+### V-HIM2K5 and V-HIM60
+
+We synthesized the human video instance matting dataset from public datasets: [VideoMatte240K](https://grail.cs.washington.edu/projects/background-matting-v2/#/datasets), [VM108](https://github.com/yunkezhang/TCVOM#videomatting108-dataset), and [CRGNN](https://github.com/TiantianWang/VideoMatting-CRGNN) with three difficulty levels: Easy, Medium, and Hard.
+
+**Choose difficulty level:**
+
+Easy
+
+Medium
+
+Hard
+
+Video
+
+Ground-truth
+
+## Image qualitative results
+
+Without training on real image data, our method can work well on natural images. We compare our method with the state-of-the-art methods on the image human instance matting task. (Click to open image in full size)
+
+![](https://maggie-matt.github.io/images/result_image1.png)
+
+![](https://maggie-matt.github.io/images/result_image2.png)
+
+![](https://maggie-matt.github.io/images/result_image3.png)
+
+![](https://maggie-matt.github.io/images/result_image4.png)
+
+![](https://maggie-matt.github.io/images/result_image5.png)
+
+![](https://maggie-matt.github.io/images/result_image6.png)
+
+![](https://maggie-matt.github.io/images/result_image1.png)
+
+![](https://maggie-matt.github.io/images/result_image2.png)
+
+![](https://maggie-matt.github.io/images/result_image3.png)
+
+![](https://maggie-matt.github.io/images/result_image4.png)
+
+![](https://maggie-matt.github.io/images/result_image5.png)
+
+![](https://maggie-matt.github.io/images/result_image6.png)
+
+## Video qualitative results
+
+Without training on real video data, our method can generalize well to real-world scenarios. We compare our method with the state-of-the-art methods on the video human instance matting task.
+
+Input
+
+MaGGIe
+
+**Example:**
+
+Two people
+
+Three people - On car
+
+Three people - Family
+
+Four people
+
+**Compared method:**
+
+Video + XMem masks
+
+InstMatt
+
+SparseMat
+
+MGM+TCVOM
+
+MGM*+TCVOM
+
+## Generalization ability
+
+Training only on human matting datasets, our method showcases its versatility by working well on various objects.
+
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
+ 
+
+![](https://maggie-matt.github.io/dist/arrow-left-circle-fill.svg)
+
+![](https://maggie-matt.github.io/dist/arrow-right-circle-fill.svg)
+
+## BibTeX
+
+```
+@InProceedings{huynh2024maggie,
+    author    = {Huynh, Chuong and Oh, Seoung Wug and and Shrivastava, Abhinav and Lee, Joon-Young},
+    title     = {MaGGIe: Masked Guided Gradual Human Instance Matting},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2024}
+}
+```
+
+## Acknownledgement
+
+We thank [Markus Woodson](https://www.linkedin.com/in/markuswoodson) for his early discussions and feedback on the project. We also thank the anonymous reviewers for their valuable comments and suggestions. I am grateful to the support of my wife [Quynh](https://qqphung.github.io/) in proofreading the paper.
