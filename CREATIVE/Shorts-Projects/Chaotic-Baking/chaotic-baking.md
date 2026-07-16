@@ -80,4 +80,4 @@ Just enough.
 [Vocals: male, raw and strained, building from whispered tension to shouted release]
 [Instrumentation: distorted bass, punchy kick drum, metallic percussion, analog synth stabs, rising noise sweeps]
 [Mood: aggressive, sensual, volatile — heat and friction that finally break into catharsis]
-[Production: gritty and compressed, heavy low end, vocal pushed forward then lost in the wall of sound during chorus]
+[Production: gritty , heavy low end, vocal pushed forward then lost in the wall of sound during chorus]

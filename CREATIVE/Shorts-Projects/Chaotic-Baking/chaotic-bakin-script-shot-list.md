@@ -3,7 +3,6 @@ type: shot_breakdown
 title: Chaotic Bakin Script — Shot List
 source: chaotic-bakin-script.md
 ---
-
 ## SCENE S01 — Blank room, stripped down to work surface and bare bulbs
 
 ### SHOT 1
@@ -20,8 +19,8 @@ Fingertips drag across a pale, pliable sheet stretched tight between two pairs o
 
 ### SHOT 3
 id: sh_s01a3
-framing: medium profile shot
-camera: side-track along both torsos, following the spine line like tracing a crease
+framing: close-up
+camera: low angle
 Two torsos close together. One leans in; the other resists — a micro-shrug away that curves into an arch instead. Heat without direction.
 
 ### SHOT 4
