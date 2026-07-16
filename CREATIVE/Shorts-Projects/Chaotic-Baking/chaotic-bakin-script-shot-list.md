@@ -8,7 +8,7 @@ source: chaotic-bakin-script.md
 ### SHOT 1
 id: sh_s01a1
 framing: wide shot
-camera: slow push-in on a gimbal or dolly
+camera: slow push-in
 Empty room. One work-surface center frame. First performer enters — knuckles pressing into the surface, testing it. Second performer's arm rests against the wall off-frame behind. Cool blue tones.
 
 ### SHOT 2
