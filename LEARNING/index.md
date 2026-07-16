@@ -202,6 +202,18 @@ Full-length guides and operational docs preserved at full depth:
 ## Filmmaking
 - [Visual storytelling, cinematic shooting]
 
+## Blender
+
+### Operations Knowledge Base (2026-07-16)
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[Blender Operations Index]] | synthesis | System-facing runbook for Blender installation, MCP connection, maintenance and troubleshooting on Spark | blender, hermes, mcp, operations |
+| [[Blender Production Foundations]] | concept | Production map of Blender scene, geometry, shading, animation, simulation and image-production layers | blender, 3d, vfx, filmmaking |
+| [[Blender Python Automation]] | concept | `bpy` data/API versus operator patterns, deterministic scripting, batch and headless boundaries | blender, bpy, automation |
+| [[Blender Rendering Assets and Maintenance]] | concept | Render-engine choice, asset libraries, add-ons/extensions and upgrade validation policy | blender, cycles, eevee, assets |
+| [[Blender MCP Hermes Operations]] | concept | Catalog setup, tool interface, safe use and diagnostics for a live Blender session controlled by Hermes | blender, hermes, mcp, troubleshooting |
+| [[Blender Official + Hermes Blender MCP Source Summary]] | source | Primary-source digest of Blender official docs and the Hermes Blender MCP skill | blender, source, hermes |
+
 ## DaVinci-Resolve
 
 ### Autonomous Cycle 31 (2026-07-11 — arXiv cs.CV sweep, 1 new page filed)

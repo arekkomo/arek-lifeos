@@ -5,79 +5,77 @@ title: Chaotic Baking
 # Chaotic Baking
 
 **[Verse 1]**
-Pull the line until it breaks.
-Your heat against what stay awake.
-Crack at the joints from going slow.
-I wasn't built for where you go.
+Warmth behind the wall.
+A slow and steady pull.
+The line that gives at all.
+Before the walls fall.
 
-Burn underneath the skin.
-Soft edges where we begin.
-I don't stretch — not ever will.
-But iron gets the stubborn still.
+Soft edges in the dark.
+A shape I don't confess.
+Your hand against me —
+a place where nothing holds.
 
 **[Pre-Chorus]**
-Press me down — what's the worst can happen?
-Nothing stays unturned at that.
+No more telling.
+Nothing left to lose.
 
 **[Chorus]**
-Chaotic baking, chaotic aching,
-Two wrong shapes fitting by mistake.
-All our edges come undone —
-That was always what it was for.
-Chaotic baking, chaotic breaking,
-We were never right — but we burn bright at last.
+Chaotic, golden, breaking wide —
+two wrong things turning side by side.
+All my edges melt away —
+that was what I was made for anyway.
+Chaotic, burning, coming through —
+what was cold is warm because of you.
 
 **[Verse 2]**
-Tough on the surface, yielding when you work.
-Never opened till your hands found their mark.
-Spread me slow on a counter warm —
-Every hard line in me goes down.
+A breath held between us.
+The surface shifts again.
+You press and I give in —
+everything falls open.
 
-Roll me flat and hold me wide.
-Push your fingers where my center hides.
-Heat on my cracking skin —
-I was always what you let begin.
+Pressure finds the crack.
+What lies beneath me wakes.
+Soft gives way to what was asked —
+I was built for this.
 
 **[Pre-Chorus]**
-Press me down — what's the worst can happen?
-Nothing stays unturned at that.
+No more telling.
+Nothing left to lose.
 
 **[Chorus]**
-Chaotic baking, chaotic aching,
-Two wrong shapes fitting by mistake.
-All our edges come undone —
-That was always what it was for.
-Chaotic baking, chaotic breaking,
-We were never right — but we burn bright at last.
+Chaotic, golden, breaking wide —
+two wrong things turning side by side.
+All my edges melt away —
+that was what I was made for anyway.
+Chaotic, burning, coming through —
+what was cold is warm because of you.
 
 **[Bridge]**
-Slow does better than quick fire ever could.
-Warmth opens when you do what you should.
-You bring the fire I couldn't handle alone —
-a little sweetness makes everything go down.
-Turn me gentle, hold me slow —
-what was raw and stubborn now wants to glow.
+Gold at last.
+Soft where you found me.
+Heat turned me inside out.
+You knew all along.
+What I needed without name.
+Still waiting just the same.
 
 **[Final Chorus]**
-Chaotic baking — gorgeous mess we made,
-Everything we wanted in the mess of it was laid.
-Heat on my cracking, a golden face,
-Nothing left in us that isn't grace.
-Chaotic baking — I let go,
-Every build was what I needed to know.
-We were never meant to be at all.
+Chaotic, golden, breaking wide —
+the lock you already knew was inside.
+Melting down in every part —
+that was what I was built for anyway.
+Chaotic, golden, all undone —
+every pull was always done like this.
 
 **[Outro]**
-Let it rest against my skin.
-Sweet still lingers where our hands begin.
-Golden and soft inside —
-bitter gone because you stayed the night.
-Just enough.
+Warm against the skin.
+Sweet heat settling in.
+Gold — soft — nothing —
+just enough.
 
 === SUNO STYLE ===
 
-[Genre: Industrial techno]
-[Vocals: male, raw and strained, building from whispered tension to shouted release]
-[Instrumentation: distorted bass, punchy kick drum, metallic percussion, analog synth stabs, rising noise sweeps]
-[Mood: aggressive, sensual, volatile — heat and friction that finally break into catharsis]
-[Production: gritty , heavy low end, vocal pushed forward then lost in the wall of sound during chorus]
+[Genre: Club pop]
+[Vocals: male, breathy and intimate, building to shimmering layered choruses]
+[Instrumentation: pulsing synth bass, four-on-the-floor kick, glossy chord pads, sparkling arpeggios, sub-bass drops]
+[Mood: hypnotic, sensual, club-ready — dimly lit dancefloor energy with euphoric lift]
+[Production: polished modern pop, wide stereo synths, vocal intimate in verses then doubled and layered in choruses]

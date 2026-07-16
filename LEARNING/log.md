@@ -1,5 +1,13 @@
 # Log — Arek's Second Brain
 
+## [2026-07-16] systems | Spark Blender + Hermes Blender MCP validation — catalog OK, host Blender install blocked
+
+Validated the documented Blender MCP assumptions against Spark as far as the current host allows. Spark is arm64/aarch64 with NVIDIA GB10 visible via `nvidia-smi` (driver 580.142, CUDA 13.0). No `blender` binary or `xvfb-run` is installed; apt offers Blender 4.0.2+dfsg-1ubuntu8 for Ubuntu noble arm64, so host-level install is the next gate.
+
+Hermes side is healthy: `hermes mcp install blender` succeeded for Systems, `hermes mcp list` shows `blender` enabled via `uvx blender-mcp==1.6.4` with four selected tools, and `hermes mcp test blender` connected/discovered the upstream catalog. A fresh non-kanban Hermes session exposed the Blender tool path: forcing `get_scene_info` returned `Could not connect to Blender. Make sure the Blender addon is running.`, confirming the remaining issue is the live Blender/addon bridge rather than tool discovery.
+
+Attempted a scratch user-space apt extraction of Blender and direct dependencies, but the recursive OpenImageIO/GDAL/DCMTK/OpenCV dependency closure is too large for a reliable operations path. Recommended next command: `sudo apt install blender xvfb`, then rerun live/Xvfb MCP diagnostics and the separate `blender -b` CLI render test.
+
 ## [2026-07-15] autoresearch | Autonomous scan cycle 36 — 2 candidates filed (ACID, Seriality Gap), 1 rejected out-of-scope (WanToFight gaming)
 
 **Sources live:** arXiv dual-query sweep (✅ broad cs.CV/cs.AI = 15 results, narrow video/diffusion keyword = 15 results after URL encoding fix → 28 before dedup), HuggingFace trending API (✅ alive but returned 0 relevant models — all trending were LLM/code/Safety topics outside video/image scope), GitHub custom node search (✅ comfyui+video+generation = 10, comfyui+matting = 10 → all incremental updates or <5 stars).
@@ -781,3 +789,6 @@ Handled 20 exports: {'ingested-entity-card': 20}. Source exports archived to raw
 
 ## [2026-07-16] update | Notion dump ingestion closure
 Repaired archive provenance on 300 newly created library pages; archived 196 associated asset folders and 196 macOS resource forks. Active dump staging directory is empty. Final audit: 420 logical exports accounted for, 0 schema/provenance failures.
+
+## [2026-07-16] ingest | Blender + Hermes Blender MCP operations knowledge base
+Created standalone `Knowledge/Blender/` discipline with six linked pages: primary-source digest, System-facing operations index, production foundations, Python automation, render/assets/maintenance policy, and Hermes MCP setup/troubleshooting. Sources: Blender official site/manual/Python API and Nous Hermes Blender MCP skill. Documented the critical headless boundary: CLI batch rendering can use background mode, while the documented MCP addon needs a live desktop/Xvfb session.
