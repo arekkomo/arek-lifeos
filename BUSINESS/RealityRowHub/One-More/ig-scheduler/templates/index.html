@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One More — IG Scheduler</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+</head>
+<body hx-get="/partials/schedule-grid" hx-trigger="every 30s" hx-target="#grid-body" hx-swap="innerHTML">
+
+<header>
+  <div class="brand">
+    <img src="/static/onemore-logo-small.svg" alt="One More" class="logo-thumb">
+    <h1><span class="accent">eatonemore.van — Schedule</span></h1>
+    <p>The One More Instagram scheduler. Drop photos into <code>Media/&lt;dish-name&gt;/</code> and queue builds automatically.</p>
+  </div>
+  <div class="header-actions">
+    <button hx-post="/api/scan" hx-swap="none" hx-on::after-request="setTimeout(()=>htmx.trigger('#grid-body','hx-get'),1500)" title="Rescan Media folder now">🔍 Scan Now</button>
+  </div>
+</header>
+
+<nav class="status-strip">
+  <span class="badge detected">Detected: {{ status_counts.get('detected', 0) }}</span>
+  <span class="badge draft">Draft/Captioned: {{ status_counts.get('draft', 0) }}</span>
+  <span class="badge scheduled">Scheduled: {{ status_counts.get('scheduled', 0) }}</span>
+  <span class="badge published">Published: {{ status_counts.get('published', 0) }}</span>
+</nav>
+
+<main>
+  <table id="grid-body">
+    {% include "partials/schedule_grid.html" %}
+  </table>
+</main>
+
+<footer>One More Scheduler — powered by the RealityRowHub stack.</footer>
+
+</body>
+</html>

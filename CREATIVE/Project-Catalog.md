@@ -14,14 +14,15 @@ updated: 2026-06-09
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-| 1 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
-| 2 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-07-13 |
-| 3 | **Chaotic Baking** | Music / Song | Lyrics complete (full V1+PC+C+V2+B+FCh+Outro) — needs genre assignment, Suno prompt, production stage decision | `CREATIVE/Shorts-Projects/Chaotic-Baking/chaotic-baking.md` | DISCOVERED NOW: full lyric draft found in shorts folder; unknown last-active date (no git history on this file) |
-| 4 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
-| 5 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
-| 6 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
-| 7 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
-| 8 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-06-09 |
+|| 1 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
+|| 2 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-07-13 |
+|| 3 | **Chaotic Baking** | Music / Song | Lyrics complete (full V1+PC+C+V2+B+FCh+Outro) — needs genre assignment, Suno prompt, production stage decision | `CREATIVE/Shorts-Projects/Chaotic-Baking/chaotic-baking.md` | DISCOVERED NOW: full lyric draft found in shorts folder; unknown last-active date (no git history on this file) |
+|| 4 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
+|| 5 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
+|| 6 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
+|| 7 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
+|| 8 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-06-09 |
+|| 9 | **MEOW** | Music / Song | Lyrics V1 complete + Suno style guide; copy in Little-M folder with fuller production notes — needs categorization decision | `CREATIVE/Song-Project/Meow/meow.md` (primary) + `CREATIVE/Song-Projects/Little-M/meow.md` (alt) | DISCOVERED NOW Jul 16: lyric draft for "MEOW" — Modern Club Pop / Dance-Pop with bright female vocals; Suno style guide included. Dual location needs consolidation decision. |
 
 ---
 
