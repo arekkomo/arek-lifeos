@@ -1,0 +1,22 @@
+{% for row in rows %}
+<tr class="status-{{ row['status'] }}">
+  <td class="th-cell">{{ row['id'] }}</td>
+  <td>{{ row['dish_name'].replace('-', ' ').title() }}</td>
+  <td><span class="pill {{ row['status'] }}">{{ row['status'] | upper }}</span></td>
+  <td class="asset-count">📎 {{ row['asset_count'] or 0 }} files</td>
+  <td class="caption-cel">{{ row['caption'][:80] + '…' if (row['caption'] and row['caption']|length > 80) else row['caption'] }}</td>
+  <td>{{ row['scheduled_at'] if row['scheduled_at'] else '—' }}</td>
+  <td class="actions">
+    {% if row['status'] == 'detected' %}
+      <button class="btn" hx-post="/api/posts/{{ row['id'] }}/caption" hx-swap="none" hx-on::after-request="setTimeout(()=>htmx.trigger('#grid-body','hx-get'),2s)">✍️ Caption</button>
+    {% elif row['status'] == 'draft' %}
+      <button class="btn btn-notice" hx-post="/api/posts/{{ row['id'] }}/schedule" hx-swap="none" hx-on::after-request="setTimeout(()=>htmx.trigger('#grid-body','hx-get'),1s)">📅 Schedule</button>
+    {% elif row['status'] == 'scheduled' %}
+      <span class="pill scheduled">✓ Queued</span>
+    {% endif %}
+    <button class="btn btn-danger" hx-delete="/api/posts/{{ row['id'] }}/delete" hx-swap="none" hx-confirm="Delete this post?" hx-on::after-request="setTimeout(()=>htmx.trigger('#grid-body','hx-get'),1s)">🗑️</button>
+  </td>
+</tr>
+{% else %}
+<tr><td colspan="7" class="empty-state">No posts yet — scan the Media folder or drop files in.</td></tr>
+{% endfor %}

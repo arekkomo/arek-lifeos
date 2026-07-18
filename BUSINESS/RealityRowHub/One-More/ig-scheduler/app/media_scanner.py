@@ -1,77 +1,64 @@
 """Media folder scanner — detect new files, register posts."""
-import logging
 from pathlib import Path
 
-logger = logging.getLogger("one-more.scheduler")
+ALLOWED = {".jpg", ".jpeg", ".png", ".mp4", ".mov", ".webm"}
 
-ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".mp4", ".mov", ".webm"}
-
-def _is_media(filename: str) -> bool:
-    return Path(filename).suffix.lower() in ALLOWED_EXTENSIONS
-
-async def scan(db, *, media_root: Path):
+def scan(db, *, media_root: Path) -> dict[str, int]:
     """Walk Media root. Register new assets + create posts if novel."""
-    count_new = {"posts": 0, "assets": 0}
+    count = {"posts": 0, "assets": 0}
 
     try:
         entries = sorted(media_root.iterdir())
     except FileNotFoundError:
-        logger.warning("Media root %s not found — nothing to scan", media_root)
-        return count_new
+        return count
 
     for entry in entries:
-        if not entry.is_dir():
+        if not entry.is_dir() or entry.name.startswith(("_", ".")):
             continue
-        if entry.name.startswith("_") or entry.name.startswith("."):
-            continue  # skip hidden/temp folders
 
         dish = entry.name
 
-        # What files are already seen?
-        rows = await db.execute("SELECT file_path FROM media_files WHERE dish_name=?", (dish,))
-        seen_paths: set[str] = {r["file_path"] for r in rows}
+        rows = db.execute("SELECT file_path FROM media_files WHERE dish_name=?", (dish,))
+        seen = {r["file_path"] for r in rows}
 
         new_assets: list[Path] = []
         for fpath in sorted(entry.iterdir()):
             if not fpath.is_file():
                 continue
-            if not _is_media(fpath.name):
+            if fpath.suffix.lower() not in ALLOWED:
                 continue
-            fp_str = str(fpath)
-            if fp_str not in seen_paths:
+            fp = str(fpath)
+            if fp not in seen:
                 new_assets.append(fpath)
 
         if not new_assets:
             continue
 
-        # Does a draft/detected post for this dish already exist?
-        cur = await db.execute(
-            "SELECT id FROM posts WHERE dish_name=? AND status IN ('detected','draft')",
-            (dish,),
-        )
-        existing = await cur.fetchone()
+        # Existing draft/detected post?
+        cur = db.execute("SELECT id FROM posts WHERE dish_name=? AND status IN ('detected','draft')", (dish,))
+        existing = cur.fetchone()
         post_id = existing["id"] if existing else None
 
         for af in new_assets:
-            is_video = af.suffix in {".mp4", ".mov", ".webm"}
-            await db.execute(
-                "INSERT INTO media_files (post_id, file_path, file_name, dish_name, file_type) VALUES (?,?,?,?,?)",
-                (post_id, str(af), af.name, dish, "video" if is_video else "photo"),
+            ft = "video" if af.suffix in {".mp4", ".mov", ".webm"} else "photo"
+            db.execute(
+                "INSERT OR IGNORE INTO media_files (post_id, file_path, file_name, dish_name, file_type) VALUES (?,?,?,?,?)",
+                (post_id, str(af), af.name, dish, ft),
             )
 
-        # If no draft post existed, create one and backfill post_ids
+        # If no draft post existed, create one and backfill
         if post_id is None:
-            cur2 = await db.execute(
-                "INSERT INTO posts (status, dish_name) VALUES ('detected', ?)",
-                (dish,),
-            )
-            new_post_id = cur2.lastrowid
+            cur2 = db.execute("INSERT INTO posts (status, dish_name) VALUES ('detected', ?)", (dish,))
+            post_id = cur2.lastrowid or db.execute("SELECT last_insert_rowid()").fetchone()[0]
             for af in new_assets:
-                await db.execute(
+                db.execute(
                     "UPDATE media_files SET post_id=? WHERE file_path=?",
-                    (new_post_id, str(af)),
+                    (post_id, str(af)),
                 )
-            count_new["posts"] += 1
-        count_new["assets"] += len(new_assets)
+            count["posts"] += 1
+        count["assets"] += len(new_assets)
 
-    return count_new
+    # Flush all changes before returning so next request can see them
+    db.commit()
+
+    return count

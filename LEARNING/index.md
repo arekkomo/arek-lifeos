@@ -1,6 +1,18 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-15 (cycle 36 — dual arXiv cs.CV + narrow sweep, HF trending returned 0 relevant models, GitHub nodes incremental; 2 pages filed after eval ≥ 9/10)
+> Updated: 2026-07-18 (One More Instagram operations knowledge base added)
+
+## Social-Media
+
+### One More Instagram Operations (2026-07-18)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[Posting-Strategy]] | concept | 30-day and steady-state plan: four launch posts/week, 3–4 thereafter, PT test windows, 45/35/20 Reel-carousel-still launch mix and local hashtag system. | instagram, food, hospitality, one-more |
+| [[Caption-Guidelines]] | concept | Warm-host voice framework, caption architecture, CTA bank and pre-publish copy checklist for dishes, place and founder posts. | instagram, captions, hospitality, one-more |
+| [[Growth-Tactics-New-Accounts]] | concept | Zero-to-first-audience launch playbook: local collaborator network, Reel tests, food-to-destination sequence, metrics and anti-pod policy. | instagram, growth, food, hospitality |
+| [[IG-Automation-Tools]] | concept | Meta API auth, scopes, refresh, content-publish limits, safe automation boundaries and scheduling tool decision matrix. | instagram, meta-api, automation |
+| [[Competitors-Food-Hospitality]] | concept | Verified-profile-scale watch list plus reproducible 12-post cadence/content/engagement census rather than fabricated static benchmarks. | instagram, competitors, hospitality |
 
 ## AI-Video
 

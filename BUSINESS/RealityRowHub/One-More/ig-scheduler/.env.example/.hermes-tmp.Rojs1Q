@@ -1,0 +1,10 @@
+# Media folder path — where you drop photos/videos by dish name
+MEDIA_ROOT=/home/realityrove/Obsidian/Arek&Co/BUSINESS/RealityRowHub/One-More/Media
+
+# Instagram API (Phase 2 — optional for initial setup)
+IG_ACCESS_TOKEN=
+IG_USER_ID=
+
+# LLM provider for caption generation
+OPENAI_API_KEY=
+CAPTION_MODEL=gpt-4o-mini

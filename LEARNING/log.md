@@ -1,5 +1,9 @@
 # Log — Arek's Second Brain
 
+## [2026-07-18] create | One More Instagram operations knowledge base
+
+Created `LEARNING/Knowledge/Social-Media/` with five Connector-ready, cited operating pages: posting calendar and format/hashtag plan; caption voice and CTA system; organic new-account tactics; Meta publishing API/tool runbook; and a food-plus-destination competitor watch list with an honest 12-post benchmark-census method. Sources include current Meta documentation, Buffer's 2026 two-million-post frequency analysis, Sprout's March 2026 timing analysis, and verified public Instagram profile metadata captured on 2026-07-18.
+
 ## [2026-07-16] systems | Spark Blender + Hermes Blender MCP validation — catalog OK, host Blender install blocked
 
 Validated the documented Blender MCP assumptions against Spark as far as the current host allows. Spark is arm64/aarch64 with NVIDIA GB10 visible via `nvidia-smi` (driver 580.142, CUDA 13.0). No `blender` binary or `xvfb-run` is installed; apt offers Blender 4.0.2+dfsg-1ubuntu8 for Ubuntu noble arm64, so host-level install is the next gate.
