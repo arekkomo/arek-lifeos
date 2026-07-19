@@ -1,0 +1,21 @@
+{
+  "intent": "product",
+  "freshness_mode": "balanced_recent",
+  "cluster_mode": "none",
+  "subqueries": [
+    {
+      "label": "official-development",
+      "search_query": "ComfyUI",
+      "ranking_query": "What notable development activity, issues, releases, or workflow changes occurred for ComfyUI in the past 30 days?",
+      "sources": ["github", "hackernews", "polymarket", "digg", "arxiv", "techmeme", "grounding"],
+      "weight": 1.0
+    },
+    {
+      "label": "workflow-ecosystem",
+      "search_query": "ComfyUI workflow nodes custom nodes",
+      "ranking_query": "What recent ComfyUI workflow and custom-node developments are relevant to creators?",
+      "sources": ["github", "hackernews", "digg", "grounding"],
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "intent": "product",
+  "freshness_mode": "balanced_recent",
+  "cluster_mode": "none",
+  "subqueries": [
+    {
+      "label": "primary",
+      "search_query": "ComfyUI",
+      "ranking_query": "What credible developments and discussion signals about ComfyUI appeared in the last 30 days?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 1.0
+    }
+  ]
+}

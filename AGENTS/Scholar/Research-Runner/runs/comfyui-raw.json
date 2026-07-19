@@ -1,0 +1,304 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 18,
+      "sources": [
+        "github"
+      ],
+      "summary": "### Feature Idea\n\n\nIs your feature request related to a problem? Please describe.\nWhile the native INT8 and `INT8-ConvRot` support introduced in ComfyUI is a massive quality and performance milestone, it currently throws errors or is unsupported on several newer/modern model architectures.\n\nFor exam",
+      "title": "[Feature Request] Expand Native INT8-ConvRot Support for Modern Model Architectures (LTX-2.3, Flux-2-Klein, Qwen-Image, SeedVR2)"
+    },
+    {
+      "engagement_total": 13,
+      "sources": [
+        "github"
+      ],
+      "summary": "related to:\nhttps://github.com/Comfy-Org/ComfyUI/issues/12541\nhttps://github.com/Comfy-Org/ComfyUI/issues/13042\n\n### Title\nMemory Usage Degraded even more AGAIN (v0.27.1) - Disk re-reads on every prompt change & increased RAM consumption\n\n### Description\n**Issue body actions**\n\n#### Custom Node Test",
+      "title": "0.27.1 - Memory Usage Degraded even more AGAIN"
+    },
+    {
+      "engagement_total": 1,
+      "sources": [
+        "jobs"
+      ],
+      "summary": "About the role You'll own the full sales cycle for our enterprise accounts: Fortune 500 brand teams, major studios, large agencies, game studios, and VFX houses that want to put Comfy at the center of their production pipeline. These are the accounts where Comfy goes from a tool a few artists love into infrastructure a whole org depends on. You'll inherit warm demand - many of these teams are already running ComfyUI in the wild and want a real commercial relationship. The motion is consultative",
+      "title": "Enterprise Account Executive"
+    },
+    {
+      "engagement_total": 24,
+      "sources": [
+        "github"
+      ],
+      "summary": "Thank you for supporting INT8 convrot.\n\nThe author of convrot recently posted on ComfyUI thanking them for supporting INT8 convrot: https://github.com/Comfy-Org/ComfyUI/issues/14735#issue-4799955974\n\nAs per the author: the real advantage of ConvRot lies in W4A4.\n\nWould it be possible to add support",
+      "title": "INT4 convrot support?"
+    },
+    {
+      "engagement_total": 72,
+      "sources": [
+        "github"
+      ],
+      "summary": "### Custom Node Testing\n\n- [x] I have tried disabling custom nodes and the issue persists (see [how to disable custom nodes](https://docs.comfy.org/troubleshooting/custom-node-issues#step-1%3A-test-with-all-custom-nodes-disabled) if you need help)\n\n### Expected Behavior\n\nWhen changing a prompt, edit",
+      "title": "ComfyUI keeps loading models on every prompt change"
+    },
+    {
+      "engagement_total": 1,
+      "sources": [
+        "jobs"
+      ],
+      "summary": "The Role You\u2019ll lead critical backend initiatives for the millions of creatives using ComfyUI, building systems that run millions of AI workflows. This means building rock solid distributed systems, designing data models that support explosive growth, and solving difficult scaling and optimization problems. You will make code changes across open source ComfyUI and Comfy Cloud. Our stack is Python, Go, Kubernetes, and Postgres on the backend, but we care way more about your ability to learn and s",
+      "title": "Member of Technical Staff, Backend"
+    },
+    {
+      "engagement_total": 1,
+      "sources": [
+        "jobs"
+      ],
+      "summary": "About the role You\u2019ll own our SMB and mid-market motion: studios, agencies, in-house brand teams, indie shops, and the long tail of fast-moving creative teams that are already in love with ComfyUI and ready to put it on a credit card or a procurement form. You\u2019ll report to our Founding AE and you\u2019ll have real inbound demand from day one. The motion is high velocity, sometimes transactional, often times consultative. You\u2019ll need to read each deal and choose the right play. We\u2019re explicitly open o",
+      "title": "Account Executive: SMB & Mid-Market"
+    },
+    {
+      "engagement_total": 70,
+      "sources": [
+        "github"
+      ],
+      "summary": "Hello everyone, I am the author of ConvRot. First of all, I want to thank the friends in the Comfy community for their love and support for ConvRot. Initially, ConvRot was designed for INT4 quantization because QuaRot W4A4 encountered accuracy issues on DiT models. We discovered that the DiT model h",
+      "title": "Thank you for adapting ConvRot"
+    },
+    {
+      "engagement_total": 25,
+      "sources": [
+        "github"
+      ],
+      "summary": "Two of these models got released recently. \nhttps://huggingface.co/krea/Krea-2-Raw/tree/main\nhttps://huggingface.co/krea/Krea-2-Turbo/tree/main\n\nAlso there comfy support for it. Fp8 and fp16 variants are already available.\nhttps://huggingface.co/Comfy-Org/Krea-2/tree/main\n\nI hope \ud83d\ude4f  you could add su",
+      "title": "Krea 2 raw and krea 2 turbo"
+    },
+    {
+      "engagement_total": 55,
+      "sources": [
+        "github"
+      ],
+      "summary": "Probably needs cleanup.",
+      "title": "Lingbot Video WIP (CORE-354)"
+    },
+    {
+      "engagement_total": 20,
+      "sources": [
+        "github"
+      ],
+      "summary": "This is pretty basic, lora support needs to be improved.",
+      "title": "Support int8 models."
+    },
+    {
+      "engagement_total": 16,
+      "sources": [
+        "github"
+      ],
+      "summary": "This is continuation of the previous unmerged TRELLIS2 PR as Pixal3D has same base.\r\n\r\nAdds support for Pixal3D and TRELLIS2 3D mesh and texture generation models, as well as complete DC remesh - QEM decimate - UV unwrap - texture bake post processing nodes.\r\n\r\nAll of the post processing has been re",
+      "title": "feat: Support Pixal3d and TRELLIS2 (CORE-278) (CORE-199) (CORE-236) (CORE-312)"
+    },
+    {
+      "engagement_total": 17,
+      "sources": [
+        "github"
+      ],
+      "summary": "<p align=\"center\">\r\n<img src=\"https://github.com/user-attachments/assets/ff4ed1bb-1811-4ca5-ad02-b59ff78678aa\" />\r\n</p>",
+      "title": "Krea2"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-07-19T02:39:33.067627Z",
+  "query": "ComfyUI",
+  "results": [
+    {
+      "candidate_id": "https://github.com/comfy-org/comfyui/issues/14722",
+      "cluster": 0,
+      "engagement": {
+        "comments": 8,
+        "reactions": 18
+      },
+      "published_at": "2026-07-01",
+      "relevance_score": 0.3402,
+      "source": "github",
+      "summary": "### Feature Idea\n\n\nIs your feature request related to a problem? Please describe.\nWhile the native INT8 and `INT8-ConvRot` support introduced in ComfyUI is a massive quality and performance milestone, it currently throws errors or is unsupported on several newer/modern model architectures.\n\nFor exam",
+      "title": "[Feature Request] Expand Native INT8-ConvRot Support for Modern Model Architectures (LTX-2.3, Flux-2-Klein, Qwen-Image, SeedVR2)",
+      "url": "https://github.com/Comfy-Org/ComfyUI/issues/14722"
+    },
+    {
+      "candidate_id": "https://github.com/comfy-org/comfyui/issues/14907",
+      "cluster": 1,
+      "engagement": {
+        "comments": 4,
+        "reactions": 13
+      },
+      "published_at": "2026-07-12",
+      "relevance_score": 0.3004,
+      "source": "github",
+      "summary": "related to:\nhttps://github.com/Comfy-Org/ComfyUI/issues/12541\nhttps://github.com/Comfy-Org/ComfyUI/issues/13042\n\n### Title\nMemory Usage Degraded even more AGAIN (v0.27.1) - Disk re-reads on every prompt change & increased RAM consumption\n\n### Description\n**Issue body actions**\n\n#### Custom Node Test",
+      "title": "0.27.1 - Memory Usage Degraded even more AGAIN",
+      "url": "https://github.com/Comfy-Org/ComfyUI/issues/14907"
+    },
+    {
+      "candidate_id": "https://jobs.ashbyhq.com/comfy-org/f0eb916e-73f7-4e89-9342-6f0789c3aaff",
+      "cluster": 2,
+      "engagement": {
+        "open_roles": 1
+      },
+      "published_at": "2026-06-18",
+      "relevance_score": 0.2803,
+      "source": "jobs",
+      "summary": "About the role You'll own the full sales cycle for our enterprise accounts: Fortune 500 brand teams, major studios, large agencies, game studios, and VFX houses that want to put Comfy at the center of their production pipeline. These are the accounts where Comfy goes from a tool a few artists love into infrastructure a whole org depends on. You'll inherit warm demand - many of these teams are already running ComfyUI in the wild and want a real commercial relationship. The motion is consultative",
+      "title": "Enterprise Account Executive",
+      "url": "https://jobs.ashbyhq.com/comfy-org/f0eb916e-73f7-4e89-9342-6f0789c3aaff"
+    },
+    {
+      "candidate_id": "https://github.com/silveroxides/convert_to_quant/issues/50",
+      "cluster": 3,
+      "engagement": {
+        "comments": 3,
+        "reactions": 24
+      },
+      "published_at": "2026-07-03",
+      "relevance_score": 0.2523,
+      "source": "github",
+      "summary": "Thank you for supporting INT8 convrot.\n\nThe author of convrot recently posted on ComfyUI thanking them for supporting INT8 convrot: https://github.com/Comfy-Org/ComfyUI/issues/14735#issue-4799955974\n\nAs per the author: the real advantage of ConvRot lies in W4A4.\n\nWould it be possible to add support",
+      "title": "INT4 convrot support?",
+      "url": "https://github.com/silveroxides/convert_to_quant/issues/50"
+    },
+    {
+      "candidate_id": "https://github.com/comfy-org/comfyui/issues/14618",
+      "cluster": 4,
+      "engagement": {
+        "comments": 72,
+        "reactions": 13
+      },
+      "published_at": "2026-06-24",
+      "relevance_score": 0.2497,
+      "source": "github",
+      "summary": "### Custom Node Testing\n\n- [x] I have tried disabling custom nodes and the issue persists (see [how to disable custom nodes](https://docs.comfy.org/troubleshooting/custom-node-issues#step-1%3A-test-with-all-custom-nodes-disabled) if you need help)\n\n### Expected Behavior\n\nWhen changing a prompt, edit",
+      "title": "ComfyUI keeps loading models on every prompt change",
+      "url": "https://github.com/Comfy-Org/ComfyUI/issues/14618"
+    },
+    {
+      "candidate_id": "https://jobs.ashbyhq.com/comfy-org/732f8b39-076d-4847-afe3-f54d4451607e",
+      "cluster": 5,
+      "engagement": {
+        "open_roles": 1
+      },
+      "published_at": "2025-05-29",
+      "relevance_score": 0.2421,
+      "source": "jobs",
+      "summary": "The Role You\u2019ll lead critical backend initiatives for the millions of creatives using ComfyUI, building systems that run millions of AI workflows. This means building rock solid distributed systems, designing data models that support explosive growth, and solving difficult scaling and optimization problems. You will make code changes across open source ComfyUI and Comfy Cloud. Our stack is Python, Go, Kubernetes, and Postgres on the backend, but we care way more about your ability to learn and s",
+      "title": "Member of Technical Staff, Backend",
+      "url": "https://jobs.ashbyhq.com/comfy-org/732f8b39-076d-4847-afe3-f54d4451607e"
+    },
+    {
+      "candidate_id": "https://jobs.ashbyhq.com/comfy-org/1047ae85-efa4-4f75-b938-4eb6e3d76db2",
+      "cluster": 6,
+      "engagement": {
+        "open_roles": 1
+      },
+      "published_at": "2026-05-22",
+      "relevance_score": 0.2417,
+      "source": "jobs",
+      "summary": "About the role You\u2019ll own our SMB and mid-market motion: studios, agencies, in-house brand teams, indie shops, and the long tail of fast-moving creative teams that are already in love with ComfyUI and ready to put it on a credit card or a procurement form. You\u2019ll report to our Founding AE and you\u2019ll have real inbound demand from day one. The motion is high velocity, sometimes transactional, often times consultative. You\u2019ll need to read each deal and choose the right play. We\u2019re explicitly open o",
+      "title": "Account Executive: SMB & Mid-Market",
+      "url": "https://jobs.ashbyhq.com/comfy-org/1047ae85-efa4-4f75-b938-4eb6e3d76db2"
+    },
+    {
+      "candidate_id": "https://github.com/comfy-org/comfyui/issues/14735",
+      "cluster": 7,
+      "engagement": {
+        "comments": 34,
+        "reactions": 70
+      },
+      "published_at": "2026-07-03",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Hello everyone, I am the author of ConvRot. First of all, I want to thank the friends in the Comfy community for their love and support for ConvRot. Initially, ConvRot was designed for INT4 quantization because QuaRot W4A4 encountered accuracy issues on DiT models. We discovered that the DiT model h",
+      "title": "Thank you for adapting ConvRot",
+      "url": "https://github.com/Comfy-Org/ComfyUI/issues/14735"
+    },
+    {
+      "candidate_id": "https://github.com/haoming02/sd-webui-forge-classic/issues/1253",
+      "cluster": 8,
+      "engagement": {
+        "comments": 24,
+        "reactions": 25
+      },
+      "published_at": "2026-06-23",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Two of these models got released recently. \nhttps://huggingface.co/krea/Krea-2-Raw/tree/main\nhttps://huggingface.co/krea/Krea-2-Turbo/tree/main\n\nAlso there comfy support for it. Fp8 and fp16 variants are already available.\nhttps://huggingface.co/Comfy-Org/Krea-2/tree/main\n\nI hope \ud83d\ude4f  you could add su",
+      "title": "Krea 2 raw and krea 2 turbo",
+      "url": "https://github.com/Haoming02/sd-webui-forge-classic/issues/1253"
+    },
+    {
+      "candidate_id": "https://github.com/comfy-org/comfyui/pull/14846",
+      "cluster": 9,
+      "engagement": {
+        "comments": 5,
+        "reactions": 55
+      },
+      "published_at": "2026-07-09",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Probably needs cleanup.",
+      "title": "Lingbot Video WIP (CORE-354)",
+      "url": "https://github.com/Comfy-Org/ComfyUI/pull/14846"
+    },
+    {
+      "candidate_id": "https://github.com/comfy-org/comfyui/pull/14636",
+      "cluster": 10,
+      "engagement": {
+        "comments": 7,
+        "reactions": 20
+      },
+      "published_at": "2026-06-25",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "This is pretty basic, lora support needs to be improved.",
+      "title": "Support int8 models.",
+      "url": "https://github.com/Comfy-Org/ComfyUI/pull/14636"
+    },
+    {
+      "candidate_id": "https://github.com/comfy-org/comfyui/pull/14718",
+      "cluster": 11,
+      "engagement": {
+        "comments": 3,
+        "reactions": 16
+      },
+      "published_at": "2026-07-01",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "This is continuation of the previous unmerged TRELLIS2 PR as Pixal3D has same base.\r\n\r\nAdds support for Pixal3D and TRELLIS2 3D mesh and texture generation models, as well as complete DC remesh - QEM decimate - UV unwrap - texture bake post processing nodes.\r\n\r\nAll of the post processing has been re",
+      "title": "feat: Support Pixal3d and TRELLIS2 (CORE-278) (CORE-199) (CORE-236) (CORE-312)",
+      "url": "https://github.com/Comfy-Org/ComfyUI/pull/14718"
+    },
+    {
+      "candidate_id": "https://github.com/haoming02/sd-webui-forge-classic/pull/1261",
+      "cluster": 12,
+      "engagement": {
+        "comments": 1,
+        "reactions": 17
+      },
+      "published_at": "2026-06-28",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "<p align=\"center\">\r\n<img src=\"https://github.com/user-attachments/assets/ff4ed1bb-1811-4ca5-ad02-b59ff78678aa\" />\r\n</p>",
+      "title": "Krea2",
+      "url": "https://github.com/Haoming02/sd-webui-forge-classic/pull/1261"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "ok",
+    "grounding": "no-results",
+    "hackernews": "no-results",
+    "jobs": "partial",
+    "polymarket": "no-results",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}
