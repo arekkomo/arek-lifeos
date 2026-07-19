@@ -1,0 +1,129 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 16,
+      "sources": [
+        "github"
+      ],
+      "summary": "# REST Audit \u2014 Endpoint Consolidation Report\n\n**Date:** 2026-07-06 \u00b7 **Repo:** genfeedai/genfeed.ai @ `a8d2a3bbe` \u00b7 **Scope:** every `@Controller` under `apps/server/**`\n\n## Method\n\nMulti-agent orchestrated audit (3 workflow legs, 107 subagents, ~34M subagent tokens):\n\n1. **Inventory + classify** \u2014",
+      "title": "REST audit: endpoint consolidation report"
+    },
+    {
+      "engagement_total": 44,
+      "sources": [
+        "github"
+      ],
+      "summary": "### Output Type (required)\n\nproduction-app\n\n### PDF pipeline batch\n\nNone\n\n### Research Mode\n\nNone\n\n### Delivery Mode\n\nNone\n\n### Lifecycle Mode\n\nNone\n\n### Commercial Mode\n\nNone\n\n### Assign To / Decision Team\n\nNone\n\n### Summary\n\n_No response_\n\n### Objective\n\nless\ud83d\udda5\ufe0f Layer 1: The Bot Agent (The Applicat",
+      "title": "[WR] Image generation framework and full engine"
+    },
+    {
+      "engagement_total": 0,
+      "sources": [
+        "github"
+      ],
+      "summary": "# AI CLI Tools Community Digest 2026-07-19\n\n> Generated: 2026-07-18 22:16 UTC | Tools covered: 12\n\n- [Claude Code](https://github\u200b.com/anthropics/claude-code)\n- [OpenAI Codex](https://github\u200b.com/openai/codex)\n- [Gemini CLI](https://github\u200b.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:",
+      "title": "\ud83d\udcca AI CLI Tools Digest 2026-07-19"
+    },
+    {
+      "engagement_total": 0,
+      "sources": [
+        "github"
+      ],
+      "summary": "# OpenClaw Ecosystem Digest 2026-07-11\n\n> Issues: 433 | PRs: 500 | Projects covered: 13 | Generated: 2026-07-11 02:47 UTC\n\n- [OpenClaw](https://github\u200b.com/openclaw/openclaw)\n- [NanoBot](https://github\u200b.com/HKUDS/nanobot)\n- [Hermes Agent](https://github\u200b.com/nousresearch/hermes-agent)\n- [PicoClaw](h",
+      "title": "\ud83e\udd9e OpenClaw Ecosystem Digest 2026-07-11"
+    },
+    {
+      "engagement_total": 0,
+      "sources": [
+        "github"
+      ],
+      "summary": "# Hugging Face Trending Models Digest 2026-07-02\n\n> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-07-01 23:15 UTC\n\n---\n\n# Hugging Face Trending Models Digest | 2026-07-02\n---\n## 1. Today's Highlights\nThis week\u2019s Hugging Face trending rankings are led by flagship o",
+      "title": "\ud83e\udd17 Hugging Face Trending Models 2026-07-02"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-07-19T02:19:37.513259Z",
+  "query": "ComfyUI workflow releases and creator adoption",
+  "results": [
+    {
+      "candidate_id": "https://github.com/genfeedai/genfeed.ai/issues/1354",
+      "cluster": 0,
+      "engagement": {
+        "comments": 16,
+        "reactions": 1
+      },
+      "published_at": "2026-07-05",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "# REST Audit \u2014 Endpoint Consolidation Report\n\n**Date:** 2026-07-06 \u00b7 **Repo:** genfeedai/genfeed.ai @ `a8d2a3bbe` \u00b7 **Scope:** every `@Controller` under `apps/server/**`\n\n## Method\n\nMulti-agent orchestrated audit (3 workflow legs, 107 subagents, ~34M subagent tokens):\n\n1. **Inventory + classify** \u2014",
+      "title": "REST audit: endpoint consolidation report",
+      "url": "https://github.com/genfeedai/genfeed.ai/issues/1354"
+    },
+    {
+      "candidate_id": "https://github.com/midnghtsapphire/revvel-standards/issues/15537",
+      "cluster": 1,
+      "engagement": {
+        "comments": 44,
+        "reactions": 0
+      },
+      "published_at": "2026-07-08",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "### Output Type (required)\n\nproduction-app\n\n### PDF pipeline batch\n\nNone\n\n### Research Mode\n\nNone\n\n### Delivery Mode\n\nNone\n\n### Lifecycle Mode\n\nNone\n\n### Commercial Mode\n\nNone\n\n### Assign To / Decision Team\n\nNone\n\n### Summary\n\n_No response_\n\n### Objective\n\nless\ud83d\udda5\ufe0f Layer 1: The Bot Agent (The Applicat",
+      "title": "[WR] Image generation framework and full engine",
+      "url": "https://github.com/midnghtsapphire/revvel-standards/issues/15537"
+    },
+    {
+      "candidate_id": "https://github.com/stevenko2002/agents-radar/issues/147",
+      "cluster": 2,
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      },
+      "published_at": "2026-07-18",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "# AI CLI Tools Community Digest 2026-07-19\n\n> Generated: 2026-07-18 22:16 UTC | Tools covered: 12\n\n- [Claude Code](https://github\u200b.com/anthropics/claude-code)\n- [OpenAI Codex](https://github\u200b.com/openai/codex)\n- [Gemini CLI](https://github\u200b.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:",
+      "title": "\ud83d\udcca AI CLI Tools Digest 2026-07-19",
+      "url": "https://github.com/stevenko2002/agents-radar/issues/147"
+    },
+    {
+      "candidate_id": "https://github.com/xiehd77-del/agents-radar/issues/102",
+      "cluster": 3,
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      },
+      "published_at": "2026-07-11",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "# OpenClaw Ecosystem Digest 2026-07-11\n\n> Issues: 433 | PRs: 500 | Projects covered: 13 | Generated: 2026-07-11 02:47 UTC\n\n- [OpenClaw](https://github\u200b.com/openclaw/openclaw)\n- [NanoBot](https://github\u200b.com/HKUDS/nanobot)\n- [Hermes Agent](https://github\u200b.com/nousresearch/hermes-agent)\n- [PicoClaw](h",
+      "title": "\ud83e\udd9e OpenClaw Ecosystem Digest 2026-07-11",
+      "url": "https://github.com/xiehd77-del/agents-radar/issues/102"
+    },
+    {
+      "candidate_id": "https://github.com/kakapez/agents-radar/issues/594",
+      "cluster": 4,
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      },
+      "published_at": "2026-07-01",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "# Hugging Face Trending Models Digest 2026-07-02\n\n> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-07-01 23:15 UTC\n\n---\n\n# Hugging Face Trending Models Digest | 2026-07-02\n---\n## 1. Today's Highlights\nThis week\u2019s Hugging Face trending rankings are led by flagship o",
+      "title": "\ud83e\udd17 Hugging Face Trending Models 2026-07-02",
+      "url": "https://github.com/kakapez/agents-radar/issues/594"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "ok",
+    "grounding": "no-results",
+    "hackernews": "no-results",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}
