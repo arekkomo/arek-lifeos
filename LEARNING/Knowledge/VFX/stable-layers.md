@@ -36,6 +36,7 @@ This collapses a critical bottleneck in the [[VFX]] pipeline where AI-generated 
 1. **[[AI-Image-Midjourney]]**: Midjourney outputs are typically flat/monolithic; Stable Layers provides the bridge to layer-based editing. This means you can generate concept art in MJ, then extract layers for VFX treatment — a previously impossible workflow.
 2. **[[DaVinci-Resolve]]**: Extracted layers → import as multi-channel sequences in Resolve Fusion. Each layer becomes an independent node input for targeted grade/VFX work on specific elements within the frame.
 3. [[Compositing-Separate]]: The ability to separate foreground/background/elements automatically transforms from manual rotomation (1-2 hours per shot) to sub-second semi-extraction.
+4. [[Lucida]]: When the needed result is one foreground alpha matte rather than a semantic multi-layer decomposition—particularly for glass, text/logo shadows, glow, camouflage, or illustration assets—Lucida is the more targeted still-image tool.
 
 ## Setup / How to Use (from source blocks)
 ```bash

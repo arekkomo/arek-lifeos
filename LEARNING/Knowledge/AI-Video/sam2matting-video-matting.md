@@ -70,3 +70,4 @@ Paper states code release pending acceptance. Track arXiv 2606.27339 page for up
 - [[liveedit-streaming-video-editing]]
 - [[raype-ray-space-positional-encoding]]
 - [[ai-video-generation]]
+- [[Lucida]] — still-image counterpart for difficult alpha mattes; use SAM2Matting when the result must stay temporally consistent across frames

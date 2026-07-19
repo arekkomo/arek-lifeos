@@ -299,3 +299,32 @@ All agents active (8 total)
 
 - [[Notion-Dump-Ingest-Batch-05]] — 20 export files audited; 20 new entity cards, 0 preserved notes; duplicate/previously-ingested sources archived.
 - **Notion dump closure (2026-07-16):** [[Notion-Dump-Ingest-Batch-01]], [[Notion-Dump-Ingest-Batch-02]], [[Notion-Dump-Ingest-Batch-03]], [[Notion-Dump-Ingest-Batch-04]], and [[Notion-Dump-Ingest-Batch-05]] account for all 420 logical exports. Full audit manifests live in `Knowledge/Notion-Ingest/`; raw sources and export assets are retained under `raw/notion-dump-ingest-archive/2026-07-16/`.
+
+### Manual Ingest (2026-07-19 — ARDY)
+
+| **ARDY** | source | NVIDIA autoregressive diffusion system for responsive human/robot motion generation using streaming text prompts and live kinematic constraints: paths, waypoints, full-body keyframes, and sparse joints. Code Apache 2.0; checkpoints released. | motion-capture, human-motion, text-to-motion, kinematic-constraints, nvidia |
+| **Interactive Kinematic Motion Generation** | concept | Continuous skeletal-motion generation controlled by live text, trajectory, keyframe, and joint constraints; mapped to animation blocking / previz workflows. | human-motion, real-time, animation-blocking |
+
+### Manual Ingest (2026-07-19 — Wan-Dancer)
+
+| **Wan-Dancer** | source | Wan-based hierarchical music-to-dance system: reference image + full music track + dance-style prompt → coherent 720p/30fps dance video exceeding one minute. Uses global keyframe planning and local refinement. Code + 14B weights released. | music-to-dance, dance-video, audio-conditioned-video, long-form-video, wan |
+| **Long-Form Music-Conditioned Video** | concept | Separate global musical-structure planning from local motion refinement to retain rhythm, identity, and temporal coherence over extended video. | music-to-video, long-horizon-video, temporal-consistency |
+
+### Manual Ingest (2026-07-19 — GNM)
+
+| **GNM / GNM Head** | source | Google’s open parametric-human ecosystem. First release: a high-fidelity statistical 3D head/face model with disentangled identity, expression, pose, plus eyes, teeth, and tongue controls; NumPy/JAX/PyTorch/TensorFlow support. | 3d-morphable-model, digital-human, face-rig, facial-animation, google |
+| **Parametric Digital Humans** | concept | Editable statistical 3D people/face representations for stable identity, semantic facial control, and rig/render pipeline use. | digital-human, face-rig, vfx |
+
+### Manual Ingest (2026-07-19 — Lucida)
+
+| **Lucida** | source | MIT BiRefNet-based single-image matting/background remover specialized for transparent objects, camouflage, typography/shadows, glow/VFX, and illustrations. Hugging Face weights, CLI, FastAPI service, browser demo. | image-matting, alpha-matte, background-removal, vfx-compositing, rgba |
+| **Image Matting for VFX** | concept | Tool-selection guide: Lucida for difficult stills, SAM2Matting for temporal video mattes, Wan-Alpha for native RGBA video. | alpha-matte, vfx-compositing, background-removal |
+
+### Manual Ingest (2026-07-19 — ComfyUI PR #14103)
+
+| **PixelDiT** | entity | NVIDIA 1.3B/1024px PixelDiT text-to-image model with native ComfyUI support merged in PR #14103. Companion PiD encode/decode/upscaling support shipped in the same core change. Model weights identified as NSCLv1 licensed. | comfyui-core, pixeldit, text-to-image, nvidia, pid |
+
+### Manual Ingest (2026-07-19 — MuScriptor)
+
+| **MuScriptor** | source | Kyutai/Mirelo multi-instrument music transcription model: recorded music → streamed note events or MIDI. Trained on 170k songs; 103M/307M/1.4B variants. HF weights gated under CC BY-NC 4.0. | audio-to-midi, music-transcription, midi, multi-instrument, kyutai |
+| **Audio-to-MIDI Transcription** | concept | Convert recordings into editable symbolic note and instrument data for arrangement analysis, DAW reconstruction, and visual-music synchronization. | audio-to-midi, midi, arrangement-analysis |

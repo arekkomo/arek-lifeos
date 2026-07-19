@@ -796,3 +796,31 @@ Repaired archive provenance on 300 newly created library pages; archived 196 ass
 
 ## [2026-07-16] ingest | Blender + Hermes Blender MCP operations knowledge base
 Created standalone `Knowledge/Blender/` discipline with six linked pages: primary-source digest, System-facing operations index, production foundations, Python automation, render/assets/maintenance policy, and Hermes MCP setup/troubleshooting. Sources: Blender official site/manual/Python API and Nous Hermes Blender MCP skill. Documented the critical headless boundary: CLI batch rendering can use background mode, while the documented MCP addon needs a live desktop/Xvfb session.
+
+## [2026-07-19] ingest | ARDY — Interactive Human Motion Generation
+
+Created [[ARDY]] and [[Interactive-Kinematic-Motion-Generation]] under Motion-Capture. Added reciprocal discovery links from [[MotionLCM]] and [[ProxyPose]], then catalogued the source in index.md. Repository: https://github.com/nv-tlabs/ardy.
+
+## [2026-07-19] update | GenCeption project-page verification
+
+Verified [[GenCeption]] against https://genception.github.io/. Added direct project, ECCV 2026, and code-TBA status; linked it bidirectionally with [[From-RGB-Generation-to-Dense-Field-Readout]]. Existing index entry retained.
+
+## [2026-07-19] ingest | Wan-Dancer — minute-scale music-to-dance video
+
+Created [[Wan-Dancer]] and [[Long-Form-Music-Conditioned-Video]] in AI-Video. Linked the rendered video workflow to [[HY-Motion-1.0]] for motion-data versus final-video distinction; catalogued in index.md. Source: https://github.com/Wan-Video/Wan-Dancer.
+
+## [2026-07-19] ingest | GNM — Google parametric-human ecosystem
+
+Created [[GNM]] (AI-3D) and [[Parametric-Digital-Humans]] (Digital-Humans). Added discovery links from [[ID-LoRA]] and [[DreamActor-M1]]; catalogued the entry in index.md. Source: https://github.com/google/GNM.
+
+## [2026-07-19] ingest | Lucida — specialist image matting
+
+Created [[Lucida]] and [[Image-Matting-for-VFX]]. Linked Lucida from [[Stable Layers]] and [[SAM2Matting]] to distinguish single-image precision from multi-frame temporal matting; catalogued in index.md. Source: https://github.com/egeorcun/lucida.
+
+## [2026-07-19] ingest | ComfyUI PR #14103 — NVIDIA PixelDiT and PiD core support
+
+Verified merged PR #14103 (Kijai, merged 2026-06-04). Created [[PixelDiT]], updated [[PiD]] with core-support/license context, and added the capability note to [[ComfyUI Compendium]]. Source: https://github.com/Comfy-Org/ComfyUI/pull/14103.
+
+## [2026-07-19] ingest | MuScriptor — multi-instrument audio-to-MIDI transcription
+
+Created [[MuScriptor]] and [[Audio-to-MIDI-Transcription]] in Music-Production. Linked the tool to [[Suno Reference Song Analysis Template]] and [[Magma RT2]]; catalogued in index.md. Source: https://github.com/muscriptor/muscriptor.

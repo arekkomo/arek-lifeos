@@ -22,6 +22,10 @@
 | **Service** | systemd, enabled, restarts on crash/reboot |
 | **User** | realityrove |
 
+## Core-model capability notes
+
+- **PixelDiT + PiD:** ComfyUI PR [#14103](https://github.com/Comfy-Org/ComfyUI/pull/14103) merged native support for NVIDIA PixelDiT T2I and PiD image encode/decode/upscaling models. See [[PixelDiT]] and [[PiD]]. Model weights are identified as NSCLv1 licensed; do not assume commercial permissiveness.
+
 ---
 
 ## Startup Flags

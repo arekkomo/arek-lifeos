@@ -41,6 +41,8 @@ Open-source low-latency realtime music generation engine by Google Magenta Team.
 
 **Potential application:** Realtime audio-reactive music for Aiah Syn content pipelines, especially for ambient/dynamic scores where the audio needs to respond to generated visuals in real-time rather than being a pre-composed track.
 
+**Reverse-direction companion:** [[MuScriptor]] transcribes existing music into editable instrument-labelled MIDI. Together, generation → transcription can support fast sketching and arrangement inspection, but MuScriptor’s CC BY-NC 4.0 model license should be respected.
+
 ## How to Run
 
 Implementation details available on [GitHub repo](https://github.com/KytraScript/magenta-rt2).

@@ -19,4 +19,7 @@ ingested: 2026-07-16
 ## Description
 Large-scale text-to-3D human motion generation framework by Tencent Hunyuan.
 
+## Related
+- [[Wan-Dancer]] converts music + image + style guidance into final raster dance video; HY-Motion is the editable skeletal-motion side of that broader choreography pipeline.
+
 > This card preserves the source metadata for retrieval. Where the source is a sparse bookmark, no additional claims have been inferred beyond its supplied description.

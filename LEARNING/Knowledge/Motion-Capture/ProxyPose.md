@@ -50,3 +50,4 @@ Instead of explicit optimization of camera parameters, the method leverages a di
 - Fills a gap between pure visual object tracking and marker-based motion capture systems like Move AI
 - Compared to [[CineMaster]] which requires explicit bbox + camera trajectory control as input. ProxyPose's v2v consistency loop also complements [[PointDiT]] by using video diffusion rather than single-image depth for full pose estimation
 - Complements motion-capture tooling like Move AI by providing an all-vision alternative for environments where physical sensors are impractical
+- [[ARDY]] is the complementary generation-side tool: ProxyPose estimates motion/trajectory from footage, while ARDY generates new text- and constraint-driven skeletal motion

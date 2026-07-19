@@ -96,6 +96,7 @@ This enables **rapid storyboarding with consistent character identity** across s
 
 ## Connections
 
+- [[Parametric-Digital-Humans]] / [[GNM]] — an explicit 3D head model offers a complementary upstream asset for identity and facial-control workflows; ID-LoRA remains the image/audio-conditioned video-generation layer.
 - `[[LTX 2-Series|LTX-2/LTX-2.3]]` — base model architecture
 - `Diffusion-Video-Models` — unified multi-modal diffusion approach
 - **Convergence note**: Combines with [[PixWorld|3D scene generation]], [[Alaya Workd|long-horizon world models]] for a full pipeline: generate 3D environments → animate characters within them → consistent voice identity across scenes

@@ -20,6 +20,10 @@ Avatar generation system focused on **lifelike character animation** from static
 ## Use Cases
 AI-generated presenter videos, character dialogue scenes, and expressive digital personas suitable for Aiah Syn or RealityRowHub content production.
 
+## Related
+
+- [[GNM]] — explicit parametric 3D head geometry with semantic identity/expression/pose controls; potential upstream rig/asset counterpart to DreamActor’s rendered animation output.
+
 > ⚠️ Compare: `[[SkyReels-A2]]` handles full body; DreamActor focuses on face/head only for richer expression detail. `[[X-Portrait]]` also does face animation — evaluate based on expression quality vs speed needs.
 
 ## Access

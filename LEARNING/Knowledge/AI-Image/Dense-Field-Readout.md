@@ -47,6 +47,7 @@ Instead of fine-tuning or adapter-based methods that recondition pretrained gene
 
 ## Related Work
 
+- [[GenCeption]] — the video-generative generalist counterpart: one text-steered, feed-forward model across dense and sparse tasks (including camera pose and keypoints), versus this page's image-diffusion field readout approach.
 - [[SAM2Matting]] — Video matting via VOS tracker, also leverages pretrained feature extractors
 - [[PointDiT]] — ViT-based diffusion for monocular geometry, no latent tokenization
 - From SRA to Self-Flow — Inverse-free editing via noise-dimension guidance, similar repurpose-the-backbone philosophy

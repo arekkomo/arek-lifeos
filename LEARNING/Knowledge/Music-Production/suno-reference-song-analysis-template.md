@@ -309,6 +309,7 @@ Metatag Set:
 This analysis template is essentially **scoring a scene backward** — you're reverse-engineering what makes a musical moment land, then translating that into production parameters. That maps directly to how you'd score a sequence in DaVinci Resolve or build audio in [[DaVinci Resolve]]Fairlight. The energy arc numbers (1-10) are identical curves to the intensity curves you'd draw on a color timeline — just moving from visual emotion to sonic emotion and back again.
 
 Referenced related pages:
+- [[MuScriptor]] / [[Audio-to-MIDI-Transcription]] — use an audio-to-MIDI pass to add instrument and note-timing evidence to the listening-based reference analysis
 - [[suno-v5-prompt-engineering-best-practices.md]] for metatag formatting rules and v5 interface details
 - [[DaVinci Resolve]] for scoring integration with video
 - ``visual-storytelling`` concept from filmmaking — the arc analysis is the same structure used in visual storytelling but applied to sound

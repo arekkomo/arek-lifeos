@@ -22,6 +22,9 @@ Builds on MLD (Motion Latent Diffusion). Uses motion ControlNet for control sign
 
 > ⚠️ Cross-domain: For full-body video from motion data, chain output through `[[VACE-Alibaba]]` or `[[DreamO-ByteDance]]`. For voice → face animation, see `[[SkyReels-A2]]` which handles the speaking avatar aspect.
 
+## Related
+- [[ARDY]] is a newer interactive motion system built around autoregressive diffusion and live kinematic constraints (paths, waypoints, joints); MotionLCM instead prioritizes very low-latency latent-consistency inference.
+
 ## Access
 [Project Page](https://dai-wenxun.github.io/MotionLCM-page/) | [arXiv](https://arxiv.org/abs/2404.19759) | [GitHub](https://github.com/Dai-Wenxun/MotionLCM)
 
