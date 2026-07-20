@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-06-09
+updated: 2026-07-19
 ---
 
 # Creative Project Catalog
@@ -14,15 +14,15 @@ updated: 2026-06-09
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-|| 1 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
-|| 2 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-07-13 |
-|| 3 | **Chaotic Baking** | Music / Song | Lyrics complete (full V1+PC+C+V2+B+FCh+Outro) — needs genre assignment, Suno prompt, production stage decision | `CREATIVE/Shorts-Projects/Chaotic-Baking/chaotic-baking.md` | DISCOVERED NOW: full lyric draft found in shorts folder; unknown last-active date (no git history on this file) |
-|| 4 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
-|| 5 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
-|| 6 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
-|| 7 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
-|| 8 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-06-09 |
-|| 9 | **MEOW** | Music / Song | Lyrics V1 complete + Suno style guide; copy in Little-M folder with fuller production notes — needs categorization decision | `CREATIVE/Song-Project/Meow/meow.md` (primary) + `CREATIVE/Song-Projects/Little-M/meow.md` (alt) | DISCOVERED NOW Jul 16: lyric draft for "MEOW" — Modern Club Pop / Dance-Pop with bright female vocals; Suno style guide included. Dual location needs consolidation decision. |
+| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-19 |
+| 2 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
+| 3 | **MEOW** | Music / Song | Lyrics V1 and club-pop style guide complete; blank shot-list stub added. Duplicate lyric versions remain — needs consolidation into the canonical song-project structure before production. | `CREATIVE/Song-Project/Meow/` (primary, nonstandard) + `CREATIVE/Song-Projects/Little-M/meow.md` (alt) | 2026-07-16 |
+| 4 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-06-29 |
+| 5 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
+| 6 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
+| 7 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
+| 8 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
+| 9 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
 
 ---
 
@@ -30,7 +30,7 @@ updated: 2026-06-09
 
 > Folders that exist but have no content yet.
 
-|| # | Project | Domain | Location | Notes |
+| # | Project | Domain | Location | Notes |
 |---|---|---|---|---|
 | 1 | **Personal Songs** | Music | *(merged under Song-Projects/Little-M)* | Catalog item is inaccurate — `Song-Projects/` exists with Little-M inside; no separate "personal songs" project exists. Remove if not needed. |
 | 2 | **Aiah Syn Projects** | Music / MVs | `CREATIVE/Aiah-Syn-Projects/` | No folder on disk (only `Aiah-Syn-Style.md` exists at CREATIVE/ root). Folder may have been deleted or never created. |
@@ -40,10 +40,11 @@ updated: 2026-06-09
 
 > Auto-detected inconsistencies between catalog and disk:
 
-- **"Film Projects" (idle #2)**: No folder `CREATIVE/Film-Projects/` on disk. Catalog entry stale — remove when next reviewing.
-- **"Project Cleanup Records" (idle #6)**: No folder `CREATIVE/Project-Cleanup-Records/` on disk. Remove when next reviewing.
-- **Imma Nyola episodes folder**: `EP-01-The-Entrance.md` last modified ~Jun 14 — no subsequent changes since W25 scan. Imma Nyola idle for 8+ weeks (since May 15).
-- **Little-M** is by far the most active project on disk right now: 6 files total across Song-Projects/ and Music-Video-Projects/ subfolders, all written Jun 29. Lyrics are finalized; Suno prompts drafted but not in Production stage yet per Operating-Rules.md protocol (requires explicit Arek approval to move to Production → trigger Notion sync).
+- **MEOW** is split between nonstandard `Song-Project/Meow/` and `Song-Projects/Little-M/meow.md`; retain one canonical project home before production.
+- **Chaotic Baking** is active but lives in nonstandard `Shorts-Projects/`; its two short generic shot-list stubs are incomplete beside the developed music-video script.
+- **Aiah Syn Projects** remains an idle catalog item with no corresponding folder on disk; retain only if the folder is intentionally deferred.
+- **Personal Songs** is not a standalone folder and is accurately marked as a stale merged item below.
+- **Imma Nyala** has no filesystem activity since 2026-05-15; its Active label should be reconfirmed at the next creative session.
 
 ---
 
@@ -62,4 +63,4 @@ updated: 2026-06-09
 
 ---
 
-*Catalog updated by Director cron — 2026-09-12 (W38): scanned all of CREATIVE/; zero new projects or files since W30 scan (Jul 27). All entries unchanged; last modification date still Jul 9 (Chaotic-Baking lyrics). Catalog is current.*
+*Catalog updated by Director cron — 2026-07-19 (W29): scanned all of `CREATIVE/`. No unreferenced project was found. Reconciled the Jul 15–16 MEOW and Chaotic Baking files into their existing catalog entries; the latter now includes a developed music-video script and first scene breakdown.*
