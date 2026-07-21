@@ -44,7 +44,7 @@ Both videos argue that building your own Claude Code Agentic OS beats off-the-sh
 ## Hermes Hidden Costs (Video 2)
 
 1. **Self-validation problem** — same model writes *and* grades its own skills. No external guardrails. Can silently overwrite good skill work with worse versions. No version control or audit log.
-2. **Security** — OpenClaw had 200+ filed vulnerabilities; 386 malicious packages found on skills marketplace from a single threat actor. Inheriting someone else's architecture = inheriting their security problems.
+2. **Security** — OpenClaw had 200+ filed vulnerabilities; 386 malicious packages found on skills marketplace from a single threat actor. Inheriting someone else's architecture = inheriting their security problems. For owned applications, [[Strix]] is a relevant authorized-testing option; it does not remove the need for human review and supply-chain hygiene.
 3. **Single-client assumption** — Hermes requires a separate install per brand/client. Skills don't share across installs. Maintenance nightmare for multiple projects.
 
 ---

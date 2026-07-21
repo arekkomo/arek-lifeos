@@ -31,6 +31,7 @@ Claude Code + VS Code is a capable no-code website builder when set up correctly
 - **Frontend design skill** — install globally; auto-invoked for polished, professional output
 - **Screenshot loop** — Puppeteer takes screenshots, Claude visually reviews and self-corrects
 - **Inspiration cloning** — feed a full-page screenshot + CSS to clone any site's structure
+- **Astryx:** [[Astryx]] is an MIT React design system whose documented conventions and CLI are intended for humans and coding agents alike; useful as a stable component foundation before asking Claude Code to extend a production interface.
 - **21st.dev components** — copy-paste component prompts for individual UI elements
 - **Deploy stack** — GitHub → Vercel autodeploy; localhost preview before any push
 

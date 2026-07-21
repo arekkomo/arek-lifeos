@@ -328,3 +328,13 @@ All agents active (8 total)
 
 | **MuScriptor** | source | Kyutai/Mirelo multi-instrument music transcription model: recorded music → streamed note events or MIDI. Trained on 170k songs; 103M/307M/1.4B variants. HF weights gated under CC BY-NC 4.0. | audio-to-midi, music-transcription, midi, multi-instrument, kyutai |
 | **Audio-to-MIDI Transcription** | concept | Convert recordings into editable symbolic note and instrument data for arrangement analysis, DAW reconstruction, and visual-music synchronization. | audio-to-midi, midi, arrangement-analysis |
+
+### Manual Ingest (2026-07-19 — Strix)
+
+| **Strix** | source | Apache-2.0 autonomous multi-agent pentesting for authorized application testing: recon, dynamic validation/PoCs, remediation/reporting, local Docker runs, and CI/CD integration. | cybersecurity, pentesting, application-security, devsecops, multi-agent |
+| **Authorized AI Pentesting** | concept | Scope, authorization, isolation, and human-review guardrails for AI-enabled dynamic security testing. | cybersecurity, authorization, devsecops |
+
+### Manual Ingest (2026-07-19 — Astryx)
+
+| **Astryx** | source | Meta’s MIT React design system: 150+ accessible components, CSS-variable themes, patterns/templates, and CLI tooling explicitly designed for developers and coding agents to share conventions. Beta. | design-system, react, frontend, coding-agents, stylex, ui-components |
+| **Agent-Ready Design Systems** | concept | Predictable component APIs, docs, theming, and scaffolding that let people and coding agents assemble reviewable frontend UI from common primitives. | design-system, frontend, coding-agents |

@@ -824,3 +824,11 @@ Verified merged PR #14103 (Kijai, merged 2026-06-04). Created [[PixelDiT]], upda
 ## [2026-07-19] ingest | MuScriptor — multi-instrument audio-to-MIDI transcription
 
 Created [[MuScriptor]] and [[Audio-to-MIDI-Transcription]] in Music-Production. Linked the tool to [[Suno Reference Song Analysis Template]] and [[Magma RT2]]; catalogued in index.md. Source: https://github.com/muscriptor/muscriptor.
+
+## [2026-07-19] ingest | Strix — authorized autonomous AI pentesting
+
+Created [[Strix]] and [[Authorized-AI-Pentesting]] in new Cybersecurity discipline. Linked to [[Hermes OpenClaw Agentic OS Source]] for owned-application security context; catalogued in index.md. Source: https://github.com/usestrix/strix.
+
+## [2026-07-19] ingest | Astryx — Meta agent-ready React design system
+
+Created [[Astryx]] and [[Agent-Ready-Design-Systems]] in AI-Agents. Linked to [[Claude Code]] and [[CLI for AI Agents]] for developer/agent workflow relevance; catalogued in index.md. Source: https://github.com/facebook/astryx.

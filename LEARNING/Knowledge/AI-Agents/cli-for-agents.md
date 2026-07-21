@@ -11,6 +11,10 @@ updated: 2026-05-09
 
 A CLI (command-line interface) is a way to interact with a tool by running typed commands rather than clicking UI buttons or making HTTP calls. For AI agents, CLIs are increasingly considered the optimal interface layer.
 
+## Related
+
+- [[Astryx]] applies the same agent-legibility principle to frontend component systems: documented conventions and a CLI let people and coding agents discover and assemble UI from shared primitives.
+
 ## Why CLIs win for agents
 
 | | CLI | API | MCP |
