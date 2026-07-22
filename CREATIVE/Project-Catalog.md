@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-07-19
+updated: 2026-07-21
 ---
 
 # Creative Project Catalog
@@ -14,7 +14,7 @@ updated: 2026-07-19
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-19 |
+| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-21 |
 | 2 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
 | 3 | **MEOW** | Music / Song | Lyrics V1 and club-pop style guide complete; blank shot-list stub added. Duplicate lyric versions remain — needs consolidation into the canonical song-project structure before production. | `CREATIVE/Song-Project/Meow/` (primary, nonstandard) + `CREATIVE/Song-Projects/Little-M/meow.md` (alt) | 2026-07-16 |
 | 4 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-06-29 |
@@ -33,7 +33,7 @@ updated: 2026-07-19
 | # | Project | Domain | Location | Notes |
 |---|---|---|---|---|
 | 1 | **Personal Songs** | Music | *(merged under Song-Projects/Little-M)* | Catalog item is inaccurate — `Song-Projects/` exists with Little-M inside; no separate "personal songs" project exists. Remove if not needed. |
-| 2 | **Aiah Syn Projects** | Music / MVs | `CREATIVE/Aiah-Syn-Projects/` | No folder on disk (only `Aiah-Syn-Style.md` exists at CREATIVE/ root). Folder may have been deleted or never created. |
+| 2 | **Aiah Syn Projects** | Music / MVs | `CREATIVE/Aiah-Syn-Projects/` | Folder exists and is empty; retain as the designated home for the first Aiah Syn project. |
 | 3 | **Inspirations** | Visual/Tone Reference | `CREATIVE/Inspirations/` | Exists only as macOS symlink artifact (`._Inspirations`). No actual content files. Empty idle item. Remove if not being used. |
 
 ## Project-Catalog-Admin Notes
@@ -42,7 +42,7 @@ updated: 2026-07-19
 
 - **MEOW** is split between nonstandard `Song-Project/Meow/` and `Song-Projects/Little-M/meow.md`; retain one canonical project home before production.
 - **Chaotic Baking** is active but lives in nonstandard `Shorts-Projects/`; its two short generic shot-list stubs are incomplete beside the developed music-video script.
-- **Aiah Syn Projects** remains an idle catalog item with no corresponding folder on disk; retain only if the folder is intentionally deferred.
+- **Aiah Syn Projects** now has its designated folder on disk, but it is empty; keep it Idle until the first project brief or song capture is created.
 - **Personal Songs** is not a standalone folder and is accurately marked as a stale merged item below.
 - **Imma Nyala** has no filesystem activity since 2026-05-15; its Active label should be reconfirmed at the next creative session.
 
@@ -63,4 +63,4 @@ updated: 2026-07-19
 
 ---
 
-*Catalog updated by Director cron — 2026-07-19 (W29): scanned all of `CREATIVE/`. No unreferenced project was found. Reconciled the Jul 15–16 MEOW and Chaotic Baking files into their existing catalog entries; the latter now includes a developed music-video script and first scene breakdown.*
+*Catalog updated by Director cron — 2026-07-21 (W30): scanned all of `CREATIVE/`. No new unreferenced project was found. Corrected the Aiah Syn Projects entry to reflect its existing but empty designated folder; all creative project files remain covered by existing catalog entries or are shared reference/operating files.*
