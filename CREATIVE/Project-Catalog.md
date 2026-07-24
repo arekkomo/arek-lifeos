@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-07-21
+updated: 2026-07-23
 ---
 
 # Creative Project Catalog
@@ -14,15 +14,16 @@ updated: 2026-07-21
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-21 |
-| 2 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
-| 3 | **MEOW** | Music / Song | Lyrics V1 and club-pop style guide complete; blank shot-list stub added. Duplicate lyric versions remain — needs consolidation into the canonical song-project structure before production. | `CREATIVE/Song-Project/Meow/` (primary, nonstandard) + `CREATIVE/Song-Projects/Little-M/meow.md` (alt) | 2026-07-16 |
-| 4 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-06-29 |
-| 5 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
-| 6 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
-| 7 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
-| 8 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
-| 9 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
+| 1 | **Angel In Hell, Devil In Heaven** | Music / Song | Development — concept and lyrical world established; chorus exploration next | `CREATIVE/Song-Projects/Angel-In-Hell-Devil-In-Heaven/` | 2026-07-23 |
+| 2 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-23 |
+| 3 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
+| 4 | **MEOW** | Music / Song | Lyrics V1 and club-pop style guide complete; blank shot-list stub added. Duplicate lyric versions remain — needs consolidation into the canonical song-project structure before production. | `CREATIVE/Song-Project/Meow/` (primary, nonstandard) + `CREATIVE/Song-Projects/Little-M/meow.md` (alt) | 2026-07-16 |
+| 5 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-06-29 |
+| 6 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
+| 7 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
+| 8 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
+| 9 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
+| 10 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
 
 ---
 
@@ -63,4 +64,4 @@ updated: 2026-07-21
 
 ---
 
-*Catalog updated by Director cron — 2026-07-21 (W30): scanned all of `CREATIVE/`. No new unreferenced project was found. Corrected the Aiah Syn Projects entry to reflect its existing but empty designated folder; all creative project files remain covered by existing catalog entries or are shared reference/operating files.*
+*Catalog updated by Director cron — 2026-07-23 (W30): scanned all of `CREATIVE/` and verified library categories plus project paths. No new unreferenced creative project or Library entry was found; the existing catalog coverage and admin notes remain current.*
