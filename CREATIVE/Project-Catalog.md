@@ -64,4 +64,4 @@ updated: 2026-07-23
 
 ---
 
-*Catalog updated by Director cron — 2026-07-23 (W30): scanned all of `CREATIVE/` and verified library categories plus project paths. No new unreferenced creative project or Library entry was found; the existing catalog coverage and admin notes remain current.*
+*Catalog updated by Director cron — 2026-07-25 (W30): scanned all of `CREATIVE/`, verified all five Library categories and cataloged project paths. No new unreferenced creative project or Library entry was found; existing catalog coverage and admin notes remain current.*
