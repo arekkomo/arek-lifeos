@@ -58,8 +58,8 @@ _No entries yet_
 |------|-------------|----------------|----------------------|
 | 2026-W23 (Jun 9) | 1 (*Misguided-Care*) | Physical action can carry dismissal more cleanly than dialogue. | Use a gentle, socially acceptable gesture as the scene's real power move. |
 | 2026-W30 (Jul 23) | 1 (*Angel-In-Hell-Devil-In-Heaven*) | The Library's two entries share **belonging under pressure**: one makes exclusion visible through polite control; the other makes it lyrical through sacred/profane miscasting. Both prefer contrast and indirect evidence over explanation. | Combine them as a scene/song exercise: an outsider tries to deliver a necessary warning, is gently shut out, then the lyric/visual language turns the closed door into a too-bright Heaven / hostile Hell image. |
-| 2026-W30 (Jul 25) | 0 | No new captures or projects since Jul 23. The actionable pattern remains **social exclusion rendered indirectly**—a physical boundary in *Misguided-Care*, an image-system of permanent misfit in *Angel In Hell, Devil In Heaven*. | Write one 60–90 second hybrid exercise: no explanatory dialogue; one polite blocking action, one recurring threshold image (door, stained glass, borrowed halo), and a final choice between retreat and re-entry. |
+| 2026-W31 (Jul 27) | 1 (*date-uncomfortable-escape-comedy*; already correctly indexed) | The three captures converge on **politeness as confinement**: a soft dismissal, a socially awkward escape that becomes obligation, and a speaker with no safe room. They favor indirect stakes, threshold imagery, and a one-beat-late realization. | Build a 2–3 minute "polite trap" exercise: Adam tries to deliver a warning; Mr D8 gently redirects him through a doorway; a borrowed halo/stained-glass reflection turns the room falsely safe before the threat calmly reappears. |
 
 ---
 
-*Library created 2026-06-09. Last cron update: 2026-07-25.*
+*Library created 2026-06-09. Last cron update: 2026-07-27.*

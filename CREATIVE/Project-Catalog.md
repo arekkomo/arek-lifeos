@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-07-26
+updated: 2026-07-27
 ---
 
 # Creative Project Catalog
@@ -14,9 +14,9 @@ updated: 2026-07-26
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-| 1 | **Date** | Film / Comedy Short | Development — premise captured; choose date character's comic temperature, then build beat spine | `CREATIVE/Film-Projects/Date/` | 2026-07-26 |
-| 2 | **Angel In Hell, Devil In Heaven** | Music / Song | Development — concept and lyrical world established; chorus exploration next | `CREATIVE/Song-Projects/Angel-In-Hell-Devil-In-Heaven/` | 2026-07-23 |
-| 3 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-23 |
+| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-27 |
+| 2 | **Date** | Film / Comedy Short | Development — premise captured; choose date character's comic temperature, then build beat spine | `CREATIVE/Film-Projects/Date/` | 2026-07-26 |
+| 3 | **Angel In Hell, Devil In Heaven** | Music / Song | Development — concept and lyrical world established; chorus exploration next | `CREATIVE/Song-Projects/Angel-In-Hell-Devil-In-Heaven/` | 2026-07-23 |
 | 4 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
 | 5 | **MEOW** | Music / Song | Lyrics V1 and club-pop style guide complete; blank shot-list stub added. Duplicate lyric versions remain — needs consolidation into the canonical song-project structure before production. | `CREATIVE/Song-Project/Meow/` (primary, nonstandard) + `CREATIVE/Song-Projects/Little-M/meow.md` (alt) | 2026-07-16 |
 | 6 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-06-29 |
@@ -65,4 +65,4 @@ updated: 2026-07-26
 
 ---
 
-*Catalog updated by Director cron — 2026-07-25 (W30): scanned all of `CREATIVE/`, verified all five Library categories and cataloged project paths. No new unreferenced creative project or Library entry was found; existing catalog coverage and admin notes remain current.*
+*Catalog updated by Director cron — 2026-07-27 (W31): scanned all of `CREATIVE/`, verified all five Library categories and cataloged project paths. No new unreferenced creative project was found; the new Date Library capture was already correctly indexed. Existing catalog coverage and admin notes remain current.*
