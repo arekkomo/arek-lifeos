@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-07-27
+updated: 2026-07-29
 ---
 
 # Creative Project Catalog
@@ -14,7 +14,7 @@ updated: 2026-07-27
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-27 |
+| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-29 |
 | 2 | **Date** | Film / Comedy Short | Development — premise captured; choose date character's comic temperature, then build beat spine | `CREATIVE/Film-Projects/Date/` | 2026-07-26 |
 | 3 | **Angel In Hell, Devil In Heaven** | Music / Song | Development — concept and lyrical world established; chorus exploration next | `CREATIVE/Song-Projects/Angel-In-Hell-Devil-In-Heaven/` | 2026-07-23 |
 | 4 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
@@ -44,6 +44,7 @@ updated: 2026-07-27
 
 - **MEOW** is split between nonstandard `Song-Project/Meow/` and `Song-Projects/Little-M/meow.md`; retain one canonical project home before production.
 - **Chaotic Baking** is active but lives in nonstandard `Shorts-Projects/`; its two short generic shot-list stubs are incomplete beside the developed music-video script.
+- **Orgy of Fear** is marked Cancelled with no location, but `CREATIVE/Music-Video-Projects/Orgy-of-Fear/Project-Brief.md` remains on disk; retain it as archival source material or explicitly archive/remove the folder.
 - **Aiah Syn Projects** now has its designated folder on disk, but it is empty; keep it Idle until the first project brief or song capture is created.
 - **Personal Songs** is not a standalone folder and is accurately marked as a stale merged item below.
 - **Imma Nyala** has no filesystem activity since 2026-05-15; its Active label should be reconfirmed at the next creative session.
@@ -65,4 +66,4 @@ updated: 2026-07-27
 
 ---
 
-*Catalog updated by Director cron — 2026-07-27 (W31): scanned all of `CREATIVE/`, verified all five Library categories and cataloged project paths. No new unreferenced creative project was found; the new Date Library capture was already correctly indexed. Existing catalog coverage and admin notes remain current.*
+*Catalog updated by Director cron — 2026-07-29 (W31): scanned all of `CREATIVE/`, verified all five Library categories and cataloged project paths. No new unreferenced creative project or Library capture was found. Existing catalog coverage and admin notes remain current.*
