@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-07-31
+updated: 2026-08-02
 ---
 
 # Creative Project Catalog
@@ -66,4 +66,4 @@ updated: 2026-07-31
 
 ---
 
-*Catalog updated by Director cron — 2026-07-31 (W31): scanned all of `CREATIVE/`, verified all five Library categories and cataloged project paths. No new unreferenced creative project or Library capture was found. Existing catalog coverage and admin notes remain current.*
+*Catalog updated by Director cron — 2026-08-02 (W31): scanned all of `CREATIVE/`, verified all five Library categories and cataloged project paths. No new unreferenced creative project or Library capture was found. Existing catalog coverage and admin notes remain current.*
