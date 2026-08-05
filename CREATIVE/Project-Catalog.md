@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-08-02
+updated: 2026-08-04
 ---
 
 # Creative Project Catalog
@@ -14,7 +14,7 @@ updated: 2026-08-02
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-07-29 |
+| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-08-04 |
 | 2 | **Date** | Film / Comedy Short | Development — premise captured; choose date character's comic temperature, then build beat spine | `CREATIVE/Film-Projects/Date/` | 2026-07-26 |
 | 3 | **Angel In Hell, Devil In Heaven** | Music / Song | Development — concept and lyrical world established; chorus exploration next | `CREATIVE/Song-Projects/Angel-In-Hell-Devil-In-Heaven/` | 2026-07-23 |
 | 4 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
@@ -66,4 +66,4 @@ updated: 2026-08-02
 
 ---
 
-*Catalog updated by Director cron — 2026-08-02 (W31): scanned all of `CREATIVE/`, verified all five Library categories and cataloged project paths. No new unreferenced creative project or Library capture was found. Existing catalog coverage and admin notes remain current.*
+*Catalog updated by Director cron — 2026-08-04 (W31): scanned all of `CREATIVE/`, verified all five Library categories and cataloged project paths. No new unreferenced creative project or Library capture was found. Existing catalog coverage and admin notes remain current.*
