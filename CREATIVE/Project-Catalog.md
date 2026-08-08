@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Creative Project Catalog
@@ -14,17 +14,18 @@ updated: 2026-08-06
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-08-06 |
-| 2 | **Date** | Film / Comedy Short | Development — premise captured; choose date character's comic temperature, then build beat spine | `CREATIVE/Film-Projects/Date/` | 2026-07-26 |
-| 3 | **Angel In Hell, Devil In Heaven** | Music / Song | Development — concept and lyrical world established; chorus exploration next | `CREATIVE/Song-Projects/Angel-In-Hell-Devil-In-Heaven/` | 2026-07-23 |
-| 4 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
-| 5 | **MEOW** | Music / Song | Lyrics V1 and club-pop style guide complete; blank shot-list stub added. Duplicate lyric versions remain — needs consolidation into the canonical song-project structure before production. | `CREATIVE/Song-Project/Meow/` (primary, nonstandard) + `CREATIVE/Song-Projects/Little-M/meow.md` (alt) | 2026-07-16 |
-| 6 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-06-29 |
-| 7 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
-| 8 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
-| 9 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
-| 10 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
-| 11 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
+| 1 | **Creative Project Review** | Review / Portfolio | Active — 167 imported records organized into execution, idea, and triage lanes; use this as the intake hub | `CREATIVE/Project-Review/` | 2026-08-07 |
+| 2 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-08-06 |
+| 3 | **Date** | Film / Comedy Short | Development — premise captured; choose date character's comic temperature, then build beat spine | `CREATIVE/Film-Projects/Date/` | 2026-07-26 |
+| 4 | **Angel In Hell, Devil In Heaven** | Music / Song | Development — concept and lyrical world established; chorus exploration next | `CREATIVE/Song-Projects/Angel-In-Hell-Devil-In-Heaven/` | 2026-07-23 |
+| 5 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
+| 6 | **MEOW** | Music / Song | Lyrics V1 and club-pop style guide complete; blank shot-list stub added. Duplicate lyric versions remain — needs consolidation into the canonical song-project structure before production. | `CREATIVE/Song-Project/Meow/` (primary, nonstandard) + `CREATIVE/Song-Projects/Little-M/meow.md` (alt) | 2026-07-16 |
+| 7 | **Little M** | Music / Music Video / RRHub | P2 · Planning (pipeline defined) | `CREATIVE/Song-Projects/Little-M/` + `CREATIVE/Music-Video-Projects/Little-M/` | 2026-06-29 |
+| 8 | **Orgy of Fear** | Music / Music Video | Cancelled — superseded by Little M | — | ~2026-06-24 |
+| 9 | **Imma Nyala** | Film / Mockumentary | Active · EP-01 planned | `CREATIVE/Imma-Nyala/` | 2026-05-15 |
+| 10 | **Directing Curriculum** | Learning / Portfolio | Module 01 complete, exercises pending | `CREATIVE/Imma-Nyala/Directing-Curriculum-Map.md` | 2026-05-15 |
+| 11 | **Sycophantic AI — Video Concept** | YouTube Concept | Raw capture · needs development | `CREATIVE/YouTube-Concepts/` | 2026-05-07 |
+| 12 | **Aiah Syn** | Music / AI Singer | Catalog building | `CREATIVE/Aiah-Syn-Style.md` | TBD |
 
 ---
 
@@ -48,6 +49,7 @@ updated: 2026-08-06
 - **Aiah Syn Projects** now has its designated folder on disk, but it is empty; keep it Idle until the first project brief or song capture is created.
 - **Personal Songs** is not a standalone folder and is accurately marked as a stale merged item below.
 - **Imma Nyala** has no filesystem activity since 2026-05-15; its Active label should be reconfirmed at the next creative session.
+- **Notion mirror review:** 88 Writing records are now indexed under `CREATIVE/Project-Review/`. Their current stage metadata is 1 Production, 2 Post Production, 14 Development, 32 Idea, and 39 unclassified. These review labels do not change source status.
 
 ---
 
@@ -66,4 +68,4 @@ updated: 2026-08-06
 
 ---
 
-*Catalog updated by Director cron — 2026-08-06 (W32): scanned all of `CREATIVE/`, verified the five Library categories and all project-level directories. No new unreferenced creative project or Library capture was found; existing catalog coverage and admin notes remain current.*
+*Catalog updated by Director — 2026-08-07: added the Notion Creative Mirror review hub and its metadata audit. Existing project statuses were not automatically changed.*
