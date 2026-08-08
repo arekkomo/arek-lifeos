@@ -832,3 +832,7 @@ Created [[Strix]] and [[Authorized-AI-Pentesting]] in new Cybersecurity discipli
 ## [2026-07-19] ingest | Astryx — Meta agent-ready React design system
 
 Created [[Astryx]] and [[Agent-Ready-Design-Systems]] in AI-Agents. Linked to [[Claude Code]] and [[CLI for AI Agents]] for developer/agent workflow relevance; catalogued in index.md. Source: https://github.com/facebook/astryx.
+
+## [2026-08-08] ingest | Directing craft: script-to-scene-to-shot workflow
+
+Created [[Directing Craft Reference Sources]], [[Script to Scene Analysis]], [[Purposeful Shot Lists]], and [[AI Video Scene Packet]] in Filmmaking; catalogued them in index.md. The workflow separates broadly shared planning principles from subjective directing choices and adds AI-video continuity, generation-card and cut-review controls. Source ledger: directing, performance, cinematography and editing texts by Rabiger/Hurbis-Cherrier, Weston, Katz, Brown and Murch.

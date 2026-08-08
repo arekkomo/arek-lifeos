@@ -214,6 +214,14 @@ Full-length guides and operational docs preserved at full depth:
 ## Filmmaking
 - [Visual storytelling, cinematic shooting]
 
+### Script-to-Scene-to-Shot Workflow (2026-08-08)
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[Directing Craft Reference Sources]] | source | Five established directing, performance, cinematography and editing texts used as the cited craft ledger. | directing, source, filmmaking |
+| [[Script to Scene Analysis]] | concept | Director’s scene card for dramatic event, objectives, obstacles, beats, turn, power arc, geography and continuity. | directing, screenplay, scene-analysis |
+| [[Purposeful Shot Lists]] | concept | Beat-driven coverage and shot-list method connecting staging, framing, camera, sound and edit intent. | directing, shot-list, coverage |
+| [[AI Video Scene Packet]] | concept | Continuity-aware production packet that translates scene analysis into testable AI-video generation tasks. | ai-video, directing, continuity |
+
 ## Blender
 
 ### Operations Knowledge Base (2026-07-16)
