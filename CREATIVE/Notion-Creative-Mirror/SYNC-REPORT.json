@@ -1,0 +1,240 @@
+{
+  "synced_at": "2026-08-07T23:58:10.414629+00:00",
+  "direction": "Notion → Obsidian (one way)",
+  "root": "/home/realityrove/Obsidian/Arek&Co/CREATIVE/Notion-Creative-Mirror",
+  "databases": {
+    "Shows": {
+      "database_id": "185b4695-a24d-8034-a533-ed1699342ada",
+      "count": 7,
+      "files": [
+        "Shows/velvet-arrival--2deb4695.md",
+        "Shows/velvet-odyssey--2ddb4695.md",
+        "Shows/retro-oasis--2dab4695.md",
+        "Shows/the-longwaits--2d4b4695.md",
+        "Shows/sandbox--2d2b4695.md",
+        "Shows/travel-pepe-and-nyala-trip-to-park--1e3b4695.md",
+        "Shows/doy-gog-s-ay-dout--187b4695.md"
+      ]
+    },
+    "Scenes": {
+      "database_id": "29ab4695-a24d-8070-b7dd-dfd8ddc85899",
+      "count": 9,
+      "files": [
+        "Scenes/bld-0010--2deb4695.md",
+        "Scenes/lod-0030--2dcb4695.md",
+        "Scenes/gat-0010--2dcb4695.md",
+        "Scenes/lod-0010--2dab4695.md",
+        "Scenes/lgw-0030--2d5b4695.md",
+        "Scenes/lgw-0020--2d5b4695.md",
+        "Scenes/lgw-0010--2d4b4695.md",
+        "Scenes/snd--2d2b4695.md",
+        "Scenes/rhn--2c8b4695.md"
+      ]
+    },
+    "Shots": {
+      "database_id": "29ab4695-a24d-8037-8bd7-e5213ae7bd23",
+      "count": 32,
+      "files": [
+        "Shots/snd-0060-sandbox--2eab4695.md",
+        "Shots/snd-0050-sandbox--2e8b4695.md",
+        "Shots/wcn-0010-urban-march--2e7b4695.md",
+        "Shots/snd-0040-sandbox--2e7b4695.md",
+        "Shots/snd-0030-sandbox--2e7b4695.md",
+        "Shots/dog-0010-sandbox--2e2b4695.md",
+        "Shots/dvr-0010-sandbox--2e2b4695.md",
+        "Shots/snd-0020-sandbox--2e2b4695.md",
+        "Shots/snd-0010-sandbox--2e2b4695.md",
+        "Shots/snd-0000-sandbox--2e2b4695.md",
+        "Shots/gat-0010-0070--2ddb4695.md",
+        "Shots/gat-0010-0060--2ddb4695.md",
+        "Shots/gat-0010-0050--2ddb4695.md",
+        "Shots/gat-0010-0040--2ddb4695.md",
+        "Shots/gat-0010-0030--2ddb4695.md",
+        "Shots/gat-0010-0020--2ddb4695.md",
+        "Shots/gat-0010-0010--2ddb4695.md",
+        "Shots/lod-0038-retro-oasis--2dcb4695.md",
+        "Shots/lod-0037-retro-oasis--2dcb4695.md",
+        "Shots/lod-0036-retro-oasis--2dcb4695.md",
+        "Shots/lod-0035-retro-oasis--2dcb4695.md",
+        "Shots/lod-0034-retro-oasis--2dcb4695.md",
+        "Shots/lod-0033-retro-oasis--2dcb4695.md",
+        "Shots/lod-0032-retro-oasis--2dcb4695.md",
+        "Shots/lod-0031-retro-oasis--2dcb4695.md",
+        "Shots/bld-0010-0010--2dcb4695.md",
+        "Shots/lod-0010-0020--2dab4695.md",
+        "Shots/lod-0010-0010--2dab4695.md",
+        "Shots/lgw-0022-the-longwaits--2d9b4695.md",
+        "Shots/lgw-0021-the-longwaits--2d9b4695.md",
+        "Shots/lgw-0040-the-longwaits--2d5b4695.md",
+        "Shots/gran-mee--2d3b4695.md"
+      ]
+    },
+    "Locations": {
+      "database_id": "187b4695-a24d-8048-a850-da27d34ac4ab",
+      "count": 2,
+      "files": [
+        "Locations/back-alley--187b4695.md",
+        "Locations/city-street--187b4695.md"
+      ]
+    },
+    "Characters": {
+      "database_id": "187b4695-a24d-80b1-9d7a-c877b0caa4ba",
+      "count": 7,
+      "files": [
+        "Characters/margo--29cb4695.md",
+        "Characters/nyala--1e4b4695.md",
+        "Characters/pepe--1e4b4695.md",
+        "Characters/john--19fb4695.md",
+        "Characters/margaret--187b4695.md",
+        "Characters/john--187b4695.md",
+        "Characters/suzan--187b4695.md"
+      ]
+    },
+    "Props": {
+      "database_id": "187b4695-a24d-80bb-a3e3-edaec1102553",
+      "count": 2,
+      "files": [
+        "Props/table--187b4695.md",
+        "Props/car--187b4695.md"
+      ]
+    },
+    "Styles": {
+      "database_id": "187b4695-a24d-8064-9926-ec5d064de335",
+      "count": 1,
+      "files": [
+        "Styles/atomic-era-sci-fi--187b4695.md"
+      ]
+    },
+    "Sequences": {
+      "database_id": "1e4b4695-a24d-801a-9065-edfcef946e7a",
+      "count": 8,
+      "files": [
+        "Sequences/cats-sleeping-peacefully--1e4b4695.md",
+        "Sequences/araving-at-home-upnack--1e4b4695.md",
+        "Sequences/packing-up-and-travel-back--1e4b4695.md",
+        "Sequences/arrival-at-the-park-exploring--1e4b4695.md",
+        "Sequences/stop-at-heron-s-nests--1e4b4695.md",
+        "Sequences/bike-ride-to-the-park--1e4b4695.md",
+        "Sequences/suit-up-exit--1e4b4695.md",
+        "Sequences/restless-and-bored--1e4b4695.md"
+      ]
+    },
+    "Writing": {
+      "database_id": "175b4695-a24d-8069-81f3-e5dcac3348d6",
+      "count": 88,
+      "files": [
+        "Writing/imma-nyala--362b4695.md",
+        "Writing/fog--344b4695.md",
+        "Writing/borrowed-space-music-video-concept-shot-list--33fb4695.md",
+        "Writing/my-husband-s-money--339b4695.md",
+        "Writing/ask-me-later--339b4695.md",
+        "Writing/ill-wind--339b4695.md",
+        "Writing/like-us-yumi-kant--339b4695.md",
+        "Writing/you-break-it-you-bake-it--339b4695.md",
+        "Writing/borrowed-space--339b4695.md",
+        "Writing/you-want-me-whole--339b4695.md",
+        "Writing/scalpel-to-the-dancefloor--339b4695.md",
+        "Writing/your-rizz-is-delulu--339b4695.md",
+        "Writing/the-devil-i-know--339b4695.md",
+        "Writing/idle-hands--339b4695.md",
+        "Writing/tomorrow-has-a-door--339b4695.md",
+        "Writing/blue-cheese-love--339b4695.md",
+        "Writing/certified-lumpy--339b4695.md",
+        "Writing/rent-me-for-holidays--2c2b4695.md",
+        "Writing/vfx-techniques-how-to-shoot-this-or-that--17fb4695.md",
+        "Writing/vfx-reels-channel--17fb4695.md",
+        "Writing/vfx-money-shot--17fb4695.md",
+        "Writing/drunk-bride--17db4695.md",
+        "Writing/happiness-is-a-journey-not-a-destination--17cb4695.md",
+        "Writing/dreamscapers-the-threads-between-us--179b4695.md",
+        "Writing/the-trial--179b4695.md",
+        "Writing/the-future-engineer--179b4695.md",
+        "Writing/cosmic-game--179b4695.md",
+        "Writing/the-false-queen--179b4695.md",
+        "Writing/useless-superheroes--179b4695.md",
+        "Writing/digital-evolution--179b4695.md",
+        "Writing/energy-imbalance--179b4695.md",
+        "Writing/the-human-market--179b4695.md",
+        "Writing/the-princess-s-plot--179b4695.md",
+        "Writing/the-guardian-s-duty--179b4695.md",
+        "Writing/the-observer--179b4695.md",
+        "Writing/the-accidental-journey--179b4695.md",
+        "Writing/the-twin-kingdoms--179b4695.md",
+        "Writing/the-divine-king--179b4695.md",
+        "Writing/love-s-butterfly-effect--179b4695.md",
+        "Writing/survival-s-price--179b4695.md",
+        "Writing/fair-weather-friends--179b4695.md",
+        "Writing/the-hybrid-planet--179b4695.md",
+        "Writing/hidden-truth--179b4695.md",
+        "Writing/three-perspectives--179b4695.md",
+        "Writing/the-alien-pet--179b4695.md",
+        "Writing/retro-future-1960s--179b4695.md",
+        "Writing/universe-swap--179b4695.md",
+        "Writing/sibling-bond--179b4695.md",
+        "Writing/the-perspective-show--179b4695.md",
+        "Writing/five-lives-tv-series--179b4695.md",
+        "Writing/ai-returning-home--179b4695.md",
+        "Writing/the-mutation-society--179b4695.md",
+        "Writing/evolution-of-immortality--179b4695.md",
+        "Writing/the-d-j-vu-gateway--179b4695.md",
+        "Writing/the-universe-navigator--179b4695.md",
+        "Writing/the-genius-s-dilemma--179b4695.md",
+        "Writing/the-religious-extinction-plot--179b4695.md",
+        "Writing/prison-romance-comedy--179b4695.md",
+        "Writing/utopian-harmony--179b4695.md",
+        "Writing/time-travel-through-parallel-universes--179b4695.md",
+        "Writing/interconnected-heroes--179b4695.md",
+        "Writing/dimensions-of-deception--179b4695.md",
+        "Writing/heritage-protocol--179b4695.md",
+        "Writing/historical-fiction-news--179b4695.md",
+        "Writing/pictures-from-happy-childhood--179b4695.md",
+        "Writing/memebers-of-family-out-of-sync--179b4695.md",
+        "Writing/siblings-seperated--179b4695.md",
+        "Writing/grave-digger-girl--179b4695.md",
+        "Writing/guide-to-better-life--179b4695.md",
+        "Writing/celebrate-trying--179b4695.md",
+        "Writing/universe-is-a-chaos--179b4695.md",
+        "Writing/lucky-and-unlucky-brothers--179b4695.md",
+        "Writing/hunting-mansion--179b4695.md",
+        "Writing/working-hard-for-halloween--179b4695.md",
+        "Writing/universe-is-energy--179b4695.md",
+        "Writing/solitude-poem--179b4695.md",
+        "Writing/confident-evil-witch--179b4695.md",
+        "Writing/pararel-universes--179b4695.md",
+        "Writing/path-to-annihilation--179b4695.md",
+        "Writing/futuristic-prison-long-sentence--179b4695.md",
+        "Writing/joke-structure--179b4695.md",
+        "Writing/r-wnowaga-w-3-sferach-cia-o-umys-i-dusza--178b4695.md",
+        "Writing/vr-film-ideas--178b4695.md",
+        "Writing/creatures-that-live-in-earth-lives-in-water--178b4695.md",
+        "Writing/vr-worlds--178b4695.md",
+        "Writing/alien-documentary-about-earth--178b4695.md",
+        "Writing/wrong-movies-trailers-what-if--176b4695.md",
+        "Writing/silent-scandal-funeral-mistery--176b4695.md"
+      ]
+    },
+    "Prompts": {
+      "database_id": "2d9b4695-a24d-809e-afdf-c999b7fe7f2e",
+      "count": 11,
+      "files": [
+        "Prompts/rrhub-port-migration-3000-3001-8700-8701--373b4695.md",
+        "Prompts/creative-studio-system-prompt--339b4695.md",
+        "Prompts/claude-systems-project-system-prompt--334b4695.md",
+        "Prompts/personal-assistant-system-prompt--332b4695.md",
+        "Prompts/frame-close-up--2dcb4695.md",
+        "Prompts/frame-top-angle-1--2dcb4695.md",
+        "Prompts/frame-low-angle-1--2dcb4695.md",
+        "Prompts/frame-right-side-1--2dcb4695.md",
+        "Prompts/frame-rotate-left-1--2dcb4695.md",
+        "Prompts/frame-reverse-angle-1--2d9b4695.md",
+        "Prompts/frame-wide-shot-1--2d9b4695.md"
+      ]
+    }
+  },
+  "not_shared_or_unavailable": {},
+  "notes": [
+    "Curated CREATIVE/Library entries are not overwritten.",
+    "Notion assets/files are retained as source property metadata; external binary downloads are not mirrored.",
+    "Re-run this script to refresh edited pages. Files are deterministic by Notion page ID."
+  ]
+}
