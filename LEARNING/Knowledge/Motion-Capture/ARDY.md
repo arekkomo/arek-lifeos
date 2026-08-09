@@ -43,6 +43,9 @@ File under **Motion Capture** rather than AI-Video: ARDY generates skeletal/kine
 
 ## Related
 
+- [[NVIDIA ARDY — Official Source Summary]] — verified prompt/constraint evidence and scope boundary for ARDY-specific motion authoring
+- [[ARDY Text-to-Motion Prompting]] — body-first prompt grammar; use this rather than cinematography vocabulary
+- [[ARDY Streaming Prompt and Constraint Workflow]] — assign action semantics to text and spatial precision to explicit kinematic controls
 - [[Interactive-Kinematic-Motion-Generation]] — control pattern and comparison points
 - [[MotionLCM]] — real-time text/pose motion generation via latent consistency, versus ARDY's autoregressive diffusion approach
 - [[ProxyPose]] — extracts 6-DoF motion from video; ARDY generates new constrained motion

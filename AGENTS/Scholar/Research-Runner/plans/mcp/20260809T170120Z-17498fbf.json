@@ -1,0 +1,37 @@
+{
+  "intent": "how_to",
+  "freshness_mode": "balanced_recent",
+  "cluster_mode": "none",
+  "subqueries": [
+    {
+      "label": "primary",
+      "search_query": "NVIDIA PiD PixelDiT upscaler prompt guidance",
+      "ranking_query": "What credible developments and discussion signals about NVIDIA PiD PixelDiT upscaler prompt guidance appeared in the last 30 days?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 1.0
+    },
+    {
+      "label": "focus",
+      "search_query": "NVIDIA PiD PixelDiT upscaler prompt guidance Official docs, code and model cards: prompt, negativePrompt, 4-step 2x/4x workflows.",
+      "ranking_query": "What recent evidence is most useful about NVIDIA PiD PixelDiT upscaler prompt guidance and Official docs, code and model cards: prompt, negativePrompt, 4-step 2x/4x workflows.?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 0.7
+    }
+  ]
+}

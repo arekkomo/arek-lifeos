@@ -1,0 +1,37 @@
+{
+  "intent": "how_to",
+  "freshness_mode": "balanced_recent",
+  "cluster_mode": "none",
+  "subqueries": [
+    {
+      "label": "primary",
+      "search_query": "MiniMax H3 video generation prompting",
+      "ranking_query": "What credible developments and discussion signals about MiniMax H3 video generation prompting appeared in the last 30 days?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 1.0
+    },
+    {
+      "label": "focus",
+      "search_query": "MiniMax H3 video generation prompting Official capabilities, T2V, I2V, reference images, synchronized dialogue, SFX, music, and prompt guidance.",
+      "ranking_query": "What recent evidence is most useful about MiniMax H3 video generation prompting and Official capabilities, T2V, I2V, reference images, synchronized dialogue, SFX, music, and prompt guidance.?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 0.7
+    }
+  ]
+}

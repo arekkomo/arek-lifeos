@@ -25,7 +25,7 @@ image-blaster is a Claude Code agent pipeline that takes a single image and prod
 - Generates `.glb` / `.obj` 3D models of dynamic objects in an image
 - Creates explorable Gaussian splat (`.spz`) of the static environment
 - Generates ambient looping audio + per-object physics SFX (`.mp3`)
-- Image cleanup and object isolation via `nano-banana` (or `gpt-image-2`)
+- Image cleanup and object isolation via `nano-banana` (or `gpt-image-2`); see [[GPT Image 2 Reframe — Source Summary]] for controlled reframe/outpaint plate preparation.
 - Tunable 3D output: face count, PBR materials, polygon type, geometry mode
 - Embeddable into Unity, Unreal, Godot, Blender, Maya, Three.js, Electron
 - Full pipeline runs interactively via Claude — confirm each step

@@ -1,0 +1,613 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 11,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "GPT-4 finished training four years ago today",
+      "title": "GPT-4 finished training four years ago today"
+    },
+    {
+      "engagement_total": 314,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Improving GPT\u20115.6 Sol in ChatGPT, expanding GPT\u20115.6 Luna access for free users",
+      "title": "Improving GPT\u20115.6 Sol in ChatGPT, expanding GPT\u20115.6 Luna access for free users"
+    },
+    {
+      "engagement_total": 432,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models"
+    },
+    {
+      "engagement_total": 157,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "The Maxwell Conjecture Is False (GPT 5.6 Sol)",
+      "title": "The Maxwell Conjecture Is False (GPT 5.6 Sol)"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "OpenAI cuts GPT 5.6 Luna prices by 80%",
+      "title": "OpenAI cuts GPT 5.6 Luna prices by 80%"
+    },
+    {
+      "engagement_total": 14,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "The way GPT-5.6 fuses frontier intelligence with frontier efficiency \u2013 OpenAI",
+      "title": "The way GPT-5.6 fuses frontier intelligence with frontier efficiency \u2013 OpenAI"
+    },
+    {
+      "engagement_total": 25,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Having fun with oh my pi, DeepSeek-V4-Flash, GPT-5.6 Luna and Antigravity CLI",
+      "title": "Having fun with oh my pi, DeepSeek-V4-Flash, GPT-5.6 Luna and Antigravity CLI"
+    },
+    {
+      "engagement_total": 610,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Advancing the price-performance frontier with GPT\u20115.6",
+      "title": "Advancing the price-performance frontier with GPT\u20115.6"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Why do OpenAI's GPT-2 weights beat mine?",
+      "title": "Why do OpenAI's GPT-2 weights beat mine?"
+    },
+    {
+      "engagement_total": 409,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447"
+    },
+    {
+      "engagement_total": 170,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "OpenAI makes GPT-5.6 Luna the default for free ChatGPT users",
+      "title": "OpenAI makes GPT-5.6 Luna the default for free ChatGPT users"
+    },
+    {
+      "engagement_total": 101,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
+      "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "OpenAI rebuilt ChatGPT's voice stack so GPT-Live can listen while speaking",
+      "title": "OpenAI rebuilt ChatGPT's voice stack so GPT-Live can listen while speaking"
+    },
+    {
+      "engagement_total": 601,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization"
+    },
+    {
+      "engagement_total": 249,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok"
+    },
+    {
+      "engagement_total": 64,
+      "sources": [
+        "github"
+      ],
+      "summary": "### What version of Codex CLI is running?\n\n`codex-cli 0.144.3`\n\n### What subscription do you have?\n\nPaid ChatGPT-authenticated Codex subscription. Exact tier is redacted for privacy because the catalog/runtime regression is not account-specific.\n\n### Which model were you using?\n\n`gpt-5.6-sol`\n\n### W",
+      "title": "\ud83d\udea8 [SEVERE REGRESSION] GPT-5.6 Sol context cut again: 353K \u2192 258K despite advertised 1.05M"
+    },
+    {
+      "engagement_total": 87,
+      "sources": [
+        "github"
+      ],
+      "summary": "## Summary\n\nThe Codex desktop app on Windows ARM64 crash-loops: the window appears, runs for ~10\u201315 seconds, then the whole app exits. No error dialog, no Windows Application Error event \u2014 but Crashpad writes a minidump on every launch. Reinstalling (including wiping all `LocalCache` app data) does",
+      "title": "Windows ARM64 app crash-loops on launch \u2014 ChatGPT.exe exports no napi_* symbols, serialport addon dies with delay-load 0xC06D007F"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "github"
+      ],
+      "summary": "---\nname: Team Submission\nabout: Submit your Coding Jam project\ntitle: Infrabots\nlabels: submission\n---\n\n<!-- The official Coding Jam submission is usually done via https://codingjam.dev/submit.\n     It is not mandatory for this event, but it's a great way to showcase your build!\n-->\n\n## Team member",
+      "title": "Infrabots"
+    },
+    {
+      "engagement_total": 14,
+      "sources": [
+        "github"
+      ],
+      "summary": "Don\u2019t be like companies we all criticize.",
+      "title": "Binary distribution without corresponding source code"
+    },
+    {
+      "engagement_total": 7,
+      "sources": [
+        "github"
+      ],
+      "summary": "NAVYA DAIRY\nSmart Dairy Management App \u2014 Requirement / Prompt Document\nGeneral Requirements (Sabhi Navigation Mein Common)\nGApp App Store aur Play Store dono ke liye ban-ni chahiye (iOS + Android dono support).\nGHar navigation/section mein Print ka feature hona chahiye \u2013 Bluetooth ke zariye kisi bhi",
+      "title": "Navya Dairy"
+    },
+    {
+      "engagement_total": 8,
+      "sources": [
+        "github"
+      ],
+      "summary": "Hi, I'm Cr0c0 \u2014 I run automated scans over public commits looking for leaked credentials, and this repo showed up.\n\n- **Type:** Azure Client Secret (new format)\n- **Commit:** https://github.com/kingdudely/os-in-browser/commit/33f6d1edbbf14c36e32ed62a974f48c0b06b3850\n- **Status:** looks **likely acti",
+      "title": "Possible exposed secret in this repository"
+    },
+    {
+      "engagement_total": 8,
+      "sources": [
+        "github"
+      ],
+      "summary": "Hi cNGN Team (@jerozeek and co.),\n\nI've been working on [cNGN-Rust](https://github.com/theobiabo/cNGN-rs), an open-source Rust SDK designed to make integrating cNGN APIs fast, and developer-friendly.\n\n**What\u2019s built so far:**\n\n* **Envelope & Type System:** Standardized response wrapper and models de",
+      "title": "Proposal: Open-Source Rust SDK for the cNGN API (cNGN-rs)"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "github"
+      ],
+      "summary": "## Version \n2.0.1\n\n## Description\nThe Makeship plushie ad button shows up in the new hotfix, but doesn't actually work until you disable it and then re-enable it.\nOnce you've done that, it works properly forever, even after closing and reopening the game.\n\n### On Launch (New Save)\n\n<img width=\"226\"",
+      "title": "Plushie ad button is unusable on new saves until disabled and re-enabled in Preferences"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "github"
+      ],
+      "summary": "Please stop",
+      "title": "vibe coded slop"
+    },
+    {
+      "engagement_total": 7,
+      "sources": [
+        "github"
+      ],
+      "summary": "Palantir Corp",
+      "title": "Add .aip file with AIP header"
+    },
+    {
+      "engagement_total": 7,
+      "sources": [
+        "github"
+      ],
+      "summary": "Hi, this project looks really nice. Do you plan to release it on flathub on linux to easily install it?",
+      "title": "Add to flathub"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-09T17:01:10.004639Z",
+  "query": "GPT Image 2 editing prompts",
+  "results": [
+    {
+      "candidate_id": "https://twitter.com/gdb/status/2086092396023120286",
+      "cluster": 0,
+      "engagement": {
+        "comments": 1,
+        "points": 11
+      },
+      "published_at": "2026-08-08",
+      "relevance_score": 0.3842,
+      "source": "hackernews",
+      "summary": "GPT-4 finished training four years ago today",
+      "title": "GPT-4 finished training four years ago today",
+      "url": "https://twitter.com/gdb/status/2086092396023120286"
+    },
+    {
+      "candidate_id": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "cluster": 1,
+      "engagement": {
+        "comments": 276,
+        "points": 314
+      },
+      "published_at": "2026-08-06",
+      "relevance_score": 0.3802,
+      "source": "hackernews",
+      "summary": "Improving GPT\u20115.6 Sol in ChatGPT, expanding GPT\u20115.6 Luna access for free users",
+      "title": "Improving GPT\u20115.6 Sol in ChatGPT, expanding GPT\u20115.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
+    },
+    {
+      "candidate_id": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "cluster": 2,
+      "engagement": {
+        "comments": 122,
+        "points": 432
+      },
+      "published_at": "2026-08-05",
+      "relevance_score": 0.3777,
+      "source": "hackernews",
+      "summary": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency"
+    },
+    {
+      "candidate_id": "https://arxiv.org/abs/2607.27197",
+      "cluster": 3,
+      "engagement": {
+        "comments": 142,
+        "points": 157
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.3618,
+      "source": "hackernews",
+      "summary": "The Maxwell Conjecture Is False (GPT 5.6 Sol)",
+      "title": "The Maxwell Conjecture Is False (GPT 5.6 Sol)",
+      "url": "https://arxiv.org/abs/2607.27197"
+    },
+    {
+      "candidate_id": "https://twitter.com/sama/status/2082880720989532597",
+      "cluster": 4,
+      "engagement": {
+        "comments": 1,
+        "points": 9
+      },
+      "published_at": "2026-07-30",
+      "relevance_score": 0.3579,
+      "source": "hackernews",
+      "summary": "OpenAI cuts GPT 5.6 Luna prices by 80%",
+      "title": "OpenAI cuts GPT 5.6 Luna prices by 80%",
+      "url": "https://twitter.com/sama/status/2082880720989532597"
+    },
+    {
+      "candidate_id": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "cluster": 5,
+      "engagement": {
+        "comments": 1,
+        "points": 14
+      },
+      "published_at": "2026-07-29",
+      "relevance_score": 0.3572,
+      "source": "hackernews",
+      "summary": "The way GPT-5.6 fuses frontier intelligence with frontier efficiency \u2013 OpenAI",
+      "title": "The way GPT-5.6 fuses frontier intelligence with frontier efficiency \u2013 OpenAI",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/"
+    },
+    {
+      "candidate_id": "https://flashblaze.xyz/posts/having-fun-with-omp-deepseek-luna-and-agy",
+      "cluster": 6,
+      "engagement": {
+        "comments": 8,
+        "points": 25
+      },
+      "published_at": "2026-08-02",
+      "relevance_score": 0.3555,
+      "source": "hackernews",
+      "summary": "Having fun with oh my pi, DeepSeek-V4-Flash, GPT-5.6 Luna and Antigravity CLI",
+      "title": "Having fun with oh my pi, DeepSeek-V4-Flash, GPT-5.6 Luna and Antigravity CLI",
+      "url": "https://flashblaze.xyz/posts/having-fun-with-omp-deepseek-luna-and-agy/"
+    },
+    {
+      "candidate_id": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "cluster": 7,
+      "engagement": {
+        "comments": 402,
+        "points": 610
+      },
+      "published_at": "2026-07-30",
+      "relevance_score": 0.3553,
+      "source": "hackernews",
+      "summary": "Advancing the price-performance frontier with GPT\u20115.6",
+      "title": "Advancing the price-performance frontier with GPT\u20115.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/"
+    },
+    {
+      "candidate_id": "https://gilesthomas.com/2026/07/why-do-openai-gpt2-weights-beat-mine-1-intro",
+      "cluster": 8,
+      "engagement": {
+        "comments": 0,
+        "points": 3
+      },
+      "published_at": "2026-08-05",
+      "relevance_score": 0.3476,
+      "source": "hackernews",
+      "summary": "Why do OpenAI's GPT-2 weights beat mine?",
+      "title": "Why do OpenAI's GPT-2 weights beat mine?",
+      "url": "https://www.gilesthomas.com/2026/07/why-do-openai-gpt2-weights-beat-mine-1-intro"
+    },
+    {
+      "candidate_id": "https://bottlenecklabs.com/blog/autonomously-run-businesses",
+      "cluster": 9,
+      "engagement": {
+        "comments": 234,
+        "points": 409
+      },
+      "published_at": "2026-07-30",
+      "relevance_score": 0.3465,
+      "source": "hackernews",
+      "summary": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses"
+    },
+    {
+      "candidate_id": "https://ctgt.ai/research/distillation-censorship-transfer",
+      "cluster": 10,
+      "engagement": {
+        "comments": 73,
+        "points": 170
+      },
+      "published_at": "2026-07-30",
+      "relevance_score": 0.3463,
+      "source": "hackernews",
+      "summary": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer"
+    },
+    {
+      "candidate_id": "https://runtimewire.com/article/openai-gpt-5-6-luna-free-chatgpt-default",
+      "cluster": 11,
+      "engagement": {
+        "comments": 0,
+        "points": 3
+      },
+      "published_at": "2026-08-06",
+      "relevance_score": 0.3449,
+      "source": "hackernews",
+      "summary": "OpenAI makes GPT-5.6 Luna the default for free ChatGPT users",
+      "title": "OpenAI makes GPT-5.6 Luna the default for free ChatGPT users",
+      "url": "https://runtimewire.com/article/openai-gpt-5-6-luna-free-chatgpt-default"
+    },
+    {
+      "candidate_id": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+      "cluster": 12,
+      "engagement": {
+        "comments": 21,
+        "points": 101
+      },
+      "published_at": "2026-07-29",
+      "relevance_score": 0.3415,
+      "source": "hackernews",
+      "summary": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
+      "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
+      "url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation"
+    },
+    {
+      "candidate_id": "https://runtimewire.com/article/openai-gpt-live-voice-stack-full-duplex",
+      "cluster": 13,
+      "engagement": {
+        "comments": 0,
+        "points": 3
+      },
+      "published_at": "2026-08-03",
+      "relevance_score": 0.3273,
+      "source": "hackernews",
+      "summary": "OpenAI rebuilt ChatGPT's voice stack so GPT-Live can listen while speaking",
+      "title": "OpenAI rebuilt ChatGPT's voice stack so GPT-Live can listen while speaking",
+      "url": "https://runtimewire.com/article/openai-gpt-live-voice-stack-full-duplex"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
+      "cluster": 14,
+      "engagement": {
+        "comments": 391,
+        "points": 601
+      },
+      "published_at": "2026-07-18",
+      "relevance_score": 0.3235,
+      "source": "hackernews",
+      "summary": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/"
+    },
+    {
+      "candidate_id": "https://tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "cluster": 15,
+      "engagement": {
+        "comments": 104,
+        "points": 249
+      },
+      "published_at": "2026-07-21",
+      "relevance_score": 0.3067,
+      "source": "hackernews",
+      "summary": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok"
+    },
+    {
+      "candidate_id": "https://github.com/openai/codex/issues/32806",
+      "cluster": 16,
+      "engagement": {
+        "comments": 27,
+        "reactions": 64
+      },
+      "published_at": "2026-07-13",
+      "relevance_score": 0.0726,
+      "source": "github",
+      "summary": "### What version of Codex CLI is running?\n\n`codex-cli 0.144.3`\n\n### What subscription do you have?\n\nPaid ChatGPT-authenticated Codex subscription. Exact tier is redacted for privacy because the catalog/runtime regression is not account-specific.\n\n### Which model were you using?\n\n`gpt-5.6-sol`\n\n### W",
+      "title": "\ud83d\udea8 [SEVERE REGRESSION] GPT-5.6 Sol context cut again: 353K \u2192 258K despite advertised 1.05M",
+      "url": "https://github.com/openai/codex/issues/32806"
+    },
+    {
+      "candidate_id": "https://github.com/openai/codex/issues/33381",
+      "cluster": 17,
+      "engagement": {
+        "comments": 87,
+        "reactions": 41
+      },
+      "published_at": "2026-07-15",
+      "relevance_score": 0.0689,
+      "source": "github",
+      "summary": "## Summary\n\nThe Codex desktop app on Windows ARM64 crash-loops: the window appears, runs for ~10\u201315 seconds, then the whole app exits. No error dialog, no Windows Application Error event \u2014 but Crashpad writes a minidump on every launch. Reinstalling (including wiping all `LocalCache` app data) does",
+      "title": "Windows ARM64 app crash-loops on launch \u2014 ChatGPT.exe exports no napi_* symbols, serialport addon dies with delay-load 0xC06D007F",
+      "url": "https://github.com/openai/codex/issues/33381"
+    },
+    {
+      "candidate_id": "https://github.com/m-persic/nokia-x-gdg-concordia-ai-coding-jam/issues/2",
+      "cluster": 18,
+      "engagement": {
+        "comments": 0,
+        "reactions": 9
+      },
+      "published_at": "2026-07-23",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "---\nname: Team Submission\nabout: Submit your Coding Jam project\ntitle: Infrabots\nlabels: submission\n---\n\n<!-- The official Coding Jam submission is usually done via https://codingjam.dev/submit.\n     It is not mandatory for this event, but it's a great way to showcase your build!\n-->\n\n## Team member",
+      "title": "Infrabots",
+      "url": "https://github.com/M-PERSIC/Nokia-X-GDG-Concordia-AI-Coding-Jam/issues/2"
+    },
+    {
+      "candidate_id": "https://github.com/bryanlunduke/lcos/issues/2",
+      "cluster": 19,
+      "engagement": {
+        "comments": 4,
+        "reactions": 14
+      },
+      "published_at": "2026-07-12",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Don\u2019t be like companies we all criticize.",
+      "title": "Binary distribution without corresponding source code",
+      "url": "https://github.com/BryanLunduke/LCOS/issues/2"
+    },
+    {
+      "candidate_id": "https://github.com/stromxnet/stromx.net/issues/2",
+      "cluster": 20,
+      "engagement": {
+        "comments": 0,
+        "reactions": 7
+      },
+      "published_at": "2026-07-18",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "NAVYA DAIRY\nSmart Dairy Management App \u2014 Requirement / Prompt Document\nGeneral Requirements (Sabhi Navigation Mein Common)\nGApp App Store aur Play Store dono ke liye ban-ni chahiye (iOS + Android dono support).\nGHar navigation/section mein Print ka feature hona chahiye \u2013 Bluetooth ke zariye kisi bhi",
+      "title": "Navya Dairy",
+      "url": "https://github.com/stromxnet/stromx.net/issues/2"
+    },
+    {
+      "candidate_id": "https://github.com/kingdudely/os-in-browser.pages.dev-host/issues/2",
+      "cluster": 21,
+      "engagement": {
+        "comments": 6,
+        "reactions": 8
+      },
+      "published_at": "2026-07-23",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Hi, I'm Cr0c0 \u2014 I run automated scans over public commits looking for leaked credentials, and this repo showed up.\n\n- **Type:** Azure Client Secret (new format)\n- **Commit:** https://github.com/kingdudely/os-in-browser/commit/33f6d1edbbf14c36e32ed62a974f48c0b06b3850\n- **Status:** looks **likely acti",
+      "title": "Possible exposed secret in this repository",
+      "url": "https://github.com/kingdudely/os-in-browser.pages.dev-host/issues/2"
+    },
+    {
+      "candidate_id": "https://github.com/wrappedcbdc/docs_cngn_api/issues/2",
+      "cluster": 22,
+      "engagement": {
+        "comments": 5,
+        "reactions": 8
+      },
+      "published_at": "2026-07-27",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Hi cNGN Team (@jerozeek and co.),\n\nI've been working on [cNGN-Rust](https://github.com/theobiabo/cNGN-rs), an open-source Rust SDK designed to make integrating cNGN APIs fast, and developer-friendly.\n\n**What\u2019s built so far:**\n\n* **Envelope & Type System:** Standardized response wrapper and models de",
+      "title": "Proposal: Open-Source Rust SDK for the cNGN API (cNGN-rs)",
+      "url": "https://github.com/wrappedcbdc/docs_cNGN_api/issues/2"
+    },
+    {
+      "candidate_id": "https://github.com/rewiredcrew/qt-rewired/issues/2",
+      "cluster": 23,
+      "engagement": {
+        "comments": 3,
+        "reactions": 9
+      },
+      "published_at": "2026-07-23",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "## Version \n2.0.1\n\n## Description\nThe Makeship plushie ad button shows up in the new hotfix, but doesn't actually work until you disable it and then re-enable it.\nOnce you've done that, it works properly forever, even after closing and reopening the game.\n\n### On Launch (New Save)\n\n<img width=\"226\"",
+      "title": "Plushie ad button is unusable on new saves until disabled and re-enabled in Preferences",
+      "url": "https://github.com/RewiredCrew/QT-Rewired/issues/2"
+    },
+    {
+      "candidate_id": "https://github.com/starling-build/starling/issues/2",
+      "cluster": 24,
+      "engagement": {
+        "comments": 1,
+        "reactions": 9
+      },
+      "published_at": "2026-07-28",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Please stop",
+      "title": "vibe coded slop",
+      "url": "https://github.com/starling-build/starling/issues/2"
+    },
+    {
+      "candidate_id": "https://github.com/othropic/penesys.ai/pull/2",
+      "cluster": 25,
+      "engagement": {
+        "comments": 1,
+        "reactions": 7
+      },
+      "published_at": "2026-08-09",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Palantir Corp",
+      "title": "Add .aip file with AIP header",
+      "url": "https://github.com/OTHROPIC/PENESYS.AI/pull/2"
+    },
+    {
+      "candidate_id": "https://github.com/rykothedev/godothub/issues/2",
+      "cluster": 26,
+      "engagement": {
+        "comments": 1,
+        "reactions": 7
+      },
+      "published_at": "2026-07-27",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Hi, this project looks really nice. Do you plan to release it on flathub on linux to easily install it?",
+      "title": "Add to flathub",
+      "url": "https://github.com/RykoTheDev/GodotHub/issues/2"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "ok",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}

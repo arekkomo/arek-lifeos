@@ -1,0 +1,349 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 206,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia\u2019s Vera Whitepaper Has a Thread Loose",
+      "title": "Nvidia\u2019s Vera Whitepaper Has a Thread Loose"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia Alpamayo 2 Super, the Frontier Open Model for Autonomous Vehicles",
+      "title": "Nvidia Alpamayo 2 Super, the Frontier Open Model for Autonomous Vehicles"
+    },
+    {
+      "engagement_total": 114,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Moonshot\u2019s Kimi uses 20k Nvidia chip cluster from Alibaba",
+      "title": "Moonshot\u2019s Kimi uses 20k Nvidia chip cluster from Alibaba"
+    },
+    {
+      "engagement_total": 17,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
+      "title": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia in Talks with OpenAI to Guarantee $250B Financing for Data Center",
+      "title": "Nvidia in Talks with OpenAI to Guarantee $250B Financing for Data Center"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia Nemotron 3 Ultra \u2013 open weight model",
+      "title": "Nvidia Nemotron 3 Ultra \u2013 open weight model"
+    },
+    {
+      "engagement_total": 81,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia's $750B in Deals Reignite Circular AI Fears",
+      "title": "Nvidia's $750B in Deals Reignite Circular AI Fears"
+    },
+    {
+      "engagement_total": 19,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Ilya Sutskever's SSI and Nvidia Announce Long-Term Strategic Partnership",
+      "title": "Ilya Sutskever's SSI and Nvidia Announce Long-Term Strategic Partnership"
+    },
+    {
+      "engagement_total": 21,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia released its first official GeForce driver for Windows on Arm",
+      "title": "Nvidia released its first official GeForce driver for Windows on Arm"
+    },
+    {
+      "engagement_total": 7,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Fall of Situational Awareness Is a Warning, So Is Nvidia's Vendor Financing",
+      "title": "Fall of Situational Awareness Is a Warning, So Is Nvidia's Vendor Financing"
+    },
+    {
+      "engagement_total": 659,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Mark Cuban, Michael Burry send strong warning on Nvidia, AI stocks",
+      "title": "Mark Cuban, Michael Burry send strong warning on Nvidia, AI stocks"
+    },
+    {
+      "engagement_total": 102,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia DGX Spark as a daily driver",
+      "title": "Nvidia DGX Spark as a daily driver"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia Accelerates Chip Engineering with AI Agents",
+      "title": "Nvidia Accelerates Chip Engineering with AI Agents"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
+      "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-09T17:01:21.515938Z",
+  "query": "NVIDIA PiD PixelDiT upscaler prompt guidance",
+  "results": [
+    {
+      "candidate_id": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+      "cluster": 0,
+      "engagement": {
+        "comments": 46,
+        "points": 206
+      },
+      "published_at": "2026-08-05",
+      "relevance_score": 0.3778,
+      "source": "hackernews",
+      "summary": "Nvidia\u2019s Vera Whitepaper Has a Thread Loose",
+      "title": "Nvidia\u2019s Vera Whitepaper Has a Thread Loose",
+      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread"
+    },
+    {
+      "candidate_id": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
+      "cluster": 1,
+      "engagement": {
+        "comments": 1,
+        "points": 5
+      },
+      "published_at": "2026-08-04",
+      "relevance_score": 0.3625,
+      "source": "hackernews",
+      "summary": "Nvidia Alpamayo 2 Super, the Frontier Open Model for Autonomous Vehicles",
+      "title": "Nvidia Alpamayo 2 Super, the Frontier Open Model for Autonomous Vehicles",
+      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/"
+    },
+    {
+      "candidate_id": "https://bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
+      "cluster": 2,
+      "engagement": {
+        "comments": 76,
+        "points": 114
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.3537,
+      "source": "hackernews",
+      "summary": "Moonshot\u2019s Kimi uses 20k Nvidia chip cluster from Alibaba",
+      "title": "Moonshot\u2019s Kimi uses 20k Nvidia chip cluster from Alibaba",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba"
+    },
+    {
+      "candidate_id": "https://ubergizmo.com/2026/06/hygon-512-thread-cpu",
+      "cluster": 3,
+      "engagement": {
+        "comments": 3,
+        "points": 17
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.3488,
+      "source": "hackernews",
+      "summary": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
+      "title": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
+      "url": "https://www.ubergizmo.com/2026/06/hygon-512-thread-cpu/"
+    },
+    {
+      "candidate_id": "https://wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3",
+      "cluster": 4,
+      "engagement": {
+        "comments": 2,
+        "points": 5
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.3416,
+      "source": "hackernews",
+      "summary": "Nvidia in Talks with OpenAI to Guarantee $250B Financing for Data Center",
+      "title": "Nvidia in Talks with OpenAI to Guarantee $250B Financing for Data Center",
+      "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3"
+    },
+    {
+      "candidate_id": "https://research.nvidia.com/labs/nemotron/nemotron-3-ultra",
+      "cluster": 5,
+      "engagement": {
+        "comments": 1,
+        "points": 9
+      },
+      "published_at": "2026-07-24",
+      "relevance_score": 0.3347,
+      "source": "hackernews",
+      "summary": "Nvidia Nemotron 3 Ultra \u2013 open weight model",
+      "title": "Nvidia Nemotron 3 Ultra \u2013 open weight model",
+      "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/"
+    },
+    {
+      "candidate_id": "https://bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+      "cluster": 6,
+      "engagement": {
+        "comments": 77,
+        "points": 81
+      },
+      "published_at": "2026-07-27",
+      "relevance_score": 0.3335,
+      "source": "hackernews",
+      "summary": "Nvidia's $750B in Deals Reignite Circular AI Fears",
+      "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing"
+    },
+    {
+      "candidate_id": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
+      "cluster": 7,
+      "engagement": {
+        "comments": 4,
+        "points": 19
+      },
+      "published_at": "2026-07-27",
+      "relevance_score": 0.3291,
+      "source": "hackernews",
+      "summary": "Ilya Sutskever's SSI and Nvidia Announce Long-Term Strategic Partnership",
+      "title": "Ilya Sutskever's SSI and Nvidia Announce Long-Term Strategic Partnership",
+      "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership"
+    },
+    {
+      "candidate_id": "https://videocardz.com/newz/nvidias-first-geforce-driver-for-windows-on-arm-confirms-rtx-spark-n1x-with-6144-or-5120-cuda-cores",
+      "cluster": 8,
+      "engagement": {
+        "comments": 4,
+        "points": 21
+      },
+      "published_at": "2026-07-22",
+      "relevance_score": 0.3246,
+      "source": "hackernews",
+      "summary": "Nvidia released its first official GeForce driver for Windows on Arm",
+      "title": "Nvidia released its first official GeForce driver for Windows on Arm",
+      "url": "https://videocardz.com/newz/nvidias-first-geforce-driver-for-windows-on-arm-confirms-rtx-spark-n1x-with-6144-or-5120-cuda-cores"
+    },
+    {
+      "candidate_id": "https://newcomer.co/p/the-abrupt-fall-of-situational-awareness",
+      "cluster": 9,
+      "engagement": {
+        "comments": 0,
+        "points": 7
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.3234,
+      "source": "hackernews",
+      "summary": "Fall of Situational Awareness Is a Warning, So Is Nvidia's Vendor Financing",
+      "title": "Fall of Situational Awareness Is a Warning, So Is Nvidia's Vendor Financing",
+      "url": "https://www.newcomer.co/p/the-abrupt-fall-of-situational-awareness"
+    },
+    {
+      "candidate_id": "https://cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "cluster": 10,
+      "engagement": {
+        "comments": 318,
+        "points": 659
+      },
+      "published_at": "2026-07-24",
+      "relevance_score": 0.3205,
+      "source": "hackernews",
+      "summary": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+    },
+    {
+      "candidate_id": "https://thestreet.com/investing/stocks/mark-cuban-michael-burry-send-strong-warning-on-nvidia-ai-stocks",
+      "cluster": 11,
+      "engagement": {
+        "comments": 0,
+        "points": 5
+      },
+      "published_at": "2026-08-05",
+      "relevance_score": 0.3147,
+      "source": "hackernews",
+      "summary": "Mark Cuban, Michael Burry send strong warning on Nvidia, AI stocks",
+      "title": "Mark Cuban, Michael Burry send strong warning on Nvidia, AI stocks",
+      "url": "https://www.thestreet.com/investing/stocks/mark-cuban-michael-burry-send-strong-warning-on-nvidia-ai-stocks"
+    },
+    {
+      "candidate_id": "https://daniel.lawrence.lu/blog/2026-07-15-dgx-spark-as-daily-driver",
+      "cluster": 12,
+      "engagement": {
+        "comments": 80,
+        "points": 102
+      },
+      "published_at": "2026-07-19",
+      "relevance_score": 0.3041,
+      "source": "hackernews",
+      "summary": "Nvidia DGX Spark as a daily driver",
+      "title": "Nvidia DGX Spark as a daily driver",
+      "url": "https://daniel.lawrence.lu/blog/2026-07-15-dgx-spark-as-daily-driver/"
+    },
+    {
+      "candidate_id": "https://nextplatform.com/hpc/2026/07/27/nvidia-accelerates-chip-engineering-with-ai-agents/5279125",
+      "cluster": 13,
+      "engagement": {
+        "comments": 0,
+        "points": 5
+      },
+      "published_at": "2026-07-30",
+      "relevance_score": 0.2921,
+      "source": "hackernews",
+      "summary": "Nvidia Accelerates Chip Engineering with AI Agents",
+      "title": "Nvidia Accelerates Chip Engineering with AI Agents",
+      "url": "https://www.nextplatform.com/hpc/2026/07/27/nvidia-accelerates-chip-engineering-with-ai-agents/5279125"
+    },
+    {
+      "candidate_id": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light",
+      "cluster": 14,
+      "engagement": {
+        "comments": 0,
+        "points": 3
+      },
+      "published_at": "2026-08-01",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
+      "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
+      "url": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "rate-limited",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}

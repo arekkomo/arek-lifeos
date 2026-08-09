@@ -24,5 +24,7 @@ ComfyUI PR [#14103](https://github.com/Comfy-Org/ComfyUI/pull/14103), by Kijai, 
 ## Related
 
 - [[PiD]] — the companion NVIDIA diffusion decoder; ComfyUI core support landed in the same PR
+- [[NVIDIA-PixelDiT/PiD-Official-Reference|NVIDIA PiD — Official Technical Reference]] — 4-step decoder checkpoints, compatible backbones, and official interface
+- [[NVIDIA-PixelDiT/PiD-4-Step-Upscale-Prompting|PiD 4-Step Upscale Prompting]] — faithful-caption prompt contract and negativePrompt boundary
 - [[ComfyUI Compendium]] — local installation/status reference
 - [[Lucida]] — downstream alpha-matte extraction for generated images

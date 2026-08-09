@@ -1,0 +1,283 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 22,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Samsung reveals Galaxy Z Fold 8 that will compete with the iPhone Ultra",
+      "title": "Samsung reveals Galaxy Z Fold 8 that will compete with the iPhone Ultra"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Filmgrab: Films A-Z",
+      "title": "Filmgrab: Films A-Z"
+    },
+    {
+      "engagement_total": 8,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Why Gen Z's turned off by sex scenes in movies",
+      "title": "Why Gen Z's turned off by sex scenes in movies"
+    },
+    {
+      "engagement_total": 6,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Gen Z protests in India demanding resignation of Education Minister",
+      "title": "Gen Z protests in India demanding resignation of Education Minister"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Why pubs are closing: meet the new Gen Z social scene",
+      "title": "Why pubs are closing: meet the new Gen Z social scene"
+    },
+    {
+      "engagement_total": 7,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Gen Z Is Drinking Alcohol as Much as Older Generations",
+      "title": "Gen Z Is Drinking Alcohol as Much as Older Generations"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Gen Z Can't Afford a First Date",
+      "title": "Gen Z Can't Afford a First Date"
+    },
+    {
+      "engagement_total": 6,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "India's 'Cockroach' Gen Z has had enough",
+      "title": "India's 'Cockroach' Gen Z has had enough"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Why Gen Z is nostalgic for a world it never knew",
+      "title": "Why Gen Z is nostalgic for a world it never knew"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "An exam leak in India exposed a Gen Z jobs crisis that goes much deeper",
+      "title": "An exam leak in India exposed a Gen Z jobs crisis that goes much deeper"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Gen Z Fell Out of Love with Work. I Don't Blame Them",
+      "title": "Gen Z Fell Out of Love with Work. I Don't Blame Them"
+    },
+    {
+      "engagement_total": 4,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Is Gen Z Saving Hollywood?",
+      "title": "Is Gen Z Saving Hollywood?"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-09T17:01:15.823347Z",
+  "query": "Z-Image text-to-image prompting",
+  "results": [
+    {
+      "candidate_id": "https://mashable.com/tech/samsung-galaxy-z-fold-8-launch-price-specifications",
+      "cluster": 0,
+      "engagement": {
+        "comments": 22,
+        "points": 18
+      },
+      "published_at": "2026-07-22",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Samsung reveals Galaxy Z Fold 8 that will compete with the iPhone Ultra",
+      "title": "Samsung reveals Galaxy Z Fold 8 that will compete with the iPhone Ultra",
+      "url": "https://mashable.com/tech/samsung-galaxy-z-fold-8-launch-price-specifications"
+    },
+    {
+      "candidate_id": "https://film-grab.com/movies-a-z",
+      "cluster": 1,
+      "engagement": {
+        "comments": 9,
+        "points": 9
+      },
+      "published_at": "2026-07-15",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Filmgrab: Films A-Z",
+      "title": "Filmgrab: Films A-Z",
+      "url": "https://film-grab.com/movies-a-z/"
+    },
+    {
+      "candidate_id": "https://talkerresearch.com/why-gen-zs-turned-off-by-sex-scenes-in-movies",
+      "cluster": 2,
+      "engagement": {
+        "comments": 8,
+        "points": 4
+      },
+      "published_at": "2026-08-08",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Why Gen Z's turned off by sex scenes in movies",
+      "title": "Why Gen Z's turned off by sex scenes in movies",
+      "url": "https://talkerresearch.com/why-gen-zs-turned-off-by-sex-scenes-in-movies/"
+    },
+    {
+      "candidate_id": "https://bbc.com/news/videos/c3307vgneveo",
+      "cluster": 3,
+      "engagement": {
+        "comments": 4,
+        "points": 6
+      },
+      "published_at": "2026-07-24",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Gen Z protests in India demanding resignation of Education Minister",
+      "title": "Gen Z protests in India demanding resignation of Education Minister",
+      "url": "https://www.bbc.com/news/videos/c3307vgneveo"
+    },
+    {
+      "candidate_id": "https://cnn.com/2026/07/25/travel/uk-pubs-closing-genz-running-scli-intl",
+      "cluster": 4,
+      "engagement": {
+        "comments": 0,
+        "points": 9
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Why pubs are closing: meet the new Gen Z social scene",
+      "title": "Why pubs are closing: meet the new Gen Z social scene",
+      "url": "https://www.cnn.com/2026/07/25/travel/uk-pubs-closing-genz-running-scli-intl"
+    },
+    {
+      "candidate_id": "https://businessinsider.com/gen-z-drinking-alcohol-moderation-sobriety-new-data-2026-7",
+      "cluster": 5,
+      "engagement": {
+        "comments": 0,
+        "points": 7
+      },
+      "published_at": "2026-08-09",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Gen Z Is Drinking Alcohol as Much as Older Generations",
+      "title": "Gen Z Is Drinking Alcohol as Much as Older Generations",
+      "url": "https://www.businessinsider.com/gen-z-drinking-alcohol-moderation-sobriety-new-data-2026-7"
+    },
+    {
+      "candidate_id": "https://nytimes.com/2026/08/03/nyregion/gen-z-dating-too-expensive-cost.html",
+      "cluster": 6,
+      "engagement": {
+        "comments": 1,
+        "points": 3
+      },
+      "published_at": "2026-08-03",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Gen Z Can't Afford a First Date",
+      "title": "Gen Z Can't Afford a First Date",
+      "url": "https://www.nytimes.com/2026/08/03/nyregion/gen-z-dating-too-expensive-cost.html"
+    },
+    {
+      "candidate_id": "https://ft.com/content/ac19e4f4-cf7b-4a75-b591-0ca79ef62d37",
+      "cluster": 7,
+      "engagement": {
+        "comments": 0,
+        "points": 6
+      },
+      "published_at": "2026-07-25",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "India's 'Cockroach' Gen Z has had enough",
+      "title": "India's 'Cockroach' Gen Z has had enough",
+      "url": "https://www.ft.com/content/ac19e4f4-cf7b-4a75-b591-0ca79ef62d37"
+    },
+    {
+      "candidate_id": "https://bigthink.com/mind-behavior/why-gen-z-is-nostalgic-for-a-world-it-never-knew",
+      "cluster": 8,
+      "engagement": {
+        "comments": 0,
+        "points": 5
+      },
+      "published_at": "2026-08-02",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Why Gen Z is nostalgic for a world it never knew",
+      "title": "Why Gen Z is nostalgic for a world it never knew",
+      "url": "https://bigthink.com/mind-behavior/why-gen-z-is-nostalgic-for-a-world-it-never-knew/"
+    },
+    {
+      "candidate_id": "https://cnbc.com/2026/08/02/india-exam-leak-protests-jobs-crisis-gen-z-unemployment-modi.html",
+      "cluster": 9,
+      "engagement": {
+        "comments": 0,
+        "points": 5
+      },
+      "published_at": "2026-08-02",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "An exam leak in India exposed a Gen Z jobs crisis that goes much deeper",
+      "title": "An exam leak in India exposed a Gen Z jobs crisis that goes much deeper",
+      "url": "https://www.cnbc.com/2026/08/02/india-exam-leak-protests-jobs-crisis-gen-z-unemployment-modi.html"
+    },
+    {
+      "candidate_id": "https://nytimes.com/2026/07/23/opinion/gen-z-ambition-millennials-career.html",
+      "cluster": 10,
+      "engagement": {
+        "comments": 0,
+        "points": 5
+      },
+      "published_at": "2026-07-27",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Gen Z Fell Out of Love with Work. I Don't Blame Them",
+      "title": "Gen Z Fell Out of Love with Work. I Don't Blame Them",
+      "url": "https://www.nytimes.com/2026/07/23/opinion/gen-z-ambition-millennials-career.html"
+    },
+    {
+      "candidate_id": "https://theatlantic.com/culture/2026/08/gen-z-movies/688148",
+      "cluster": 11,
+      "engagement": {
+        "comments": 0,
+        "points": 4
+      },
+      "published_at": "2026-08-02",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Is Gen Z Saving Hollywood?",
+      "title": "Is Gen Z Saving Hollywood?",
+      "url": "https://www.theatlantic.com/culture/2026/08/gen-z-movies/688148/"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "rate-limited",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}

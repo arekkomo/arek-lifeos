@@ -1,0 +1,305 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 206,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia\u2019s Vera Whitepaper Has a Thread Loose",
+      "title": "Nvidia\u2019s Vera Whitepaper Has a Thread Loose"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia Alpamayo 2 Super, the Frontier Open Model for Autonomous Vehicles",
+      "title": "Nvidia Alpamayo 2 Super, the Frontier Open Model for Autonomous Vehicles"
+    },
+    {
+      "engagement_total": 114,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Moonshot\u2019s Kimi uses 20k Nvidia chip cluster from Alibaba",
+      "title": "Moonshot\u2019s Kimi uses 20k Nvidia chip cluster from Alibaba"
+    },
+    {
+      "engagement_total": 17,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
+      "title": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia Nemotron 3 Ultra \u2013 open weight model",
+      "title": "Nvidia Nemotron 3 Ultra \u2013 open weight model"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia in Talks with OpenAI to Guarantee $250B Financing for Data Center",
+      "title": "Nvidia in Talks with OpenAI to Guarantee $250B Financing for Data Center"
+    },
+    {
+      "engagement_total": 21,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia released its first official GeForce driver for Windows on Arm",
+      "title": "Nvidia released its first official GeForce driver for Windows on Arm"
+    },
+    {
+      "engagement_total": 4,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "PoE2 devs convinced Nvidia to fix a driver bug by sending it a PC",
+      "title": "PoE2 devs convinced Nvidia to fix a driver bug by sending it a PC"
+    },
+    {
+      "engagement_total": 659,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models"
+    },
+    {
+      "engagement_total": 11,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Nvidia investing to 10x SSI compute in the next 12 months",
+      "title": "Nvidia investing to 10x SSI compute in the next 12 months"
+    },
+    {
+      "engagement_total": 143,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Alternative(s) to run CUDA on non-Nvidia hardware",
+      "title": "Alternative(s) to run CUDA on non-Nvidia hardware"
+    },
+    {
+      "engagement_total": 4,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "ARDY: Autoregressive Diffusion for Human Motion Generation",
+      "title": "ARDY: Autoregressive Diffusion for Human Motion Generation"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
+      "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-09T17:01:12.096443Z",
+  "query": "NVIDIA ARDY text-to-motion",
+  "results": [
+    {
+      "candidate_id": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+      "cluster": 0,
+      "engagement": {
+        "comments": 46,
+        "points": 206
+      },
+      "published_at": "2026-08-05",
+      "relevance_score": 0.3718,
+      "source": "hackernews",
+      "summary": "Nvidia\u2019s Vera Whitepaper Has a Thread Loose",
+      "title": "Nvidia\u2019s Vera Whitepaper Has a Thread Loose",
+      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread"
+    },
+    {
+      "candidate_id": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
+      "cluster": 1,
+      "engagement": {
+        "comments": 1,
+        "points": 5
+      },
+      "published_at": "2026-08-04",
+      "relevance_score": 0.3653,
+      "source": "hackernews",
+      "summary": "Nvidia Alpamayo 2 Super, the Frontier Open Model for Autonomous Vehicles",
+      "title": "Nvidia Alpamayo 2 Super, the Frontier Open Model for Autonomous Vehicles",
+      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/"
+    },
+    {
+      "candidate_id": "https://bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
+      "cluster": 2,
+      "engagement": {
+        "comments": 76,
+        "points": 114
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.3478,
+      "source": "hackernews",
+      "summary": "Moonshot\u2019s Kimi uses 20k Nvidia chip cluster from Alibaba",
+      "title": "Moonshot\u2019s Kimi uses 20k Nvidia chip cluster from Alibaba",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba"
+    },
+    {
+      "candidate_id": "https://ubergizmo.com/2026/06/hygon-512-thread-cpu",
+      "cluster": 3,
+      "engagement": {
+        "comments": 3,
+        "points": 17
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.3432,
+      "source": "hackernews",
+      "summary": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
+      "title": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
+      "url": "https://www.ubergizmo.com/2026/06/hygon-512-thread-cpu/"
+    },
+    {
+      "candidate_id": "https://research.nvidia.com/labs/nemotron/nemotron-3-ultra",
+      "cluster": 4,
+      "engagement": {
+        "comments": 1,
+        "points": 9
+      },
+      "published_at": "2026-07-24",
+      "relevance_score": 0.3432,
+      "source": "hackernews",
+      "summary": "Nvidia Nemotron 3 Ultra \u2013 open weight model",
+      "title": "Nvidia Nemotron 3 Ultra \u2013 open weight model",
+      "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/"
+    },
+    {
+      "candidate_id": "https://wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3",
+      "cluster": 5,
+      "engagement": {
+        "comments": 2,
+        "points": 5
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.3364,
+      "source": "hackernews",
+      "summary": "Nvidia in Talks with OpenAI to Guarantee $250B Financing for Data Center",
+      "title": "Nvidia in Talks with OpenAI to Guarantee $250B Financing for Data Center",
+      "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3"
+    },
+    {
+      "candidate_id": "https://videocardz.com/newz/nvidias-first-geforce-driver-for-windows-on-arm-confirms-rtx-spark-n1x-with-6144-or-5120-cuda-cores",
+      "cluster": 6,
+      "engagement": {
+        "comments": 4,
+        "points": 21
+      },
+      "published_at": "2026-07-22",
+      "relevance_score": 0.3331,
+      "source": "hackernews",
+      "summary": "Nvidia released its first official GeForce driver for Windows on Arm",
+      "title": "Nvidia released its first official GeForce driver for Windows on Arm",
+      "url": "https://videocardz.com/newz/nvidias-first-geforce-driver-for-windows-on-arm-confirms-rtx-spark-n1x-with-6144-or-5120-cuda-cores"
+    },
+    {
+      "candidate_id": "https://pcgamer.com/games/rpg/after-a-year-and-a-half-of-rigorous-testing-path-of-exile-2-devs-finally-convinced-nvidia-to-fix-a-driver-bug-by-sending-it-an-entire-pc",
+      "cluster": 7,
+      "engagement": {
+        "comments": 1,
+        "points": 4
+      },
+      "published_at": "2026-08-01",
+      "relevance_score": 0.3193,
+      "source": "hackernews",
+      "summary": "PoE2 devs convinced Nvidia to fix a driver bug by sending it a PC",
+      "title": "PoE2 devs convinced Nvidia to fix a driver bug by sending it a PC",
+      "url": "https://www.pcgamer.com/games/rpg/after-a-year-and-a-half-of-rigorous-testing-path-of-exile-2-devs-finally-convinced-nvidia-to-fix-a-driver-bug-by-sending-it-an-entire-pc/"
+    },
+    {
+      "candidate_id": "https://cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "cluster": 8,
+      "engagement": {
+        "comments": 318,
+        "points": 659
+      },
+      "published_at": "2026-07-24",
+      "relevance_score": 0.3104,
+      "source": "hackernews",
+      "summary": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+    },
+    {
+      "candidate_id": "https://twitter.com/ssi/status/2081732119194394763",
+      "cluster": 9,
+      "engagement": {
+        "comments": 0,
+        "points": 11
+      },
+      "published_at": "2026-07-27",
+      "relevance_score": 0.3104,
+      "source": "hackernews",
+      "summary": "Nvidia investing to 10x SSI compute in the next 12 months",
+      "title": "Nvidia investing to 10x SSI compute in the next 12 months",
+      "url": "https://twitter.com/ssi/status/2081732119194394763"
+    },
+    {
+      "candidate_id": "https://hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed",
+      "cluster": 10,
+      "engagement": {
+        "comments": 75,
+        "points": 143
+      },
+      "published_at": "2026-07-14",
+      "relevance_score": 0.2744,
+      "source": "hackernews",
+      "summary": "Alternative(s) to run CUDA on non-Nvidia hardware",
+      "title": "Alternative(s) to run CUDA on non-Nvidia hardware",
+      "url": "https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/"
+    },
+    {
+      "candidate_id": "https://research.nvidia.com/labs/sil/projects/ardy",
+      "cluster": 11,
+      "engagement": {
+        "comments": 0,
+        "points": 4
+      },
+      "published_at": "2026-07-14",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "ARDY: Autoregressive Diffusion for Human Motion Generation",
+      "title": "ARDY: Autoregressive Diffusion for Human Motion Generation",
+      "url": "https://research.nvidia.com/labs/sil/projects/ardy/"
+    },
+    {
+      "candidate_id": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light",
+      "cluster": 12,
+      "engagement": {
+        "comments": 0,
+        "points": 3
+      },
+      "published_at": "2026-08-01",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
+      "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
+      "url": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "no-results",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}

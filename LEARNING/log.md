@@ -836,3 +836,51 @@ Created [[Astryx]] and [[Agent-Ready-Design-Systems]] in AI-Agents. Linked to [[
 ## [2026-08-08] ingest | Directing craft: script-to-scene-to-shot workflow
 
 Created [[Directing Craft Reference Sources]], [[Script to Scene Analysis]], [[Purposeful Shot Lists]], and [[AI Video Scene Packet]] in Filmmaking; catalogued them in index.md. The workflow separates broadly shared planning principles from subjective directing choices and adds AI-video continuity, generation-card and cut-review controls. Source ledger: directing, performance, cinematography and editing texts by Rabiger/Hurbis-Cherrier, Weston, Katz, Brown and Murch.
+
+## [2026-08-09] ingest | Qwen-Image-Layered prompting and layer-decomposition workflow
+
+Created `Knowledge/Qwen-Image-Layered/` with five linked, cited pages: primary-source summary; prompting/parameter contract; decomposition-to-edit-to-recomposite workflow; current ComfyUI output-slot correction; and production guardrails. Verified against Qwen’s official README/model card, the Qwen-Image-Layered paper (arXiv:2512.15603), and merged Comfy-Org workflow template PR #1092. Key limitation recorded: released weights are optimized for image-to-multi-RGBA; t2i layered output is explicitly limited and exploratory. Index updated.
+
+## [2026-08-09] ingest | Z-Image text-to-image storyboard-still knowledge base
+
+Created `Knowledge/Z-Image/` with a primary-source summary, T2I prompting guide, documented generation-settings reference, and continuity-aware storyboard-still workflow. Updated [[Z-Image]] from its sparse Notion-import card and catalogued the new discipline in index.md. Evidence is limited to Tongyi-MAI’s official repository/model card, the Z-Image technical report, and Hugging Face Diffusers documentation; production prompt order is explicitly labelled as heuristic rather than official syntax.
+
+## [2026-08-09] ingest | GPT Image 2 photo restoration and colorization
+
+Created `LEARNING/Knowledge/GPT-Image-2-Restore/` with [[GPT Image 2 Restore Sources]], [[GPT Image 2 Restoration Workflow]], [[GPT Image 2 Restoration Prompting]], and [[GPT Image 2 Colorization Control]]. The set grounds API/edit-mask and prompt-control claims in OpenAI documentation, separates conservative repair from interpretive colorization, and links adjacent [[FireRed-Image-Edit]] and [[Stable Layers]] workflows.
+
+## [2026-08-09] update | GPT Image 2 restoration provenance synthesis
+
+Added a [[Synthesis]] connection framing staged AI restoration as VFX-style versioned intervention: preserve source and monochrome masters, label colour as interpretive, and send only accepted versions to layer/compositing work.
+
+## [2026-08-09] ingest | NVIDIA ARDY text-to-motion prompting knowledge base
+
+Created `Knowledge/NVIDIA-ARDY/` with five interlinked, primary-source-grounded pages: official source summary, body-first text prompt grammar, prompt pattern library, streaming prompt/constraint workflow, and motion quality review. Updated [[ARDY]] and the catalog. Core guidance: ARDY text names human motion and ordered body beats; explicit kinematic controls carry path, pose, contact, heading and timing; cinematography belongs downstream.
+
+## [2026-08-09] ingest | Qwen Image Edit 2511 natural-language edit prompting
+
+Created `Knowledge/Qwen-Image-Edit-2511/` with five interlinked, cited pages: primary-source summary; edit-instruction grammar; task-pattern library; multi-image/identity guide; and validation/recovery loop. Grounded the guidance in Qwen’s official 2511 model card, upstream edit-prompt enhancer, repository, and Diffusers pipeline documentation; catalogued the discipline in index.md.
+
+## [2026-08-09] ingest | GPT Image 2 reframe/outpaint prompting knowledge base
+
+Created `LEARNING/Knowledge/GPT-Image-2-Reframe/` with a documented-source ledger plus four interlinked operating pages: prompt architecture, continuity controls, canvas/mask preparation, and staged iteration/QA. Updated the catalog, [[image-blaster]], and cross-domain synthesis. The guidance distinguishes OpenAI-documented Image API edit/mask controls from production heuristics: describe only newly visible content, explicitly carry geometry/lens/light continuity, and accept edits only after seam and identity review.
+
+## [2026-08-09] ingest | HunyuanVideo 1.5 image-to-video prompting knowledge base
+
+Created `Knowledge/Hunyuan-Video-1_5/` with five interlinked, official-source-grounded pages: source ledger, I2V prompt anatomy, reference-image/motion continuity, camera direction, and a ComfyUI production workflow. Primary guidance: use subject motion + scene motion + optional camera movement; preserve the image-established subject/count/direction/order; and do not invent camera motion or lighting not requested. Source ledger: Tencent repository, Prompt Handbook, I2V rewrite specification, ComfyUI guide, and technical report.
+
+## [2026-08-09] ingest | Wan 2.2 first-to-last-frame video prompting
+
+Created `LEARNING/Knowledge/Wan-2_2-F2L/` with [[Wan 2.2 F2L Sources]], [[Wan 2.2 F2L Workflow]], [[Wan 2.2 F2L Prompting]], and [[Wan 2.2 F2L Endpoint Design]]. Verified the native ComfyUI F2L template, its paired Wan 2.2 I2V denoisers and prompt/endpoint contract against official ComfyUI, Wan and Diffusers documentation. Recorded the key version caveat: Wan2.2 F2L is a native ComfyUI workflow, not evidence of a separately named upstream Wan2.2 FLF2V checkpoint.
+
+## [2026-08-09] ingest | MiniMax H3 video prompting
+
+Created `Knowledge/MiniMax-H3-Video/` with [[MiniMax H3 Official Source Summary]], [[MiniMax H3 Prompting Guide]], and [[MiniMax H3 Reference and Audio Workflow]]; updated [[MiniMax]] and the catalog. Primary evidence is MiniMax's H3 model card and official base/full-reference prompt guides, corroborated by ComfyUI's H3 workflow documentation. The guide separates T2V/I2V/first-last-frame syntax from R2V relationship labels and treats five images as an operational authoring limit, while retaining the model card's documented nine-image maximum.
+
+## [2026-08-09] ingest | SeFi-Image 5B Turbo storyboard-prompting knowledge base
+
+Created LEARNING/Knowledge/SeFi-Image-5B-Turbo/ with five cited pages: a source/evidence boundary; prompt guidance; a six-field storyboard-still grammar; seed-locked iteration controls; and a ComfyUI board-pass workflow. Verified official Turbo constraints (4/8/10 steps, guidance 1.0), marked the absence of an official prompt grammar/negative-prompt recipe, and documented the code-versus-weights licensing caveat. Updated the existing [[SeFi-Image]] entity and LEARNING/index.md.
+
+## [2026-08-09] ingest | NVIDIA PiD / PixelDiT 4-step upscale prompting
+
+Created `Knowledge/NVIDIA-PixelDiT/` with [[NVIDIA-PixelDiT/PiD-Official-Reference|official technical reference]], [[NVIDIA-PixelDiT/PiD-4-Step-Upscale-Prompting|prompt contract]], [[NVIDIA-PixelDiT/PiD-4-Step-Upscale-Workflow|scale/workflow guide]], and [[NVIDIA-PixelDiT/PiD-ComfyUI-Integration|ComfyUI capability boundary]]. Updated [[PixelDiT]] and index.md. Verified current NVIDIA sources document 4-step distilled PiD checkpoints and 4× decoder scales; `negativePrompt` and 2× behavior require explicit wrapper support rather than being represented as core PiD controls.

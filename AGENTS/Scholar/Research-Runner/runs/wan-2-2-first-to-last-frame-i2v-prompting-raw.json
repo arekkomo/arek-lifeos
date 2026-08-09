@@ -1,0 +1,327 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 15,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "I Wanted to Own the Harness. Then Codex Desktop Won",
+      "title": "I Wanted to Own the Harness. Then Codex Desktop Won"
+    },
+    {
+      "engagement_total": 46,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Ask HN: If Social network is created today, what do you want to see?",
+      "title": "Ask HN: If Social network is created today, what do you want to see?"
+    },
+    {
+      "engagement_total": 4,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "SQRL wan't wrong, it was early",
+      "title": "SQRL wan't wrong, it was early"
+    },
+    {
+      "engagement_total": 51,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "You might want to build your WebApp in Canvas instead of HTML",
+      "title": "You might want to build your WebApp in Canvas instead of HTML"
+    },
+    {
+      "engagement_total": 123,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "So you want to use plants to reduce CO\u2082",
+      "title": "So you want to use plants to reduce CO\u2082"
+    },
+    {
+      "engagement_total": 823,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "\u201cCode was never the hard part\u201d is an insult to all programmers",
+      "title": "\u201cCode was never the hard part\u201d is an insult to all programmers"
+    },
+    {
+      "engagement_total": 238,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "As a Windows user, it's a surreal way to install a program",
+      "title": "As a Windows user, it's a surreal way to install a program"
+    },
+    {
+      "engagement_total": 213,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes"
+    },
+    {
+      "engagement_total": 91,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "9front \"This Was Supposed to Be Fun\" Released",
+      "title": "9front \"This Was Supposed to Be Fun\" Released"
+    },
+    {
+      "engagement_total": 46,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
+      "title": "Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta"
+    },
+    {
+      "engagement_total": 17,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "US and China race to be first to build Skynet. Either way we're F'ed",
+      "title": "US and China race to be first to build Skynet. Either way we're F'ed"
+    },
+    {
+      "engagement_total": 17,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "US Officials Advocate for White South Africans and Right-Wing Causes in Europe",
+      "title": "US Officials Advocate for White South Africans and Right-Wing Causes in Europe"
+    },
+    {
+      "engagement_total": 7,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Opus 4.6 Was the Last Coding Model That Changed How I Work",
+      "title": "Opus 4.6 Was the Last Coding Model That Changed How I Work"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: Presse \u2013 a Rust CLI tool to compress and merge PDFs",
+      "title": "Show HN: Presse \u2013 a Rust CLI tool to compress and merge PDFs"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-09T17:01:50.274959Z",
+  "query": "Wan 2.2 first to last frame I2V prompting",
+  "results": [
+    {
+      "candidate_id": "https://jorypestorious.com/blog/portable-agent-factory",
+      "cluster": 0,
+      "engagement": {
+        "comments": 12,
+        "points": 15
+      },
+      "published_at": "2026-08-09",
+      "relevance_score": 0.3633,
+      "source": "hackernews",
+      "summary": "I Wanted to Own the Harness. Then Codex Desktop Won",
+      "title": "I Wanted to Own the Harness. Then Codex Desktop Won",
+      "url": "https://jorypestorious.com/blog/portable-agent-factory/"
+    },
+    {
+      "candidate_id": "https://news.ycombinator.com/item?id=49226693",
+      "cluster": 1,
+      "engagement": {
+        "comments": 46,
+        "points": 12
+      },
+      "published_at": "2026-08-08",
+      "relevance_score": 0.3568,
+      "source": "hackernews",
+      "summary": "Ask HN: If Social network is created today, what do you want to see?",
+      "title": "Ask HN: If Social network is created today, what do you want to see?",
+      "url": "https://news.ycombinator.com/item?id=49226693"
+    },
+    {
+      "candidate_id": "https://sjg.io/writing/sqrl-wasnt-wrong-it-was-early",
+      "cluster": 2,
+      "engagement": {
+        "comments": 0,
+        "points": 4
+      },
+      "published_at": "2026-08-08",
+      "relevance_score": 0.3548,
+      "source": "hackernews",
+      "summary": "SQRL wan't wrong, it was early",
+      "title": "SQRL wan't wrong, it was early",
+      "url": "https://sjg.io/writing/sqrl-wasnt-wrong-it-was-early/"
+    },
+    {
+      "candidate_id": "https://hivekit.io/blog/why-you-might-want-to-build-your-webapp-in-canvas-instead-of-html",
+      "cluster": 3,
+      "engagement": {
+        "comments": 51,
+        "points": 39
+      },
+      "published_at": "2026-08-03",
+      "relevance_score": 0.3405,
+      "source": "hackernews",
+      "summary": "You might want to build your WebApp in Canvas instead of HTML",
+      "title": "You might want to build your WebApp in Canvas instead of HTML",
+      "url": "https://hivekit.io/blog/why-you-might-want-to-build-your-webapp-in-canvas-instead-of-html/"
+    },
+    {
+      "candidate_id": "https://dynomight.net/plants",
+      "cluster": 4,
+      "engagement": {
+        "comments": 110,
+        "points": 123
+      },
+      "published_at": "2026-07-30",
+      "relevance_score": 0.3206,
+      "source": "hackernews",
+      "summary": "So you want to use plants to reduce CO\u2082",
+      "title": "So you want to use plants to reduce CO\u2082",
+      "url": "https://dynomight.net/plants/"
+    },
+    {
+      "candidate_id": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "cluster": 5,
+      "engagement": {
+        "comments": 497,
+        "points": 823
+      },
+      "published_at": "2026-08-08",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "\u201cCode was never the hard part\u201d is an insult to all programmers",
+      "title": "\u201cCode was never the hard part\u201d is an insult to all programmers",
+      "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers"
+    },
+    {
+      "candidate_id": "https://unsung.aresluna.org/as-a-windows-user-its-a-very-surreal-way-to-install-a-program",
+      "cluster": 6,
+      "engagement": {
+        "comments": 183,
+        "points": 238
+      },
+      "published_at": "2026-08-04",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "As a Windows user, it's a surreal way to install a program",
+      "title": "As a Windows user, it's a surreal way to install a program",
+      "url": "https://unsung.aresluna.org/as-a-windows-user-its-a-very-surreal-way-to-install-a-program/"
+    },
+    {
+      "candidate_id": "https://sciencedaily.com/releases/2026/08/260803080917.htm",
+      "cluster": 7,
+      "engagement": {
+        "comments": 63,
+        "points": 213
+      },
+      "published_at": "2026-08-06",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm"
+    },
+    {
+      "candidate_id": "https://9front.org/releases/2026/08/02/0",
+      "cluster": 8,
+      "engagement": {
+        "comments": 45,
+        "points": 91
+      },
+      "published_at": "2026-08-03",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "9front \"This Was Supposed to Be Fun\" Released",
+      "title": "9front \"This Was Supposed to Be Fun\" Released",
+      "url": "https://9front.org/releases/2026/08/02/0/"
+    },
+    {
+      "candidate_id": "https://cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+      "cluster": 9,
+      "engagement": {
+        "comments": 17,
+        "points": 46
+      },
+      "published_at": "2026-08-09",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
+      "title": "Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
+      "url": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html"
+    },
+    {
+      "candidate_id": "https://news.ycombinator.com/item?id=49196904",
+      "cluster": 10,
+      "engagement": {
+        "comments": 11,
+        "points": 17
+      },
+      "published_at": "2026-08-06",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "US and China race to be first to build Skynet. Either way we're F'ed",
+      "title": "US and China race to be first to build Skynet. Either way we're F'ed",
+      "url": "https://news.ycombinator.com/item?id=49196904"
+    },
+    {
+      "candidate_id": "http://techdirt.com/2026/07/27/trump-officials-want-to-use-human-rights-aid-to-advocate-for-white-south-africans-and-right-wing-causes-in-europe",
+      "cluster": 11,
+      "engagement": {
+        "comments": 1,
+        "points": 17
+      },
+      "published_at": "2026-07-28",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "US Officials Advocate for White South Africans and Right-Wing Causes in Europe",
+      "title": "US Officials Advocate for White South Africans and Right-Wing Causes in Europe",
+      "url": "http://www.techdirt.com/2026/07/27/trump-officials-want-to-use-human-rights-aid-to-advocate-for-white-south-africans-and-right-wing-causes-in-europe/"
+    },
+    {
+      "candidate_id": "https://awaitinginput.substack.com/p/opus-46-was-the-last-coding-model",
+      "cluster": 12,
+      "engagement": {
+        "comments": 0,
+        "points": 7
+      },
+      "published_at": "2026-08-09",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Opus 4.6 Was the Last Coding Model That Changed How I Work",
+      "title": "Opus 4.6 Was the Last Coding Model That Changed How I Work",
+      "url": "https://awaitinginput.substack.com/p/opus-46-was-the-last-coding-model"
+    },
+    {
+      "candidate_id": "https://github.com/simonbure/presse",
+      "cluster": 13,
+      "engagement": {
+        "comments": 0,
+        "points": 3
+      },
+      "published_at": "2026-08-08",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Show HN: Presse \u2013 a Rust CLI tool to compress and merge PDFs",
+      "title": "Show HN: Presse \u2013 a Rust CLI tool to compress and merge PDFs",
+      "url": "https://github.com/SimonBure/presse"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "rate-limited",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}

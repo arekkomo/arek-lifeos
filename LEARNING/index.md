@@ -1,6 +1,73 @@
 # Knowledge Base Index
 
-> Updated: 2026-07-18 (One More Instagram operations knowledge base added)
+> Updated: 2026-08-09 (HunyuanVideo 1.5 I2V prompting knowledge base added)
+
+## Hunyuan-Video-1_5
+
+### HunyuanVideo 1.5 I2V Prompting (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[HunyuanVideo 1.5 I2V — Official Source Guide]] | source | Official-source ledger for HunyuanVideo 1.5 I2V prompting, rewriting, ComfyUI templates, and technical context. | hunyuanvideo-1.5, i2v, source |
+| [[HunyuanVideo 1.5 I2V Prompt Anatomy]] | concept | Official I2V formula: subject motion + scene motion + optional camera movement. | hunyuanvideo-1.5, i2v, prompting |
+| [[HunyuanVideo 1.5 Reference Image and Motion]] | concept | First-frame anchoring, scope/identity continuity, spatial direction, and restrained motion expansion. | hunyuanvideo-1.5, i2v, reference-image |
+| [[HunyuanVideo 1.5 Camera Direction]] | concept | Official camera vocabulary and rules against invented or unrequested camera motion. | hunyuanvideo-1.5, camera, prompting |
+| [[HunyuanVideo 1.5 I2V Production Workflow]] | concept | ComfyUI template/settings map and controlled prompt-iteration workflow. | hunyuanvideo-1.5, comfyui, workflow |
+
+## MiniMax-H3-Video
+
+### MiniMax H3 Video Prompting (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[MiniMax H3 Official Source Summary]] | source | Primary-source record for H3's T2V/I2V/R2V audiovisual generation modes, documented input limits and official prompt schemas. | minimax-h3, ai-video, source |
+| [[MiniMax H3 Prompting Guide]] | concept | Structured timeline prompting for text and image-anchored audiovisual generation, including dialogue, SFX and score separation. | minimax-h3, prompting, i2v, audio-video |
+| [[MiniMax H3 Reference and Audio Workflow]] | concept | R2V reference-role ledger and five-image operational method for consistent visual identity, voice and music control. | minimax-h3, r2v, reference-images, dialogue |
+
+## Wan-2_2-F2L
+
+### First-to-Last-Frame Video Prompting (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[Wan 2.2 F2L Sources]] | source | Primary-source ledger for the native ComfyUI Wan 2.2 F2L workflow, model files, and version boundary with Wan2.1 FLF2V. | wan-2.2, flf2v, source |
+| [[Wan 2.2 F2L Workflow]] | concept | Native ComfyUI graph: paired Wan 2.2 I2V denoisers, `WanFirstLastFrameToVideo`, two endpoint images and one global text condition. | wan-2.2, flf2v, comfyui |
+| [[Wan 2.2 F2L Prompting]] | concept | Endpoint-aware grammar for directing one continuous action and camera move from supplied first frame to supplied last frame. | wan-2.2, flf2v, prompting |
+| [[Wan 2.2 F2L Endpoint Design]] | concept | Continuity and composition rules for preparing endpoint pairs that form a plausible single shot. | wan-2.2, flf2v, continuity |
+
+## Z-Image
+
+### Text-to-Image Storyboard Stills (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[Z-Image Official Source Summary]] | source | Primary-source digest for Tongyi-MAI’s Z-Image family, documented T2I parameters and Diffusers API. | z-image, source, text-to-image |
+| [[Z-Image T2I Prompting]] | concept | Natural-language prompt structure that turns a shot intention into a controllable, testable still-frame brief. | z-image, prompting, storyboard |
+| [[Z-Image Generation Settings]] | concept | Verified base/Turbo settings plus a one-variable-at-a-time testing ladder for reproducible boards. | z-image, cfg, seed, diffusers |
+| [[Z-Image Storyboard Stills]] | concept | Shot-card workflow for continuity-aware Z-Image previz stills and handoff to AI video. | z-image, storyboard, previz, directing |
+
+## GPT-Image-2-Restore
+
+### GPT Image 2 photo restoration & colorization (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[GPT Image 2 Restore Sources]] | source | Primary-source ledger for OpenAI’s GPT Image 2 editing, masks, and production prompting guidance. | gpt-image-2, openai, source |
+| [[GPT Image 2 Restoration Workflow]] | concept | Conservative, staged archival-photo repair workflow with evidence-preservation and quality-control gates. | gpt-image-2, photo-restoration, workflow |
+| [[GPT Image 2 Restoration Prompting]] | concept | Copyable, constrained prompts for cleanup, tear repair, tonal correction, and iterative review. | gpt-image-2, prompting, photo-restoration |
+| [[GPT Image 2 Colorization Control]] | concept | Evidence-aware colorization workflow that preserves a monochrome master and records uncertainty. | gpt-image-2, colorization, archival |
+
+## GPT-Image-2-Reframe
+
+### Reframe / Outpaint Prompting (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[GPT Image 2 Reframe — Source Summary]] | source | Evidence ledger distinguishing documented Image API controls from production prompting heuristics for reframe/outpaint work. | openai, gpt-image-2, source |
+| [[GPT Image 2 Reframe Prompt Architecture]] | concept | Prompt grammar that describes only new canvas content, then specifies spatial/photographic continuation and narrow source locks. | prompting, reframe, outpainting |
+| [[GPT Image 2 Outpaint Continuity Controls]] | concept | Constraint stack for geometry, lens, light, atmosphere, design, and protected source plate details. | continuity, vfx, outpainting |
+| [[GPT Image 2 Canvas and Mask Preparation]] | concept | Canvas/mask setup and alpha-boundary safeguards for staged image extensions. | canvas, mask, plate-prep |
+| [[GPT Image 2 Reframe Iteration and QA]] | concept | Geometry-to-finishing edit loop plus seam, identity, lighting, and editorial acceptance checks. | qa, iteration, vfx |
 
 ## Social-Media
 
@@ -175,6 +242,30 @@ Full-length guides and operational docs preserved at full depth:
 |- **FLUX.2 Klein Architecture** — BFL's compact diffusion family: KV-cache optimization, FP8, small decoder variants (2026-03–04)
 |**- Midjourney ** - [[stability-ai]] | [[flux]] | [[flux2-klein]] | [[UltraImageGen]] | [[Cross-Space Distillation]] | [[SpheRoPE]] | [[DanceOPD]] | [[Feature Self-Guidance]]
 
+## Qwen-Image-Layered
+
+### Layered-image decomposition & editing (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[Qwen-Image-Layered — Source Summary]] | source | Primary-source digest for Qwen’s variable RGBA-layer decomposition model, release parameters, limits, and ComfyUI correction. | qwen-image-layered, rgba, image-editing |
+| [[Qwen-Image-Layered Prompting and Parameters]] | concept | Whole-scene prompt contract, `negativePrompt` scope, baseline settings, and honest t2i layered-generation limitation. | prompting, negative-prompt, qwen-image-layered |
+| [[Qwen-Image-Layered Decomposition and Edit Workflow]] | concept | Source image → editable RGBA layers → target-layer edit → bottom-to-top recomposite workflow. | rgba, compositing, image-editing |
+| [[Qwen-Image-Layered ComfyUI Output Handling]] | concept | Current template requirement to remove the regenerated-original slot before decoding layer outputs. | comfyui, latent, qwen-image-layered |
+| [[Qwen-Image-Layered Production Guardrails]] | concept | Quality checks and production boundaries for image-to-RGBA decomposition versus experimental t2i. | quality-control, rgba, compositing |
+
+## Qwen-Image-Edit-2511
+
+### Natural-language edit instructions (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[Qwen Image Edit 2511 — Source Summary]] | source | Primary-source digest for the 2511 release, official edit enhancer, and Diffusers pipeline behavior. | qwen-image-edit, source |
+| [[Qwen Image Edit 2511 Edit Instructions]] | concept | Direct edit grammar: operation, exact target, desired state, and minimal preservation constraints. | qwen-image-edit, prompting |
+| [[Qwen Image Edit 2511 Task Patterns]] | concept | Reusable templates for object, text, identity, style, fill, expansion, and product-material edits. | qwen-image-edit, templates |
+| [[Qwen Image Edit 2511 Multi-Image and Identity]] | concept | Role-first reference-combination and character-continuity guidance. | qwen-image-edit, multi-image, consistency |
+| [[Qwen Image Edit 2511 Validation and Recovery]] | concept | Minimal-change evaluation and diagnosis loop for drift, identity loss, source confusion, and runtime mismatch. | qwen-image-edit, quality-control |
+
 ## AI-3D (continued — Batch 2 from Notion dump)
 |- **Material Anything (Diffusion PBR)** — Xin Huang et al. unified diffusion framework for PBR material generation on any mesh type: texture-less, albedo-only, generated, scanned. Triple-head + rendering loss + confidence masks + UV-space refiner for production-ready output. Relightable materials across lighting conditions (arXiv 2411.15138)
 |- **Meta 3D AssetGen (PBR Text-to-Mesh)** — Meta/NeurIPS 2024 text/image-to-mesh producer of full PBR materials from dual-stage pipeline: t2i → mesh reconstructor (SDF + deferred shading loss) → UV-space texture refiner. +17% Chamfer, +40% LPIPS, 72% human preference vs competitors. Relightable assets with albedo/metalness/roughness channels
@@ -313,6 +404,16 @@ All agents active (8 total)
 | **ARDY** | source | NVIDIA autoregressive diffusion system for responsive human/robot motion generation using streaming text prompts and live kinematic constraints: paths, waypoints, full-body keyframes, and sparse joints. Code Apache 2.0; checkpoints released. | motion-capture, human-motion, text-to-motion, kinematic-constraints, nvidia |
 | **Interactive Kinematic Motion Generation** | concept | Continuous skeletal-motion generation controlled by live text, trajectory, keyframe, and joint constraints; mapped to animation blocking / previz workflows. | human-motion, real-time, animation-blocking |
 
+### NVIDIA-ARDY Prompting (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[NVIDIA ARDY — Official Source Summary]] | source | Primary-source boundary for ARDY: streamed short body-action prompts plus explicit root, waypoint, keyframe and sparse-joint controls—not cinematography prompts. | nvidia, ardy, text-to-motion |
+| [[ARDY Text-to-Motion Prompting]] | concept | Body-first prompt grammar: action, direction/body part, optional manner, then one ordered next beat. | ardy, prompt-engineering, human-motion |
+| [[ARDY Prompt Pattern Library]] | concept | Terse reusable patterns for locomotion, action, pose transition and short sequences. | ardy, prompt-library, motion |
+| [[ARDY Streaming Prompt and Constraint Workflow]] | concept | Allocation rule for semantic text, timed prompt changes, and precise spatial constraints. | ardy, constraints, streaming |
+| [[ARDY Motion Quality Review]] | concept | Action, direction, transition, adherence and contact review loop for reproducible motion iteration. | ardy, quality-control, foot-skate |
+
 ### Manual Ingest (2026-07-19 — Wan-Dancer)
 
 | **Wan-Dancer** | source | Wan-based hierarchical music-to-dance system: reference image + full music track + dance-style prompt → coherent 720p/30fps dance video exceeding one minute. Uses global keyframe planning and local refinement. Code + 14B weights released. | music-to-dance, dance-video, audio-conditioned-video, long-form-video, wan |
@@ -346,3 +447,24 @@ All agents active (8 total)
 
 | **Astryx** | source | Meta’s MIT React design system: 150+ accessible components, CSS-variable themes, patterns/templates, and CLI tooling explicitly designed for developers and coding agents to share conventions. Beta. | design-system, react, frontend, coding-agents, stylex, ui-components |
 | **Agent-Ready Design Systems** | concept | Predictable component APIs, docs, theming, and scaffolding that let people and coding agents assemble reviewable frontend UI from common primitives. | design-system, frontend, coding-agents |
+
+## SeFi-Image-5B-Turbo
+
+### Storyboard Prompting (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[SeFi-Image 5B Turbo — Source Summary]] | source | Verified boundary between official Turbo settings/architecture and community implementation notes. | sefi-image, source, turbo |
+| [[SeFi-Image 5B Turbo — Prompting Guide]] | concept | Evidence-bounded prompt structure for rapid, controllable storyboard stills. | sefi-image, prompting, storyboard |
+| [[SeFi-Image 5B Turbo — Storyboard Still Prompt Grammar]] | concept | Six-field shot-brief grammar translating a directing beat into an image prompt. | sefi-image, shot-design, filmmaking |
+| [[SeFi-Image 5B Turbo — Iteration and Parameter Control]] | concept | Seed-locked 4/8/10-step comparison protocol at the required Turbo guidance scale. | sefi-image, seed, iteration |
+| [[SeFi-Image 5B Turbo — ComfyUI Storyboard Workflow]] | concept | Minimal ComfyUI board-pass workflow with matching-VAE and license caveats. | sefi-image, comfyui, workflow |
+
+### NVIDIA PixelDiT / PiD (2026-08-09)
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[NVIDIA-PixelDiT/PiD-Official-Reference|NVIDIA PiD — Official Technical Reference]] | source | Verified NVIDIA reference for PiD: compatible backbones/VAEs, released 4-step distilled checkpoints, and documented 2K/2K-to-4K decode targets. | nvidia, pid, pixeldit, super-resolution, flux |
+| [[NVIDIA-PixelDiT/PiD-4-Step-Upscale-Prompting|PiD 4-Step Upscale Prompting]] | concept | Faithful-caption prompt contract; negativePrompt remains wrapper-level unless the target pipeline explicitly supports it. | pid, prompting, upscaling, image-editing, negative-prompt |
+| [[NVIDIA-PixelDiT/PiD-4-Step-Upscale-Workflow|PiD 4-Step Upscale Workflow]] | concept | Checkpoint/scale selection and review guide that distinguishes native 4× PiD checkpoints from a wrapper-level 2× export choice. | pid, workflow, super-resolution, 4k, quality-control |
+| [[NVIDIA-PixelDiT/PiD-ComfyUI-Integration|PiD ComfyUI Integration]] | note | Core conditioning supports positive conditioning, latent, and degrade_sigma; it does not expose negative conditioning. | comfyui, pid, conditioning, negative-prompt |

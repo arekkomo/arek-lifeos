@@ -3,8 +3,8 @@ title: "SeFi-Image — Semantic-First Image Diffusion"
 category: entity
 summary: Text-to-image model family (1B/2B/5B, Base+Turbo variants) that separates semantic and texture latent streams, denoising semantic structure slightly ahead of texture for cleaner structural anchors.
 tags: [text-to-image, diffusion, dual-stream, semantic-first, turbo-inference, ai-image]
-sources: 1
-updated: 2026-07-13
+sources: 2
+updated: 2026-08-09
 ---
 
 # SeFi-Image — Semantic-First Image Diffusion
@@ -46,4 +46,5 @@ This separation means texture generation doesn't have to compete with structural
 
 - Complementary to [[LongForcing]] thinking: both emphasize structural coherence before detail refinement
 - Turbo variants (4-step) compete with Wan2.2-Lightning's acceleration approach but in the image domain
-- Could be relevant for prompt engineering — the semantic-first pipeline may respond differently to structured vs free-text prompts
+- [[SeFi-Image 5B Turbo — Source Summary]] distinguishes verified runtime facts from working prompt practice.
+- [[SeFi-Image 5B Turbo — Prompting Guide]] and [[SeFi-Image 5B Turbo — Storyboard Still Prompt Grammar]] translate Turbo use into repeatable storyboard-still prompts.

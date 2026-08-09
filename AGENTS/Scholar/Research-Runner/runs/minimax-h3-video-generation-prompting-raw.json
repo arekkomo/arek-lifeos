@@ -1,0 +1,107 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 334,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "MiniMax-H3 weights are up",
+      "title": "MiniMax-H3 weights are up"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "China's MiniMax releases H3 video model",
+      "title": "China's MiniMax releases H3 video model"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "What Is MiniMax H3? Everything You Need to Know About the Hailuo 3.0 Video Model",
+      "title": "What Is MiniMax H3? Everything You Need to Know About the Hailuo 3.0 Video Model"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-09T17:01:33.355430Z",
+  "query": "MiniMax H3 video generation prompting",
+  "results": [
+    {
+      "candidate_id": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "cluster": 0,
+      "engagement": {
+        "comments": 94,
+        "points": 334
+      },
+      "published_at": "2026-08-03",
+      "relevance_score": 0.4174,
+      "source": "hackernews",
+      "summary": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui"
+    },
+    {
+      "candidate_id": "https://huggingface.co/minimaxai/minimax-h3",
+      "cluster": 1,
+      "engagement": {
+        "comments": 0,
+        "points": 9
+      },
+      "published_at": "2026-08-03",
+      "relevance_score": 0.4045,
+      "source": "hackernews",
+      "summary": "MiniMax-H3 weights are up",
+      "title": "MiniMax-H3 weights are up",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+    },
+    {
+      "candidate_id": "https://reuters.com/world/china/chinas-minimax-releases-h3-video-model-2026-07-31",
+      "cluster": 2,
+      "engagement": {
+        "comments": 0,
+        "points": 5
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.3913,
+      "source": "hackernews",
+      "summary": "China's MiniMax releases H3 video model",
+      "title": "China's MiniMax releases H3 video model",
+      "url": "https://www.reuters.com/world/china/chinas-minimax-releases-h3-video-model-2026-07-31/"
+    },
+    {
+      "candidate_id": "https://minimaxh3.art/blog/what-is-minimax-h3",
+      "cluster": 3,
+      "engagement": {
+        "comments": 1,
+        "points": 3
+      },
+      "published_at": "2026-08-01",
+      "relevance_score": 0.3866,
+      "source": "hackernews",
+      "summary": "What Is MiniMax H3? Everything You Need to Know About the Hailuo 3.0 Video Model",
+      "title": "What Is MiniMax H3? Everything You Need to Know About the Hailuo 3.0 Video Model",
+      "url": "https://minimaxh3.art/blog/what-is-minimax-h3"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "rate-limited",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}

@@ -1,0 +1,85 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 5,
+      "sources": [
+        "github"
+      ],
+      "summary": "## The bug\n\n`EmptyQwenImageLayeredLatentImage` allocates `layers + 1` temporal slots:\n\n```python\n# comfy_extras/nodes_qwen.py:129\nlatent = torch.zeros([batch_size, 16, layers + 1, height // 8, width // 8], device=...)\n```\n\nSlot `0` is the model's **regenerated copy of the original image**, not a lay",
+      "title": "Drop the duplicate first image from the Qwen-Image-Layered templates"
+    },
+    {
+      "engagement_total": 961,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Qwen 3.8",
+      "title": "Qwen 3.8"
+    },
+    {
+      "engagement_total": 191,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Qwen Image 3.0 Pro",
+      "title": "Qwen Image 3.0 Pro"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-09T17:01:07.806400Z",
+  "query": "Qwen-Image-Layered prompting guidance for text-to-layered-image generation and edit layer decomposition, including negativePrompt",
+  "results": [
+    {
+      "candidate_id": "https://github.com/comfy-org/workflow_templates/pull/1092",
+      "cluster": 0,
+      "engagement": {
+        "comments": 5,
+        "reactions": 0
+      },
+      "published_at": "2026-08-06",
+      "relevance_score": 0.4128,
+      "source": "github",
+      "summary": "## The bug\n\n`EmptyQwenImageLayeredLatentImage` allocates `layers + 1` temporal slots:\n\n```python\n# comfy_extras/nodes_qwen.py:129\nlatent = torch.zeros([batch_size, 16, layers + 1, height // 8, width // 8], device=...)\n```\n\nSlot `0` is the model's **regenerated copy of the original image**, not a lay",
+      "title": "Drop the duplicate first image from the Qwen-Image-Layered templates",
+      "url": "https://github.com/Comfy-Org/workflow_templates/pull/1092"
+    },
+    {
+      "candidate_id": "https://twitter.com/alibaba_qwen/status/2078759124914098291",
+      "cluster": 1,
+      "engagement": {
+        "comments": 731,
+        "points": 961
+      },
+      "published_at": "2026-07-19",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Qwen 3.8",
+      "title": "Qwen 3.8",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291"
+    },
+    {
+      "candidate_id": "https://qwencloud.com/models/qwen-image-3.0-pro",
+      "cluster": 2,
+      "engagement": {
+        "comments": 54,
+        "points": 191
+      },
+      "published_at": "2026-08-05",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Qwen Image 3.0 Pro",
+      "title": "Qwen Image 3.0 Pro",
+      "url": "https://www.qwencloud.com/models/qwen-image-3.0-pro"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "ok",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}
