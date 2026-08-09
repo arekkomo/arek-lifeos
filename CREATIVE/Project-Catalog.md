@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-08-07
+updated: 2026-08-08
 ---
 
 # Creative Project Catalog
@@ -14,8 +14,8 @@ updated: 2026-08-07
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-| 1 | **Creative Project Review** | Review / Portfolio | Active — 167 imported records organized into execution, idea, and triage lanes; use this as the intake hub | `CREATIVE/Project-Review/` | 2026-08-07 |
-| 2 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-08-06 |
+| 1 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-08-08 |
+| 2 | **Creative Project Review** | Review / Portfolio | Active — 167 imported records organized into execution, idea, and triage lanes; use this as the intake hub | `CREATIVE/Project-Review/` | 2026-08-07 |
 | 3 | **Date** | Film / Comedy Short | Development — premise captured; choose date character's comic temperature, then build beat spine | `CREATIVE/Film-Projects/Date/` | 2026-07-26 |
 | 4 | **Angel In Hell, Devil In Heaven** | Music / Song | Development — concept and lyrical world established; chorus exploration next | `CREATIVE/Song-Projects/Angel-In-Hell-Devil-In-Heaven/` | 2026-07-23 |
 | 5 | **Chaotic Baking** | Music / Music Video | Lyrics complete; visual treatment and first scene shot breakdown added — needs genre/Suno decision and completion of the video shot list | `CREATIVE/Shorts-Projects/Chaotic-Baking/` | 2026-07-16 |
@@ -68,4 +68,4 @@ updated: 2026-08-07
 
 ---
 
-*Catalog updated by Director — 2026-08-07: added the Notion Creative Mirror review hub and its metadata audit. Existing project statuses were not automatically changed.*
+*Catalog updated by Director — 2026-08-08: Library/catalog inventory scan found no unreferenced project homes; refreshed Creative Library activity only. Existing project statuses were not automatically changed.*
