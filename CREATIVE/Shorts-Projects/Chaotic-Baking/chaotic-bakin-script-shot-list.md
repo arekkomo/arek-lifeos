@@ -3,7 +3,8 @@ type: shot_breakdown
 title: Chaotic Bakin Script — Shot List
 source: chaotic-bakin-script.md
 ---
-## SCENE S01 — Blank room, stripped down to work surface and bare bulbs
+## SCENE CHB_0040 — Blank room, stripped down to work surface and bare bulbs
+id: scn_8e24a5
 
 ### SHOT 1
 id: sh_s01a1
