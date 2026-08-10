@@ -30,6 +30,7 @@
 ### Beats-and-Blocking
 
 - [[Misguided-Care]] | *Physical dismissal disguised as care* | Logged 2026-06-09 | Source: Widows' Bay
+- [[fog-cat-bridge-connection]] | *Brief connection, then reciprocal departure* | Logged 2026-08-09 | Source: Fog music-video project
 
 ### Dialogue-Drips
 
@@ -41,7 +42,7 @@ _No entries yet_
 
 ### Visual-Inspiration
 
-_No entries yet_
+- [[fog-subjective-pause-city]] | *A woman’s subjective pause through a hostile city* | Logged 2026-08-09 | Source: Fog music-video project
 
 ### Tone-and-Reference
 

@@ -1,0 +1,37 @@
+{
+  "intent": "factual",
+  "freshness_mode": "balanced_recent",
+  "cluster_mode": "none",
+  "subqueries": [
+    {
+      "label": "primary",
+      "search_query": "Asian vertical micro dramas",
+      "ranking_query": "What credible developments and discussion signals about Asian vertical micro dramas appeared in the last 30 days?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 1.0
+    },
+    {
+      "label": "focus",
+      "search_query": "Asian vertical micro dramas China format, platforms, monetization, regional markets, audiences, risks, and AI filmmaking implications.",
+      "ranking_query": "What recent evidence is most useful about Asian vertical micro dramas and China format, platforms, monetization, regional markets, audiences, risks, and AI filmmaking implications.?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 0.7
+    }
+  ]
+}

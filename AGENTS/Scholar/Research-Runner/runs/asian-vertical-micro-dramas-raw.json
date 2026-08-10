@@ -1,0 +1,196 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Is the AI Boom over for Kospi and Asian Tech Stocks?",
+      "title": "Is the AI Boom over for Kospi and Asian Tech Stocks?"
+    },
+    {
+      "engagement_total": 6,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Can Africa take the Asian path to growth?",
+      "title": "Can Africa take the Asian path to growth?"
+    },
+    {
+      "engagement_total": 17,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Xi pitches China as leader of new global AI order, challenging US dominance",
+      "title": "Xi pitches China as leader of new global AI order, challenging US dominance"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "AI generated over 95% of China's new microdramas in Q1 2026",
+      "title": "AI generated over 95% of China's new microdramas in Q1 2026"
+    },
+    {
+      "engagement_total": 0,
+      "sources": [
+        "github"
+      ],
+      "summary": "Global 2-Piece DRD Cans Market to Reach USD 6,881 Million by 2034, Growing at 4.4% CAGR\nAccording to a new report from Intel Market Research, the global 2-Piece DRD Cans market was valued at USD\u202f5,260\u202fmillion in 2025 and is projected to reach USD\u202f6,881\u202fmillion by 2034, growing at a robust CAGR of 4.",
+      "title": "Global 2-Piece DRD Cans Market to Reach USD 6,881 Million by 2034, Growing at 4.4% CAGR"
+    },
+    {
+      "engagement_total": 0,
+      "sources": [
+        "github"
+      ],
+      "summary": "Global Anthracite Mining Market to Reach USD 13.7 Billion by 2034, Growing at 3.8% CAGR\n\nAccording to a new report from Intel Market Research, the global Anthracite Mining market was valued at USD\u202f9.8\u202fbillion in\u202f2025 and is projected to reach USD\u202f13.7\u202fbillion by\u202f2034, growing at a robust CAGR of 3.8",
+      "title": "Global Anthracite Mining Market to Reach USD 13.7 Billion by 2034, Growing at 3.8% CAGR"
+    },
+    {
+      "engagement_total": 0,
+      "sources": [
+        "github"
+      ],
+      "summary": "Global Terrace Railing Market to Reach USD 272 Million by 2034, Growing at 6.4% CAGR \nAccording to a new report from Intel Market Research, the global Terrace Railing market was valued at USD\u202f172\u202fmillion in\u202f2025 and will reach USD\u202f272\u202fmillion by\u202f2034, exhibiting a CAGR of 6.4\u202f% during the forecast p",
+      "title": "Global Terrace Railing Market to Reach USD 272 Million by 2034, Growing at 6.4% CAGR"
+    },
+    {
+      "engagement_total": 0,
+      "sources": [
+        "github"
+      ],
+      "summary": "According to a new report from Intel Market Research, the global Telecommunications Network Distributed Energy System market was valued at USD 9,047 million in 2025 and is projected to reach USD 36,527 million by 2034, exhibiting a robust CAGR of 20.7% during the forecast period (2025\u20132034). This gr",
+      "title": "Global Telecommunications Network Distributed Energy System market"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-10T04:08:14.659069Z",
+  "query": "Asian vertical micro dramas",
+  "results": [
+    {
+      "candidate_id": "https://disruptionbanking.com/2026/07/17/is-the-ai-boom-over-for-kospi-and-asian-tech-stocks",
+      "cluster": 0,
+      "engagement": {
+        "comments": 0,
+        "points": 3
+      },
+      "published_at": "2026-07-17",
+      "relevance_score": 0.237,
+      "source": "hackernews",
+      "summary": "Is the AI Boom over for Kospi and Asian Tech Stocks?",
+      "title": "Is the AI Boom over for Kospi and Asian Tech Stocks?",
+      "url": "https://www.disruptionbanking.com/2026/07/17/is-the-ai-boom-over-for-kospi-and-asian-tech-stocks/"
+    },
+    {
+      "candidate_id": "https://economist.com/middle-east-and-africa/2026/07/09/can-africa-take-the-asian-path-to-growth",
+      "cluster": 1,
+      "engagement": {
+        "comments": 1,
+        "points": 6
+      },
+      "published_at": "2026-07-15",
+      "relevance_score": 0.0665,
+      "source": "hackernews",
+      "summary": "Can Africa take the Asian path to growth?",
+      "title": "Can Africa take the Asian path to growth?",
+      "url": "https://www.economist.com/middle-east-and-africa/2026/07/09/can-africa-take-the-asian-path-to-growth"
+    },
+    {
+      "candidate_id": "https://reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17",
+      "cluster": 2,
+      "engagement": {
+        "comments": 6,
+        "points": 17
+      },
+      "published_at": "2026-07-17",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Xi pitches China as leader of new global AI order, challenging US dominance",
+      "title": "Xi pitches China as leader of new global AI order, challenging US dominance",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/"
+    },
+    {
+      "candidate_id": "https://channelnewsasia.com/east-asia/ai-microdrama-china-film-industry-actors-jobs-6229191",
+      "cluster": 3,
+      "engagement": {
+        "comments": 3,
+        "points": 5
+      },
+      "published_at": "2026-08-06",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "AI generated over 95% of China's new microdramas in Q1 2026",
+      "title": "AI generated over 95% of China's new microdramas in Q1 2026",
+      "url": "https://www.channelnewsasia.com/east-asia/ai-microdrama-china-film-industry-actors-jobs-6229191"
+    },
+    {
+      "candidate_id": "https://github.com/marketanalysiscorner/global-2-piece-drd-cans-market-to-reach-usd-6-881-million-by-2034-growing-at-4.4-cagr/issues/1",
+      "cluster": 4,
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      },
+      "published_at": "2026-08-06",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Global 2-Piece DRD Cans Market to Reach USD 6,881 Million by 2034, Growing at 4.4% CAGR\nAccording to a new report from Intel Market Research, the global 2-Piece DRD Cans market was valued at USD\u202f5,260\u202fmillion in 2025 and is projected to reach USD\u202f6,881\u202fmillion by 2034, growing at a robust CAGR of 4.",
+      "title": "Global 2-Piece DRD Cans Market to Reach USD 6,881 Million by 2034, Growing at 4.4% CAGR",
+      "url": "https://github.com/marketanalysiscorner/Global-2-Piece-DRD-Cans-Market-to-Reach-USD-6-881-Million-by-2034-Growing-at-4.4-CAGR/issues/1"
+    },
+    {
+      "candidate_id": "https://github.com/marketanalysiscorner/global-anthracite-mining-market-to-reach-usd-13.7-billion-by-2034-growing-at-3.8-cagr/issues/1",
+      "cluster": 5,
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      },
+      "published_at": "2026-08-01",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Global Anthracite Mining Market to Reach USD 13.7 Billion by 2034, Growing at 3.8% CAGR\n\nAccording to a new report from Intel Market Research, the global Anthracite Mining market was valued at USD\u202f9.8\u202fbillion in\u202f2025 and is projected to reach USD\u202f13.7\u202fbillion by\u202f2034, growing at a robust CAGR of 3.8",
+      "title": "Global Anthracite Mining Market to Reach USD 13.7 Billion by 2034, Growing at 3.8% CAGR",
+      "url": "https://github.com/marketanalysiscorner/Global-Anthracite-Mining-Market-to-Reach-USD-13.7-Billion-by-2034-Growing-at-3.8-CAGR/issues/1"
+    },
+    {
+      "candidate_id": "https://github.com/marketanalysiscorner/global-terrace-railing-market-to-reach-usd-272-million-by-2034-growing-at-6.4-cagr-/issues/1",
+      "cluster": 6,
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      },
+      "published_at": "2026-08-01",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "Global Terrace Railing Market to Reach USD 272 Million by 2034, Growing at 6.4% CAGR \nAccording to a new report from Intel Market Research, the global Terrace Railing market was valued at USD\u202f172\u202fmillion in\u202f2025 and will reach USD\u202f272\u202fmillion by\u202f2034, exhibiting a CAGR of 6.4\u202f% during the forecast p",
+      "title": "Global Terrace Railing Market to Reach USD 272 Million by 2034, Growing at 6.4% CAGR",
+      "url": "https://github.com/marketanalysiscorner/Global-Terrace-Railing-Market-to-Reach-USD-272-Million-by-2034-Growing-at-6.4-CAGR-/issues/1"
+    },
+    {
+      "candidate_id": "https://github.com/alfredcs/markettrend/issues/3",
+      "cluster": 7,
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      },
+      "published_at": "2026-07-23",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "According to a new report from Intel Market Research, the global Telecommunications Network Distributed Energy System market was valued at USD 9,047 million in 2025 and is projected to reach USD 36,527 million by 2034, exhibiting a robust CAGR of 20.7% during the forecast period (2025\u20132034). This gr",
+      "title": "Global Telecommunications Network Distributed Energy System market",
+      "url": "https://github.com/alfredcs/marketTrend/issues/3"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "ok",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "polymarket": "no-results",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}
