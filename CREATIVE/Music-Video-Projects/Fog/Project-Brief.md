@@ -30,4 +30,4 @@ The song’s “I ain't in the mood for the world today” is the visual premise
 Bright, overcast, cold gray daylight. Fog softens a busy city into pale concrete, wet asphalt, dim glass, and distant figures. The result is depressing but beautiful: loneliness exists even in crowded spaces. As Aiah walks, the frozen human interactions behind her progressively feel hostile and unpleasant.
 
 ## Status
-**Development** — visual treatment drafted in [[Treatment-V1]]. Next: approve/revise treatment, then map the story into timecoded scenes.
+**Development** — scene progression drafted in [[STORYBOARD/Scene-Progression-V1]]. Next: confirm recurring background threads and scene order, then build the shot list.

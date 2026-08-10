@@ -46,6 +46,7 @@ _No entries yet_
 
 ### Tone-and-Reference
 
+- [[the-kings-chair-ceremonial-containment]] | *Formal authority collapses under a private bodily emergency* | Logged 2026-08-09 | Source: The King's Chair film project
 - [[date-uncomfortable-escape-comedy]] | *Uncomfortable escape comedy with a delayed-return threat* | Logged 2026-07-26 | Source: Date short-film project
 - [[Angel-In-Hell-Devil-In-Heaven]] | *A sweeping-pop lyrical world for permanent miscasting and no-place-to-land loneliness* | Logged 2026-07-23 | Source: Angel In Hell, Devil In Heaven song project
 
