@@ -28,5 +28,13 @@ Treat a ridiculous bodily emergency with the ceremonial gravity of international
 - Neither rival attributes the first fart to the father. His increasingly anxious cover-ups cause each side to suspect the other of an insult, threat, or alliance.
 - The daughter tries to slip away but is accidentally drawn back into the kings’ conflict.
 
+## Episode 1 opening — agreed direction
+1. A grand crowd cheers as the two rival kings complete their ceremonial handshake beneath the father’s watch.
+2. The King-Father is about to announce peace. Silence falls; every camera and courtier waits.
+3. A small, unmistakable sound breaks the silence. The father freezes.
+4. Neither king looks at him. **King One hears it as a deliberate insult—a mocking sound aimed at humiliating him at the moment of peace. King Two instantly assumes King One made the sound and is now trying to frame him; his reflex is to read bad faith into every gesture. They are so absorbed in this mutual accusation that neither even considers the King-Father.**
+5. The father becomes invisible at his own summit: trapped in his chair, unable to confess, and powerless to interrupt the diplomatic catastrophe unfolding around him.
+6. His daughter recognises the opening and quietly begins to slip away.
+
 ## Status
-**Development — next:** choose the daughter’s concrete escape route and define the opening episode’s first misunderstanding.
+**Development — next:** define what each rival king thinks the sound means, and the daughter’s concrete escape route.
