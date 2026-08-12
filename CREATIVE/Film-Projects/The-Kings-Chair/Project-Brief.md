@@ -40,6 +40,9 @@ Treat a ridiculous bodily emergency with the ceremonial gravity of international
 ## Father’s comic-tragic engine
 The King-Father is so afraid of offending either side or making the summit worse that he does nothing. His inaction is not neutral: every silence, frozen expression, and refusal to correct the misunderstanding becomes evidence that one rival king is being favoured. His physical paralysis mirrors his diplomatic cowardice; by attempting to contain every risk, he steadily makes the conflict—and his daughter’s entrapment—worse.
 
+## Ending rule — interruption instead of release
+The father never decisively acts. His recurring promise is that he is *about to* stand, speak, protect his daughter, or finally take responsibility—then a fresh escalation interrupts him and lets him retreat into paralysis. This is not a redemption arc; it is an escalating **edge** for the viewer. Each interruption makes his eventual action feel more imminent while proving he will choose safety, propriety, and self-preservation again.
+
 ## Daughter’s recurring comic engine
 She is not trying to win the political game. Her only objective is to leave it. In every episode, she finds a plausible exit; an accident born of the rival kings’ conflict returns her to its centre, usually as an unwilling symbol, witness, hostage, or presumed choice. Her repeated near-escapes give the series a clean secondary rhythm against the father’s escalating physical containment.
 
