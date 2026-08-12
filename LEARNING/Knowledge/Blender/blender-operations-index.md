@@ -33,12 +33,12 @@ This is the entry point for System and creative agents. It separates three conce
 - Treat add-ons/extensions as supply-chain code: document source, version, permissions, compatibility and the rollback location. Blender exposes extensions/add-ons as a managed surface. [[Blender Official + Hermes Blender MCP Source Summary]]
 - Keep production assets outside individual `.blend` files where reusable: configure asset libraries, explicit relative/absolute path policy, and a shared naming convention. [[Blender Rendering Assets and Maintenance]]
 
-## Spark validation snapshot — 2026-07-16
-- Spark is `aarch64`/Ubuntu noble arm64; `nvidia-smi` sees NVIDIA GB10 with driver 580.142 and CUDA 13.0.
-- No host `blender` binary or `xvfb-run` is currently installed. Ubuntu apt offers `blender` 4.0.2+dfsg-1ubuntu8 for arm64; install requires the normal host package path, preferably `sudo apt install blender xvfb`.
-- `hermes mcp install blender` succeeded for the Systems profile. `hermes mcp list` reports `blender` enabled through `uvx blender-mcp==1.6.4` with four selected tools, and `hermes mcp test blender` connected to the server and discovered the full upstream tool catalog.
-- A fresh non-kanban Hermes session exposed the documented Blender tool path: forcing `get_scene_info` returned the expected bridge error, `Could not connect to Blender. Make sure the Blender addon is running.` The remaining blocker is a live Blender session with the addon connected, not Hermes catalog discovery.
-- Displayless/live policy is unvalidated until Blender and Xvfb are installed. Current expectation remains: use Xvfb/live Blender for MCP; test `blender -b` only as a separate CLI render path after host install.
+## Spark validation snapshot — 2026-08-12
+- Spark is `aarch64`/Ubuntu noble arm64; `nvidia-smi` sees NVIDIA GB10 with driver 580.142 and CUDA 13.0. Active GPU processes include ComfyUI and Ollama, so Blender validation must avoid disrupting those services.
+- No host `blender` binary or `xvfb-run` is currently installed. Ubuntu apt offers native arm64 packages: `blender` 4.0.2+dfsg-1ubuntu8 and `xvfb` 2:21.1.12-1ubuntu1.6.
+- Attempted host install with `sudo apt-get update && sudo apt-get install -y blender xvfb`, but sudo requires Arek's password in a real terminal. Next manual gate: run `sudo apt update && sudo apt install blender xvfb` on Spark, then tell System to resume validation.
+- Hermes side is configured but not currently end-to-end healthy: Hermes is v0.20.0 (2026.8.3), `hermes mcp list` reports `blender` enabled through `uvx blender-mcp==1.6.4` with four selected tools, but `hermes mcp test blender` currently fails with `Connection closed` while no Blender host binary/addon bridge is present.
+- Displayless/live policy remains unvalidated until Blender and Xvfb are installed. Current expectation remains: use Xvfb/live Blender for MCP; test `blender -b` only as a separate CLI render path after host install.
 
 ## Agent-safe default workflow
 `get_scene_info` → `get_object_info` as needed → small `execute_blender_code` calls → `get_viewport_screenshot` → render to absolute path → verify artifact. [[Blender MCP Hermes Operations]]

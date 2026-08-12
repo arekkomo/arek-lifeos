@@ -1,5 +1,13 @@
 # Log — Arek's Second Brain
 
+## [2026-08-12] systems | Spark Blender validation — host install still blocked by sudo
+
+Rechecked Spark for Blender operations. Spark is Ubuntu noble arm64/aarch64 with NVIDIA GB10 visible via `nvidia-smi` (driver 580.142, CUDA 13.0); ComfyUI and Ollama are active GPU users and were not interrupted.
+
+No `blender` binary, `xvfb-run`, or `Xvfb` is installed. Apt offers native arm64 packages `blender` 4.0.2+dfsg-1ubuntu8 and `xvfb` 2:21.1.12-1ubuntu1.6. Attempted `sudo apt-get update && sudo apt-get install -y blender xvfb`, but sudo requires Arek's password in a real terminal. Manual next command: `sudo apt update && sudo apt install blender xvfb`.
+
+Hermes side remains configured but not end-to-end validated: Hermes is v0.20.0 (2026.8.3), `hermes mcp list` shows `blender` enabled via `uvx blender-mcp==1.6.4` with four selected tools, but `hermes mcp test blender` currently returns `Connection closed` while no Blender host binary/addon bridge is available. Resume after install to validate live/Xvfb MCP, screenshot, absolute render artifact, and separate `blender -b` CLI render.
+
 ## [2026-07-18] create | One More Instagram operations knowledge base
 
 Created `LEARNING/Knowledge/Social-Media/` with five Connector-ready, cited operating pages: posting calendar and format/hashtag plan; caption voice and CTA system; organic new-account tactics; Meta publishing API/tool runbook; and a food-plus-destination competitor watch list with an honest 12-post benchmark-census method. Sources include current Meta documentation, Buffer's 2026 two-million-post frequency analysis, Sprout's March 2026 timing analysis, and verified public Instagram profile metadata captured on 2026-07-18.

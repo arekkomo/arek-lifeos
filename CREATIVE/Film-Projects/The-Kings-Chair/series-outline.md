@@ -19,11 +19,11 @@ The two rival kings have finally agreed to make peace and complete a long, overl
 
 The King-Father freezes. He is ashamed, terrified the next fart may be worse, and too frightened of offending either king to say anything. But the two kings are so consumed by mutual suspicion that neither considers him responsible. King One believes King Two has publicly mocked him. King Two immediately assumes King One made the sound, intends to blame him for it, and is acting in bad faith.
 
-Their diplomatic argument escalates around the invisible father. In the confusion, the Daughter tries to slip quietly out of the summit; she wants neither king and wants no role in their conflict. A guard bursts through the main doors after being summoned by one of the kings and, without noticing her intention, forces/ushers her directly back into the centre of the room.
+Their diplomatic argument escalates around the invisible father. In the confusion, the Daughter tries to sneak out through an unobtrusive side door; she wants neither king and wants no role in their conflict. Just as she cracks it open, a full detachment of soldiers storms into the ceremonial chamber through that same door, having been summoned by one of the rival kings. The rushing soldiers sweep her back into the room and physically push her directly between the two kings.
 
 - **Hook:** The peace handshake ends to huge applause; the King-Father rises to speak, the court falls silent, and the sound erupts from his throne.
 - **Twist:** The rival kings do not suspect the father. Each interprets the sound as the other king’s deliberate insult and proof of bad faith.
-- **Cliffhanger:** The Daughter is stopped at the exit and pushed between the two kings. King One points to her and declares: **“She was fleeing to him.”**
+- **Cliffhanger:** The Daughter’s escape door bursts open with soldiers. She is carried back by the rush and deposited between the two kings. King One points to her and declares: **“She was fleeing to him.”**
 
 ## EPISODE 2 — “THE EXIT”
 - **Progression:** A fly slips into the King-Father’s throat as he tries to stop the accusation. While he chokes, the rival kings accuse each other of deploying an assassin trained as an insect. The Daughter denies allegiance to either side. A travel bag appears at the service entrance containing a pass bearing King One’s crest and one very formal sandwich.
