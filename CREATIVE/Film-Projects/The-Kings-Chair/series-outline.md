@@ -67,3 +67,10 @@ source: script.md
 3. Update this outline immediately when those structural beats change.
 4. Create that episode’s scene breakdown.
 5. Generate the episode’s shots scene by scene.
+
+## Session Handoff Notes — 2026-08-11
+- **Working decision:** This outline is now the canonical structural source for every future vertical micro-drama: series outline first, then episode script, scene breakdown, and shot breakdown.
+- **Tone:** Escalating courtly absurdism—dead-serious protocol applied to humiliating nonsense; push the comedy toward heightened Monty Python logic without losing the Daughter’s active objective.
+- **Current stage:** Season One outline is drafted. No episode script, scene breakdown, or shot breakdown has been created from this version yet.
+- **Next output:** Write Episode 1, “The Sound,” preserving its listed hook, twist, and cliffhanger unless a deliberate revision is made; mirror any structural change here immediately.
+- **Series spine:** The King-Father’s physical entrapment, the Daughter’s practical escape, and court protocol escalating every misunderstanding must stay in play through the final army arrival.
