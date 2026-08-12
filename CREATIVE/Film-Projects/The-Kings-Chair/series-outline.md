@@ -14,10 +14,16 @@ source: script.md
 - **Continuity rule:** If an episode script changes its hook, twist, or cliffhanger, update the matching episode below before scene or shot work proceeds.
 
 ## EPISODE 1 — “THE SOUND”
-- **Progression:** The two kings complete an interminable ceremonial handshake while a herald measures its dignity with a tiny ruler. An unmistakable sound erupts from the throne; the Master of Protocol declares it a hostile signal. The Daughter quietly tries to leave as everyone decides she must have caused it.
-- **Hook:** The King-Father freezes halfway out of his chair after the sound interrupts his peace address—and the court waits for him to name which kingdom has insulted his upholstery.
-- **Twist:** King One interprets the Daughter’s attempt to leave as proof she is fleeing to King Two with the throne’s secret military signal.
-- **Cliffhanger:** The Daughter is stopped and trapped between the rival kings: “She was fleeing to him.”
+
+The two rival kings have finally agreed to make peace and complete a long, overly dignified ceremonial handshake before the entire court. The King-Father rises from his throne to announce the peace, but the room falls completely silent—and an unmistakable fart breaks the moment.
+
+The King-Father freezes. He is ashamed, terrified the next fart may be worse, and too frightened of offending either king to say anything. But the two kings are so consumed by mutual suspicion that neither considers him responsible. King One believes King Two has publicly mocked him. King Two immediately assumes King One made the sound, intends to blame him for it, and is acting in bad faith.
+
+Their diplomatic argument escalates around the invisible father. In the confusion, the Daughter tries to slip quietly out of the summit; she wants neither king and wants no role in their conflict. A guard bursts through the main doors after being summoned by one of the kings and, without noticing her intention, forces/ushers her directly back into the centre of the room.
+
+- **Hook:** The peace handshake ends to huge applause; the King-Father rises to speak, the court falls silent, and the sound erupts from his throne.
+- **Twist:** The rival kings do not suspect the father. Each interprets the sound as the other king’s deliberate insult and proof of bad faith.
+- **Cliffhanger:** The Daughter is stopped at the exit and pushed between the two kings. King One points to her and declares: **“She was fleeing to him.”**
 
 ## EPISODE 2 — “THE EXIT”
 - **Progression:** A fly slips into the King-Father’s throat as he tries to stop the accusation. While he chokes, the rival kings accuse each other of deploying an assassin trained as an insect. The Daughter denies allegiance to either side. A travel bag appears at the service entrance containing a pass bearing King One’s crest and one very formal sandwich.
