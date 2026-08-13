@@ -1,7 +1,7 @@
 ---
 title: Creative Project Catalog
 summary: Master registry of all creative/artistic projects. System & engineering projects are listed separately at the bottom.
-updated: 2026-08-09
+updated: 2026-08-12
 ---
 
 # Creative Project Catalog
@@ -14,9 +14,9 @@ updated: 2026-08-09
 
 | # | Project | Domain | Status | Location | Last Active |
 |---|---|---|---|---|---|
-| 1 | **The King's Chair** | Film / Comedy Short / Vertical Micro Drama | **Development** · premise and format grammar established; next: daughter’s escape route and Episode 1 misunderstanding | `CREATIVE/Film-Projects/The-Kings-Chair/` | 2026-08-09 |
-| 2 | **Fog** | Aiah Syn / Song + Music Video | **Active** · Song locked; music video in Development — visual concept established, treatment next | `CREATIVE/Song-Projects/Fog/` + `CREATIVE/Music-Video-Projects/Fog/` | 2026-08-09 |
-| 3 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-08-08 |
+| 1 | **The King's Chair** | Film / Comedy Short / Vertical Micro Drama | **Development** · premise and format grammar established; next: daughter’s escape route and Episode 1 misunderstanding | `CREATIVE/Film-Projects/The-Kings-Chair/` | 2026-08-12 |
+| 2 | **Creative Library** | Library / Reference | Active (ongoing) | `CREATIVE/Library/` | 2026-08-12 |
+| 3 | **Fog** | Aiah Syn / Song + Music Video | **Active** · Song locked; music video in Development — visual concept established, treatment next | `CREATIVE/Song-Projects/Fog/` + `CREATIVE/Music-Video-Projects/Fog/` | 2026-08-09 |
 | 4 | **Creative Project Review** | Review / Portfolio | Active — 167 imported records organized into execution, idea, and triage lanes; use this as the intake hub | `CREATIVE/Project-Review/` | 2026-08-07 |
 | 5 | **Date** | Film / Comedy Short | Development — premise captured; choose date character's comic temperature, then build beat spine | `CREATIVE/Film-Projects/Date/` | 2026-07-26 |
 | 6 | **Angel In Hell, Devil In Heaven** | Music / Song | Development — concept and lyrical world established; chorus exploration next | `CREATIVE/Song-Projects/Angel-In-Hell-Devil-In-Heaven/` | 2026-07-23 |
@@ -58,6 +58,7 @@ updated: 2026-08-09
 - **Aiah Syn Projects** now has its designated folder on disk, but it is empty; keep it Idle until the first project brief or song capture is created.
 - **Personal Songs** is not a standalone folder and is accurately marked as a stale merged item below.
 - **Imma Nyala** was marked Paused by Arek on 2026-08-09; restart from the EP-01 package when revived.
+- **Catalog scan (2026-08-12):** No new unlisted creative projects found. The only post-2026-08-09 project activity is inside the already catalogued `Film-Projects/The-Kings-Chair/` (series outline, character/set/prop profiles, episode engine, and workflow).
 - **Notion mirror review:** 88 Writing records are now indexed under `CREATIVE/Project-Review/`. Their current stage metadata is 1 Production, 2 Post Production, 14 Development, 32 Idea, and 39 unclassified. These review labels do not change source status.
 
 ---
