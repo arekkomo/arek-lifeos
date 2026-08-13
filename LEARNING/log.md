@@ -1,5 +1,15 @@
 # Log — Arek's Second Brain
 
+## [2026-08-13] systems | Spark Blender + Hermes Blender MCP operational validation complete
+
+Validated Blender on Spark after host install. `/usr/bin/blender` reports Blender 4.0.2, `/usr/bin/Xvfb` is present, and dpkg reports `blender 4.0.2+dfsg-1ubuntu8 arm64` plus `xvfb 2:21.1.12-1ubuntu1.6 arm64`. Spark remains Ubuntu noble arm64/aarch64 with NVIDIA GB10 visible via `nvidia-smi` (driver 580.142, CUDA 13.0); ComfyUI and Ollama GPU processes were not interrupted.
+
+CLI/background path passed: `blender -b --python` created `/tmp/blender-system-validation/spark_blender_cli_render.png` (512×512 PNG, 165,614 bytes) and `/tmp/blender-system-validation/spark_blender_validation_scene.blend`.
+
+Hermes Blender MCP needed a dependency compatibility fix: `blender-mcp==1.6.4` resolved `mcp 2.0.0`, which removed `mcp.server.fastmcp`. Added `/home/realityrove/bin/blender-mcp-hermes` wrapper using `uvx --with 'mcp<2' blender-mcp==1.6.4` and pointed Systems MCP config to it via `hermes config set`. `hermes mcp test blender` now connects and discovers 22 upstream tools while Systems keeps the four selected core tools.
+
+Downloaded the Blender MCP addon to `/home/realityrove/.local/share/blender-mcp/addon.py`, installed/enabled it in Blender user config as module `addon`, and saved preferences. Live Blender under `xvfb-run -a blender --python ...` started the addon bridge on `localhost:9876`. A fresh Hermes CLI session successfully used Blender MCP to create `Hermes_MCP_Live_Test`, render `/tmp/blender-system-validation/spark_blender_mcp_render.png` (512×512 PNG, 130,724 bytes), capture viewport screenshot `/home/realityrove/.hermes/profiles/systems/cache/images/img_dc06657f209a.png` (1000×851 PNG, 11,336 bytes), and inspect the object as MESH with material `Hermes_MCP_Live_Test_Red`. `get_scene_info` timed out in a broad test; prefer targeted object info and small execute calls until investigated.
+
 ## [2026-08-12] systems | Spark Blender validation — host install still blocked by sudo
 
 Rechecked Spark for Blender operations. Spark is Ubuntu noble arm64/aarch64 with NVIDIA GB10 visible via `nvidia-smi` (driver 580.142, CUDA 13.0); ComfyUI and Ollama are active GPU users and were not interrupted.
