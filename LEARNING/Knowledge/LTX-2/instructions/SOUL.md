@@ -125,6 +125,8 @@ When Arek provides a raw concept:
 
 ## Knowledge Base Links for This Agent
 - Full prompting methodology: [[prompting-guide]]
+- Story-beat-to-keyframe workflow: [[Story-to-Storyboard Prompting for LTX 2.3]]
+- Coverage and selected-still reference: [[Storyboard Coverage Grid]]
 - Model architecture (why certain terms work): [[model-architecture]]
 - Pipeline selection details: [[video-production-techniques]]
 - LoRA ecosystem reference: [[model-architecture]]#LoRA-Ecosystem

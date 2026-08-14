@@ -1,6 +1,16 @@
 # Knowledge Base Index
 
-> Updated: 2026-08-09 (HunyuanVideo 1.5 I2V prompting knowledge base added)
+> Updated: 2026-08-13 (Story-to-Storyboard 3×3 workflow added)
+
+## Story-to-Storyboard 3×3 Workflow
+
+| Page | Category | Summary | Tags |
+|---|---|---|---|
+| [[Storytelling Prompts — Notion Source Capture]] | source | Public-source capture of the reference-image-first 3×3 story-to-storyboard prompt method. | storytelling, storyboard, source |
+| [[Story-to-Storyboard 3×3 Workflow]] | concept | Converts a short story beat and base image into a continuity-controlled nine-shot board and selected hero still. | storytelling, storyboard, previz |
+| [[Storyboard Coverage Grid]] | concept | Nine-panel camera grammar for context, performance, detail, and power-angle coverage. | storyboard, cinematography, previz |
+| [[Story-to-Storyboard Prompting for LTX 2.3]] | concept | Previz-to-single-shot bridge for the LTX prompter agent. | ltx-2, prompting, i2v, storyboard |
+
 
 ## Hunyuan-Video-1_5
 

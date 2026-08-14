@@ -1,5 +1,10 @@
 # Log — Arek's Second Brain
 
+## [2026-08-13] ingest | Storytelling Prompts — story-to-storyboard workflow
+
+Captured and synthesized the public Notion guide into a source record plus three reusable knowledge pages: 3×3 storyboard workflow, coverage-grid grammar, and the LTX 2.3 previz-to-single-shot handoff. Updated the LTX prompter agent’s SOUL references so the workflow is available for future prompt work.
+
+
 ## [2026-08-13] systems | Spark Blender + Hermes Blender MCP operational validation complete
 
 Validated Blender on Spark after host install. `/usr/bin/blender` reports Blender 4.0.2, `/usr/bin/Xvfb` is present, and dpkg reports `blender 4.0.2+dfsg-1ubuntu8 arm64` plus `xvfb 2:21.1.12-1ubuntu1.6 arm64`. Spark remains Ubuntu noble arm64/aarch64 with NVIDIA GB10 visible via `nvidia-smi` (driver 580.142, CUDA 13.0); ComfyUI and Ollama GPU processes were not interrupted.
