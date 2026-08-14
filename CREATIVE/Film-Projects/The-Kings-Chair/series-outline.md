@@ -25,17 +25,27 @@ Their diplomatic argument escalates around the invisible father. In the confusio
 - **Twist:** The rival kings do not suspect the father. Each interprets the sound as the other king’s deliberate insult and proof of bad faith.
 - **Cliffhanger:** The Daughter’s escape door bursts open with soldiers. She is carried back by the rush and deposited between the two kings. King One points to her and declares: **“She was fleeing to him.”**
 
-## EPISODE 2 — “THE EXIT”
-- **Progression:** A fly slips into the King-Father’s throat as he tries to stop the accusation. While he chokes, the rival kings accuse each other of deploying an assassin trained as an insect. The Daughter denies allegiance to either side. A travel bag appears at the service entrance containing a pass bearing King One’s crest and one very formal sandwich.
-- **Hook:** The King-Father opens his mouth to stop the accusation, inhales a fly, and chokes—prompting both kings to accuse the other of murdering him by cavalry-grade insect.
-- **Twist:** The pass carries the King-Father’s genuine private royal seal, which only leaves his person during a national catastrophe.
-- **Cliffhanger:** The King-Father cannot meet his Daughter’s eyes after King Two declares the seal genuine and asks whether the sandwich is also evidence.
+## EPISODE 2 — “THE CHOICE”
 
-## EPISODE 3 — “THE SEAL”
-- **Progression:** The sealed pass turns the alleged escape into a sovereign act. King One discovers its route ends at King Two’s eastern checkpoint, via a road closed for forty years because of a goose. The Daughter attempts to reach a side staircase, but a guard insists it is reserved for ceremonial pigeons.
-- **Hook:** King Two publicly accuses the host of arranging the Daughter’s escape into his territory by the forbidden goose road.
-- **Twist:** The route implicates King Two’s border, making King One appear to have engineered an outrage so elaborate it must be official.
-- **Cliffhanger:** King Two orders the Daughter detained as guards block her escape with a ribbon-cutting ceremony.
+The Daughter has been pushed between the two rival kings, and both treat her failed escape as proof that she must choose one of them. Their argument shifts from who insulted whom to who has the right to marry her. Every possible choice is terrible for her: choosing King One humiliates King Two; choosing King Two confirms King One’s suspicion; refusing either is treated as a political act of war.
+
+The King-Father wants to intervene, but he is still too frightened of worsening the summit—and too physically trapped on his throne—to take control. Under unbearable pressure, the Daughter breaks and announces that she is already in love with someone else: a superhero.
+
+A superhero arrives to great ceremonial commotion. For one brief second, the court and the audience share the Daughter’s relief: perhaps he really will rescue her. Then the attention lands on him. His confidence, costume, and heroic entrance are all a performance. He is not a superhero at all, but a phony who pretends to be one to impress women—and the Daughter has blindly fallen for it.
+
+- **Hook:** The Daughter stands trapped between the kings as they demand an immediate answer: which one was she trying to flee to?
+- **Twist:** Her declaration of love summons a supposed superhero—but his “heroism” collapses under scrutiny as a transparent romantic scam.
+- **Cliffhanger:** The fake hero is exposed in front of the court. The Daughter’s only escape has made her look even more foolish and politically compromising, while the kings decide that the King-Father must now force a choice.
+
+## EPISODE 3 — “THE FLY”
+
+The King-Father finally attempts to take command. He gathers himself to stop the commotion, resolve the Daughter’s forced choice, and restore the summit’s dignity. Before he can speak, a fly flies directly into his mouth. He chokes violently, stumbles, and falls.
+
+The two kings do not see an accident. They see an assassination attempt carried out during a contested royal marriage negotiation. Each immediately blames the other for sending the insect. The court treats the fly as evidence; the King-Father is unable to correct anyone because he is still choking.
+
+- **Hook:** The King-Father finally rises to seize control of the room—then a fly flies into his open mouth.
+- **Twist:** His choking is instantly reclassified as an attempted royal assassination, with the fly treated as a weapon.
+- **Cliffhanger:** The two kings accuse each other of assassinating the father and reach for their guards, while the fallen King-Father can only choke and watch the room tilt toward war.
 
 ## EPISODE 4 — “THE DETENTION”
 - **Progression:** Both courts claim the right to detain the Daughter, each politely pulling one arm while debating correct posture. A torn tapestry exposes a ceremonial portrait and a hidden passage. The portrait is of the King-Father in precisely his current trapped pose, painted years earlier with disturbing confidence.

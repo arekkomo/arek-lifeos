@@ -16,6 +16,11 @@ created: 2026-08-11
 - **Required look:** A tiny ornate ruler or official measuring instrument handled by the Master of Protocol.
 - **Episode 1 use:** It measures the dignity/precision of the peace handshake.
 
+## Fake Superhero Costume
+- **Story function:** Sells the Daughter’s rescue fantasy, then exposes the hero as a phony under scrutiny.
+- **Required look:** Strong vertical silhouette at entrance; on closer framing reveal improvised/cheap construction, mismatched emblems, and suspiciously ordinary fastenings.
+- **Continuity lock:** The same distinctive cape, mask, and emblem must survive across the reveal sequence.
+
 ## Kingdom Banners
 - **Story function:** Make the rival courts instantly readable in a vertical frame.
 - **Required look:** Two bold, visually distinct heraldic designs; avoid real-world national signifiers.

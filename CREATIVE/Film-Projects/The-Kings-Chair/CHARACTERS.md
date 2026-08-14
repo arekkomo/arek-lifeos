@@ -32,6 +32,13 @@ created: 2026-08-11
 - **Comic engine:** Reflexive paranoia; every gesture is evidence of bad faith.
 - **Performance:** Suspicious, quick, certain without proof.
 
+## Fake Superhero
+- **Story function:** The Daughter’s apparent saviour and the episode-two revelation that makes her position worse.
+- **Objective:** Impress the Daughter and preserve the fantasy of being a superhero.
+- **Comic engine:** He performs confidence and heroism flawlessly until the court pays close attention; the costume and persona are a transparent dating scam.
+- **Performance:** Grand entrance, precise heroic posing, then increasingly flimsy explanations once observed.
+- **Visual continuity:** Striking but improvised superhero costume—recognisable silhouette, cheap or contradictory detail visible on closer inspection.
+
 ## Royal Guard
 - **Story function:** Physical instrument of accidental reversals.
 - **Episode 1 action:** Bursts through the main doors and unknowingly pushes the Daughter back into the position she is escaping.
