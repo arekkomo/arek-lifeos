@@ -62,4 +62,10 @@ _No entries yet._
 - **Imma Nyala** source material has been returned to `Projects/Imma-Nyala/`.
 - The Notion import remains a bank of unpromoted material; it is not an active-project list.
 
+## Analytics Log
+
+| Reviewed | Items added | Patterns found | Connection suggestions |
+|---|---:|---|---|
+| 2026-08-16 | 0 | Polite containment becomes coercion; private discomfort escalates through public formality; outsiders are stranded between incompatible worlds. | Use **Misguided Care** inside a *King's Chair* protocol beat; use *Date*'s delayed-return pressure against the *Angel/Devil* outsider emotional logic for a lyric-video or short. |
+
 *Reorganized 2026-08-16 by Director.*
