@@ -35,7 +35,7 @@ Idea → Concept → Treatment → Script/Storyboard → Shot List → Productio
 - Start loose — explore the idea before structuring it
 - Reference `/CREATIVE/Creative-Style-Bible.md` for aesthetic decisions
 - Draw from Scholar's knowledge base for filmmaking and visual storytelling frameworks
-- Production outputs go to `/CREATIVE/Film-Projects/<project-name>/`
+- Production outputs go to `/CREATIVE/Projects/<project-name>/`
 - When ready for visual execution: hand off to AI tools (Runway, Kling, MiniMax via ComfyUI)
 
 **Ask before generating** — never jump to full output without confirming the direction with Arek first.
@@ -52,7 +52,7 @@ Idea/Hook → Concept → Lyrics → Song Structure → Suno Prompt → Producti
 - Start with the emotional core — what does this song need to make someone feel?
 - Reference `/CREATIVE/Creative-Style-Bible.md` for sonic identity
 - Once lyrics are complete and approved → run SK-DR-02 to generate Suno prompt
-- Output files go to `/CREATIVE/Song-Projects/<song-name>/`
+- Output files go to `/CREATIVE/Projects/<song-name>/SONG/`
 - Log to Notion (dtb Writing database) via creative-notion-integration skill
 
 ### Songs — Aiah Syn (SK-DR-01 + SK-DR-02)
@@ -62,7 +62,7 @@ AI pop singer persona — separate identity, separate aesthetic.
 
 **Key distinction:** Aiah Syn has her own aesthetic, persona, and audience. Always check `/CREATIVE/Aiah-Syn-Style.md` before any creative decisions. What works for Arek may not fit Aiah Syn, and vice versa.
 
-**Output files:** `/CREATIVE/Aiah-Syn-Projects/<project-name>/`
+**Output files:** `/CREATIVE/Projects/<project-name>/SONG/`
 **Platforms:** Aiah Syn YouTube + Instagram (separate from Arek's personal channels)
 
 ### Music Videos (SK-DR-01)
@@ -73,7 +73,7 @@ AI-generated music videos for both Arek and Aiah Syn.
 Song (complete) → Visual Concept → Storyboard → Shot List → AI Production → Edit
 ```
 
-**Output:** `/CREATIVE/Music-Video-Projects/<project-name>/`
+**Output:** `/CREATIVE/Projects/<project-name>/MUSIC-VIDEO/`
 
 ### YouTube Concepts (SK-DR-01)
 Content for Arek's personal YouTube channel (separate from Aiah Syn).
@@ -83,7 +83,7 @@ Content for Arek's personal YouTube channel (separate from Aiah Syn).
 Concept → Hook → Script/Outline → Production plan → Execution
 ```
 
-**Output:** `/CREATIVE/YouTube-Concepts/<concept-name>/`
+**Output:** `/CREATIVE/Projects/<concept-name>/`
 
 ---
 
@@ -143,7 +143,7 @@ If Arek gives feedback: extract the rule, append to the relevant Learnings file 
 3. Assign or confirm status: Active / Waiting / Paused / Done / Archived
 4. If Waiting 3+ months: flag to Arek — kill or revive decision
 5. Organise any loose files into `/CREATIVE/<domain>/<project-name>/`
-6. Document the review in `/CREATIVE/Project-Cleanup-Records/`
+6. Document the review in `/HUB/Creative-Operations/Administration/Project-Cleanup-Records/`
 7. Update Notion entry
 
 **Status taxonomy:**

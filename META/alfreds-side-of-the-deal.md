@@ -27,7 +27,7 @@
 - `Personal/` — Emily's zone
 - `DAILY/Journal/` or `DAILY/Diary/` — Emily's zone
 - `HEALTH/` — Emily's zone
-- `CREATIVE/Imma-Nyala/`, `CREATIVE/Aiah-Syn/`, `CREATIVE/YouTube-Concepts/` — Emily writes; Alfred only reviews and provides governance-level direction
+- `CREATIVE/Projects/Imma-Nyala/`, Aiah Syn project homes under `CREATIVE/Projects/`, and YouTube project homes under `CREATIVE/Projects/` — Emily writes; Alfred only reviews and provides governance-level direction
 - `ABOUT-YOU/` — User-only; neither agent writes without explicit instruction
 - `raw/` — Immutable audit trail for both
 

@@ -28,7 +28,7 @@ tags: [songwriting, suno, music-video, rrhub, pipeline]
 - Follow existing `songwriting-and-ai-music` skill for craft guidelines
 - Map emotional arc: verse intimacy → chorus power → bridge revelation → outro resolution
 
-**Output:** Structured lyrics with Suno metatags, saved in project folder at `CREATIVE/Music-Video-Projects/<Project>/Lyrics.md`
+**Output:** Structured lyrics with Suno metatags, saved at `CREATIVE/Projects/<Project>/SONG/Lyrics.md`.
 
 ### Step 2: Musical Prompt Generation (Style Field)
 

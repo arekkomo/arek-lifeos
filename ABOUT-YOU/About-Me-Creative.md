@@ -10,7 +10,7 @@
 ## Current Creative Projects
 - **Aiah Syn** — music persona; actively building catalog using Suno AI for song production
 - **RealityRowHub** — digital media production company; in development
-- **Imma Nyala** — dry mockumentary cat series (Nyala + Pepe). Each episode = a practical directing exercise. Content output and directing school in one. Active. Files in `/CREATIVE/Imma-Nyala/`
+- **Imma Nyala** — dry mockumentary cat series (Nyala + Pepe). Each episode = a practical directing exercise. Content output and directing school in one. Paused. Files in `/CREATIVE/Projects/Imma-Nyala/`
 
 ## Creative Process
 - **Best creative time:** Mornings (ideas) and evenings (execution)

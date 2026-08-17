@@ -14,7 +14,7 @@
 | `Personal/` (all subfolders) | **Emily** | Calendar, ideas, brainstorming, reading lists |
 | `Creative/Imma-Nyala/` | **Emily** | Series bibles, scripts, storyboards, episode logs |
 | `Creative/Aiah-Syn/` | **Emily** | Music ideas, lyrics, style guides |
-| `CREATIVE/YouTube-Concepts/` | **Emily** | Raw YouTube concept captures |
+| `CREATIVE/Projects/` | **Emily** | Raw YouTube concept captures, organized in their canonical project homes |
 | `HEALTH/` (all subfolders) | **Emily** | Fitness routines, nutrition plans, body measurements |
 | `PEOPLE/` (Emily's notes on people) | **Emily** | Personal relationship maintenance, contact context |
 | `LEARNING/` | **Emily** | Skill trees, tutorials, knowledge acquisition tracking |
