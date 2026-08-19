@@ -1,7 +1,7 @@
 ---
 title: Creative Library Index
 summary: Reusable ideas, concepts, and reference material for future creative projects.
-updated: 2026-08-16
+updated: 2026-08-18
 ---
 
 # Creative Library
@@ -67,5 +67,6 @@ _No entries yet._
 | Reviewed | Items added | Patterns found | Connection suggestions |
 |---|---:|---|---|
 | 2026-08-16 | 0 | Polite containment becomes coercion; private discomfort escalates through public formality; outsiders are stranded between incompatible worlds. | Use **Misguided Care** inside a *King's Chair* protocol beat; use *Date*'s delayed-return pressure against the *Angel/Devil* outsider emotional logic for a lyric-video or short. |
+| 2026-08-18 | 0 | The bank repeatedly turns containment into drama: ritual or politeness masks coercion, while characters are misread or trapped by social expectations. Imported concepts reinforce fractured identity, alternate realities, and formal systems under pressure. | Build a **King's Chair** beat where a gentle “care” gesture silences a warning; develop a *Date* short/lyric-video exercise that makes the delayed threat embody the **Angel/Devil** feeling of having no safe room. |
 
-*Reorganized 2026-08-16 by Director.*
+*Reviewed 2026-08-18 by Director.*
