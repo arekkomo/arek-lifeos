@@ -1,0 +1,37 @@
+{
+  "intent": "how_to",
+  "freshness_mode": "balanced_recent",
+  "cluster_mode": "none",
+  "subqueries": [
+    {
+      "label": "primary",
+      "search_query": "film preproduction standards, storyboards, character/set/prop bibles, voice direction, production notes, songwriting and Suno custom mode",
+      "ranking_query": "What credible developments and discussion signals about film preproduction standards, storyboards, character/set/prop bibles, voice direction, production notes, songwriting and Suno custom mode appeared in the last 30 days?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 1.0
+    },
+    {
+      "label": "focus",
+      "search_query": "film preproduction standards, storyboards, character/set/prop bibles, voice direction, production notes, songwriting and Suno custom mode Define deliverables, required sections, pipeline use, and storyboard versus shot-list distinction. Favor official/expert sources.",
+      "ranking_query": "What recent evidence is most useful about film preproduction standards, storyboards, character/set/prop bibles, voice direction, production notes, songwriting and Suno custom mode and Define deliverables, required sections, pipeline use, and storyboard versus shot-list distinction. Favor official/expert sources.?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 0.7
+    }
+  ]
+}

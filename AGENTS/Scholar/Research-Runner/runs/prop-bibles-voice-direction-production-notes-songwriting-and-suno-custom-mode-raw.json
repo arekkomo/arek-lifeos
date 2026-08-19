@@ -1,0 +1,85 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 0,
+      "sources": [
+        "github"
+      ],
+      "summary": "## What changed\n\nGTAD pivots from a 24-night season of prop games to **\"The Score\"** \u2014 one night, a cutaway film in 14 beats (Intro + 12 scenes + Finale) cut with 12 games the whole room plays on their phones. Built from the five production bibles.\n\nThe 24-night season isn't discarded: it becomes th",
+      "title": "New direction: \"The Score\" becomes the show, the 24 nights become the campaign"
+    },
+    {
+      "engagement_total": 219,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?"
+    },
+    {
+      "engagement_total": 89,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+      "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-19T05:42:03.783472Z",
+  "query": "prop bibles, voice direction, production notes, songwriting and Suno custom mode",
+  "results": [
+    {
+      "candidate_id": "https://github.com/nottjthedj/showbuilderapp/pull/1",
+      "cluster": 0,
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      },
+      "published_at": "2026-07-29",
+      "relevance_score": 0.263,
+      "source": "github",
+      "summary": "## What changed\n\nGTAD pivots from a 24-night season of prop games to **\"The Score\"** \u2014 one night, a cutaway film in 14 beats (Intro + 12 scenes + Finale) cut with 12 games the whole room plays on their phones. Built from the five production bibles.\n\nThe 24-night season isn't discarded: it becomes th",
+      "title": "New direction: \"The Score\" becomes the show, the 24 nights become the campaign",
+      "url": "https://github.com/nottjthedj/showbuilderapp/pull/1"
+    },
+    {
+      "candidate_id": "https://news.ycombinator.com/item?id=49213660",
+      "cluster": 1,
+      "engagement": {
+        "comments": 74,
+        "points": 219
+      },
+      "published_at": "2026-08-07",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "url": "https://news.ycombinator.com/item?id=49213660"
+    },
+    {
+      "candidate_id": "https://micdrop.gg",
+      "cluster": 2,
+      "engagement": {
+        "comments": 42,
+        "points": 89
+      },
+      "published_at": "2026-08-16",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+      "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+      "url": "https://www.micdrop.gg/"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "ok",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}

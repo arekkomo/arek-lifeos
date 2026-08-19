@@ -1,0 +1,283 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "I asked Claude Opus to recreate The Matrix opening scene in Lego",
+      "title": "I asked Claude Opus to recreate The Matrix opening scene in Lego"
+    },
+    {
+      "engagement_total": 8,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Why Gen Z's turned off by sex scenes in movies",
+      "title": "Why Gen Z's turned off by sex scenes in movies"
+    },
+    {
+      "engagement_total": 439,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "User Interfaces of the Demo Scene",
+      "title": "User Interfaces of the Demo Scene"
+    },
+    {
+      "engagement_total": 6,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "I asked GPT 5.6 Sol to build the opening scene to The Matrix using Three.js",
+      "title": "I asked GPT 5.6 Sol to build the opening scene to The Matrix using Three.js"
+    },
+    {
+      "engagement_total": 9,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Why pubs are closing: meet the new Gen Z social scene",
+      "title": "Why pubs are closing: meet the new Gen Z social scene"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Airport sign fails to boot, officers on the scene",
+      "title": "Airport sign fails to boot, officers on the scene"
+    },
+    {
+      "engagement_total": 42,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: Yorishiro \u2013 a macOS terminal where AI agents live",
+      "title": "Show HN: Yorishiro \u2013 a macOS terminal where AI agents live"
+    },
+    {
+      "engagement_total": 6,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: Blender for AI Agents",
+      "title": "Show HN: Blender for AI Agents"
+    },
+    {
+      "engagement_total": 8,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Are we in the era of AI slop landing pages?",
+      "title": "Are we in the era of AI slop landing pages?"
+    },
+    {
+      "engagement_total": 6,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Ask HN: What verb best describes what a developer does in 2026?",
+      "title": "Ask HN: What verb best describes what a developer does in 2026?"
+    },
+    {
+      "engagement_total": 4,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: NoClick \u2013 Build always-on agents with your existing AI subscriptions",
+      "title": "Show HN: NoClick \u2013 Build always-on agents with your existing AI subscriptions"
+    },
+    {
+      "engagement_total": 5,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: Flow Matching model inference in C",
+      "title": "Show HN: Flow Matching model inference in C"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-19T05:42:06.536120Z",
+  "query": "Scene and shot breakdowns in filmmaking",
+  "results": [
+    {
+      "candidate_id": "https://marksmayo.github.io/lego-matrix",
+      "cluster": 0,
+      "engagement": {
+        "comments": 5,
+        "points": 4
+      },
+      "published_at": "2026-08-04",
+      "relevance_score": 0.2813,
+      "source": "hackernews",
+      "summary": "I asked Claude Opus to recreate The Matrix opening scene in Lego",
+      "title": "I asked Claude Opus to recreate The Matrix opening scene in Lego",
+      "url": "https://marksmayo.github.io/lego-matrix/"
+    },
+    {
+      "candidate_id": "https://talkerresearch.com/why-gen-zs-turned-off-by-sex-scenes-in-movies",
+      "cluster": 1,
+      "engagement": {
+        "comments": 8,
+        "points": 4
+      },
+      "published_at": "2026-08-08",
+      "relevance_score": 0.2757,
+      "source": "hackernews",
+      "summary": "Why Gen Z's turned off by sex scenes in movies",
+      "title": "Why Gen Z's turned off by sex scenes in movies",
+      "url": "https://talkerresearch.com/why-gen-zs-turned-off-by-sex-scenes-in-movies/"
+    },
+    {
+      "candidate_id": "https://datagubbe.se/scenegui",
+      "cluster": 2,
+      "engagement": {
+        "comments": 76,
+        "points": 439
+      },
+      "published_at": "2026-07-29",
+      "relevance_score": 0.2566,
+      "source": "hackernews",
+      "summary": "User Interfaces of the Demo Scene",
+      "title": "User Interfaces of the Demo Scene",
+      "url": "https://www.datagubbe.se/scenegui/"
+    },
+    {
+      "candidate_id": "https://marksmayo.github.io/matrix",
+      "cluster": 3,
+      "engagement": {
+        "comments": 1,
+        "points": 6
+      },
+      "published_at": "2026-08-04",
+      "relevance_score": 0.256,
+      "source": "hackernews",
+      "summary": "I asked GPT 5.6 Sol to build the opening scene to The Matrix using Three.js",
+      "title": "I asked GPT 5.6 Sol to build the opening scene to The Matrix using Three.js",
+      "url": "https://marksmayo.github.io/matrix/"
+    },
+    {
+      "candidate_id": "https://cnn.com/2026/07/25/travel/uk-pubs-closing-genz-running-scli-intl",
+      "cluster": 4,
+      "engagement": {
+        "comments": 0,
+        "points": 9
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.2247,
+      "source": "hackernews",
+      "summary": "Why pubs are closing: meet the new Gen Z social scene",
+      "title": "Why pubs are closing: meet the new Gen Z social scene",
+      "url": "https://www.cnn.com/2026/07/25/travel/uk-pubs-closing-genz-running-scli-intl"
+    },
+    {
+      "candidate_id": "https://theregister.com/offbeat/2026/07/31/airport-sign-fails-to-boot-officers-already-on-the-scene/5281066",
+      "cluster": 5,
+      "engagement": {
+        "comments": 0,
+        "points": 5
+      },
+      "published_at": "2026-07-31",
+      "relevance_score": 0.2066,
+      "source": "hackernews",
+      "summary": "Airport sign fails to boot, officers on the scene",
+      "title": "Airport sign fails to boot, officers on the scene",
+      "url": "https://www.theregister.com/offbeat/2026/07/31/airport-sign-fails-to-boot-officers-already-on-the-scene/5281066"
+    },
+    {
+      "candidate_id": "https://github.com/sktkkoo/yorishiro",
+      "cluster": 6,
+      "engagement": {
+        "comments": 13,
+        "points": 42
+      },
+      "published_at": "2026-07-22",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Show HN: Yorishiro \u2013 a macOS terminal where AI agents live",
+      "title": "Show HN: Yorishiro \u2013 a macOS terminal where AI agents live",
+      "url": "https://github.com/sktkkoo/Yorishiro"
+    },
+    {
+      "candidate_id": "https://mixar.app",
+      "cluster": 7,
+      "engagement": {
+        "comments": 6,
+        "points": 6
+      },
+      "published_at": "2026-08-04",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Show HN: Blender for AI Agents",
+      "title": "Show HN: Blender for AI Agents",
+      "url": "https://www.mixar.app"
+    },
+    {
+      "candidate_id": "https://news.ycombinator.com/item?id=49024805",
+      "cluster": 8,
+      "engagement": {
+        "comments": 8,
+        "points": 5
+      },
+      "published_at": "2026-07-23",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Are we in the era of AI slop landing pages?",
+      "title": "Are we in the era of AI slop landing pages?",
+      "url": "https://news.ycombinator.com/item?id=49024805"
+    },
+    {
+      "candidate_id": "https://news.ycombinator.com/item?id=49027642",
+      "cluster": 9,
+      "engagement": {
+        "comments": 6,
+        "points": 4
+      },
+      "published_at": "2026-07-23",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Ask HN: What verb best describes what a developer does in 2026?",
+      "title": "Ask HN: What verb best describes what a developer does in 2026?",
+      "url": "https://news.ycombinator.com/item?id=49027642"
+    },
+    {
+      "candidate_id": "https://noclick.com",
+      "cluster": 10,
+      "engagement": {
+        "comments": 3,
+        "points": 4
+      },
+      "published_at": "2026-07-28",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Show HN: NoClick \u2013 Build always-on agents with your existing AI subscriptions",
+      "title": "Show HN: NoClick \u2013 Build always-on agents with your existing AI subscriptions",
+      "url": "https://www.noclick.com/"
+    },
+    {
+      "candidate_id": "https://github.com/ecrasevvv/c-fm/tree/master",
+      "cluster": 11,
+      "engagement": {
+        "comments": 2,
+        "points": 5
+      },
+      "published_at": "2026-07-23",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Show HN: Flow Matching model inference in C",
+      "title": "Show HN: Flow Matching model inference in C",
+      "url": "https://github.com/ecrasevvv/c-fm/tree/master"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "rate-limited",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}

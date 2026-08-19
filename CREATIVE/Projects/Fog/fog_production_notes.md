@@ -14,6 +14,13 @@ updated: "2026-08-16"
 [Production: polished but spacious; minor key; slow tempo feel; clean verse openings; reverb-heavy melodic chorus; brief drums-drop bridge before the final lift]
 [Style references: dreamy nocturnal intimacy with a restrained hip-hop-diva attitude; do not imitate a specific performer]
 
+## Performance direction
+- **Verses:** lazy, half-sung, breath-close, with space between sensory details.
+- **Pre-choruses:** a melodic lift; the second pre-chorus lets the diva armor snap back.
+- **Choruses:** bigger, melodic, reverb-heavy, with restrained 80s ad-libs.
+- **Bridge:** drums drop; close, bare, whispered confession.
+- **Final chorus:** full layered release, where the final “and that's okay” lands.
+
 ## Existing take settings
 - Weirdness: low-mid (~30%)
 - Style influence: high (~75%)

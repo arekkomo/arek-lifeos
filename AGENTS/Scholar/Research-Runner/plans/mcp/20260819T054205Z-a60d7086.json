@@ -1,0 +1,37 @@
+{
+  "intent": "concept",
+  "freshness_mode": "balanced_recent",
+  "cluster_mode": "none",
+  "subqueries": [
+    {
+      "label": "primary",
+      "search_query": "Scene and shot breakdowns in filmmaking",
+      "ranking_query": "What credible developments and discussion signals about Scene and shot breakdowns in filmmaking appeared in the last 30 days?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 1.0
+    },
+    {
+      "label": "focus",
+      "search_query": "Scene and shot breakdowns in filmmaking Definitions, standard fields, storyboard distinction, AI video constraints",
+      "ranking_query": "What recent evidence is most useful about Scene and shot breakdowns in filmmaking and Definitions, standard fields, storyboard distinction, AI video constraints?",
+      "sources": [
+        "hackernews",
+        "polymarket",
+        "github",
+        "digg",
+        "arxiv",
+        "techmeme",
+        "grounding"
+      ],
+      "weight": 0.7
+    }
+  ]
+}

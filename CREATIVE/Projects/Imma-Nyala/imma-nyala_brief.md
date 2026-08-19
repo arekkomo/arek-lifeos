@@ -70,7 +70,7 @@ The narrator is the spine of the show. **Calm. Composed. Slightly elevated. Affe
 
 The narrator never sounds wacky. The narrator never winks at the camera. The absurdity lands because the narrator treats everything as genuinely significant.
 
-**Full style guide → [[Narrator-Style-Guide]]**
+**Full style guide → [[imma-nyala_voice_direction]]**
 
 ---
 
@@ -148,7 +148,7 @@ The narrator never sounds wacky. The narrator never winks at the camera. The abs
 **Target length:** 7–9 minutes  
 **Concept:** Nyala waits for a major career call — her return to the global stage is imminent — while Pepe repeatedly disrupts her controlled world.
 
-**Full beat sheet → [[Pilot-The-Call]]**
+**Full beat sheet → [[imma-nyala_script_pilot-the-call]]**
 
 ---
 
@@ -163,7 +163,7 @@ The narrator never sounds wacky. The narrator never winks at the camera. The abs
 - Domestic spaces that can be reframed as luxury estate locations (living room, patio, windowsills, hallways)
 - Vancouver bike/travel moments for expanded worldbuilding
 
-**Full checklist → [[Filming-Checklist]]**
+**Full checklist → [[imma-nyala_production_notes]]**
 
 ---
 

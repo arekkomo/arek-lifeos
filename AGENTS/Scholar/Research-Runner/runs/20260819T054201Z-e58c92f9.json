@@ -1,0 +1,869 @@
+{
+  "comparison": true,
+  "entities": [
+    "film preproduction standards, storyboards, character",
+    "set",
+    "prop bibles, voice direction, production notes, songwriting and Suno custom mode"
+  ],
+  "reports": [
+    {
+      "entity": "film preproduction standards, storyboards, character",
+      "report": {
+        "clusters": [
+          {
+            "engagement_total": 7,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Show HN: Nikon F100 Film Camera Repair Notes",
+            "title": "Show HN: Nikon F100 Film Camera Repair Notes"
+          },
+          {
+            "engagement_total": 15,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Testing ultra-thin display film technology in Shenzhen",
+            "title": "Testing ultra-thin display film technology in Shenzhen"
+          },
+          {
+            "engagement_total": 3,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Oneiric \u2013 an open-source AI short film [video]",
+            "title": "Oneiric \u2013 an open-source AI short film [video]"
+          },
+          {
+            "engagement_total": 4,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "American Dynamism Film Series",
+            "title": "American Dynamism Film Series"
+          },
+          {
+            "engagement_total": 6,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Minimalist Film",
+            "title": "Minimalist Film"
+          },
+          {
+            "engagement_total": 8,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Netflix sued for $105M for losing HDs with unencrypted film masters",
+            "title": "Netflix sued for $105M for losing HDs with unencrypted film masters"
+          },
+          {
+            "engagement_total": 3,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Show HN: Stratum \u2013 Rate books, films, and music to find users with similar taste",
+            "title": "Show HN: Stratum \u2013 Rate books, films, and music to find users with similar taste"
+          },
+          {
+            "engagement_total": 5,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "How IMAX 70MM Film is Projected!",
+            "title": "How IMAX 70MM Film is Projected!"
+          },
+          {
+            "engagement_total": 10,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Elon Musk says Grok will make 'historically accurate' Odyssey film by year-end",
+            "title": "Elon Musk says Grok will make 'historically accurate' Odyssey film by year-end"
+          },
+          {
+            "engagement_total": 6,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Neill Blomkamp's new zombie AI 'film' is just slop warmed over",
+            "title": "Neill Blomkamp's new zombie AI 'film' is just slop warmed over"
+          },
+          {
+            "engagement_total": 19,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Hitchcock and Herrmann: The friendship and film scores that changed cinema",
+            "title": "Hitchcock and Herrmann: The friendship and film scores that changed cinema"
+          },
+          {
+            "engagement_total": 6,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "The brief life and sudden death of Zyzz",
+            "title": "The brief life and sudden death of Zyzz"
+          },
+          {
+            "engagement_total": 5,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "DiCaprio and Bezos set USD$200M fund to recover endangered species",
+            "title": "DiCaprio and Bezos set USD$200M fund to recover endangered species"
+          }
+        ],
+        "freshness_verdicts": [],
+        "generated_at": "2026-08-19T05:42:02.250796Z",
+        "query": "film preproduction standards, storyboards, character",
+        "results": [
+          {
+            "candidate_id": "https://github.com/enthdegree/f100",
+            "cluster": 0,
+            "engagement": {
+              "comments": 2,
+              "points": 7
+            },
+            "published_at": "2026-08-15",
+            "relevance_score": 0.3862,
+            "source": "hackernews",
+            "summary": "Show HN: Nikon F100 Film Camera Repair Notes",
+            "title": "Show HN: Nikon F100 Film Camera Repair Notes",
+            "url": "https://github.com/enthdegree/f100"
+          },
+          {
+            "candidate_id": "https://twitter.com/rainmaker1973/status/2083469397394374920",
+            "cluster": 1,
+            "engagement": {
+              "comments": 2,
+              "points": 15
+            },
+            "published_at": "2026-08-03",
+            "relevance_score": 0.3165,
+            "source": "hackernews",
+            "summary": "Testing ultra-thin display film technology in Shenzhen",
+            "title": "Testing ultra-thin display film technology in Shenzhen",
+            "url": "https://twitter.com/Rainmaker1973/status/2083469397394374920"
+          },
+          {
+            "candidate_id": "https://youtube.com/watch?v=aag9idh9_bq",
+            "cluster": 2,
+            "engagement": {
+              "comments": 0,
+              "points": 3
+            },
+            "published_at": "2026-08-13",
+            "relevance_score": 0.3083,
+            "source": "hackernews",
+            "summary": "Oneiric \u2013 an open-source AI short film [video]",
+            "title": "Oneiric \u2013 an open-source AI short film [video]",
+            "url": "https://www.youtube.com/watch?v=aAg9iDh9_BQ"
+          },
+          {
+            "candidate_id": "https://a16z.news/p/american-dynamism-film-series",
+            "cluster": 3,
+            "engagement": {
+              "comments": 0,
+              "points": 4
+            },
+            "published_at": "2026-08-05",
+            "relevance_score": 0.3042,
+            "source": "hackernews",
+            "summary": "American Dynamism Film Series",
+            "title": "American Dynamism Film Series",
+            "url": "https://www.a16z.news/p/american-dynamism-film-series"
+          },
+          {
+            "candidate_id": "https://en.wikipedia.org/wiki/minimalist_film",
+            "cluster": 4,
+            "engagement": {
+              "comments": 0,
+              "points": 6
+            },
+            "published_at": "2026-07-24",
+            "relevance_score": 0.3009,
+            "source": "hackernews",
+            "summary": "Minimalist Film",
+            "title": "Minimalist Film",
+            "url": "https://en.wikipedia.org/wiki/Minimalist_film"
+          },
+          {
+            "candidate_id": "https://cbsnews.com/news/netflix-lawsuit-lost-nicolas-cage-movie",
+            "cluster": 5,
+            "engagement": {
+              "comments": 0,
+              "points": 8
+            },
+            "published_at": "2026-07-31",
+            "relevance_score": 0.2979,
+            "source": "hackernews",
+            "summary": "Netflix sued for $105M for losing HDs with unencrypted film masters",
+            "title": "Netflix sued for $105M for losing HDs with unencrypted film masters",
+            "url": "https://www.cbsnews.com/news/netflix-lawsuit-lost-nicolas-cage-movie/"
+          },
+          {
+            "candidate_id": "https://joinstratum.app",
+            "cluster": 6,
+            "engagement": {
+              "comments": 0,
+              "points": 3
+            },
+            "published_at": "2026-08-15",
+            "relevance_score": 0.2978,
+            "source": "hackernews",
+            "summary": "Show HN: Stratum \u2013 Rate books, films, and music to find users with similar taste",
+            "title": "Show HN: Stratum \u2013 Rate books, films, and music to find users with similar taste",
+            "url": "https://www.joinstratum.app/"
+          },
+          {
+            "candidate_id": "https://youtube.com/watch?v=7s_gebv5blq",
+            "cluster": 7,
+            "engagement": {
+              "comments": 1,
+              "points": 5
+            },
+            "published_at": "2026-07-28",
+            "relevance_score": 0.2976,
+            "source": "hackernews",
+            "summary": "How IMAX 70MM Film is Projected!",
+            "title": "How IMAX 70MM Film is Projected!",
+            "url": "https://www.youtube.com/watch?v=7S_geBV5bLQ"
+          },
+          {
+            "candidate_id": "https://cnn.com/2026/07/22/tech/musk-grok-odyssey-adaptation-scli-intl",
+            "cluster": 8,
+            "engagement": {
+              "comments": 10,
+              "points": 10
+            },
+            "published_at": "2026-07-22",
+            "relevance_score": 0.0777,
+            "source": "hackernews",
+            "summary": "Elon Musk says Grok will make 'historically accurate' Odyssey film by year-end",
+            "title": "Elon Musk says Grok will make 'historically accurate' Odyssey film by year-end",
+            "url": "https://www.cnn.com/2026/07/22/tech/musk-grok-odyssey-adaptation-scli-intl"
+          },
+          {
+            "candidate_id": "https://theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
+            "cluster": 9,
+            "engagement": {
+              "comments": 6,
+              "points": 4
+            },
+            "published_at": "2026-07-23",
+            "relevance_score": 0.0777,
+            "source": "hackernews",
+            "summary": "Neill Blomkamp's new zombie AI 'film' is just slop warmed over",
+            "title": "Neill Blomkamp's new zombie AI 'film' is just slop warmed over",
+            "url": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance"
+          },
+          {
+            "candidate_id": "https://lrb.co.uk/the-paper/v48/n13/jonathan-coe/where-was-the-drum-kit",
+            "cluster": 10,
+            "engagement": {
+              "comments": 1,
+              "points": 19
+            },
+            "published_at": "2026-07-20",
+            "relevance_score": 0.0767,
+            "source": "hackernews",
+            "summary": "Hitchcock and Herrmann: The friendship and film scores that changed cinema",
+            "title": "Hitchcock and Herrmann: The friendship and film scores that changed cinema",
+            "url": "https://www.lrb.co.uk/the-paper/v48/n13/jonathan-coe/where-was-the-drum-kit"
+          },
+          {
+            "candidate_id": "https://theguardian.com/film/2026/aug/02/the-brief-life-and-sudden-death-of-zyzz-why-did-the-bodybuilding-influencer-die-at-just-22",
+            "cluster": 11,
+            "engagement": {
+              "comments": 1,
+              "points": 6
+            },
+            "published_at": "2026-08-02",
+            "relevance_score": 0.0,
+            "source": "hackernews",
+            "summary": "The brief life and sudden death of Zyzz",
+            "title": "The brief life and sudden death of Zyzz",
+            "url": "https://www.theguardian.com/film/2026/aug/02/the-brief-life-and-sudden-death-of-zyzz-why-did-the-bodybuilding-influencer-die-at-just-22"
+          },
+          {
+            "candidate_id": "https://variety.com/2026/film/news/leonardo-dicaprio-jeff-bezos-project-endangered-species-1236827629",
+            "cluster": 12,
+            "engagement": {
+              "comments": 0,
+              "points": 5
+            },
+            "published_at": "2026-08-05",
+            "relevance_score": 0.0,
+            "source": "hackernews",
+            "summary": "DiCaprio and Bezos set USD$200M fund to recover endangered species",
+            "title": "DiCaprio and Bezos set USD$200M fund to recover endangered species",
+            "url": "https://variety.com/2026/film/news/leonardo-dicaprio-jeff-bezos-project-endangered-species-1236827629/"
+          }
+        ],
+        "schema_version": "1.2",
+        "source_status": {
+          "arxiv": "skipped-unconfigured",
+          "digg": "skipped-unconfigured",
+          "github": "rate-limited",
+          "grounding": "unreachable",
+          "hackernews": "ok",
+          "techmeme": "skipped-unconfigured"
+        },
+        "window_days": 30
+      }
+    },
+    {
+      "entity": "set",
+      "report": {
+        "clusters": [
+          {
+            "engagement_total": 323,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.",
+            "title": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S."
+          },
+          {
+            "engagement_total": 560,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "England set to be one of the first countries to eliminate hepatitis C",
+            "title": "England set to be one of the first countries to eliminate hepatitis C"
+          },
+          {
+            "engagement_total": 21,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Trump FCC kills TV ownership cap, claiming authority over limit set by Congress",
+            "title": "Trump FCC kills TV ownership cap, claiming authority over limit set by Congress"
+          },
+          {
+            "engagement_total": 17,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Show HN: An AI agent that trades inside limits you set, starting on paper",
+            "title": "Show HN: An AI agent that trades inside limits you set, starting on paper"
+          },
+          {
+            "engagement_total": 503,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Ray Bradbury's \"There Will Come Soft Rains\" is set today (2026-08-04)",
+            "title": "Ray Bradbury's \"There Will Come Soft Rains\" is set today (2026-08-04)"
+          },
+          {
+            "engagement_total": 33,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "BSD Make extravaganza: Mandelbrot Set In bmake",
+            "title": "BSD Make extravaganza: Mandelbrot Set In bmake"
+          },
+          {
+            "engagement_total": 12,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Adults have struggled to set rules for AI in school. These teens figured it out",
+            "title": "Adults have struggled to set rules for AI in school. These teens figured it out"
+          },
+          {
+            "engagement_total": 89,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "VMs can't boot with Network Mode set to Bridged on Apple M5 Pro machines",
+            "title": "VMs can't boot with Network Mode set to Bridged on Apple M5 Pro machines"
+          },
+          {
+            "engagement_total": 43,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Meta launched a new AI optimism ad set to a song about human extinction",
+            "title": "Meta launched a new AI optimism ad set to a song about human extinction"
+          },
+          {
+            "engagement_total": 34,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "New Jersey bans grocery stores from using shoppers' personal data to set prices",
+            "title": "New Jersey bans grocery stores from using shoppers' personal data to set prices"
+          },
+          {
+            "engagement_total": 128,
+            "sources": [
+              "github"
+            ],
+            "summary": "An update to 1.37 is urgently needed to get the clients running again.\nhttps://github.com/dani-garcia/vaultwarden/releases/tag/1.37.0\n\nRegards, Myrmidon",
+            "title": "Update to 1.37"
+          },
+          {
+            "engagement_total": 231,
+            "sources": [
+              "github"
+            ],
+            "summary": "**Background:** The Go Collections working group was formed in late 2025 with the purpose of bringing common collection data structures to the standard library, guided by the familiar Go principles of pragmatism and simplicity. Alphabetically by last name, the group consists of Jonathan Amsterdam (@",
+            "title": "proposal: container/...: generic collection types"
+          },
+          {
+            "engagement_total": 92,
+            "sources": [
+              "github"
+            ],
+            "summary": "### Checklist\n\n- [x] I've read the [**NO AI / NO LLM POLICY**](https://github.com/yt-dlp/yt-dlp/blob/master/CONTRIBUTING.md#no-ai--no-llm-policy) and understand I may be blocked from the repository if it is violated\n- [x] I'm reporting that yt-dlp is broken on a **supported** site\n- [x] I've verifie",
+            "title": "[Youtube] ERROR: unable to download video data: HTTP Error 403: Forbidden (with `android_vr`)"
+          },
+          {
+            "engagement_total": 141,
+            "sources": [
+              "github"
+            ],
+            "summary": "Codex Diff is unusable in VS Code: after Codex edits files, opening the \u201cCodex Diff\u201d tab shows:\n\nOops, an error has occurred\n\nThis happens in every repository, including a newly opened workspace.\n\nEnvironment:\n- macOS, Apple Silicon\n- VS Code 1.128.0\n- Codex extension: openai.chatgpt 26.721.30844\n\nG",
+            "title": "Codex Diff crashes with \u201cOops, an error has occurred\u201d in VS Code on macOS"
+          },
+          {
+            "engagement_total": 96,
+            "sources": [
+              "github"
+            ],
+            "summary": "## OIDC/SSO moves to PLANKA Pro with the next release\n\nHi everyone,\n\nfirst of all \u2014 we're back. Things went quiet here over the summer, and we\nappreciate your patience during the break. We're picking development back up,\nand the next release comes with a few changes worth explaining.\n\nThe main one:",
+            "title": "OIDC/SSO moves to PLANKA Pro with the next release"
+          },
+          {
+            "engagement_total": 114,
+            "sources": [
+              "github"
+            ],
+            "summary": "Implements https://github.com/microsoft/typescript-go/issues/2824#issuecomment-4919145963\r\n\r\n## Overview\r\n\r\nContent mappers are external integrations that allow TypeScript to include otherwise unsupported file types in a program. They transform a foreign file\u2019s original text into valid TypeScript sy",
+            "title": "Content mappers"
+          },
+          {
+            "engagement_total": 346,
+            "sources": [
+              "github"
+            ],
+            "summary": "[Nix](https://nixos.org/) is a purely functional package manager and build system which is increasingly used in GitHub Actions and Workflows.\n\nIts package collection, [nixpkgs](https://github.com/NixOS/nixpkgs), is also the most comprehensive in the world **BY FAR**:\n\n![Repology: Graph - Repository",
+            "title": "Feature a NixOS Image"
+          },
+          {
+            "engagement_total": 102,
+            "sources": [
+              "github"
+            ],
+            "summary": "## Purpose\r\n\r\n**7.30 Note: after merging, it still needs to install https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.6.16rc5 to run K3**\r\n\r\nadd `moonshotai/Kimi-K3` model support\r\n\r\nPlease use the docker image `vllm/vllm-openai:kimi-k3` to run it, see vllm recipes https://recipes.vl",
+            "title": "[New model] Kimi K3"
+          },
+          {
+            "engagement_total": 101,
+            "sources": [
+              "github"
+            ],
+            "summary": "Talos Linux since version 1.13 [supports the nvidia gpu-operator](https://docs.siderolabs.com/talos/v1.13/configure-your-talos-cluster/hardware-and-drivers/nvidia-gpu-proprietary#nvidia-gpu-proprietary-drivers) on amd64 and arm64 architectures. \n\nTalos is a CNCF AI conformant distribution and meets",
+            "title": "Support upstream K8s running on Talos Linux worker nodes"
+          },
+          {
+            "engagement_total": 157,
+            "sources": [
+              "github"
+            ],
+            "summary": "@ElvishJerricco and I are working on bringing support for end\u2010to\u2010end trusted boot to upstream NixOS, thanks to NLnet funding and building on experience using and maintaining Lanzaboote, our systemd integration, and the NixOS installer images.\n\nOur planned approach will enable more seamless integrati",
+            "title": "Tracking: End\u2010to\u2010end NixOS boot security"
+          }
+        ],
+        "freshness_verdicts": [],
+        "generated_at": "2026-08-19T05:42:02.803642Z",
+        "query": "set",
+        "results": [
+          {
+            "candidate_id": "https://nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+            "cluster": 0,
+            "engagement": {
+              "comments": 323,
+              "points": 246
+            },
+            "published_at": "2026-08-08",
+            "relevance_score": 0.3931,
+            "source": "hackernews",
+            "summary": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.",
+            "title": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.",
+            "url": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html"
+          },
+          {
+            "candidate_id": "https://bbc.com/news/articles/c75gk620r22o",
+            "cluster": 1,
+            "engagement": {
+              "comments": 403,
+              "points": 560
+            },
+            "published_at": "2026-08-11",
+            "relevance_score": 0.3684,
+            "source": "hackernews",
+            "summary": "England set to be one of the first countries to eliminate hepatitis C",
+            "title": "England set to be one of the first countries to eliminate hepatitis C",
+            "url": "https://www.bbc.com/news/articles/c75gk620r22o"
+          },
+          {
+            "candidate_id": "https://arstechnica.com/tech-policy/2026/08/trump-fcc-kills-tv-ownership-cap-claiming-authority-over-limit-set-by-congress",
+            "cluster": 2,
+            "engagement": {
+              "comments": 2,
+              "points": 21
+            },
+            "published_at": "2026-08-06",
+            "relevance_score": 0.3397,
+            "source": "hackernews",
+            "summary": "Trump FCC kills TV ownership cap, claiming authority over limit set by Congress",
+            "title": "Trump FCC kills TV ownership cap, claiming authority over limit set by Congress",
+            "url": "https://arstechnica.com/tech-policy/2026/08/trump-fcc-kills-tv-ownership-cap-claiming-authority-over-limit-set-by-congress/"
+          },
+          {
+            "candidate_id": "https://quantsignals.xyz/fst",
+            "cluster": 3,
+            "engagement": {
+              "comments": 9,
+              "points": 17
+            },
+            "published_at": "2026-08-05",
+            "relevance_score": 0.3374,
+            "source": "hackernews",
+            "summary": "Show HN: An AI agent that trades inside limits you set, starting on paper",
+            "title": "Show HN: An AI agent that trades inside limits you set, starting on paper",
+            "url": "https://quantsignals.xyz/fst"
+          },
+          {
+            "candidate_id": "https://short-stories.co/@raybradbury/there-will-come-soft-rains-6k8vr4xxlnmj",
+            "cluster": 4,
+            "engagement": {
+              "comments": 6,
+              "points": 503
+            },
+            "published_at": "2026-08-04",
+            "relevance_score": 0.3355,
+            "source": "hackernews",
+            "summary": "Ray Bradbury's \"There Will Come Soft Rains\" is set today (2026-08-04)",
+            "title": "Ray Bradbury's \"There Will Come Soft Rains\" is set today (2026-08-04)",
+            "url": "https://short-stories.co/@raybradbury/there-will-come-soft-rains-6k8vr4xxlnmj"
+          },
+          {
+            "candidate_id": "https://github.com/b-aaz/bmake-extravaganza/tree/master",
+            "cluster": 5,
+            "engagement": {
+              "comments": 7,
+              "points": 33
+            },
+            "published_at": "2026-07-30",
+            "relevance_score": 0.3193,
+            "source": "hackernews",
+            "summary": "BSD Make extravaganza: Mandelbrot Set In bmake",
+            "title": "BSD Make extravaganza: Mandelbrot Set In bmake",
+            "url": "https://github.com/b-aaz/bmake-extravaganza/tree/master"
+          },
+          {
+            "candidate_id": "https://text.npr.org/nx-s1-5853571",
+            "cluster": 6,
+            "engagement": {
+              "comments": 0,
+              "points": 12
+            },
+            "published_at": "2026-08-12",
+            "relevance_score": 0.3184,
+            "source": "hackernews",
+            "summary": "Adults have struggled to set rules for AI in school. These teens figured it out",
+            "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
+            "url": "https://text.npr.org/nx-s1-5853571"
+          },
+          {
+            "candidate_id": "https://github.com/utmapp/utm/issues/7658",
+            "cluster": 7,
+            "engagement": {
+              "comments": 48,
+              "points": 89
+            },
+            "published_at": "2026-07-28",
+            "relevance_score": 0.3065,
+            "source": "hackernews",
+            "summary": "VMs can't boot with Network Mode set to Bridged on Apple M5 Pro machines",
+            "title": "VMs can't boot with Network Mode set to Bridged on Apple M5 Pro machines",
+            "url": "https://github.com/utmapp/UTM/issues/7658"
+          },
+          {
+            "candidate_id": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
+            "cluster": 8,
+            "engagement": {
+              "comments": 17,
+              "points": 43
+            },
+            "published_at": "2026-07-27",
+            "relevance_score": 0.2976,
+            "source": "hackernews",
+            "summary": "Meta launched a new AI optimism ad set to a song about human extinction",
+            "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+            "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/"
+          },
+          {
+            "candidate_id": "https://jerseyvindicator.org/2026/07/23/new-jersey-bans-grocery-stores-from-using-shoppers-personal-data-to-set-prices",
+            "cluster": 9,
+            "engagement": {
+              "comments": 1,
+              "points": 34
+            },
+            "published_at": "2026-07-24",
+            "relevance_score": 0.2843,
+            "source": "hackernews",
+            "summary": "New Jersey bans grocery stores from using shoppers' personal data to set prices",
+            "title": "New Jersey bans grocery stores from using shoppers' personal data to set prices",
+            "url": "https://jerseyvindicator.org/2026/07/23/new-jersey-bans-grocery-stores-from-using-shoppers-personal-data-to-set-prices/"
+          },
+          {
+            "candidate_id": "https://github.com/hassio-addons/app-vaultwarden/issues/425",
+            "cluster": 10,
+            "engagement": {
+              "comments": 122,
+              "reactions": 128
+            },
+            "published_at": "2026-07-25",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "An update to 1.37 is urgently needed to get the clients running again.\nhttps://github.com/dani-garcia/vaultwarden/releases/tag/1.37.0\n\nRegards, Myrmidon",
+            "title": "Update to 1.37",
+            "url": "https://github.com/hassio-addons/app-vaultwarden/issues/425"
+          },
+          {
+            "candidate_id": "https://github.com/golang/go/issues/80590",
+            "cluster": 11,
+            "engagement": {
+              "comments": 45,
+              "reactions": 231
+            },
+            "published_at": "2026-07-28",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "**Background:** The Go Collections working group was formed in late 2025 with the purpose of bringing common collection data structures to the standard library, guided by the familiar Go principles of pragmatism and simplicity. Alphabetically by last name, the group consists of Jonathan Amsterdam (@",
+            "title": "proposal: container/...: generic collection types",
+            "url": "https://github.com/golang/go/issues/80590"
+          },
+          {
+            "candidate_id": "https://github.com/yt-dlp/yt-dlp/issues/17456",
+            "cluster": 12,
+            "engagement": {
+              "comments": 87,
+              "reactions": 92
+            },
+            "published_at": "2026-08-18",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "### Checklist\n\n- [x] I've read the [**NO AI / NO LLM POLICY**](https://github.com/yt-dlp/yt-dlp/blob/master/CONTRIBUTING.md#no-ai--no-llm-policy) and understand I may be blocked from the repository if it is violated\n- [x] I'm reporting that yt-dlp is broken on a **supported** site\n- [x] I've verifie",
+            "title": "[Youtube] ERROR: unable to download video data: HTTP Error 403: Forbidden (with `android_vr`)",
+            "url": "https://github.com/yt-dlp/yt-dlp/issues/17456"
+          },
+          {
+            "candidate_id": "https://github.com/openai/codex/issues/35058",
+            "cluster": 13,
+            "engagement": {
+              "comments": 51,
+              "reactions": 141
+            },
+            "published_at": "2026-07-24",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "Codex Diff is unusable in VS Code: after Codex edits files, opening the \u201cCodex Diff\u201d tab shows:\n\nOops, an error has occurred\n\nThis happens in every repository, including a newly opened workspace.\n\nEnvironment:\n- macOS, Apple Silicon\n- VS Code 1.128.0\n- Codex extension: openai.chatgpt 26.721.30844\n\nG",
+            "title": "Codex Diff crashes with \u201cOops, an error has occurred\u201d in VS Code on macOS",
+            "url": "https://github.com/openai/codex/issues/35058"
+          },
+          {
+            "candidate_id": "https://github.com/plankanban/planka/issues/1754",
+            "cluster": 14,
+            "engagement": {
+              "comments": 51,
+              "reactions": 96
+            },
+            "published_at": "2026-08-07",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "## OIDC/SSO moves to PLANKA Pro with the next release\n\nHi everyone,\n\nfirst of all \u2014 we're back. Things went quiet here over the summer, and we\nappreciate your patience during the break. We're picking development back up,\nand the next release comes with a few changes worth explaining.\n\nThe main one:",
+            "title": "OIDC/SSO moves to PLANKA Pro with the next release",
+            "url": "https://github.com/plankanban/planka/issues/1754"
+          },
+          {
+            "candidate_id": "https://github.com/microsoft/typescript-go/pull/4712",
+            "cluster": 15,
+            "engagement": {
+              "comments": 43,
+              "reactions": 114
+            },
+            "published_at": "2026-07-23",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "Implements https://github.com/microsoft/typescript-go/issues/2824#issuecomment-4919145963\r\n\r\n## Overview\r\n\r\nContent mappers are external integrations that allow TypeScript to include otherwise unsupported file types in a program. They transform a foreign file\u2019s original text into valid TypeScript sy",
+            "title": "Content mappers",
+            "url": "https://github.com/microsoft/typescript-go/pull/4712"
+          },
+          {
+            "candidate_id": "https://github.com/actions/runner-images/issues/14558",
+            "cluster": 16,
+            "engagement": {
+              "comments": 8,
+              "reactions": 346
+            },
+            "published_at": "2026-08-13",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "[Nix](https://nixos.org/) is a purely functional package manager and build system which is increasingly used in GitHub Actions and Workflows.\n\nIts package collection, [nixpkgs](https://github.com/NixOS/nixpkgs), is also the most comprehensive in the world **BY FAR**:\n\n![Repology: Graph - Repository",
+            "title": "Feature a NixOS Image",
+            "url": "https://github.com/actions/runner-images/issues/14558"
+          },
+          {
+            "candidate_id": "https://github.com/vllm-project/vllm/pull/50000",
+            "cluster": 17,
+            "engagement": {
+              "comments": 16,
+              "reactions": 102
+            },
+            "published_at": "2026-07-27",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "## Purpose\r\n\r\n**7.30 Note: after merging, it still needs to install https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.6.16rc5 to run K3**\r\n\r\nadd `moonshotai/Kimi-K3` model support\r\n\r\nPlease use the docker image `vllm/vllm-openai:kimi-k3` to run it, see vllm recipes https://recipes.vl",
+            "title": "[New model] Kimi K3",
+            "url": "https://github.com/vllm-project/vllm/pull/50000"
+          },
+          {
+            "candidate_id": "https://github.com/nvidia/gpu-operator/issues/2731",
+            "cluster": 18,
+            "engagement": {
+              "comments": 8,
+              "reactions": 101
+            },
+            "published_at": "2026-08-11",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "Talos Linux since version 1.13 [supports the nvidia gpu-operator](https://docs.siderolabs.com/talos/v1.13/configure-your-talos-cluster/hardware-and-drivers/nvidia-gpu-proprietary#nvidia-gpu-proprietary-drivers) on amd64 and arm64 architectures. \n\nTalos is a CNCF AI conformant distribution and meets",
+            "title": "Support upstream K8s running on Talos Linux worker nodes",
+            "url": "https://github.com/NVIDIA/gpu-operator/issues/2731"
+          },
+          {
+            "candidate_id": "https://github.com/nixos/nixpkgs/issues/549372",
+            "cluster": 19,
+            "engagement": {
+              "comments": 2,
+              "reactions": 157
+            },
+            "published_at": "2026-08-05",
+            "relevance_score": 0.0,
+            "source": "github",
+            "summary": "@ElvishJerricco and I are working on bringing support for end\u2010to\u2010end trusted boot to upstream NixOS, thanks to NLnet funding and building on experience using and maintaining Lanzaboote, our systemd integration, and the NixOS installer images.\n\nOur planned approach will enable more seamless integrati",
+            "title": "Tracking: End\u2010to\u2010end NixOS boot security",
+            "url": "https://github.com/NixOS/nixpkgs/issues/549372"
+          }
+        ],
+        "schema_version": "1.2",
+        "source_status": {
+          "arxiv": "skipped-unconfigured",
+          "digg": "skipped-unconfigured",
+          "github": "ok",
+          "grounding": "unreachable",
+          "hackernews": "ok",
+          "techmeme": "skipped-unconfigured"
+        },
+        "window_days": 30
+      }
+    },
+    {
+      "entity": "prop bibles, voice direction, production notes, songwriting and Suno custom mode",
+      "report": {
+        "clusters": [
+          {
+            "engagement_total": 0,
+            "sources": [
+              "github"
+            ],
+            "summary": "## What changed\n\nGTAD pivots from a 24-night season of prop games to **\"The Score\"** \u2014 one night, a cutaway film in 14 beats (Intro + 12 scenes + Finale) cut with 12 games the whole room plays on their phones. Built from the five production bibles.\n\nThe 24-night season isn't discarded: it becomes th",
+            "title": "New direction: \"The Score\" becomes the show, the 24 nights become the campaign"
+          },
+          {
+            "engagement_total": 219,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+            "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?"
+          },
+          {
+            "engagement_total": 89,
+            "sources": [
+              "hackernews"
+            ],
+            "summary": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+            "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game"
+          }
+        ],
+        "freshness_verdicts": [],
+        "generated_at": "2026-08-19T05:42:03.783472Z",
+        "query": "prop bibles, voice direction, production notes, songwriting and Suno custom mode",
+        "results": [
+          {
+            "candidate_id": "https://github.com/nottjthedj/showbuilderapp/pull/1",
+            "cluster": 0,
+            "engagement": {
+              "comments": 0,
+              "reactions": 0
+            },
+            "published_at": "2026-07-29",
+            "relevance_score": 0.263,
+            "source": "github",
+            "summary": "## What changed\n\nGTAD pivots from a 24-night season of prop games to **\"The Score\"** \u2014 one night, a cutaway film in 14 beats (Intro + 12 scenes + Finale) cut with 12 games the whole room plays on their phones. Built from the five production bibles.\n\nThe 24-night season isn't discarded: it becomes th",
+            "title": "New direction: \"The Score\" becomes the show, the 24 nights become the campaign",
+            "url": "https://github.com/nottjthedj/showbuilderapp/pull/1"
+          },
+          {
+            "candidate_id": "https://news.ycombinator.com/item?id=49213660",
+            "cluster": 1,
+            "engagement": {
+              "comments": 74,
+              "points": 219
+            },
+            "published_at": "2026-08-07",
+            "relevance_score": 0.0,
+            "source": "hackernews",
+            "summary": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+            "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+            "url": "https://news.ycombinator.com/item?id=49213660"
+          },
+          {
+            "candidate_id": "https://micdrop.gg",
+            "cluster": 2,
+            "engagement": {
+              "comments": 42,
+              "points": 89
+            },
+            "published_at": "2026-08-16",
+            "relevance_score": 0.0,
+            "source": "hackernews",
+            "summary": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+            "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+            "url": "https://www.micdrop.gg/"
+          }
+        ],
+        "schema_version": "1.2",
+        "source_status": {
+          "arxiv": "skipped-unconfigured",
+          "digg": "skipped-unconfigured",
+          "github": "ok",
+          "grounding": "unreachable",
+          "hackernews": "ok",
+          "techmeme": "skipped-unconfigured"
+        },
+        "window_days": 30
+      }
+    }
+  ],
+  "schema_version": "1.2"
+}

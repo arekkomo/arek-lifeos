@@ -1,0 +1,239 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 25,
+      "sources": [
+        "github"
+      ],
+      "summary": "## What\n\n`createDatabase` builds the Neon client with no fetch options, so every query in the system inherits undici's defaults. This gives each query its own `AbortSignal` budget (`DEFAULT_QUERY_BUDGET_MS`, 10s, overridable via a `createDatabase` option rather than a new env knob).\n\n## Why\n\nThis is",
+      "title": "fix(db): give every query an abort budget"
+    },
+    {
+      "engagement_total": 40,
+      "sources": [
+        "github"
+      ],
+      "summary": "### Output Type (required)\n\ninternal-script-automation\n\n### PDF pipeline batch\n\nNot applicable\n\n### Research Mode\n\ndeepresearch\n\n### Delivery Mode\n\nproposal-first\n\n### Lifecycle Mode\n\nnew-build\n\n### Commercial Mode\n\ninternal-only\n\n### Assign To / Decision Team\n\ndragnet-team\n\n### Summary\n\nevaluate ht",
+      "title": "[WR]  evaluate https://github.com/junaidtitan/claude-fleets /dragnet"
+    },
+    {
+      "engagement_total": 13,
+      "sources": [
+        "github"
+      ],
+      "summary": "\u2026.Contact cells (audit gap 2c)\r\n\r\nClose audit gap 2c (AGENTS.md Phase-2 gaps #5/#6): New Outlook for Windows showed empty calendar/contacts folders over MAPI because the contents-table rows were not materialised as IPM.Appointment / IPM.Contact cells.\r\n\r\n* src/mapi/converters.rs (new): calendar_to_c",
+      "title": "MAPI: materialise CalDAV/CardDAV contents rows as IPM.Appointment/IPM\u2026"
+    },
+    {
+      "engagement_total": 14,
+      "sources": [
+        "github"
+      ],
+      "summary": "## Summary\n- Preserve pre-V2 local role manifests by defaulting an omitted model to gpt-5.6-sol.\n- Accept the complete current reasoning-effort set in Subagent Creator and Autoreview.\n- Document and report the native V2 concurrency key while retaining explicit V1/fallback limits.\n- Add regression co",
+      "title": "fix(codex-subagents): preserve V2 config compatibility"
+    },
+    {
+      "engagement_total": 6,
+      "sources": [
+        "github"
+      ],
+      "summary": "## Summary\n\nAdds the stateless `signalbox-model-runtime-claude-cli` adapter at exact Claude Code pin `2.1.220`: one prepared operation, one print-mode process, bounded process-group supervision, streamed-JSON decoding, typed observations/evidence, private MCP tool schemas, and credential-shaped outp",
+      "title": "Add Claude Code CLI model runtime adapter"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "github"
+      ],
+      "summary": "## Summary\n\nMerges four already-reviewed and already-merged Athena milestones into `main`. Each was previously landed as its own PR, but all four targeted `feat/athena-a7-memory` as their base rather than `main`, so this branch has been sitting ahead of `main` without a final integration PR:\n\n- #123",
+      "title": "feat(athena): land A8-A11 (event integration, tool SDK, observability, security hardening)"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "github"
+      ],
+      "summary": "### \ud83d\udd17 Linked issue\r\n\r\nresolves https://github.com/nuxt/nuxt/issues/27937\r\n\r\n### \ud83d\udcda Description\r\n\r\nthis is three separate features designed to improve the way setting `noScripts` works for Nuxt:\r\n\r\n1. **hard reload on navigation.** when part of your app uses `noScripts`, a client-side navigation _to_",
+      "title": "feat(nitro,nuxt): improvements when rendering with `noScripts`"
+    },
+    {
+      "engagement_total": 2,
+      "sources": [
+        "github"
+      ],
+      "summary": "## Summary\n- Corrects a large batch of factual/syntax errors across the AEM documentation: wrong Java API classes and methods, invalid FileVault XML, an inverted Dispatcher filter-evaluation rule, a self-contradicting security table entry, an incorrect MSM Live Copy JCR structure, and other AEM/Slin",
+      "title": "Fix incorrect AEM syntax and API references in docs"
+    },
+    {
+      "engagement_total": 1,
+      "sources": [
+        "github"
+      ],
+      "summary": "## Summary\n\n- add the optional `interact-with-pr` input and write complete findings to the workflow run summary when interaction is disabled\n- add the optional `pull-request-url` input with live metadata lookup and an isolated, SHA-verified cross-repository checkout\n- document permissions, event and",
+      "title": "Add read-only cross-repository reviews"
+    },
+    {
+      "engagement_total": 1,
+      "sources": [
+        "github"
+      ],
+      "summary": "**Packages Creative Agent as a local-first Codex plugin with guided YouTube creative workflows.**\n\n- Adds five focused skills for research, import, curation, generation, and optional inspiration boards.\n- Adds a bundled stdio MCP server for local-library search and two-phase public YouTube imports.",
+      "title": "FEATURE: Package Creative Agent as a Codex plugin"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-19T05:42:04.888994Z",
+  "query": "script; definitions, distinctions, best practices, length and structure",
+  "results": [
+    {
+      "candidate_id": "https://github.com/arkorlab/haru/pull/33",
+      "cluster": 0,
+      "engagement": {
+        "comments": 25,
+        "reactions": 3
+      },
+      "published_at": "2026-08-04",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "## What\n\n`createDatabase` builds the Neon client with no fetch options, so every query in the system inherits undici's defaults. This gives each query its own `AbortSignal` budget (`DEFAULT_QUERY_BUDGET_MS`, 10s, overridable via a `createDatabase` option rather than a new env knob).\n\n## Why\n\nThis is",
+      "title": "fix(db): give every query an abort budget",
+      "url": "https://github.com/arkorlab/haru/pull/33"
+    },
+    {
+      "candidate_id": "https://github.com/midnghtsapphire/revvel-standards/issues/16945",
+      "cluster": 1,
+      "engagement": {
+        "comments": 40,
+        "reactions": 1
+      },
+      "published_at": "2026-08-05",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "### Output Type (required)\n\ninternal-script-automation\n\n### PDF pipeline batch\n\nNot applicable\n\n### Research Mode\n\ndeepresearch\n\n### Delivery Mode\n\nproposal-first\n\n### Lifecycle Mode\n\nnew-build\n\n### Commercial Mode\n\ninternal-only\n\n### Assign To / Decision Team\n\ndragnet-team\n\n### Summary\n\nevaluate ht",
+      "title": "[WR]  evaluate https://github.com/junaidtitan/claude-fleets /dragnet",
+      "url": "https://github.com/midnghtsapphire/revvel-standards/issues/16945"
+    },
+    {
+      "candidate_id": "https://github.com/voornaamenachternaam/exchange_gateway/pull/1842",
+      "cluster": 2,
+      "engagement": {
+        "comments": 13,
+        "reactions": 3
+      },
+      "published_at": "2026-08-03",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "\u2026.Contact cells (audit gap 2c)\r\n\r\nClose audit gap 2c (AGENTS.md Phase-2 gaps #5/#6): New Outlook for Windows showed empty calendar/contacts folders over MAPI because the contents-table rows were not materialised as IPM.Appointment / IPM.Contact cells.\r\n\r\n* src/mapi/converters.rs (new): calendar_to_c",
+      "title": "MAPI: materialise CalDAV/CardDAV contents rows as IPM.Appointment/IPM\u2026",
+      "url": "https://github.com/Voornaamenachternaam/exchange_gateway/pull/1842"
+    },
+    {
+      "candidate_id": "https://github.com/bjornmelin/dev-skills/pull/148",
+      "cluster": 3,
+      "engagement": {
+        "comments": 14,
+        "reactions": 1
+      },
+      "published_at": "2026-07-22",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "## Summary\n- Preserve pre-V2 local role manifests by defaulting an omitted model to gpt-5.6-sol.\n- Accept the complete current reasoning-effort set in Subagent Creator and Autoreview.\n- Document and report the native V2 concurrency key while retaining explicit V1/fallback limits.\n- Add regression co",
+      "title": "fix(codex-subagents): preserve V2 config compatibility",
+      "url": "https://github.com/BjornMelin/dev-skills/pull/148"
+    },
+    {
+      "candidate_id": "https://github.com/keenwill/signalbox/pull/320",
+      "cluster": 4,
+      "engagement": {
+        "comments": 6,
+        "reactions": 1
+      },
+      "published_at": "2026-07-29",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "## Summary\n\nAdds the stateless `signalbox-model-runtime-claude-cli` adapter at exact Claude Code pin `2.1.220`: one prepared operation, one print-mode process, bounded process-group supervision, streamed-JSON decoding, typed observations/evidence, private MCP tool schemas, and credential-shaped outp",
+      "title": "Add Claude Code CLI model runtime adapter",
+      "url": "https://github.com/KeenWill/signalbox/pull/320"
+    },
+    {
+      "candidate_id": "https://github.com/404tradeos-llc/tradeos/pull/141",
+      "cluster": 5,
+      "engagement": {
+        "comments": 3,
+        "reactions": 1
+      },
+      "published_at": "2026-08-11",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "## Summary\n\nMerges four already-reviewed and already-merged Athena milestones into `main`. Each was previously landed as its own PR, but all four targeted `feat/athena-a7-memory` as their base rather than `main`, so this branch has been sitting ahead of `main` without a final integration PR:\n\n- #123",
+      "title": "feat(athena): land A8-A11 (event integration, tool SDK, observability, security hardening)",
+      "url": "https://github.com/404TradeOS-LLC/TradeOS/pull/141"
+    },
+    {
+      "candidate_id": "https://github.com/nuxt/nuxt/pull/35803",
+      "cluster": 6,
+      "engagement": {
+        "comments": 3,
+        "reactions": 1
+      },
+      "published_at": "2026-07-22",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "### \ud83d\udd17 Linked issue\r\n\r\nresolves https://github.com/nuxt/nuxt/issues/27937\r\n\r\n### \ud83d\udcda Description\r\n\r\nthis is three separate features designed to improve the way setting `noScripts` works for Nuxt:\r\n\r\n1. **hard reload on navigation.** when part of your app uses `noScripts`, a client-side navigation _to_",
+      "title": "feat(nitro,nuxt): improvements when rendering with `noScripts`",
+      "url": "https://github.com/nuxt/nuxt/pull/35803"
+    },
+    {
+      "candidate_id": "https://github.com/lucanerlich/lucanerlich.com/pull/54",
+      "cluster": 7,
+      "engagement": {
+        "comments": 2,
+        "reactions": 1
+      },
+      "published_at": "2026-08-07",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "## Summary\n- Corrects a large batch of factual/syntax errors across the AEM documentation: wrong Java API classes and methods, invalid FileVault XML, an inverted Dispatcher filter-evaluation rule, a self-contradicting security table entry, an incorrect MSM Live Copy JCR structure, and other AEM/Slin",
+      "title": "Fix incorrect AEM syntax and API references in docs",
+      "url": "https://github.com/LucaNerlich/lucanerlich.com/pull/54"
+    },
+    {
+      "candidate_id": "https://github.com/markhuangai/ai-pr-reviewer/pull/11",
+      "cluster": 8,
+      "engagement": {
+        "comments": 1,
+        "reactions": 1
+      },
+      "published_at": "2026-08-14",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "## Summary\n\n- add the optional `interact-with-pr` input and write complete findings to the workflow run summary when interaction is disabled\n- add the optional `pull-request-url` input with live metadata lookup and an isolated, SHA-verified cross-repository checkout\n- document permissions, event and",
+      "title": "Add read-only cross-repository reviews",
+      "url": "https://github.com/markhuangai/ai-pr-reviewer/pull/11"
+    },
+    {
+      "candidate_id": "https://github.com/davis7dotsh/creative-inspo-agent/pull/2",
+      "cluster": 9,
+      "engagement": {
+        "comments": 1,
+        "reactions": 1
+      },
+      "published_at": "2026-08-13",
+      "relevance_score": 0.0,
+      "source": "github",
+      "summary": "**Packages Creative Agent as a local-first Codex plugin with guided YouTube creative workflows.**\n\n- Adds five focused skills for research, import, curation, generation, and optional inspiration boards.\n- Adds a bundled stdio MCP server for local-library search and two-phase public YouTube imports.",
+      "title": "FEATURE: Package Creative Agent as a Codex plugin",
+      "url": "https://github.com/davis7dotsh/creative-inspo-agent/pull/2"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "ok",
+    "grounding": "unreachable",
+    "hackernews": "no-results",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}

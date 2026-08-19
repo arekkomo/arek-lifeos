@@ -1,0 +1,305 @@
+{
+  "clusters": [
+    {
+      "engagement_total": 1491,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Writing by hand is good for your brain",
+      "title": "Writing by hand is good for your brain"
+    },
+    {
+      "engagement_total": 814,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Anthropic's \u2018watermark\u2019 text adulteration in Claude is a perversion of writing",
+      "title": "Anthropic's \u2018watermark\u2019 text adulteration in Claude is a perversion of writing"
+    },
+    {
+      "engagement_total": 319,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel",
+      "title": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel"
+    },
+    {
+      "engagement_total": 340,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Sticky wage norms and the real wage cost of unexpected inflation",
+      "title": "Sticky wage norms and the real wage cost of unexpected inflation"
+    },
+    {
+      "engagement_total": 231,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "I made tinnitus my friend, then it disappeared [video]",
+      "title": "I made tinnitus my friend, then it disappeared [video]"
+    },
+    {
+      "engagement_total": 211,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "US hires over 2k video gamers as air traffic controllers",
+      "title": "US hires over 2k video gamers as air traffic controllers"
+    },
+    {
+      "engagement_total": 334,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video"
+    },
+    {
+      "engagement_total": 170,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "The development pipeline is a production system",
+      "title": "The development pipeline is a production system"
+    },
+    {
+      "engagement_total": 216,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
+      "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]"
+    },
+    {
+      "engagement_total": 48,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Launch HN: Keet (YC S24) \u2013 An app to create video courses on anything",
+      "title": "Launch HN: Keet (YC S24) \u2013 An app to create video courses on anything"
+    },
+    {
+      "engagement_total": 55,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "The Sound and Music of 'Hyper Light Drifter' [video]",
+      "title": "The Sound and Music of 'Hyper Light Drifter' [video]"
+    },
+    {
+      "engagement_total": 3,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Reddit's AI is turning posts into podcasts and short videos",
+      "title": "Reddit's AI is turning posts into podcasts and short videos"
+    },
+    {
+      "engagement_total": 4,
+      "sources": [
+        "hackernews"
+      ],
+      "summary": "Show HN: Deft Writing, an AI lab for non-slop LLMs",
+      "title": "Show HN: Deft Writing, an AI lab for non-slop LLMs"
+    }
+  ],
+  "freshness_verdicts": [],
+  "generated_at": "2026-08-19T05:42:04.212357Z",
+  "query": "film writing documents: creative brief, plot outline, treatment and screenplay",
+  "results": [
+    {
+      "candidate_id": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "cluster": 0,
+      "engagement": {
+        "comments": 669,
+        "points": 1491
+      },
+      "published_at": "2026-07-23",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Writing by hand is good for your brain",
+      "title": "Writing by hand is good for your brain",
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your"
+    },
+    {
+      "candidate_id": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "cluster": 1,
+      "engagement": {
+        "comments": 721,
+        "points": 814
+      },
+      "published_at": "2026-08-16",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Anthropic's \u2018watermark\u2019 text adulteration in Claude is a perversion of writing",
+      "title": "Anthropic's \u2018watermark\u2019 text adulteration in Claude is a perversion of writing",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing"
+    },
+    {
+      "candidate_id": "https://twitter.com/gwern/status/2084739205071343837",
+      "cluster": 2,
+      "engagement": {
+        "comments": 242,
+        "points": 319
+      },
+      "published_at": "2026-08-04",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel",
+      "title": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel",
+      "url": "https://twitter.com/gwern/status/2084739205071343837"
+    },
+    {
+      "candidate_id": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/bfi_wp_2026-108-1.pdf",
+      "cluster": 3,
+      "engagement": {
+        "comments": 180,
+        "points": 340
+      },
+      "published_at": "2026-08-19",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Sticky wage norms and the real wage cost of unexpected inflation",
+      "title": "Sticky wage norms and the real wage cost of unexpected inflation",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf"
+    },
+    {
+      "candidate_id": "https://mynoise.net/vlog.php?ep=20260803",
+      "cluster": 4,
+      "engagement": {
+        "comments": 174,
+        "points": 231
+      },
+      "published_at": "2026-08-09",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "I made tinnitus my friend, then it disappeared [video]",
+      "title": "I made tinnitus my friend, then it disappeared [video]",
+      "url": "https://mynoise.net/vlog.php?ep=20260803"
+    },
+    {
+      "candidate_id": "https://cbsnews.com/news/video-gamer-air-traffic-controllers-faa-recruitment-sean-duffy",
+      "cluster": 5,
+      "engagement": {
+        "comments": 160,
+        "points": 211
+      },
+      "published_at": "2026-08-11",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "US hires over 2k video gamers as air traffic controllers",
+      "title": "US hires over 2k video gamers as air traffic controllers",
+      "url": "https://www.cbsnews.com/news/video-gamer-air-traffic-controllers-faa-recruitment-sean-duffy/"
+    },
+    {
+      "candidate_id": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "cluster": 6,
+      "engagement": {
+        "comments": 94,
+        "points": 334
+      },
+      "published_at": "2026-08-03",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui"
+    },
+    {
+      "candidate_id": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
+      "cluster": 7,
+      "engagement": {
+        "comments": 89,
+        "points": 170
+      },
+      "published_at": "2026-08-01",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "The development pipeline is a production system",
+      "title": "The development pipeline is a production system",
+      "url": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system"
+    },
+    {
+      "candidate_id": "https://youtube.com/watch?v=uufmqwyo7py",
+      "cluster": 8,
+      "engagement": {
+        "comments": 61,
+        "points": 216
+      },
+      "published_at": "2026-08-07",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
+      "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
+      "url": "https://www.youtube.com/watch?v=UufMqwyO7pY"
+    },
+    {
+      "candidate_id": "https://trykeet.com",
+      "cluster": 9,
+      "engagement": {
+        "comments": 48,
+        "points": 48
+      },
+      "published_at": "2026-08-11",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Launch HN: Keet (YC S24) \u2013 An app to create video courses on anything",
+      "title": "Launch HN: Keet (YC S24) \u2013 An app to create video courses on anything",
+      "url": "https://www.trykeet.com/"
+    },
+    {
+      "candidate_id": "https://gdcvault.com/play/1024135/the-sound-and-music-of",
+      "cluster": 10,
+      "engagement": {
+        "comments": 11,
+        "points": 55
+      },
+      "published_at": "2026-08-05",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "The Sound and Music of 'Hyper Light Drifter' [video]",
+      "title": "The Sound and Music of 'Hyper Light Drifter' [video]",
+      "url": "https://gdcvault.com/play/1024135/The-Sound-and-Music-of"
+    },
+    {
+      "candidate_id": "https://theverge.com/tech/981289/reddit-ai-text-video-posts",
+      "cluster": 11,
+      "engagement": {
+        "comments": 2,
+        "points": 3
+      },
+      "published_at": "2026-08-18",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Reddit's AI is turning posts into podcasts and short videos",
+      "title": "Reddit's AI is turning posts into podcasts and short videos",
+      "url": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts"
+    },
+    {
+      "candidate_id": "https://deftwriting.com",
+      "cluster": 12,
+      "engagement": {
+        "comments": 0,
+        "points": 4
+      },
+      "published_at": "2026-08-18",
+      "relevance_score": 0.0,
+      "source": "hackernews",
+      "summary": "Show HN: Deft Writing, an AI lab for non-slop LLMs",
+      "title": "Show HN: Deft Writing, an AI lab for non-slop LLMs",
+      "url": "https://deftwriting.com"
+    }
+  ],
+  "schema_version": "1.2",
+  "source_status": {
+    "arxiv": "skipped-unconfigured",
+    "digg": "skipped-unconfigured",
+    "github": "rate-limited",
+    "grounding": "unreachable",
+    "hackernews": "ok",
+    "techmeme": "skipped-unconfigured"
+  },
+  "window_days": 30
+}
