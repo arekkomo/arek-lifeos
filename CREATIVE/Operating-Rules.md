@@ -15,7 +15,7 @@ CREATIVE/
 └── Library/        # reusable ideas, concepts, and creative reference
 ```
 
-Root reference notes—including `Creative-Style-Bible.md`, `Aiah-Syn-Style.md`, `Project-Catalog.md`, and `Project-File-Schema.md`—remain source-of-truth documents.
+Root reference notes—including `Creative-Style-Bible.md`, `Aiah-Syn-Style.md`, `Project-Catalog.md`, `Project-File-Schema.md`, and `RRHub-Creative-Project-Contract.md`—remain source-of-truth documents.
 
 ## One project, one flat folder
 
