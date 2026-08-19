@@ -1,66 +1,46 @@
 ---
 title: Creative Project Operating Rules
-summary: Canonical structure and lifecycle for all work in CREATIVE.
+summary: Canonical project, file, Library, and RRHub rules for CREATIVE.
 updated: 2026-08-16
 ---
 
 # Creative Project Operating Rules
 
-## The Creative Root
-
-`CREATIVE/` has exactly three working subfolders:
+## Creative root
 
 ```text
 CREATIVE/
-├── Projects/       # one canonical home per creative project
-├── Inspirations/   # incoming references and sparks
-└── Library/        # reusable elements and studio reference material
+├── Projects/       # one flat folder per creative project
+├── Inspirations/   # unassigned sparks and references
+└── Library/        # reusable ideas, concepts, and creative reference
 ```
 
-Root-level reference notes such as `Creative-Style-Bible.md`, `Aiah-Syn-Style.md`, and `Project-Catalog.md` remain source-of-truth documents—not project folders.
+Root reference notes—including `Creative-Style-Bible.md`, `Aiah-Syn-Style.md`, `Project-Catalog.md`, and `Project-File-Schema.md`—remain source-of-truth documents.
 
-## One Project, One Home
+## One project, one flat folder
 
-Every creative project lives at:
+Every creative project lives at `CREATIVE/Projects/<Project-Name>/`.
 
-```text
-CREATIVE/Projects/<Project-Name>/
-```
+- Never create project-type folders such as `Song-Projects/`, `Film-Projects/`, or `Music-Video-Projects/`.
+- Never create subfolders inside a project **except for episodic work**.
+- Episodic projects use `EPISODES/EP01/`, `EPISODES/EP02/`, and so on; each episode folder contains only that episode's files, named `<project>_ep01_<file-type>.md` and tagged `episode: EP01`.
+- A song, music video, screenplay, assets, and references are otherwise files inside the same project folder.
+- Use the filename and metadata contract in [[Project-File-Schema]].
 
-- Use title case with hyphens: `The-Kings-Chair`, `Little-M`, `Angel-In-Hell-Devil-In-Heaven`.
-- Never create domain containers such as `Song-Projects/`, `Film-Projects/`, or `Music-Video-Projects/`.
-- A song, its music video, and their shared development belong in the **same project folder**.
-- `Project-Catalog.md` is the index of all project homes.
+## RRHub and vault matching
 
-## Required Project Structure
+Every project file carries the shared metadata: `type`, `title`, `project`, `stage`, `version`, and `updated`.
 
-```text
-CREATIVE/Projects/<Project-Name>/
-├── Project-Brief.md
-├── SONG/                 # lyrics, song structure, Suno prompts
-├── MUSIC-VIDEO/          # treatment, storyboard, shot list
-├── SCRIPTS/              # film / narrative scripts when applicable
-├── ASSETS/               # character, set, prop, visual assets
-├── REFERENCES/           # project-specific inspiration
-└── NOTES/                # decisions, learnings, supporting material
-```
-
-Use only the component folders a project needs. A film may use `SCRIPTS/`, `STORYBOARD/`, `SHOT-LIST/`, and `REFERENCES/`; a YouTube concept may only need `DEVELOPMENT.md` at first. Do not create empty folders simply to match the example.
-
-## Project Brief
-
-Every project must have `Project-Brief.md` at its root with:
-
-- YAML frontmatter: `title`, `summary`, `stage`, `domain`, `created`
-- A one-line concept and emotional or creative intent
-- Links or a list of active component folders
-- Current status and one concrete next output
+- RRHub types are exactly: `song`, `script`, `scene_breakdown`, `shot_breakdown`, and `note`.
+- A `song` file contains both lyrics and Suno style under `=== SUNO STYLE ===`; do not create standalone lyric or prompt files.
+- A `shot_breakdown` must preserve `source:` and point to its paired script filename.
+- Supporting creative material uses `type: note`, so it remains visible and editable in RRHub without pretending to be a script or song.
 
 ## Library and Inspirations
 
-- **Inspirations:** unassigned references, sparks, images, links, and tonal discoveries. Route a reference into a project once it has a home.
+- **Inspirations:** unassigned references, sparks, images, links, and tonal discoveries. Route an item into a project once it has a home.
 - **Library:** reusable ideas, concepts, story design, production assets, prompt reference, and curated craft captures. It is not project storage or administration.
-- Reusable material created inside a project should be logged to `Library/` while remaining in its project home.
+- **HUB/Creative-Operations:** cleanup records, review dashboards, sync tooling, and system prompts.
 
 ## Lifecycle
 
@@ -68,4 +48,4 @@ Every project must have `Project-Brief.md` at its root with:
 Idea → Development → Production → Post Prod → Review → Done / Archived
 ```
 
-Only sync a project to Notion when it moves to **Production**. Obsidian remains the primary source; Notion is a mirror.
+Sync to Notion only when a project reaches Production. The vault is the creative source of truth; RRHub reads the same project files.
