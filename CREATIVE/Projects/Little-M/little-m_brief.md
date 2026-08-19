@@ -17,4 +17,4 @@ The song and music video are one project: polished, commercially credible club-p
 - [[little-m_music-video_brief|Music video]] — visual development and production planning.
 
 ## Status
-Development. Resolve the remaining lyric work before any Suno prompt or video production.
+Development. The canonical song now contains lyrics and Suno direction; confirm it is final, then generate first Suno takes before video production.

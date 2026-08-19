@@ -93,7 +93,7 @@ When you finish an episode, if you feel like it, write a quick note on what you 
 *"I need to get lower when I film Pepe — the angle was wrong."*  
 *"The narration line was funnier once I cut to the wide."*
 
-These observations, over time, become your directing instincts. Log them in [[Episode-Log]] if you want to keep them. Or just let them accumulate in your head. Either works.
+These observations, over time, become your directing instincts. Log them in [[imma-nyala_episode_log]] if you want to keep them. Or just let them accumulate in your head. Either works.
 
 ---
 

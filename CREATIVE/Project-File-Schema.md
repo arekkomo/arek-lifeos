@@ -64,7 +64,6 @@ updated: YYYY-MM-DD
 | `_storyboard` | `note` | Storyboard progression or storyboard notes |
 | `_character_bible`, `_set_bible`, `_prop_bible` | `note` | Reusable project asset definitions |
 | `_voice_direction`, `_production_notes`, `_reference` | `note` | Supporting direction and project notes |
-| `_notion_source` | `note` | Preserved imported source material |
 
 ## Song rule
 

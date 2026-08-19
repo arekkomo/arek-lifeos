@@ -175,7 +175,7 @@ The narrator never sounds wacky. The narrator never winks at the camera. The abs
 
 Each episode has a **Directing Focus** — a specific skill from the curriculum practiced in that episode. The constraint of filming uncontrollable cats is not a bug. It is the training. A director who can find composition, intention, and story in chaotic real behaviour can direct anything.
 
-**Full curriculum map → [[Directing-Curriculum-Map]]**
+**Full curriculum map → [[imma-nyala_directing_curriculum]]**
 
 ---
 
@@ -183,10 +183,11 @@ Each episode has a **Directing Focus** — a specific skill from the curriculum 
 
 | File | Purpose |
 |------|---------|
-| [[Project-Brief]] | This document — master reference |
-| [[Directing-Curriculum-Map]] | Episode-to-curriculum skill mapping |
-| [[Episode-Template]] | Working template for each episode |
-| [[Pilot-The-Call]] | Pilot beat sheet and scene structure |
-| [[Filming-Checklist]] | What to capture for Nyala and Pepe |
-| [[Narrator-Style-Guide]] | Voice direction and sample lines |
-| [[Episode-Log]] | Completed episodes with directing skills logged |
+| [[imma-nyala_brief]] | This document — master reference |
+| [[imma-nyala_directing_curriculum]] | Episode-to-curriculum skill mapping |
+| [[imma-nyala_episode_template]] | Working template for each episode |
+| [[imma-nyala_script_pilot-the-call]] | Pilot beat sheet and scene structure |
+| [[imma-nyala_production_notes]] | What to capture for Nyala and Pepe |
+| [[imma-nyala_voice_direction]] | Voice direction and sample lines |
+| [[imma-nyala_episode_log]] | Completed episodes with directing skills logged |
+| [[EPISODES/EP01/imma-nyala_ep01_script]] | Episode 1 — “The Entrance” script |

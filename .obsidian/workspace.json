@@ -11,14 +11,10 @@
             "id": "5f761525d77b6d5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CREATIVE/Projects/Fog/fog_song_brief.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "fog_song_brief"
+              "title": "New tab"
             }
           }
         ]
@@ -185,8 +181,9 @@
   },
   "active": "5f761525d77b6d5e",
   "lastOpenFiles": [
-    "CREATIVE/Projects/Fog/fog_song.md",
+    "CREATIVE/Projects/Fog/fog_music-video_brief.md",
     "CREATIVE/Projects/Fog/fog_song_brief.md",
+    "CREATIVE/Projects/Fog/fog_song.md",
     "CREATIVE/Projects/Fog/fog_storyboard_notes.md",
     "CREATIVE/Projects/Fog/fog_storyboard_v01.md",
     "CREATIVE/Projects/Date/date_brief.md",
@@ -195,7 +192,6 @@
     "CREATIVE/Projects/Fog/fog_shot_breakdown.md",
     "CREATIVE/Projects/Fog/fog_treatment_v01.md",
     "CREATIVE/Projects/Fog/fog_plot_outline.md",
-    "CREATIVE/Projects/Fog/fog_music-video_brief.md",
     "CREATIVE/Projects/Fog/fog_brief.md",
     "CREATIVE/Projects/Fog/SONG/Project-Brief.md",
     "CREATIVE/Projects/Fog/NOTION-SOURCE/fog--344b4695.md",

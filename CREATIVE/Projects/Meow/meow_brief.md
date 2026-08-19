@@ -14,4 +14,4 @@ updated: "2026-08-16"
 - [[meow_script]] and [[meow_shot_breakdown]] — music-video source and shot-list material.
 
 ## Status
-Development — consolidate any remaining alternate lyric material before production.
+Development — song versions are consolidated. Select the canonical version, then develop and lock the music-video script before production.
