@@ -43,7 +43,7 @@ Use `EP01`, `EP02`, etc. Episode files must include `episode: EP01`.
 
 | File | RRHub type | Responsibility |
 |---|---|---|
-| `<project>_brief.md` | `note` | Master context and production control: intent, treatment, references, character/set/prop/voice direction, decisions, notes, status, next action. |
+| `<project>_brief.md` | `note` | **Living master context and production control.** Cumulates intent, ideas, treatment, references, character/set/prop/voice direction, decisions, notes, status, and next action. |
 | `<project>_plot_outline.md` | `note` | Causal story / sequence / episode progression. |
 | `<project>_script.md` | `script` | Executable story: action, dialogue, narration, sound. |
 | `<project>_song.md` | `song` | One canonical lyric plus Suno style source. |
@@ -120,7 +120,23 @@ Narrative job, frame, camera, action/blocking, sound, timing/edit, continuity, e
 - Preserve existing shot IDs.
 - `source` must refer to a real canonical script in the same project or episode folder.
 
-## Tool behavior
+## Pipeline and dependency rules
+
+```text
+Brief (living master context)
+  ├── Song ───────────────┐
+  └── Plot Outline ───────┼──→ Script → Scene + Shot Breakdown → Generation / Edit
+                          │
+              Song and Plot Outline can begin in either order.
+```
+
+1. **Every project begins with the Master Brief.** It accumulates the project’s information, loose ideas, references, decisions, and production notes throughout the life of the work.
+2. **Song and Plot Outline are independent branches.** For a typical music video, develop/lock the Song first, then build the Plot Outline from its lyrics and emotional world. This is a default—not a hard rule. A visual/story idea may start with Plot Outline and lead to Song instead.
+3. **Move from Plot Outline to Script only once the outline is creatively approved.** The Script turns the agreed progression into observable action, dialogue, narration, and sound.
+4. **Define assets while writing the Script.** Character, set, prop, costume, and voice requirements are developed alongside the Script and recorded in the Master Brief’s asset/voice section. Do not create separate asset-bible files.
+5. **Create Scene + Shot Breakdown only after the Script is ready.** It translates the locked script into scene intent, visual/storyboard planning, and production-ready shot coverage.
+6. **Return upstream when needed.** If a scene/shot decision exposes a story problem, revise the Script (or earlier Outline/Brief) rather than inventing a new story event in the breakdown.
+
 
 ### Read
 

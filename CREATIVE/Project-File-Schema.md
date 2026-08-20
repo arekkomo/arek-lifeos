@@ -77,7 +77,7 @@ episode: EP01
 
 ## Master brief sections
 
-The `_brief` is the project’s sole context and production-control file. Use only the sections that serve the project:
+The `_brief` is the project’s **living master context and production-control file**. Start every project here, then continually add its information, loose ideas, references, decisions, and production notes. Use only the sections that serve the project:
 
 ```markdown
 # <Project>

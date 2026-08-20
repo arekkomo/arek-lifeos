@@ -33,6 +33,25 @@ Reference documents: `Project-Catalog.md`, `Project-File-Schema.md`, `Writing-Ty
 - `_song` is the sole lyrics-plus-Suno source.
 - `_scene_shot_breakdown` combines scene analysis, storyboard/keyframe planning, and the shot plan.
 
+## Working pipeline
+
+```text
+Brief (living master context)
+  ├── Song
+  └── Plot Outline
+       ↓ (approved)
+    Script + asset definition
+       ↓ (ready)
+Scene + Shot Breakdown → Generation / Edit
+```
+
+- Start every project with `_brief` and continuously accumulate its ideas, context, notes, references, and decisions there.
+- Song and Plot Outline are independent entry branches. For music videos, Song → Plot Outline is the usual path, but Plot Outline → Song is equally valid when the visual/story idea arrives first.
+- Move to Script only once the Plot Outline is creatively approved.
+- Define character, set, prop, costume, and voice requirements while scripting; keep them in the Brief rather than creating separate asset files.
+- Move to Scene + Shot Breakdown only after the Script is ready. Revise the Script/Outline if planning exposes a story issue.
+
+
 ## RRHub and vault matching
 
 - Every file uses shared metadata: `type`, `title`, `project`, `stage`, `version`, `updated`.

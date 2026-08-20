@@ -10,7 +10,7 @@ updated: 2026-08-18
 
 ## Purpose
 
-The Master Project Brief is the single context and production-control document for a project. It replaces standalone treatment, reference, production-notes, character-bible, set-bible, prop-bible, and voice-direction files.
+The Master Project Brief is the project’s **living context and production-control document**. Start the project here and cumulatively add its information, ideas, references, decisions, and production notes as it develops.
 
 ## Required sections
 

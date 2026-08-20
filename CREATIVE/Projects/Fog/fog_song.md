@@ -77,6 +77,5 @@ I ain't in the mood for the world today
 [Style references: dreamy nocturnal intimacy with a restrained hip-hop-diva attitude; do not imitate a specific performer]
 
 === MINIMAX STYLE ===
-Global Metadata: slow dark pop at 68 BPM, E minor, lonely and withdrawn mood in the verses that releases into a cathartic chorus, late-night introspection after loss, clean electric guitar with heavy reverb, warm sub-bass, atmospheric pads, sparse drum machine groan.
-Vocal Details: male lead, low-mid timbre, reluctant and breathy close to the mic in the verses, gradually more voiced but still restrained through the choruses, no vocal fry or belting, light plate reverb, voice slightly upfront against the mix.
-Arrangement: verse opens on a single clean electric guitar with long decay and soft pad; muted kick and brushed snare enter at the pre-chorus; the chorus adds a sub-bass pulse, wider pads, and a slow half-time rock beat; the bridge reduces to voice and one pad tone before the full band returns for the final chorus on the last line.
+Global Metadata: slow dark pop at 68 BPM, E minor, lonely and withdrawn mood in the verses that releases into a cathartic chorus, late-night introspection after loss, warm sub-bass, atmospheric pads, sparse drum machine groan.
+Vocal Details: female lead, low-mid timbre, reluctant and breathy close to the mic in the verses, gradually more voiced but still restrained through the choruses, no vocal fry or belting, light plate reverb, voice slightly upfront against the mix.
