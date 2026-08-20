@@ -1,10 +1,10 @@
 ---
-type: "shot_breakdown"
-title: "Chaotic Baking — Shot Breakdown"
+type: shot_breakdown
+title: Chaotic Baking — Shot Breakdown
 project: "Chaotic-Baking"
 stage: "Development"
 version: "current"
-updated: "2026-08-16"
+updated: 2026-08-19
 source: "chaotic-baking_script.md"
 ---
 
