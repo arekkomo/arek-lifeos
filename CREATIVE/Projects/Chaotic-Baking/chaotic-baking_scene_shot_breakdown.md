@@ -1,12 +1,18 @@
 ---
 type: shot_breakdown
-title: Chaotic Baking — Shot Breakdown
+title: "Chaotic Baking — Scene + Shot Breakdown"
 project: "Chaotic-Baking"
 stage: "Development"
 version: "current"
-updated: 2026-08-19
+updated: "2026-08-18"
 source: "chaotic-baking_script.md"
 ---
+
+## Scene Intent
+
+Define scene function, objective, conflict, turn, staging, and continuity before the shot plan.
+
+## Shot Plan
 
 ## SCENE CHB_0040 — Blank room, stripped down to work surface and bare bulbs
 id: scn_8e24a5

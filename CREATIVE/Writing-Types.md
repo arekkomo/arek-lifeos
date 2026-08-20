@@ -1,47 +1,22 @@
 ---
-title: Creative Writing Types
-summary: Approved 13-type taxonomy for project files, knowledge bases, and writing skills.
+title: Creative Project Writing Types
+summary: Simplified five-file taxonomy for RRHub creative projects.
 status: active
 updated: 2026-08-18
 ---
 
-# Creative Writing Types
+# Creative Project Writing Types
 
-## Core creative writing
+Every project uses up to five canonical project files:
 
-| Type | Purpose | Canonical filename suffix |
-|---|---|---|
-| Project Brief | Project north star: premise, intent, audience, status, and next output. | `_brief` |
-| Plot Outline | Story, series, episode, or sequence progression before scenes. | `_plot_outline` |
-| Treatment | Prose articulation of tone, world, characters, and audience experience. | `_treatment` |
-| Script | Scene-by-scene action, dialogue, narration, and transitions. | `_script` |
-| Song | Final lyrics and Suno style direction in one source file. | `_song` |
-| Scene Breakdown | Scene purpose, dramatic turn, emotion, conflict, and staging. | `_scene_breakdown` |
-| Shot Breakdown | Directorial shot plan linked to its source script. | `_shot_breakdown` |
+1. **Master Project Brief** (`_brief`) — all project context and production control: intent, treatment, references, asset/voice direction, decisions, notes, status, and next action.
+2. **Plot Outline** (`_plot_outline`) — causally ordered story, sequence, episode, or concept beats.
+3. **Script** (`_script`) — executable scene-level action, dialogue, narration, and sound.
+4. **Song** (`_song`) — canonical lyrics plus the Suno style block in one file.
+5. **Scene + Shot Breakdown** (`_scene_shot_breakdown`) — scene intent, visual/storyboard planning, and executable shot plan in one RRHub `shot_breakdown` file.
 
-## Direction and production writing
+## Craft modules inside the system
 
-| Type | Purpose | Canonical filename suffix |
-|---|---|---|
-| Storyboard | Visual scene progression, framing intent, and key visual references. | `_storyboard` |
-| Character Bible | Identity, behaviour, voice, visual language, and arc rules. | `_character_bible` |
-| Set Bible | Recurring location, world, and visual-continuity definitions. | `_set_bible` |
-| Prop Bible | Recurring prop identity, function, and continuity rules. | `_prop_bible` |
-| Voice Direction | Narration, dialogue delivery, vocal performance, and sound identity. | `_voice_direction` |
-| Production Notes | Generation settings, decisions, practical constraints, open questions, and lessons. | `_production_notes` |
+Treatment, storyboard, character bible, set bible, prop bible, voice direction, production notes, and references remain important craft disciplines—but they are **sections within the Master Project Brief or Scene + Shot Breakdown**, not standalone project files.
 
-## Build order
-
-1. Project Brief
-2. Plot Outline
-3. Treatment
-4. Script
-5. Scene Breakdown
-6. Shot Breakdown
-7. Song
-8. Direction and production types
-
-Each type will receive:
-- a concise rule set;
-- a Scholar-backed craft knowledge base in [[Knowledge/Writing-Craft/Index|Writing Craft Knowledge Base]];
-- the Director writing-craft system with templates, checks, and examples.
+The detailed writing playbooks remain available at [[Knowledge/Writing-Craft/Index|Writing Craft Knowledge Base]].

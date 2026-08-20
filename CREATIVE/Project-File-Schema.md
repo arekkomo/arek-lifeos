@@ -1,84 +1,126 @@
 ---
-title: Creative Project Flat File Schema
-summary: Canonical filename and metadata contract for CREATIVE/Projects and RealityRoveHub.
-updated: 2026-08-16
+title: Creative Project File Schema
+summary: Simplified five-file RRHub/Vault contract for creative projects.
+updated: 2026-08-18
 ---
 
-# Creative Project Flat File Schema
+# Creative Project File Schema
 
-## Location
-
-Each project lives in one flat folder:
+## Project location
 
 ```text
 CREATIVE/Projects/<Project-Name>/
 ```
 
-No subfolders **except episodic work**. Every non-episode file follows:
+A project is flat except for episodic work:
 
 ```text
-<project-name>_<file-type>[_<descriptor>][_vNN].md
+<Project-Name>/EPISODES/EP01/<project-slug>_ep01_<file-type>.md
 ```
 
-For an episodic project, use the one permitted nested structure:
+Use `EP01`, `EP02`, etc. Episode files add `episode: EP01` to frontmatter.
+
+## The five project files
+
+| Canonical suffix | RRHub type | Purpose |
+|---|---|---|
+| `_brief` | `note` | **Master project file.** Concept, treatment, references, character/set/prop/voice direction, production notes, decisions, status, and next action. |
+| `_plot_outline` | `note` | Story, sequence, episode, or concept progression. |
+| `_script` | `script` | Executable screenplay, video script, or episode script. |
+| `_song` | `song` | Canonical lyrics and Suno style direction in one file. |
+| `_scene_shot_breakdown` | `shot_breakdown` | Combined scene analysis, visual/storyboard planning, and shot plan. |
+
+Create only the files a project actually needs. Do not create standalone treatment, storyboard, production-notes, reference, character-bible, set-bible, prop-bible, voice-direction, scene-breakdown, or shot-breakdown files.
+
+## Naming
 
 ```text
-<Project-Name>/
-└── EPISODES/
-    └── EP01/
-        └── <project-name>_ep01_<file-type>[_vNN].md
+<project-slug>_<file-type>[_vNN].md
+<project-slug>_epNN_<file-type>[_vNN].md
 ```
 
-Use sequential folder IDs: `EP01`, `EP02`, `EP03`.
+Examples:
 
-Examples: `fog_song.md`, `fog_shot_breakdown.md`, `the-kings-chair_character_bible.md`, `meow_song_v02.md`.
+```text
+fog_brief.md
+fog_plot_outline.md
+fog_script.md
+fog_song.md
+fog_scene_shot_breakdown.md
+imma-nyala_ep01_script.md
+```
 
-## Required metadata
+Use version suffixes only for genuinely active alternatives. Keep the unversioned file as the canonical approved/current version.
 
-Every project Markdown file begins with:
+## Shared metadata
 
 ```yaml
 ---
-type: song | script | scene_breakdown | shot_breakdown | note
+type: song | script | shot_breakdown | note
 title: Human-readable title
 project: Exact project-folder name
 stage: Idea | Development | Production | Post Prod | Review | Done | Paused | Archived
-version: current | v01 | v02 | imported | placeholder
+version: current | v01 | v02 | placeholder
 updated: YYYY-MM-DD
 ---
 ```
 
-`source:` is required on a `shot_breakdown` and names its paired script filename. Episode files also add `episode: EP01` matching their episode folder.
+Additional fields:
 
-## File types
+```yaml
+# Required for a scene + shot breakdown
+source: <canonical-script-filename.md>
 
-| Filename suffix | RRHub `type:` | Use |
-|---|---|---|
-| `_brief` | `note` | Project purpose, status, and current next output |
-| `_song` | `song` | Canonical lyrics and the `=== SUNO STYLE ===` prompt in one file |
-| `_script` | `script` | Screenplay, video script, or episode script |
-| `_scene_breakdown` | `scene_breakdown` | Scene-level narrative, staging, or dramatic breakdown |
-| `_shot_breakdown` | `shot_breakdown` | Shot list linked to its script via `source:` |
-| `_plot_outline` | `note` | Story, episode, sequence, or concept outline |
-| `_treatment` | `note` | Visual/narrative treatment |
-| `_storyboard` | `note` | Storyboard progression or storyboard notes |
-| `_character_bible`, `_set_bible`, `_prop_bible` | `note` | Reusable project asset definitions |
-| `_voice_direction`, `_production_notes`, `_reference` | `note` | Supporting direction and project notes |
+# Required for episode files
+episode: EP01
+```
+
+## Master brief sections
+
+The `_brief` is the project’s sole context and production-control file. Use only the sections that serve the project:
+
+```markdown
+# <Project>
+## Intent and audience
+## Concept and treatment
+## References and visual / sonic language
+## Characters / sets / props / voice direction
+## Production notes and decision log
+## Status and next action
+```
 
 ## Song rule
 
-There is no standalone `_lyrics` or `_suno_prompt` file. A song is one RRHub element:
+There is no standalone lyric or Suno-prompt file. A song is one RRHub element:
 
 ```markdown
----
-type: song
-...
----
 [Verse 1]
 Lyrics...
 
 === SUNO STYLE ===
-Production prompt...
+[Genre: ...]
+[Vocals: ...]
+[Instrumentation: ...]
+[Mood: ...]
+[Production: ...]
 ```
 
-Use `_song_vNN` only for genuinely active alternate versions. Once a version is chosen, keep `<project>_song.md` as the canonical file.
+The marker must be exactly `=== SUNO STYLE ===`. Lyrics stay above it; style direction stays below it.
+
+## Combined scene + shot breakdown rule
+
+`_scene_shot_breakdown` is a single RRHub `shot_breakdown` file. It must include `source:` pointing to its canonical script and contain, in order:
+
+```markdown
+## Scene intent
+- Function, POV/objective, conflict, turn, staging, continuity, audience information.
+
+## Visual / storyboard planning
+- Optional keyframes, frame captions, screen direction, transitions, visual continuity anchors.
+
+## Shot plan
+### S01.SH01 — Label
+- Narrative job, frame, camera, action/blocking, sound, timing/edit, continuity, execution, acceptance test, fallback.
+```
+
+Preserve existing RRHub shot `id:` fields. Do not create a separate storyboard or scene-breakdown file.

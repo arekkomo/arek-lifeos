@@ -138,7 +138,7 @@ POST           → edit, narration recording, music, titles, any AI/VFX
 REFLECT        → one paragraph on what the genre taught you
 ```
 
-Use [[imma-nyala_episode_template]] for each episode.
+Use the **Episode Template** section in the Master Project Brief for each episode.
 
 ---
 

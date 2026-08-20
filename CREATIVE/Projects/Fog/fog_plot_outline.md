@@ -13,8 +13,8 @@ updated: "2026-08-16"
 A single Aiah Syn project where the song's armor-versus-tenderness emotional world carries directly into a subjective-pause city music video.
 
 ## Components
-- [[fog_song_brief|Song]] and [[fog_song]] — lyrics and Suno production direction.
-- [[fog_music-video_brief|Music video]] — visual concept, treatment, storyboard, and shot list.
+- [[fog_song]] — canonical lyrics and Suno production direction.
+- [[fog_brief]] and [[fog_scene_shot_breakdown]] — visual concept, treatment, storyboard planning, and shot plan.
 
 ## Status
 Song is in Production; the music video remains in Development.

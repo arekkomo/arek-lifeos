@@ -1,7 +1,7 @@
 ---
 title: Creative Project Operating Rules
-summary: Canonical project, file, Library, and RRHub rules for CREATIVE.
-updated: 2026-08-16
+summary: Simplified five-file project, Library, and RRHub rules for CREATIVE.
+updated: 2026-08-18
 ---
 
 # Creative Project Operating Rules
@@ -10,36 +10,41 @@ updated: 2026-08-16
 
 ```text
 CREATIVE/
-├── Projects/       # one flat folder per creative project
+├── Projects/       # one canonical project folder per creative work
 ├── Inspirations/   # unassigned sparks and references
-└── Library/        # reusable ideas, concepts, and creative reference
+└── Library/        # reusable cross-project ideas and craft material
 ```
 
-Root reference notes—including `Creative-Style-Bible.md`, `Aiah-Syn-Style.md`, `Project-Catalog.md`, `Project-File-Schema.md`, and `RRHub-Creative-Project-Contract.md`—remain source-of-truth documents.
+Reference documents: `Project-Catalog.md`, `Project-File-Schema.md`, `Writing-Types.md`, and `RRHub-Creative-Project-Contract.md`.
 
-## One project, one flat folder
+## One project, one home
 
-Every creative project lives at `CREATIVE/Projects/<Project-Name>/`.
+- Every project lives at `CREATIVE/Projects/<Project-Name>/`.
+- Never create project-type containers such as `Song-Projects/`, `Film-Projects/`, or `Music-Video-Projects/`.
+- Keep the project flat, except for episodic work under `EPISODES/EP01/`, `EPISODES/EP02/`, etc.
+- Use only the five canonical file types in [[Project-File-Schema]].
+- Do not split songs, videos, assets, or production context into different project roots.
 
-- Never create project-type folders such as `Song-Projects/`, `Film-Projects/`, or `Music-Video-Projects/`.
-- Never create subfolders inside a project **except for episodic work**.
-- Episodic projects use `EPISODES/EP01/`, `EPISODES/EP02/`, and so on; each episode folder contains only that episode's files, named `<project>_ep01_<file-type>.md` and tagged `episode: EP01`.
-- A song, music video, screenplay, assets, and references are otherwise files inside the same project folder.
-- Use the filename and metadata contract in [[Project-File-Schema]].
+## Simplified project documents
+
+- `_brief` is the single master project file: concept, treatment, references, character/set/prop/voice direction, production notes, decisions, and status.
+- `_plot_outline` is the story/sequence map.
+- `_script` is the executable story source.
+- `_song` is the sole lyrics-plus-Suno source.
+- `_scene_shot_breakdown` combines scene analysis, storyboard/keyframe planning, and the shot plan.
 
 ## RRHub and vault matching
 
-Every project file carries the shared metadata: `type`, `title`, `project`, `stage`, `version`, and `updated`.
+- Every file uses shared metadata: `type`, `title`, `project`, `stage`, `version`, `updated`.
+- RRHub types are `song`, `script`, `shot_breakdown`, and `note`.
+- Song lyrics sit above the exact `=== SUNO STYLE ===` delimiter; style direction sits below it.
+- Scene + Shot Breakdown uses `type: shot_breakdown` and must carry `source:` naming its script.
+- Preserve unknown YAML metadata and RRHub shot IDs during edits.
 
-- RRHub types are exactly: `song`, `script`, `scene_breakdown`, `shot_breakdown`, and `note`.
-- A `song` file contains both lyrics and Suno style under `=== SUNO STYLE ===`; do not create standalone lyric or prompt files.
-- A `shot_breakdown` must preserve `source:` and point to its paired script filename.
-- Supporting creative material uses `type: note`, so it remains visible and editable in RRHub without pretending to be a script or song.
+## Library, Inspirations, and operations
 
-## Library and Inspirations
-
-- **Inspirations:** unassigned references, sparks, images, links, and tonal discoveries. Route an item into a project once it has a home.
-- **Library:** reusable ideas, concepts, story design, production assets, prompt reference, and curated craft captures. It is not project storage or administration.
+- **Inspirations:** unassigned sparks, references, images, links, and tonal discoveries.
+- **Library:** reusable future-project ideas, story design, production assets, prompt reference, and craft captures—not active project storage.
 - **HUB/Creative-Operations:** cleanup records, review dashboards, sync tooling, and system prompts.
 
 ## Lifecycle
@@ -48,4 +53,4 @@ Every project file carries the shared metadata: `type`, `title`, `project`, `sta
 Idea → Development → Production → Post Prod → Review → Done / Archived
 ```
 
-Sync to Notion only when a project reaches Production. The vault is the creative source of truth; RRHub reads the same project files.
+The vault is the source of truth. Notion is a mirror only at Production and Done; imported material is merged into canonical project files and removed.

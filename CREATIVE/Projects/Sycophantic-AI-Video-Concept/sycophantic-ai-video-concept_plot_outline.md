@@ -4,7 +4,7 @@ title: "Sycophantic AI Video Concept — Plot Outline"
 project: "Sycophantic-AI-Video-Concept"
 stage: "Idea"
 version: "current"
-updated: "2026-08-16"
+updated: "2026-08-18"
 ---
 
 # Sycophantic AI — Video Concept

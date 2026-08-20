@@ -1,29 +1,24 @@
 ---
 title: Writing Craft Knowledge Base
-summary: Director house standards for every approved RRHub creative document type.
+summary: Craft modules for the simplified five-file creative-project system.
 updated: 2026-08-18
 ---
 
 # Writing Craft Knowledge Base
 
-These playbooks are the Director’s project-writing standard. They synthesize Scholar research into the Arek & Co flat-file and RRHub workflow.
+## Canonical project files
 
-## Pipeline
+1. [[master-project-brief|Master Project Brief]] — `_brief`; includes treatment, references, asset/voice direction, and production notes.
+2. [[plot-outline|Plot Outline]] — `_plot_outline`.
+3. [[script|Script]] — `_script`.
+4. [[song|Song]] — `_song`.
+5. [[scene-shot-breakdown|Scene + Shot Breakdown]] — `_scene_shot_breakdown`; combines scene analysis, storyboard planning, and shot plan.
 
-Project Brief → Plot Outline → Treatment → Script → Scene Breakdown → Shot Breakdown → Storyboard → Production / Edit
+## Embedded craft modules
 
-## Playbooks
+These remain reference disciplines, not standalone project files:
 
-- [[project-brief|Project-Brief]] — `_brief` / RRHub `note`
-- [[plot-outline|Plot-Outline]] — `_plot_outline` / RRHub `note`
-- [[treatment|Treatment]] — `_treatment` / RRHub `note`
-- [[script|Script]] — `_script` / RRHub `script`
-- [[scene-breakdown|Scene-Breakdown]] — `_scene_breakdown` / RRHub `scene_breakdown`
-- [[shot-breakdown|Shot-Breakdown]] — `_shot_breakdown` / RRHub `shot_breakdown`
-- [[song|Song]] — `_song` / RRHub `song`
-- [[storyboard|Storyboard]] — `_storyboard` / RRHub `note`
-- [[character-bible|Character-Bible]] — `_character_bible` / RRHub `note`
-- [[set-bible|Set-Bible]] — `_set_bible` / RRHub `note`
-- [[prop-bible|Prop-Bible]] — `_prop_bible` / RRHub `note`
-- [[voice-direction|Voice-Direction]] — `_voice_direction` / RRHub `note`
-- [[production-notes|Production-Notes]] — `_production_notes` / RRHub `note`
+- [[treatment]], [[storyboard]], [[scene-breakdown]], [[shot-breakdown]]
+- [[character-bible]], [[set-bible]], [[prop-bible]], [[voice-direction]], [[production-notes]]
+
+Use them to improve the matching canonical document above.
